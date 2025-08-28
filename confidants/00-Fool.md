@@ -1,6 +1,10 @@
+---
+tags:
+  - confidant
+---
 ## Fool - 0
 
-![](imagens/00-Fool---Igor.png)
+[![](../imagens/00-Fool---Igor.png)](README.md)
   
 
 ### Igor
@@ -35,5 +39,4 @@
 | 9    | (Automatic) 10/11 |
 | 10   | (Automatic) 12/24 |
 
-[![](imagens/00-Fool---Igor.png)](confidants/00-Fool)  
 ---
