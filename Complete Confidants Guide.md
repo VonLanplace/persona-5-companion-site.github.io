@@ -7,7 +7,8 @@ Confidant Points can be earned through interactions, with each action potentiall
   
 You also have the ability to gift an item to your Confidants whenever you spend time with them and don't have enough Confidant Points to Rank Up yet. Depending on the item, you may even receive unique dialogue too.  
 
-[![asd](imagens/night-calendar.png)](Temp.md)  
+[![asd](imagens/night-calendar.png)](README.md)  
+
 The game actually tracks Confidant Points slightly differently from the music notes you see on screen, and that's due to the multiplier system which will be discussed in more detail later. To put it simply, each action's base notes have an internal Confidant Point value of 5, so an action that gives 2♪ provides 10 Confidant Points. This is then multiplied by the player's growth modifier to get the final value stored in the game. For simplicity sake and establishing a standard, this guide will provide the base internal values to provide info on the lowest possible Confidant Points earned for choosing the best responses.  
   
 There are several additional growth multipliers that help boost the amount of points that are received while hanging out. If the protagonist has at least one Persona with the same Arcana as the recipient, the points received will be multiplied by x1.5. The protagonist's performance in an exam will grant a boost to school Confidants until the next exam week: if the protagonist scores 1st place, the multiplier will be x1.5, if top 10, it'll be x1.2. Additionally, if the protagonist immediately accepts a Confidant's invitations without putting it off until later, the hangout event will also be granted a x1.2 multiplier. These factors apply to many instances where Confidant Points can be received without having to directly spend time with them, such as having Sojiro taste the protagonist's coffee, or getting an Affinity Reading from Chihaya.  
@@ -20,7 +21,7 @@ Once you start getting more Confidants, you'll soon realize you won't be able to
 
 ## Fool - 0
 
-[![](https://images.steamusercontent.com/ugc/1914618751884773525/002687C9B717D8185EC9393C5FE042B1A4881BEF/)](https://images.steamusercontent.com/ugc/1914618751884773525/002687C9B717D8185EC9393C5FE042B1A4881BEF/)  
+[![](imagens/00-Fool---Igor.png)](confidants/00-Fool)  
   
 
 ### Igor
@@ -58,8 +59,7 @@ Once you start getting more Confidants, you'll soon realize you won't be able to
 ---
 ## Magician - I
 
-[![](https://images.steamusercontent.com/ugc/1914618751884784361/7A65B509B71DD0D72B9A28225C933655DCC7D352/)](https://images.steamusercontent.com/ugc/1914618751884784361/7A65B509B71DD0D72B9A28225C933655DCC7D352/)  
-  
+[![](imagens/01-Magician---Morgana.png)](confidants/01-Magician)  
 
 ### Morgana
 
@@ -101,7 +101,7 @@ Automatic - Tied to Story Progression
 
 ## Priestess - II
 
-[![](https://images.steamusercontent.com/ugc/1914618751884785579/94B891107B655E59C2D8E18D432E14BB35CBA4C7/)](https://images.steamusercontent.com/ugc/1914618751884785579/94B891107B655E59C2D8E18D432E14BB35CBA4C7/)  
+[![](imagens/02-Priestess---Makoto.png)](confidants/02-Priestess)  
 
 ### Makoto Nijima
 #### Confidant Abilities
@@ -236,7 +236,7 @@ _Receive Shumai Cushion_
 
 ## Empress - III
 
-[![](https://images.steamusercontent.com/ugc/1914618751884786469/B08FEAF53A84A11B083FCBB00B57B061A8E37BD7/)](https://images.steamusercontent.com/ugc/1914618751884786469/B08FEAF53A84A11B083FCBB00B57B061A8E37BD7/)  
+[![](imagens/3-Empress---Haru.png)](confidants/03-Empress)  
   
 
 ### Haru Okumura
@@ -338,7 +338,7 @@ _Receive Giant Spatula_
 
 ## Emperor - IV
 
-[![](https://images.steamusercontent.com/ugc/1914618751884787124/574536639380808FC835A8979BE0119D45044802/)](https://images.steamusercontent.com/ugc/1914618751884787124/574536639380808FC835A8979BE0119D45044802/)  
+[![](imagens/4-Emperor---Yusuke.png)](confidants/04-Emperor)  
   
 
 ### Yusuke Kitagawa
@@ -438,7 +438,7 @@ _Receive Star Stickers_
 
 ## Hierophant - V
 
-[![](https://images.steamusercontent.com/ugc/1914618751884787768/1902ECC378A03004615BA949A9D3E50F5CD870BF/)](https://images.steamusercontent.com/ugc/1914618751884787768/1902ECC378A03004615BA949A9D3E50F5CD870BF/)  
+[![](imagens/5-Hierophant---Sojiro.png)](confidants/05-Hierophant)  
   
 
 ### Sojiro Sakura
@@ -488,7 +488,7 @@ _Receive Star Stickers_
 
 ## Lovers - VI
 
-[![](https://images.steamusercontent.com/ugc/1914618751884788435/ED7C06CA06F1CD8B4E23F8BC4374768E0DE2261F/)](https://images.steamusercontent.com/ugc/1914618751884788435/ED7C06CA06F1CD8B4E23F8BC4374768E0DE2261F/)  
+[![](imagens/6-Lovers---Ann.png)](confidants/06-Lovers)  
   
 
 ### Ann Takamaki
@@ -611,7 +611,7 @@ _Receive Idol Poster_
 
 ## Chariot - VII
 
-[![](https://images.steamusercontent.com/ugc/1914618751884789041/2CF02F9ED472DAB5B6ACCD307E8E348DE8D3F3AC/)](https://images.steamusercontent.com/ugc/1914618751884789041/2CF02F9ED472DAB5B6ACCD307E8E348DE8D3F3AC/)  
+[![](imagens/7-Chariot---Ryuji.png)](confidants/07-Chariot)  
   
 
 ### Ryuji Sakamoto
@@ -735,7 +735,7 @@ _Receive Featherman Dolls_
 
 ## Justice - VIII
 
-[![](https://images.steamusercontent.com/ugc/1914618751884789658/E3DB54A13EDD29F750AD9462422D12A2EF9E0E32/)](https://images.steamusercontent.com/ugc/1914618751884789658/E3DB54A13EDD29F750AD9462422D12A2EF9E0E32/)  
+[![](imagens/8-Justice---Akechi.png)](confidants/08-Justice)  
   
 
 ### Goro Akechi
@@ -820,7 +820,7 @@ _Receive Featherman Dolls_
 
 ## Hermit - IX
 
-[![](https://images.steamusercontent.com/ugc/1914618751884790202/F0807E34066ABE571DAA7F101D92C4D2E0F7C776/)](https://images.steamusercontent.com/ugc/1914618751884790202/F0807E34066ABE571DAA7F101D92C4D2E0F7C776/)  
+[![](imagens/9-Hermit---Futaba.png)](confidants/09-Hermit)  
   
 
 ### Futaba Sakura
@@ -926,7 +926,7 @@ _Receive I <3 Tokyo Shirt_
 
 ## Fortune - X
 
-[![](https://images.steamusercontent.com/ugc/1914618751884790937/0EDA126CD165F5BB0DA42A9E2B1ABD0935FCA5C2/)](https://images.steamusercontent.com/ugc/1914618751884790937/0EDA126CD165F5BB0DA42A9E2B1ABD0935FCA5C2/)  
+[![](imagens/10-Fortune---Chihaya.png)](confidants/10-Fortune)  
   
 
 ### Chihaya Mifune
@@ -1001,7 +1001,7 @@ _Receive Skytree Lamp_
 
 ## Strength - XI
 
-[![](https://images.steamusercontent.com/ugc/1914618751884791544/B33A6878A8EDB5134518801E037E8AA9A36513A2/)](https://images.steamusercontent.com/ugc/1914618751884791544/B33A6878A8EDB5134518801E037E8AA9A36513A2/)  
+[![](imagens/11-Strength---Twins.png)](confidants/11-Strength)  
   
 
 ### Caroline & Justine
@@ -1070,7 +1070,7 @@ The twins can be invited outside the Velvet Room (Evenings unless specified), do
 
 ## Hanged-Man - XII
 
-[![](https://images.steamusercontent.com/ugc/1914618751884792157/45CDD2A523BB8C63D5195788E01832414AB342BF/)](https://images.steamusercontent.com/ugc/1914618751884792157/45CDD2A523BB8C63D5195788E01832414AB342BF/)  
+[![](imagens/12-Hanged-Man---Iwai.png)](confidants/12-Hanged-Man)  
   
 
 ### Munehisa Iwai
@@ -1144,7 +1144,7 @@ _Receive Swan Boat_
 
 ## Death - XIII
 
-[![](https://images.steamusercontent.com/ugc/1914618751884792832/DA4E2DCF8FA721E55FD788571AB47446CECFF346/)](https://images.steamusercontent.com/ugc/1914618751884792832/DA4E2DCF8FA721E55FD788571AB47446CECFF346/)  
+[![](imagens/13-Death---Takemi.png)](confidants/13-Death)  
   
 
 ### Tae Takemi
@@ -1217,7 +1217,7 @@ _Receive Swan Boat_
 
 ## Temperance - XIV
 
-[![](https://images.steamusercontent.com/ugc/1914618751884793515/53BBD96748A1C55EE7A5F484619FD0EE1EBE8621/)](https://images.steamusercontent.com/ugc/1914618751884793515/53BBD96748A1C55EE7A5F484619FD0EE1EBE8621/)  
+[![](imagens/14-Temperance---Kawakami.png)](confidants/14-Temperance)  
   
 
 ### Sadayo Kawakami
@@ -1311,7 +1311,7 @@ _Receive Sadayo Taiyaki_
 
 ## Devil - XV
 
-[![](https://images.steamusercontent.com/ugc/1914618751884794096/1286E612A90741467B6940081BED36B6F3EA8BD4/)](https://images.steamusercontent.com/ugc/1914618751884794096/1286E612A90741467B6940081BED36B6F3EA8BD4/)  
+[![](imagens/15-Devil---Ohya.png)](confidants/15-Devil)  
   
 
 ### Ichiko Ohya
@@ -1383,7 +1383,7 @@ _Receive Sushi Teacup_
 
 ## Tower - XVI
 
-[![](https://images.steamusercontent.com/ugc/1914618751884794732/3D19318DC41D59E48C0A4FD844E54876A56DA9E3/)](https://images.steamusercontent.com/ugc/1914618751884794732/3D19318DC41D59E48C0A4FD844E54876A56DA9E3/)  
+[![](imagens/16-Tower---Shinya.png)](confidants/16-Tower)  
   
 
 ### Shinya Oda
@@ -1461,7 +1461,7 @@ _Receive Balloons_
 
 ## Star - XVII
 
-[![](https://images.steamusercontent.com/ugc/1914618751884795448/7BF9B9CCE1381C4BA2F227E9AD47175DA60E9C4A/)](https://images.steamusercontent.com/ugc/1914618751884795448/7BF9B9CCE1381C4BA2F227E9AD47175DA60E9C4A/)  
+[![](imagens/17-Star---Hifumi.png)](confidants/17-Star)  
   
 
 ### Hifumi Togo
@@ -1556,7 +1556,7 @@ _Receive King Piece_
 
 ## Moon - XVIII
 
-[![](https://images.steamusercontent.com/ugc/1914618751884796037/2A630CF7C35745BB184FA8D58B44408A152C0B3D/)](https://images.steamusercontent.com/ugc/1914618751884796037/2A630CF7C35745BB184FA8D58B44408A152C0B3D/)  
+[![](imagens/18-Moon---Mishima.png)](confidants/18-Moon)  
   
 
 ### Yuuki Mishima
@@ -1632,7 +1632,7 @@ Rank up requirement is tied to the number of completed requests.
 
 ## Sun - XIX
 
-[![](https://images.steamusercontent.com/ugc/1914618751884796710/2D5C0455D2DEC6A2DB23FB4EDD6B9BBD66F6F72C/)](https://images.steamusercontent.com/ugc/1914618751884796710/2D5C0455D2DEC6A2DB23FB4EDD6B9BBD66F6F72C/)  
+[![](imagens/19-Sun---Yoshida.png)](confidants/19-Sun)  
   
 
 ### Toranosuke Yoshida
@@ -1683,7 +1683,7 @@ Rank Up is tied to just spending time.
 
 ## Judgement - XX
 
-[![](https://images.steamusercontent.com/ugc/1914618751884797400/99300FE3DEEAB163FE62C71C9A627B94A8EBFC54/)](https://images.steamusercontent.com/ugc/1914618751884797400/99300FE3DEEAB163FE62C71C9A627B94A8EBFC54/)  
+[![](imagens/20-Judgement---Sae.png)](confidants/20-Judgement)  
   
 
 ### Sae Niijima
@@ -1725,7 +1725,7 @@ Automatic - Tied to Story Progression
 
 ## Faith
 
-[![](https://images.steamusercontent.com/ugc/1914618751884798125/213AC0D9112EE6E082C46CBABA0634894F88EAA9/)](https://images.steamusercontent.com/ugc/1914618751884798125/213AC0D9112EE6E082C46CBABA0634894F88EAA9/)  
+[![](imagens/XXI-Faith---Kasumi.png)](confidants/XXI-Faith)  
   
 
 ### Kasumi Yoshizawa
@@ -1814,9 +1814,9 @@ _Receive Sea Slug Doll_
 
 1. "You don't mind heights?" / "It is quite a view." (+10)
 
-## Councillor - 1
+## Councillor
 
-[![](https://images.steamusercontent.com/ugc/1914618751884798846/1BE6C1C31B30477AAF45A0942E830C6163875EB3/)](https://images.steamusercontent.com/ugc/1914618751884798846/1BE6C1C31B30477AAF45A0942E830C6163875EB3/)  
+[![](imagens/XXII-Councillor---Maruki.png)](confidants/XXII-Councillor)  
   
 
 ### Takuto Maruki

@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Complete Confidants Guide.md",
+                "file": "confidants/00-Fool.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Complete Confidants Guide"
+              "title": "00-Fool"
             }
           }
         ],
@@ -184,31 +184,32 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "88913abe6988e479",
+  "active": "8395f61aa0338f6d",
   "lastOpenFiles": [
-    "Imagens/Councillor - Maruki.png",
-    "Imagens/Não confirmado 731410.crdownload",
-    "Imagens/Faith - Kasumi.png",
-    "Imagens/Não confirmado 245622.crdownload",
-    "Imagens/20 Judgement - Sae.png",
-    "Imagens/Não confirmado 900324.crdownload",
-    "Imagens/19 Sun - Yoshida.png",
-    "Imagens/Não confirmado 24171.crdownload",
-    "Imagens/18 Moon - Mishima.png",
-    "Imagens/Não confirmado 234539.crdownload",
-    "Imagens/17 Star - Hifumi.png",
-    "Imagens/Não confirmado 394593.crdownload",
-    "Imagens/16 Tower - Shinya.png",
-    "Imagens/Não confirmado 144173.crdownload",
-    "Imagens/15 Devil - Ohya.png",
-    "Imagens/Não confirmado 843571.crdownload",
-    "Imagens/14 Temperance - Kawakami.png",
-    "Imagens/Não confirmado 454901.crdownload",
-    "Imagens/13 Death - Takemi.png",
-    "Imagens/Não confirmado 431180.crdownload",
-    "Imagens/12 Hanged-Man - Iwai.png",
-    "Temp.md",
     "Complete Confidants Guide.md",
-    "README.md"
+    "confidants/00-Fool.md",
+    "README.md",
+    "imagens/Não confirmado 133440.crdownload",
+    "imagens/XXII-Councillor---Maruki.png~",
+    "imagens/XXI-Faith---Kasumi.png~",
+    "imagens/night-calendar.png~",
+    "imagens/20-Judgement---Sae.png~",
+    "imagens/19-Sun---Yoshida.png~",
+    "imagens/18-Moon---Mishima.png~",
+    "imagens/17-Star---Hifumi.png~",
+    "imagens/16-Tower---Shinya.png~",
+    "imagens/15-Devil---Ohya.png~",
+    "Temp.md",
+    "00-Fool.md",
+    "imagens/3-Empress---Haru.png",
+    "imagens/02-Priestess---Makoto.png",
+    "imagens/01-Magician---Morgana.png",
+    "imagens/00-Fool---Igor.png",
+    "imagens/0-Fool---Igor.png",
+    "imagens/Councillor - Maruki.png",
+    "imagens/Faith - Kasumi.png",
+    "imagens/20 Judgement - Sae.png",
+    "imagens/19 Sun - Yoshida.png",
+    "imagens/18 Moon - Mishima.png"
   ]
 }
