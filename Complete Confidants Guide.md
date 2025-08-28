@@ -781,19 +781,19 @@ _Receive Featherman Dolls_
 
 ### **Rank Up Progression**  
 
-| Rank | Requirements / Dialogue Choices | Next Pts |
-|------|---------------------------------|----------|
-| 1 | (Automatic) 6/10 | 0 |
-| 2 | 1. "You always seem so busy." (+5)<br>3. Any (+5)<br>5. "I see a lot of things." (+10)<br>6. (Phone) "As rivals?" (+5) | 0 |
-| 3 | Requires Charm Lv 3 (Suave) & Knowledge Lv 3 (Scholarly).<br>2. "Should've figured." (+10)<br>6. (Phone) "Wasn't it fun?" (+5) | 23 |
-| 4 | 2. "Now this is my kind of club." (+10)<br>3. "Any recommendations?" (+10)<br>4. "It's a great place." (+5)<br>6. "I can use a microwave..." (+15)<br>7. (Phone) "I kinda get it." (+5)<br><br>Unlocks Jazz Club in Kichijoji. | 40 |
-| 5 | 2. "Are you used to gunplay?" (+5)<br>3. "You wanted to be a hero?" (+10)<br>5. (Phone) Any (+5) | 0 |
-| 6 | Locked until 8/28. Moves to Leblanc.<br>1. "A while, huh?" (+10)<br>2. "...You've been through a lot." (+5)<br>3. "This is nothing." (+15)<br>4. "Same." (+10)<br>5. Any (+5)<br>6. "I think you're right." (+10)<br>7. (Phone) "My bad, I guess." (+5) | 0 |
-| 7 | Locked until 11/2. Requires Knowledge Lv 4 (Encyclopedic).<br>1. "That's why it's so fun." (+10)<br>4. "I couldn't let myself lose." (+10)<br>6. "You're my rival." (+0)<br>7. (Phone) "We're rivals, aren't we?" (+5) | 0 |
-| 8 | Requires defeating Akechi in 1v1 event.<br>6. "I definitely wouldn't lose." (+10)<br>7. "Really hate losing, don't you?" (+10)<br>8. **"I accept."** (+0) | 0 |
-| 9 | (Automatic) During Shido’s Palace if Confidant at Rank 8 prior. | N/A |
-| 10 | (Automatic) During Shido’s Palace if Confidant at Rank 8 prior. | N/A |
-| MAX | Requires selecting **"I want to keep our promise."** after Rank 10 (night event). 2/2 | N/A |
+| Rank | Requirements / Dialogue Choices                                                                                                                                                                                                                         | Next Pts |
+| ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
+| 1    | (Automatic) 6/10                                                                                                                                                                                                                                        | 0        |
+| 2    | 1. "You always seem so busy." (+5)<br>3. Any (+5)<br>5. "I see a lot of things." (+10)<br>6. (Phone) "As rivals?" (+5)                                                                                                                                  | 0        |
+| 3    | Requires Charm Lv 3 (Suave) & Knowledge Lv 3 (Scholarly).<br>2. "Should've figured." (+10)<br>6. (Phone) "Wasn't it fun?" (+5)                                                                                                                          | 23       |
+| 4    | 2. "Now this is my kind of club." (+10)<br>3. "Any recommendations?" (+10)<br>4. "It's a great place." (+5)<br>6. "I can use a microwave..." (+15)<br>7. (Phone) "I kinda get it." (+5)<br><br>Unlocks Jazz Club in Kichijoji.                          | 40       |
+| 5    | 2. "Are you used to gunplay?" (+5)<br>3. "You wanted to be a hero?" (+10)<br>5. (Phone) Any (+5)                                                                                                                                                        | 0        |
+| 6    | Locked until 8/28. Moves to Leblanc.<br>1. "A while, huh?" (+10)<br>2. "...You've been through a lot." (+5)<br>3. "This is nothing." (+15)<br>4. "Same." (+10)<br>5. Any (+5)<br>6. "I think you're right." (+10)<br>7. (Phone) "My bad, I guess." (+5) | 0        |
+| 7    | Locked until 11/2. Requires Knowledge Lv 4 (Encyclopedic).<br>1. "That's why it's so fun." (+10)<br>4. "I couldn't let myself lose." (+10)<br>6. "You're my rival." (+0)<br>7. (Phone) "We're rivals, aren't we?" (+5)                                  | 0        |
+| 8    | Requires defeating Akechi in 1v1 event.<br>6. "I definitely wouldn't lose." (+10)<br>7. "Really hate losing, don't you?" (+10)<br>8. **"I accept."** (+0)                                                                                               | 0        |
+| 9    | (Automatic) During Shido’s Palace if Confidant at Rank 8 prior.                                                                                                                                                                                         | N/A      |
+| 10   | (Automatic) During Shido’s Palace if Confidant at Rank 8 prior.                                                                                                                                                                                         | N/A      |
+| MAX  | Requires having chosen **"I want to keep our promise."** the night after Confidant reaches Rank 10 when Joker is laying in bed thinking about Akechi.<br>*Requires choosing "We're stopping Maruki." on the evening of 2/2.*<br>2/2                     | N/A      |
 
 ---
 
@@ -1691,18 +1691,18 @@ Rank Up is tied to just spending time.
 
 #### Confidant Abilities:
 
-| Rank | Ability |
-|------|---------|
-| 1    | - |
-| 2    | - |
-| 3    | - |
-| 4    | - |
-| 5    | - |
-| 6    | - |
-| 7    | - |
-| 8    | - |
-| 9    | - |
-| 10   | **True Justice** Cooperate as comrades who fight for justice and seek the truth.|
+| Rank | Ability                                                                            |
+| ---- | ---------------------------------------------------------------------------------- |
+| 1    | -                                                                                  |
+| 2    | -                                                                                  |
+| 3    | -                                                                                  |
+| 4    | -                                                                                  |
+| 5    | -                                                                                  |
+| 6    | -                                                                                  |
+| 7    | -                                                                                  |
+| 8    | -                                                                                  |
+| 9    | -                                                                                  |
+| 10   | **True Justice** *Cooperate as comrades who fight for justice and seek the truth.* |
 
 ---
 
@@ -1710,18 +1710,18 @@ Rank Up is tied to just spending time.
 
 Automatic - Tied to Story Progression  
 
-| Rank | Requirements / Dialogue Choices |
-|------|---------------------------------|
-| 1    | (Automatic) 7/9  |
-| 2    | (Automatic) 7/24 |
-| 3    | (Automatic) 8/22 |
-| 4    | (Automatic) 9/13 |
-| 5    | (Automatic) 10/12 |
-| 6    | (Automatic) 10/28 |
-| 7    | (Automatic) 11/20 |
-| 8    | (Automatic) 11/20 |
-| 9    | (Automatic) 11/20 |
-| 10   | (Automatic) 11/20 (Requires at least Normal Ending)|
+| Rank | Requirements / Dialogue Choices                       |
+| ---- | ----------------------------------------------------- |
+| 1    | (Automatic) 7/9                                       |
+| 2    | (Automatic) 7/24                                      |
+| 3    | (Automatic) 8/22                                      |
+| 4    | (Automatic) 9/13                                      |
+| 5    | (Automatic) 10/12                                     |
+| 6    | (Automatic) 10/28                                     |
+| 7    | (Automatic) 11/20                                     |
+| 8    | (Automatic) 11/20                                     |
+| 9    | (Automatic) 11/20                                     |
+| 10   | (Automatic) 11/20 *(Requires at least Normal Ending)* |
 
 
 ## Faith
