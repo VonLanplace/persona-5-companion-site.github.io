@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "README.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -172,9 +172,10 @@
   },
   "active": "5ba103691949e8bf",
   "lastOpenFiles": [
-    "confidants/03-Empress.md",
-    "README.md",
     "confidants/00-Fool.md",
+    "README.md",
+    "Temp.md",
+    "confidants/03-Empress.md",
     "confidants/01-Magician.md",
     "confidants/02-Priestess.md",
     "confidants/04-Emperor.md",
@@ -208,7 +209,6 @@
     "imagens/19-Sun---Yoshida.png~",
     "imagens/18-Moon---Mishima.png~",
     "imagens/17-Star---Hifumi.png~",
-    "Temp.md",
     "imagens/250x250/3-Empress---Haru.png",
     "imagens/250x250/02-Priestess---Makoto.png",
     "imagens/250x250/01-Magician---Morgana.png",
