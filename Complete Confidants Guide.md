@@ -21,7 +21,7 @@ Once you start getting more Confidants, you'll soon realize you won't be able to
 
 ## Fool - 0
 
-[![](imagens/00-Fool---Igor.png)](confidants/00-Fool)  
+[![](imagens/250x250/00-Fool---Igor.png)](confidants/00-Fool)  
   
 
 ### Igor
@@ -59,7 +59,7 @@ Once you start getting more Confidants, you'll soon realize you won't be able to
 ---
 ## Magician - I
 
-[![](imagens/01-Magician---Morgana.png)](confidants/01-Magician)  
+[![](imagens/250x250/01-Magician---Morgana.png)](confidants/01-Magician)  
 
 ### Morgana
 
@@ -101,7 +101,7 @@ Automatic - Tied to Story Progression
 
 ## Priestess - II
 
-[![](imagens/02-Priestess---Makoto.png)](confidants/02-Priestess)  
+[![](imagens/250x250/02-Priestess---Makoto.png)](confidants/02-Priestess)  
 
 ### Makoto Nijima
 #### Confidant Abilities
@@ -236,25 +236,25 @@ _Receive Shumai Cushion_
 
 ## Empress - III
 
-[![](imagens/3-Empress---Haru.png)](confidants/03-Empress)  
+[![](imagens/250x250/3-Empress---Haru.png)](confidants/03-Empress)  
   
 
 ### Haru Okumura
 
 #### Confidant Abilities
-| Rank | Ability |
-|------|----------|
-| 1    | **Cultivation**: Allows you to grow vegetables with Haru on the Shujin Academy rooftop. |
-| 2    | - |
-| 3    | **Follow Up**: Chance to perform a follow-up attack if Joker's attack does not down the enemy. |
-| 4    | **Celeb Talk**: If negotiation amidst a group of Shadows fails, you can try again. |
-| 5    | **Bumper Crop**: Increases the total vegetable yield for a single harvest. |
-| 6    | **Harisen Recovery**: Chance to cure status ailments inflicted upon party members. |
-| 7    | **Soil Improvement**: Decreases the total amount of time it takes to cultivate vegetables. |
-| 8    | **Endure**: Chance to withstand an otherwise fatal attack with 1 HP remaining. |
-| 9    | **Protect**: Chance to shield Joker from an otherwise fatal attack. |
-| 10   | **Second Awakening**: Evolves Persona. |
-| MAX  | **Third Awakening**: Evolves Persona. |
+| Rank | Ability                                                                                        |
+| :--: | ---------------------------------------------------------------------------------------------- |
+|  1   | **Cultivation**: Allows you to grow vegetables with Haru on the Shujin Academy rooftop.        |
+|  2   | -                                                                                              |
+|  3   | **Follow Up**: Chance to perform a follow-up attack if Joker's attack does not down the enemy. |
+|  4   | **Celeb Talk**: If negotiation amidst a group of Shadows fails, you can try again.             |
+|  5   | **Bumper Crop**: Increases the total vegetable yield for a single harvest.                     |
+|  6   | **Harisen Recovery**: Chance to cure status ailments inflicted upon party members.             |
+|  7   | **Soil Improvement**: Decreases the total amount of time it takes to cultivate vegetables.     |
+|  8   | **Endure**: Chance to withstand an otherwise fatal attack with 1 HP remaining.                 |
+|  9   | **Protect**: Chance to shield Joker from an otherwise fatal attack.                            |
+|  10  | **Second Awakening**: Evolves Persona.                                                         |
+| MAX  | **Third Awakening**: Evolves Persona.                                                          |
 
 ---
 
@@ -338,7 +338,7 @@ _Receive Giant Spatula_
 
 ## Emperor - IV
 
-[![](imagens/4-Emperor---Yusuke.png)](confidants/04-Emperor)  
+[![](imagens/250x250/4-Emperor---Yusuke.png)](confidants/04-Emperor)  
   
 
 ### Yusuke Kitagawa
@@ -438,7 +438,7 @@ _Receive Star Stickers_
 
 ## Hierophant - V
 
-[![](imagens/5-Hierophant---Sojiro.png)](confidants/05-Hierophant)  
+[![](imagens/250x250/5-Hierophant---Sojiro.png)](confidants/05-Hierophant)  
   
 
 ### Sojiro Sakura
@@ -488,7 +488,7 @@ _Receive Star Stickers_
 
 ## Lovers - VI
 
-[![](imagens/6-Lovers---Ann.png)](confidants/06-Lovers)  
+[![](imagens/250x250/6-Lovers---Ann.png)](confidants/06-Lovers)  
   
 
 ### Ann Takamaki
@@ -611,7 +611,7 @@ _Receive Idol Poster_
 
 ## Chariot - VII
 
-[![](imagens/7-Chariot---Ryuji.png)](confidants/07-Chariot)  
+[![](imagens/250x250/7-Chariot---Ryuji.png)](confidants/07-Chariot)  
   
 
 ### Ryuji Sakamoto
@@ -735,7 +735,7 @@ _Receive Featherman Dolls_
 
 ## Justice - VIII
 
-[![](imagens/8-Justice---Akechi.png)](confidants/08-Justice)  
+[![](imagens/250x250/8-Justice---Akechi.png)](confidants/08-Justice)  
   
 
 ### Goro Akechi
@@ -820,7 +820,7 @@ _Receive Featherman Dolls_
 
 ## Hermit - IX
 
-[![](imagens/9-Hermit---Futaba.png)](confidants/09-Hermit)  
+[![](imagens/250x250/9-Hermit---Futaba.png)](confidants/09-Hermit)  
   
 
 ### Futaba Sakura
@@ -926,7 +926,7 @@ _Receive I <3 Tokyo Shirt_
 
 ## Fortune - X
 
-[![](imagens/10-Fortune---Chihaya.png)](confidants/10-Fortune)  
+[![](imagens/250x250/10-Fortune---Chihaya.png)](confidants/10-Fortune)  
   
 
 ### Chihaya Mifune
@@ -1001,7 +1001,7 @@ _Receive Skytree Lamp_
 
 ## Strength - XI
 
-[![](imagens/11-Strength---Twins.png)](confidants/11-Strength)  
+[![](imagens/250x250/11-Strength---Twins.png)](confidants/11-Strength)  
   
 
 ### Caroline & Justine
@@ -1070,7 +1070,7 @@ The twins can be invited outside the Velvet Room (Evenings unless specified), do
 
 ## Hanged-Man - XII
 
-[![](imagens/12-Hanged-Man---Iwai.png)](confidants/12-Hanged-Man)  
+[![](imagens/250x250/12-Hanged-Man---Iwai.png)](confidants/12-Hanged-Man)  
   
 
 ### Munehisa Iwai
@@ -1144,7 +1144,7 @@ _Receive Swan Boat_
 
 ## Death - XIII
 
-[![](imagens/13-Death---Takemi.png)](confidants/13-Death)  
+[![](imagens/250x250/13-Death---Takemi.png)](confidants/13-Death)  
   
 
 ### Tae Takemi
@@ -1217,7 +1217,7 @@ _Receive Swan Boat_
 
 ## Temperance - XIV
 
-[![](imagens/14-Temperance---Kawakami.png)](confidants/14-Temperance)  
+[![](imagens/250x250/14-Temperance---Kawakami.png)](confidants/14-Temperance)  
   
 
 ### Sadayo Kawakami
@@ -1311,7 +1311,7 @@ _Receive Sadayo Taiyaki_
 
 ## Devil - XV
 
-[![](imagens/15-Devil---Ohya.png)](confidants/15-Devil)  
+[![](imagens/250x250/15-Devil---Ohya.png)](confidants/15-Devil)  
   
 
 ### Ichiko Ohya
@@ -1383,7 +1383,7 @@ _Receive Sushi Teacup_
 
 ## Tower - XVI
 
-[![](imagens/16-Tower---Shinya.png)](confidants/16-Tower)  
+[![](imagens/250x250/16-Tower---Shinya.png)](confidants/16-Tower)  
   
 
 ### Shinya Oda
@@ -1461,7 +1461,7 @@ _Receive Balloons_
 
 ## Star - XVII
 
-[![](imagens/17-Star---Hifumi.png)](confidants/17-Star)  
+[![](imagens/250x250/17-Star---Hifumi.png)](confidants/17-Star)  
   
 
 ### Hifumi Togo
@@ -1556,7 +1556,7 @@ _Receive King Piece_
 
 ## Moon - XVIII
 
-[![](imagens/18-Moon---Mishima.png)](confidants/18-Moon)  
+[![](imagens/250x250/18-Moon---Mishima.png)](confidants/18-Moon)  
   
 
 ### Yuuki Mishima
@@ -1632,7 +1632,7 @@ Rank up requirement is tied to the number of completed requests.
 
 ## Sun - XIX
 
-[![](imagens/19-Sun---Yoshida.png)](confidants/19-Sun)  
+[![](imagens/250x250/19-Sun---Yoshida.png)](confidants/19-Sun)  
   
 
 ### Toranosuke Yoshida
@@ -1683,7 +1683,7 @@ Rank Up is tied to just spending time.
 
 ## Judgement - XX
 
-[![](imagens/20-Judgement---Sae.png)](confidants/20-Judgement)  
+[![](imagens/250x250/20-Judgement---Sae.png)](confidants/20-Judgement)  
   
 
 ### Sae Niijima
@@ -1725,7 +1725,7 @@ Automatic - Tied to Story Progression
 
 ## Faith
 
-[![](imagens/XXI-Faith---Kasumi.png)](confidants/XXI-Faith)  
+[![](imagens/250x250/XXI-Faith---Kasumi.png)](confidants/XXI-Faith)  
   
 
 ### Kasumi Yoshizawa
@@ -1816,7 +1816,7 @@ _Receive Sea Slug Doll_
 
 ## Councillor
 
-[![](imagens/XXII-Councillor---Maruki.png)](confidants/XXII-Councillor)  
+[![](imagens/250x250/XXII-Councillor---Maruki.png)](confidants/XXII-Councillor)  
   
 
 ### Takuto Maruki

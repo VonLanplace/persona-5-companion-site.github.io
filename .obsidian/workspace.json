@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "73c8f08389108fd3",
+        "id": "963ca86433f08212",
         "type": "tabs",
         "children": [
           {
-            "id": "a5235986b795710c",
+            "id": "5ba103691949e8bf",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
         ]
@@ -166,12 +170,35 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "a5235986b795710c",
+  "active": "5ba103691949e8bf",
   "lastOpenFiles": [
-    "confidants/00-Fool.md",
-    "confidants/14-Temperance.md",
-    "Complete Confidants Guide.md",
+    "confidants/03-Empress.md",
     "README.md",
+    "confidants/00-Fool.md",
+    "confidants/01-Magician.md",
+    "confidants/02-Priestess.md",
+    "confidants/04-Emperor.md",
+    "confidants/05-Hierophant.md",
+    "confidants/06-Lovers.md",
+    "confidants/07-Chariot.md",
+    "confidants/08-Justice.md",
+    "confidants/09-Hermit.md",
+    "confidants/10-Fortune.md",
+    "confidants/11-Strength.md",
+    "confidants/12-Hanged-Man.md",
+    "confidants/13-Death.md",
+    "confidants/14-Temperance.md",
+    "confidants/15-Devil.md",
+    "confidants/16-Tower.md",
+    "confidants/17-Star.md",
+    "confidants/18-Moon.md",
+    "confidants/19-Sun.md",
+    "confidants/20-Judgement.md",
+    "confidants/XXI-Faith.md",
+    "confidants/XXII-Councillor.md",
+    "Complete Confidants Guide.md",
+    "imagens/250x250/00-Fool---Igor.png",
+    "imagens/250x250",
     "Sem título.base",
     "imagens/Não confirmado 133440.crdownload",
     "imagens/XXII-Councillor---Maruki.png~",
@@ -181,13 +208,10 @@
     "imagens/19-Sun---Yoshida.png~",
     "imagens/18-Moon---Mishima.png~",
     "imagens/17-Star---Hifumi.png~",
-    "imagens/16-Tower---Shinya.png~",
     "Temp.md",
-    "00-Fool.md",
-    "imagens/3-Empress---Haru.png",
-    "imagens/02-Priestess---Makoto.png",
-    "imagens/01-Magician---Morgana.png",
-    "imagens/00-Fool---Igor.png",
+    "imagens/250x250/3-Empress---Haru.png",
+    "imagens/250x250/02-Priestess---Makoto.png",
+    "imagens/250x250/01-Magician---Morgana.png",
     "imagens/0-Fool---Igor.png",
     "imagens/Councillor - Maruki.png",
     "imagens/Faith - Kasumi.png",

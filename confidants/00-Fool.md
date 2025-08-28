@@ -4,10 +4,11 @@ tags:
 ---
 ## Fool - 0
 
-[![](../imagens/00-Fool---Igor.png)](README.md)
+[![](../imagens/250x250/00-Fool---Igor.png)](README.md)
   
-
 ### Igor
+
+___
 
 #### Confidant Abilities
 | Rank | Ability |
