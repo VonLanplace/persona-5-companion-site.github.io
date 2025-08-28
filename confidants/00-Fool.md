@@ -35,5 +35,4 @@
 | 9    | (Automatic) 10/11 |
 | 10   | (Automatic) 12/24 |
 
-[![](imagens/00-Fool---Igor.png)](confidants/00-Fool)  
 ---
