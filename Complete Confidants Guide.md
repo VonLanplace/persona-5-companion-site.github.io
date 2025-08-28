@@ -24,459 +24,132 @@ Once you start getting more Confidants, you'll soon realize you won't be able to
 [![](https://images.steamusercontent.com/ugc/1914618751884773525/002687C9B717D8185EC9393C5FE042B1A4881BEF/)](https://images.steamusercontent.com/ugc/1914618751884773525/002687C9B717D8185EC9393C5FE042B1A4881BEF/)  
   
 
-Igor
+### Igor
 
-### **Confidant Abilities:**  
+#### Confidant Abilities
+| Rank | Ability |
+|------|----------|
+| 1    | **Wild Talk**: Allows you to negotiate with Shadows after performing a Hold Up. <br> **Arcana Burst**: Earn bonus EXP when fusing Personas based on their Arcana's Confidant rank. |
+| 2    | **Third Eye**: Lets you see things normally invisible to the naked eye. |
+| 3    | **Power Stock**: Increases your Persona stock to 8 slots. |
+| 4    | - |
+| 5    | **Super Stock**: Increases your Persona stock to 10 slots. |
+| 6    | **High Arcana Burst**: Increases the EXP bonus granted by Arcana Burst. |
+| 7    | - |
+| 8    | **Ultra Stock**: Increases your Persona stock to 12 slots. |
+| 9    | - |
+| 10   | **Max Arcana Burst**: Greatly increases the EXP bonus granted by Arcana Burst. |
 
-Rank
+---
 
-Ability
+#### Rank Up Progression
+| Rank | Requirements / Dialogue Choices |
+|------|---------------------------------|
+| 1    | (Automatic) 4/12 |
+| 2    | (Automatic) 4/18 ~ 4/30 (Palace Infiltration) |
+| 3    | (Automatic) 5/5 |
+| 4    | (Automatic) 5/22 ~ 6/3 (Clear Madarame's Palace) |
+| 5    | (Automatic) 6/11 |
+| 6    | (Automatic) 6/23 ~ 7/7 (Kaneshiro's Palace Route Secured) |
+| 7    | (Automatic) 8/22 |
+| 8    | (Automatic) 8/31 |
+| 9    | (Automatic) 10/11 |
+| 10   | (Automatic) 12/24 |
 
-1
-
-**Wild Talk**: Allows you to negotiate with Shadows after performing a Hold Up.  
-**Arcana Burst**: Earn bonus EXP when fusing Personas based on their Arcana's Confidant rank.
-
-2
-
-**Third Eye**: Lets you see things normally invisible to the naked eye.
-
-3
-
-**Power Stock**: Increases your Persona stock to 8 slots.
-
-4
-
-5
-
-**Super Stock**: Increases your Persona stock to 10 slots.
-
-6
-
-**High Arcana Burst**: Increases the EXP bonus granted by Arcana Burst.
-
-7
-
-8
-
-**Ultra Stock**: Increases your Persona stock to 12 slots.
-
-9
-
-10
-
-**Max Arcana Burst**: Greatly increases the EXP bonus granted by Arcana Burst.
-
-  
-
-### Rank Up Progression
-
-Automatic - Tied to Story Progression  
-
-Rank
-
-Requirements / Dialogue Choices
-
-1
-
-(Automatic) 4/12
-
-2
-
-(Automatic) 4/18 ~ 4/30 (Palace Infiltration)
-
-3
-
-(Automatic) 5/5
-
-4
-
-(Automatic) 5/22 ~ 6/3 (Clear Madarame's Palace)
-
-5
-
-(Automatic) 6/11
-
-6
-
-(Automatic) 6/23 ~ 7/7 (Kaneshiro's Palace Route Secured)
-
-7
-
-(Automatic) 8/22
-
-8
-
-(Automatic) 8/31
-
-9
-
-(Automatic) 10/11
-
-10
-
-(Automatic) 12/24
-
+---
 ## Magician - I
 
 [![](https://images.steamusercontent.com/ugc/1914618751884784361/7A65B509B71DD0D72B9A28225C933655DCC7D352/)](https://images.steamusercontent.com/ugc/1914618751884784361/7A65B509B71DD0D72B9A28225C933655DCC7D352/)  
   
 
-Morgana
+### Morgana
 
-### **Confidant Abilities:**  
+#### Confidant Abilities
+| Rank | Ability |
+|------|----------|
+| 1    | **Infiltration Tools**: Allows you to craft basic infiltration tools. |
+| 2    | - |
+| 3    | **Follow Up**: Chance to perform a follow-up attack if Joker's attack does not down the enemy. |
+| 4    | **Kitty Talk**: If negotiation with an animal-type Shadow fails, you can try again. |
+| 5    | **Pickpocket**: Chance to obtain an item when Joker performs a melee attack. |
+| 6    | **Ace Tools**: Allows you to craft all infiltration tools. |
+| 7    | **Harisen Recovery**: Chance to cure status ailments inflicted upon party members. |
+| 8    | **Endure**: Chance to withstand an otherwise fatal attack with 1 HP remaining. |
+| 9    | **Protect**: Chance to shield Joker from an otherwise fatal attack. |
+| 10   | **Second Awakening**: Evolves Persona. |
+| MAX  | **Third Awakening**: Evolves Persona. |
 
-Rank
+---
 
-Ability
+#### Rank Up Progression
 
-1
+Automatic - Tied to Story Progression
 
-**Infiltration Tools**: Allows you to craft basic infiltration tools.
+| Rank | Requirements / Dialogue Choices |
+|------|---------------------------------|
+| 1    | (Automatic) 4/15 |
+| 2    | (Automatic) 4/20 ~ 4/29 (Stealing Kamoshida's Treasure) |
+| 3    | (Automatic) 5/22 ~ 6/3 (Clear Madarame's Palace) |
+| 4    | (Automatic) 6/20 |
+| 5    | (Automatic) 6/23 ~ 7/7 (Kaneshiro's Palace Route Secured) |
+| 6    | (Automatic) 7/25 |
+| 7    | (Automatic) 8/29 |
+| 8    | (Automatic) 9/17 |
+| 9    | (Automatic) 9/21 ~ 10/10 (Clear Okumura's Palace) |
+| 10   | (Automatic) 12/23 |
+| MAX  | (Automatic) 1/10 |
 
-2
-
-3
-
-**Follow Up**: Chance to perform a follow-up attack if Joker's attack does not down the enemy.
-
-4
-
-**Kitty Talk**: If negotiation with an animal-type Shadow fails, you can try again.
-
-5
-
-**Pickpocket**: Chance to obtain an item when Joker performs a melee attack.
-
-6
-
-**Ace Tools**: Allows you to craft all infiltration tools.
-
-7
-
-**Harisen Recovery**: Chance to cure status ailments inflicted upon party members.
-
-8
-
-**Endure**: Chance to withstand an otherwise fatal attack with 1 HP remaining.
-
-9
-
-**Protect**: Chance to shield Joker from an otherwise fatal attack.
-
-10
-
-**Second Awakening**: Evolves Persona.
-
-MAX
-
-**Third Awakening**: Evolves Persona.
-
-  
-
-### Rank Up Progression
-
-Automatic - Tied to Story Progression  
-
-Rank
-
-Requirements / Dialogue Choices
-
-1
-
-(Automatic) 4/15
-
-2
-
-(Automatic) 4/20 ~ 4/29 (Stealing Kamoshida's Treasure)
-
-3
-
-(Automatic) 5/22 ~ 6/3 (Clear Madarame's Palace)
-
-4
-
-(Automatic) 6/20
-
-5
-
-(Automatic) 6/23 ~ 7/7 (Kaneshiro's Palace Route Secured)
-
-6
-
-(Automatic) 7/25
-
-7
-
-(Automatic) 8/29
-
-8
-
-(Automatic) 9/17
-
-9
-
-(Automatic) 9/21 ~ 10/10 (Clear Okumura's Palace)
-
-10
-
-(Automatic) 12/23
-
-MAX
-
-(Automatic) 1/10
 
 ## Priestess - II
 
 [![](https://images.steamusercontent.com/ugc/1914618751884785579/94B891107B655E59C2D8E18D432E14BB35CBA4C7/)](https://images.steamusercontent.com/ugc/1914618751884785579/94B891107B655E59C2D8E18D432E14BB35CBA4C7/)  
 
-Makoto Nijima
+### Makoto Nijima
+#### Confidant Abilities
+| Rank | Ability |
+|------|----------|
+| 1    | **Shadow Calculus**: Allows you to see skills and potential item drops on the analysis screen |
+| 2    | - |
+| 3    | **Black Belt Talk**: If negotiation with a martial arts-using Shadow fails, you can try again |
+| 4    | **Follow Up**: Chance to perform a follow-up attack if Joker's attack does not down the enemy |
+| 5    | - |
+| 6    | **Harisen Recovery**: Chance to cure status ailments inflicted upon party members |
+| 7    | **Shadow Factorization**: Allows you to see Null, Repel, and Drain when highlighting a target in battle |
+| 8    | **Endure**: Chance to withstand an otherwise fatal attack with 1 HP remaining |
+| 9    | **Protect**: Chance to shield Joker from an otherwise fatal attack |
+| 10   | **Second Awakening**: Evolves Persona |
+| MAX  | **Third Awakening**: Evolves Persona |
 
-### **Confidant Abilities:**  
+---
 
-Rank
+#### Rank Up Progression
+| Rank | Requirements / Dialogue Choices | Next Pts |
+|------|---------------------------------|----------|
+| 1    | Requires clearing Kaneshiro's Palace & Knowledge Lv 3 (Scholarly) | 0 |
+| 2    | 1. "You're very well informed" (+5) <br> 2. "That was dangerous" (+10) <br> 4. (Phone) "Couldn't agree more" (+5) | 0 |
+| 3    | 1. "You have the wrong idea" (+5) <br> 2. "You can change" (+10) <br> 3. (Phone) "Sounds like you two get along" (+5) | 15 |
+| 4    | 1. "That's unlike you" (+5) <br> 4. "Why do you use it?" (+10) <br> 5. "It's an amazing goal" (+10) | 20 |
+| 5    | 1. "He sounds suspicious" (+10) <br> 2. "I got this" (+10) <br> 3. (Phone) "Try to reach out to her" (+5) | 20 |
+| 6    | Requires Charm Lv 5 (Debonair). <br> 1. "Love comes in many forms" (+10) <br> 4. (Phone) "Tell him you're on a date" (+5) | 20 |
+| 7    | 4. "He was a noble man" (+15) <br> 5. Any (+15) <br> 6. Any (+5) <br> 7. "I'm game if you are" / "Refuse her, please." (+5) <br> 8. (Phone) "Of course." / "It's the role I always hoped for" (+5) | 30 |
+| 8    | 1. "He says that to all his girls" / "That’s how he ropes you in." (+5) <br> 2. "Absolutely" (+10) | 20 |
+| 9    | 1. Any (+10) <br> 2. Any (+5) <br> 3. "That was the right move" (+5) <br> 4. "I'm a regular here" (+15) <br> **Friendship:** "You'll find someone someday." (+10) / (Phone) "No problem at all" (+5) <br> **Romance:** "I'll be your study partner" (+0) / "I do" (+15) / (Phone) "I'd do anything for you" / "No big deal." (+5) | 55 |
+| 10   | N/A (1/13) | MAX |
 
-Ability
+---
 
-1
+#### Gift Guide
+| Gift Item | Confidant Points | Purchase Location | Price |
+|-----------|------------------|-------------------|-------|
+| Heart Ring | +50 | Station Underground Mall, Shibuya | ¥88,000 |
+| Designer Perfume | +50 | Station Underground Mall, Shibuya | ¥7,800 |
+| Kitchen Tool Set | +50 | General Store, Shinjuku | ¥4,900 |
+| Motorbike Figure | +50 | Otaku Goods Shop, Akihabara | ¥4,800 |
 
-**Shadow Calculus**: Allows you to see skills and potential item drops on the analysis screen
-
-2
-
-3
-
-**Black Belt Talk**: If negotiation with a martial arts-using Shadow fails, you can try again
-
-4
-
-**Follow Up**: Chance to perform a follow-up attack if Joker's attack does not down the enemy
-
-5
-
-6
-
-**Harisen Recovery**: Chance to cure status ailments inflicted upon party members
-
-7
-
-**Shadow Factorization**: Allows you to see Null, Repel, and Drain when highlighting a target in battle
-
-8
-
-**Endure**: Chance to withstand an otherwise fatal attack with 1 HP remaining
-
-9
-
-**Protect**: Chance to shield Joker from an otherwise fatal attack
-
-10
-
-**Second Awakening**: Evolves Persona
-
-MAX
-
-**Third Awakening**: Evolves Persona
 
   
 
-### Schedule
-
-**Time of Day**: Daytime  
-**Day of Week**: Tuesday, Thursday, Saturday, and Sunday  
-**Location:**
-
-- Weekdays - Shujin Academy, Student Council Office  
-    
-- Weekends & Holidays - Shujin Academy, Front Gate
-
-  
-
-### Rank Up Progression
-
-Rank
-
-Requirements / Dialogue Choices
-
-Next Pts
-
-1
-
-Requires Clearing Kaneshiro's Palace & Knowledge Lv 3 (Scholarly)
-
-0
-
-2
-
-1. "You're very well informed" (+5)  
-    
-2. "That was dangerous" (+10)  
-    
-3. -  
-    
-4. (Phone) "Couldn't agree more" (+5)
-
-0
-
-3
-
-1. "You have the wrong idea" (+5)  
-    
-2. "You can change" (+10)  
-    
-3. (Phone) "Sounds like you two get along" (+5)
-
-15
-
-4
-
-1. "That's unlike you" (+5)  
-    
-2. -  
-    
-3. -  
-    
-4. "Why do you use it?" (+10)  
-    
-5. "It's an amazing goal" (+10)
-
-20
-
-5
-
-1. "He sounds suspicious" (+10)  
-    
-2. "I got this" (+10)  
-    
-3. (Phone) "Try to reach out to her" (+5)
-
-20
-
-6
-
-Requires Charm Lv 5 (Debonair)  
-
-1. "Love comes in many forms" (+10)  
-    
-2. -  
-    
-3. -  
-    
-4. (Phone) "Tell him you're on a date" (+5)
-
-20
-
-7
-
-1. -  
-    
-2. -  
-    
-3. -  
-    
-4. "He was a noble man" (+15)  
-    
-5. Any (+15)  
-    
-6. Any (+5)  
-    
-7. "I'm game if you are" / "Refuse her, please." (+5)  
-    
-8. (Phone) "Of course." / "It's the role I always hoped for" (+5)
-
-30
-
-8
-
-1. "He says that to all his girls" / "That’s how he ropes you in." (+5)  
-    
-2. "Absolutely" (+10)
-
-20
-
-9
-
-1. Any (+10)  
-    
-2. Any (+5)  
-    
-3. "That was the right move" (+5)  
-    
-4. "I'm a regular here" (+15)
-
-Friendship:  
-
-- "You'll find someone someday" (+10)  
-    
-- (Phone) "No problem at all" (+5)
-
-Romance:  
-
-- "I'll be your study partner" (+0)  
-    
-- "I do" (+15)  
-    
-- (Phone) "I'd do anything for you" / "No big deal." (+5)
-
-55
-
-10
-
-N/A
-
-MAX
-
-1/13
-
-N/A
-
-  
-
-### Gift Guide
-
-Gift Item
-
-Confidant Points
-
-Purchase Location
-
-Price
-
-Heart Ring
-
-+50
-
-Station Underground Mall, Shibuya
-
-¥88,000
-
-Designer Perfume
-
-+50
-
-Station Underground Mall, Shibuya
-
-¥7,800
-
-Kitchen Tool Set
-
-+50
-
-General Store, Shinjuku
-
-¥4,900
-
-Motorbike Figure
-
-+50
-
-Otaku Goods Shop, Akihabara
-
-¥4,800
-
-  
-
-### Bonus Events
+#### Bonus Events
 
 
 **Hangout Study** (7/12 - Knowledge +3♪)  
@@ -567,262 +240,54 @@ _Receive Shumai Cushion_
 [![](https://images.steamusercontent.com/ugc/1914618751884786469/B08FEAF53A84A11B083FCBB00B57B061A8E37BD7/)](https://images.steamusercontent.com/ugc/1914618751884786469/B08FEAF53A84A11B083FCBB00B57B061A8E37BD7/)  
   
 
-Haru Okumura
+### Haru Okumura
 
-### **Confidant Abilities:**  
+#### Confidant Abilities
+| Rank | Ability |
+|------|----------|
+| 1    | **Cultivation**: Allows you to grow vegetables with Haru on the Shujin Academy rooftop. |
+| 2    | - |
+| 3    | **Follow Up**: Chance to perform a follow-up attack if Joker's attack does not down the enemy. |
+| 4    | **Celeb Talk**: If negotiation amidst a group of Shadows fails, you can try again. |
+| 5    | **Bumper Crop**: Increases the total vegetable yield for a single harvest. |
+| 6    | **Harisen Recovery**: Chance to cure status ailments inflicted upon party members. |
+| 7    | **Soil Improvement**: Decreases the total amount of time it takes to cultivate vegetables. |
+| 8    | **Endure**: Chance to withstand an otherwise fatal attack with 1 HP remaining. |
+| 9    | **Protect**: Chance to shield Joker from an otherwise fatal attack. |
+| 10   | **Second Awakening**: Evolves Persona. |
+| MAX  | **Third Awakening**: Evolves Persona. |
 
-Rank
+---
 
-Ability
+#### Rank Up Progression
+| Rank | Requirements / Dialogue Choices | Next Pts |
+|------|---------------------------------|----------|
+| 1    | Available Starting 10/30 | 0 |
+| 2    | 1. "Are you starting a farm?" (+15) <br> 2. "He sounds suspicious." (+5) <br> 3. "This is a complex issue." (+10) <br> 4. (Phone) "Jewel Melon." (+10) | 0 |
+| 3    | 1. "They won't find out." / "It'll be okay, I promise." (+10) <br> 2. "I don't want to go with you." (+15) <br> 3. "Not yet." (+10) <br> 4. (Phone) "Smart response." (+5) | 14 |
+| 4    | Requires Proficiency Lv 5 (Transcendent). <br> 1. "It must be amazing." (+10) <br> 2. "Kthx." (+15) <br> 3. Any (+15) <br> 4. "Let's ask him." (+5) <br> 5. "I'm not really sure." (+5) <br> 6. (Phone) "Let's get coffee again sometime." (+5) | 28 |
+| 5    | 1. "Somebody's telling the truth." (+10) <br> 2. "There has to be another way." (+5) <br> 3. "I don't think so." (+10) <br> 4. (Phone) "Pinch yourself." (+5) | 15 |
+| 6    | 1. "That’s fascinating." / "Can you make some for me?" (+10) <br> 2. "I had no idea." (+5) <br> 3. "Black like coffee?" (+15) <br> 5. "Be strong, Haru." (+15) <br> 6. (Phone) "You can talk to me anytime." / "Let him say what he wants." (+5) | 20 |
+| 7    | 2. "What do you want to do?" (+10) <br> 3. Any (+15) <br> 4. Any (+15) <br> 5. (Phone) "I'll always have your back." (+5) | 40 |
+| 8    | 1. "The soil?" (+10) <br> 2. "It’ll help him understand you." / "He’s going to love it." (+15) <br> 3. "You’re amazing, Haru." (+15) <br> 4. (Phone) "It's in your nature to nurture." / "I want some too." (+5) | 22 |
+| 9    | 2. "Give it all you’ve got, Haru." (+15) <br> 3. "You did amazing." (+15) <br> **Friendship:** "He saw us as good friends." (+0) / (Phone) "You sound happy." (+5) <br> **Romance:** "I like you too, Haru." (+0) / (Phone) "I wanted to hear your voice." / "I miss you." (+5) | 20 |
+| 10   | N/A (1/13) | MAX |
 
-1
+---
 
-**Cultivation**: Allows you to grow vegetables with Haru on the Shujin Academy rooftop.
+#### Gift Guide
+| Gift Item | Confidant Points | Purchase Location | Price |
+|-----------|------------------|-------------------|-------|
+| Heart Ring | +50 | Jewelry Store, Station Underground Mall, Shibuya | ¥88,000 |
+| Flower Basket | +50 | Flower Shop, Shinjuku at Night | ¥2,400 |
+| Glass Vase | +50 | Japan Sundries Shop, Station Underground Mall, Shibuya | ¥3,200 |
+| Wrist Weights | +50 | Next Ace Sports Store, Station Underground Mall, Shibuya | ¥6,800 |
+| Watercolor Postcard | +50 | Kichijoji Stationery Shop | ¥800 |
 
-2
-
-3
-
-**Follow Up**: Chance to perform a follow-up attack if Joker's attack does not down the enemy.
-
-4
-
-**Celeb Talk**: If negotiation amidst a group of Shadows fails, you can try again.
-
-5
-
-**Bumper Crop**: Increases the total vegetable yield for a single harvest.
-
-6
-
-**Harisen Recovery**: Chance to cure status ailments inflicted upon party members.
-
-7
-
-**Soil Improvement**: Decreases the total amount of time it takes to cultivate vegetables.
-
-8
-
-**Endure**: Chance to withstand an otherwise fatal attack with 1 HP remaining.
-
-9
-
-**Protect**: Chance to shield Joker from an otherwise fatal attack.
-
-10
-
-**Second Awakening**: Evolves Persona.
-
-MAX
-
-**Third Awakening**: Evolves Persona.
 
   
 
-### Schedule
-
-**Time of Day**: Daytime  
-**Day of Week**: Monday, Tuesday, Friday, and Saturday  
-**Location:** Shujin Academy, Rooftop  
-  
-
-### Rank Up Progression
-
-Rank
-
-Requirements / Dialogue Choices
-
-Next Pts
-
-1
-
-Available Starting 10/30
-
-0
-
-2
-
-1. "Are you starting a farm?"(+15)  
-    
-2. "He sounds suspicious." (+5)  
-    
-3. "This is a complex issue." (+10)  
-    
-4. (Phone) "Jewel Melon." (+10)
-
-0
-
-3
-
-1. "They won't find out." / "It'll be okay, I promise." (+10)  
-    
-2. "I don't want to go with you." (+15)  
-    
-3. "Not yet." (+10)  
-    
-4. (Phone) "Smart response." (+5)
-
-14
-
-4
-
-Requires Proficiency Lv 5 (Transcendent).  
-
-1. "It must be amazing." (+10)  
-    
-2. Kthx. (+15)  
-    
-3. Any (+15)  
-    
-4. "Let's ask him." (+5)  
-    
-5. "I'm not really sure." (+5)  
-    
-6. (Phone) "Let's get coffee again sometime." (+5)
-
-28
-
-5
-
-1. "Somebody's telling the truth." (+10)  
-    
-2. "There has to be another way." (+5)  
-    
-3. "I don't think so." (+10)  
-    
-4. (Phone) "Pinch yourself." (+5)
-
-15
-
-6
-
-1. "That’s fascinating." / "Can you make some for me?" (+10)  
-    
-2. "I had no idea." (+5)  
-    
-3. "Black like coffee?" (+15)  
-    
-4. -  
-    
-5. "Be strong, Haru." (+15)  
-    
-6. (Phone) "You can talk to me anytime." / "Let him say what he wants." (+5)
-
-20
-
-7
-
-1. -  
-    
-2. "What do you want to do?" (+10)  
-    
-3. Any (+15)  
-    
-4. Any (+15)  
-    
-5. (Phone) "I'll always have your back." (+5)
-
-40
-
-8
-
-1. "The soil?" (+10)  
-    
-2. "It’ll help him understand you." / "He’s going to love it." (+15)  
-    
-3. "You’re amazing, Haru." (+15)  
-    
-4. (Phone) "It's in your nature to nurture." / "I want some too." (+5)
-
-22
-
-9
-
-1. -  
-    
-2. "Give it all you’ve got, Haru." (+15)  
-    
-3. "You did amazing." (+15)
-
-Friendship:  
-
-- "He saw us as good friends." (+0)  
-    
-- (Phone) "You sound happy." (+5)
-
-Romance:  
-
-- "I like you too, Haru." (+0)  
-    
-- (Phone) "I wanted to hear your voice." / "I miss you." (+5)
-
-20
-
-10
-
-N/A
-
-MAX
-
-1/13
-
-N/A
-
-  
-
-### Gift Guide
-
-Gift Item
-
-Confidant Points
-
-Purchase Location
-
-Price
-
-Heart Ring
-
-+50
-
-Jewelry Store, Station Underground Mall, Shibuya
-
-¥88,000
-
-Flower Basket
-
-+50
-
-Flower Shop, Shinjuku at Night
-
-¥2,400
-
-Glass Vase
-
-+50
-
-Japan Sundries Shop, Station Underground Mall, Shibuya
-
-¥3,200
-
-Wrist Weights
-
-+50
-
-Next Ace Sports Store, Station Underground Mall, Shibuya
-
-¥6,800
-
-Watercolor Postcard
-
-+50
-
-Kichijoji Stationery Shop
-
-¥800
-
-  
-
-### Bonus Events
+#### Bonus Events
 
 
 **Hangout Asakusa** (11/6 - Empress & Devil Rank 1+)  
@@ -877,242 +342,55 @@ _Receive Giant Spatula_
 [![](https://images.steamusercontent.com/ugc/1914618751884787124/574536639380808FC835A8979BE0119D45044802/)](https://images.steamusercontent.com/ugc/1914618751884787124/574536639380808FC835A8979BE0119D45044802/)  
   
 
-Yusuke Kitagawa
+### Yusuke Kitagawa
 
-### **Confidant Abilities:**  
+#### Confidant Abilities
+| Rank | Ability |
+|------|----------|
+| 1    | **Card Duplication**: Allows Yusuke to duplicate Skill Cards after 1 day. |
+| 2    | - |
+| 3    | **Follow Up**: Chance to perform a follow-up attack if Joker's attack does not down the enemy. |
+| 4    | **Art Talk**: If negotiation with a lone Shadow fails, you can try again. |
+| 5    | **Card Creation**: Allows Yusuke to create any Skill Card he has copied before after 1 day. |
+| 6    | **Harisen Recovery**: Chance to cure status ailments inflicted upon party members. |
+| 7    | **Live Painting**: Allows Yusuke to use Card Duplication and Card Creation on the spot. |
+| 8    | **Endure**: Chance to withstand an otherwise fatal attack with 1 HP remaining. |
+| 9    | **Protect**: Chance to shield Joker from an otherwise fatal attack. |
+| 10   | **Second Awakening**: Evolves Persona. |
+| MAX  | **Third Awakening**: Evolves Persona. |
 
-Rank
+---
 
-Ability
+#### Rank Up Progression
+| Rank | Requirements / Dialogue Choices | Next Pts |
+|------|---------------------------------|----------|
+| 1    | Available Starting 6/18 — Event requires defeating Slimes in Mementos with Yusuke. <br> **Reward:** Receive Recarm Skill Card | 0 |
+| 2    | 1. "It's novel." / "It's enigmatic." (+5) <br> 2. "I can't wait." (+15) <br> 3. (Phone) "You're already doing enough." (+5) | 0 |
+| 3    | 1. "Don't let it bother you." (+5) <br> 3. "This isn't like you." (+15) <br> 4. Any (+5) <br> 5. "That's the spirit." (+5) | 25 |
+| 4    | 1. "Why are we in a boat?" / "I should bring a girl here." (+5) <br> 2. "Love comes in all forms." (+10) <br> 3. (Phone) "Don't get discouraged." (+5) | 15 |
+| 5    | 1. "Do you want me to strip?" (+15) <br> 2. "I'm sure you will." / "It doesn’t look like it." (+10) <br> 3. (Phone) "There's still hope." (+5) | 25 |
+| 6    | Requires Proficiency Lv 4 (Masterful). <br> 1. "It feels nostalgic." (+5) <br> 4. "I couldn't possibly tell you." (+15) <br> 5. (Phone) "He had a certain dignity." (+5) | 20 |
+| 7    | 2. "What do you mean?" (+5) <br> 3. "The truth is within you." (+15) <br> 4. (Phone) "Calm down." / "It's not a crime to enjoy sushi." (+5) | 26 |
+| 8    | 1. "It has to be Ann." (+5) <br> 2. "You've really grown, Yusuke." (+10) | 22 |
+| 9    | 1. "Her love for her son." (+15) <br> 2. "You've really changed, Yusuke." (+15) | 35 |
+| 10   | N/A (1/13) | MAX |
 
-1
+---
 
-**Card Duplication**: Allows Yusuke to duplicate Skill Cards after 1 day.
+#### Gift Guide
+| Gift Item | Confidant Points | Purchase Location | Price |
+|-----------|------------------|-------------------|-------|
+| Silver Bangle | +50 | Turtle Diamond Jewelry Store, Station Underground Mall, Shibuya | ¥78,000 |
+| Glass Vase | +50 | Japan Sundries Shop, Station Underground Mall, Shibuya | ¥3,200 |
+| Uji Matcha Flan | +50 | Taisho Store Premium Supermarket, Station Underground Mall, Shibuya | ¥2,400 |
+| Truffles | +50 | Supermarket, Station Underground Mall, Shibuya | ¥2,800 |
+| Castella | +50 | Supermarket, Station Underground Mall, Shibuya | ¥1,500 |
+| Watercolor Postcard | +50 | Kichijoji Stationery Shop | ¥800 |
 
-2
-
-3
-
-**Follow Up**: Chance to perform a follow-up attack if Joker's attack does not down the enemy.
-
-4
-
-**Art Talk**: If negotiation with a lone Shadow fails, you can try again.
-
-5
-
-**Card Creation**: Allows Yusuke to create any Skill Card he has copied before after 1 day.
-
-6
-
-**Harisen Recovery**: Chance to cure status ailments inflicted upon party members.
-
-7
-
-**Live Painting**: Allows Yusuke to use Card Duplication and Card Creation on the spot.
-
-8
-
-**Endure**: Chance to withstand an otherwise fatal attack with 1 HP remaining.
-
-9
-
-**Protect**: Chance to shield Joker from an otherwise fatal attack.
-
-10
-
-**Second Awakening**: Evolves Persona.
-
-MAX
-
-**Third Awakening**: Evolves Persona.
 
   
 
-### Schedule
-
-**Time of Day**: Daytime  
-**Day of Week**: Every Day (Irregular)  
-**Location:** Shibuya Underground Walkway  
-  
-
-### Rank Up Progression
-
-Rank
-
-Requirements / Dialogue Choices
-
-Next Pts
-
-1
-
-Available Starting 6/18- Event Requires Defeating Slimes in Mementos with Yusuke
-
-Receive Recarm Skill Card
-
-0
-
-2
-
-1. "It's novel." / "It's enigmatic." (+5)  
-    
-2. "I can't wait." (+15)  
-    
-3. (Phone) "You're already doing enough." (+5)
-
-0
-
-3
-
-1. "Don't let it bother you." (+5)  
-    
-2. -  
-    
-3. "This isn't like you." (+15)  
-    
-4. Any (+5)  
-    
-5. "That's the spirit." (+5)
-
-25
-
-4
-
-1. "Why are we in a boat?" / "I should bring a girl here." (+5)  
-    
-2. "Love comes in all forms." (+10)  
-    
-3. (Phone) "Don't get discouraged." (+5)
-
-15
-
-5
-
-1. "Do you want me to strip?" (+15)  
-    
-2. "I'm sure you will." / "It doesn’t look like it." (+10)  
-    
-3. (Phone) "There's still hope." (+5)
-
-25
-
-6
-
-Requires Proficiency Lv 4 (Masterful)  
-
-1. "It feels nostalgic." (+5)  
-    
-2. -  
-    
-3. -  
-    
-4. "I couldn't possibly tell you." (+15)  
-    
-5. (Phone) "He had a certain dignity." (+5)
-
-20
-
-7
-
-1. -  
-    
-2. "What do you mean?" (+5)  
-    
-3. "The truth is within you." (+15)  
-    
-4. (Phone) "Calm down." / "It's not a crime to enjoy sushi." (+5)
-
-26
-
-8
-
-1. "It has to be Ann." (+5)  
-    
-2. "You've really grown, Yusuke." (+10)
-
-22
-
-9
-
-1. "Her love for her son." (+15)  
-    
-2. "You've really changed, Yusuke." (+15)
-
-35
-
-10
-
-N/A
-
-MAX
-
-1/13
-
-N/A
-
-  
-
-### Gift Guide
-
-Gift Item
-
-Confidant Points
-
-Purchase Location
-
-Price
-
-Silver Bangle
-
-+50
-
-Turtle Diamond Jewelry Store, Station Underground Mall, Shibuya
-
-¥78,000
-
-Glass Vase
-
-+50
-
-Japan Sundries Shop, Station Underground Mall, Shibuya
-
-¥3,200
-
-Uji Matcha Flan
-
-+50
-
-Taisho Store Premium Supermarket, Station Underground Mall, Shibuya
-
-¥2,400
-
-Truffles
-
-+50
-
-Supermarket, Station Underground Mall, Shibuya
-
-¥2,800
-
-Castella
-
-+50
-
-Supermarket, Station Underground Mall, Shibuya
-
-¥1,500
-
-Watercolor Postcard
-
-+50
-
-Kichijoji Stationery Shop
-
-¥800
-
-  
-
-### Bonus Events
+#### Bonus Events
 
 
 **Hangout Movies** (8/5 - Kindness +3♪)  
@@ -1164,520 +442,101 @@ _Receive Star Stickers_
 [![](https://images.steamusercontent.com/ugc/1914618751884787768/1902ECC378A03004615BA949A9D3E50F5CD870BF/)](https://images.steamusercontent.com/ugc/1914618751884787768/1902ECC378A03004615BA949A9D3E50F5CD870BF/)  
   
 
-Sojiro Sakura
+### Sojiro Sakura
+
+#### Confidant Abilities
+| Rank | Ability |
+|------|----------|
+| 1    | - |
+| 2    | **Coffee Basics**: Brew coffee that recovers 30 SP for 1 ally. |
+| 3    | - |
+| 4    | **Leblanc Curry**: Cook curry that recovers 20 SP for all allies. |
+| 5    | - |
+| 6    | **Coffee Mastery**: Brew coffee that recovers 100 SP for 1 ally. |
+| 7    | - |
+| 8    | - |
+| 9    | **Curry Tips**: Cook curry that recovers 50 SP for all allies. |
+| 10   | **Curry Mastery**: Cook curry that recovers 100 SP for all allies. |
+
+---
+
+#### Rank Up Progression
+| Rank | Requirements / Dialogue Choices | Next Pts |
+|------|---------------------------------|----------|
+| 1    | Available Starting 4/20 (Forced if Not Unlocked by 5/6) | 0 |
+| 2    | 1. "Making coffee." (+5) <br> 2. "That guy seemed suspicious." (+5) <br> 3. "I want the ladies to love me." (+5) <br> 4. (Phone) "Got it." (+5) <br> Kindness +2♪ | 30 |
+| 3    | Requires Brewing Coffee before. <br> 1. "Medium-fine." (+5) <br> 2. "Is it trouble?" (+5) <br> 3. (Phone) "I'm ready to work." / "Thank you in advance." (+5) | 40 |
+| 4    | 1. "Tell me more." (+10) <br> 2. "Call Sojiro's phone." (+10) <br> 3. (Phone) "Understood." (+5) <br> Kindness +3♪ | 43 |
+| 5    | Available Starting 8/22. <br> 1. "I think I'm addicted!" (+10) <br> 2. "She wasn't normal, huh?" (+10) <br> 3. "It really paid off in the end." (+5) <br> 4. (Phone) "She needs a balanced diet." (+5) <br> Kindness +3♪ | 20 |
+| 6    | 1. "To each his own." (+5) <br> 2. "Shut your mouth." (+10) <br> 3. "Saving Futaba was no mistake." (+5) <br> 4. (Phone) "If I can help somehow..." (+5) <br> Kindness +2♪ | 20 |
+| 7    | Requires Kindness Lv 5 (Angelic). <br> 1. "You might be right." (+5) <br> 4. (Phone) "Feel like a real dad now?" (+5) <br> Kindness +3♪ | 14 |
+| 8    | 1. "Something with curry." (+10) <br> 2. "I was just protecting Futaba." (+5) | 0 |
+| 9    | Requires completing "The Money-grubbing Uncle" request by speaking to Futaba outside LeBlanc. <br> 1. "It’s great." (+10) <br> 2. "You have a great daughter." (+15) <br> 3. (Phone) Any (+5) | 40 |
+| 10   | N/A | - |
+
+---
+
+#### Gift Guide
+| Gift Item | Confidant Points | Purchase Location | Price |
+|-----------|------------------|-------------------|-------|
+| Silver Bangle | +50 | Turtle Diamond Jewelry Store, Station Underground Mall, Shibuya | ¥78,000 |
+| Castella | +50 | Supermarket, Station Underground Mall, Shibuya | ¥1,500 |
+| Kitchen Tool Set | +50 | General Store, Shinjuku | ¥4,900 |
+| Robot Vacuum | +50 | Electronics Superstore, Akihabara | ¥44,800 |
+| Fountain Pen | +50 | General Store, Shinjuku | ¥8,000 |
+| Leather Pen Case | +50 | Kichijoji Stationery Shop | ¥12,000 |
 
-### **Confidant Abilities:**  
-Learns SP recovery consumable recipes.  
-
-Rank
-
-Ability
-
-1
-
-2
-
-**Coffee Basics**: Brew coffee that recovers 30 SP for 1 ally.
-
-3
-
-4
-
-**Leblanc Curry**: Cook curry that recovers 20 SP for all allies.
-
-5
-
-6
-
-**Coffee Mastery**: Brew coffee that recovers 100 SP for 1 ally.
-
-7
-
-8
-
-9
-
-**Curry Tips**: Cook curry that recovers 50 SP for all allies.
-
-10
-
-**Curry Mastery**: Cook curry that recovers 100 SP for all allies.
-
-  
-
-### Schedule
-
-**Time of Day**: Evening  
-**Day of Week**: Monday, Tuesday, Thursday  
-**Location:** Café Leblanc  
-  
-
-### Rank Up Progression
-
-Rank
-
-Requirements / Dialogue Choices
-
-Next Pts
-
-1
-
-Available Starting 4/20 (Forced if Not Unlocked by 5/6)
-
-0
-
-2
-
-1. "Making coffee." (+5)  
-    
-2. "That guy seemed suspicious." (+5)  
-    
-3. "I want the ladies to love me." (+5)  
-    
-4. (Phone) "Got it." (+5)
-
-Kindness +2♪
-
-30
-
-3
-
-Requires Brewing Coffee before.  
-
-1. "Medium-fine." (+5)  
-    
-2. "Is it trouble?" (+5)  
-    
-3. (Phone) "I'm ready to work." / "Thank you in advance." (+5)
-
-40
-
-4
-
-1. "Tell me more." (+10)  
-    
-2. "Call Sojiro's phone." (+10)  
-    
-3. (Phone) "Understood." (+5)
-
-Kindness +3♪
-
-43
-
-5
-
-Available Starting 8/22.  
-
-1. "I think I'm addicted!" (+10)  
-    
-2. "She wasn't normal, huh?" (+10)  
-    
-3. "It really paid off in the end." (+5)  
-    
-4. (Phone) "She needs a balanced diet." (+5)
-
-Kindness +3♪
-
-20
-
-6
-
-1. "To each his own." (+5)  
-    
-2. "Shut your mouth." (+10)  
-    
-3. "Saving Futaba was no mistake." (+5)  
-    
-4. (Phone) "If I can help somehow..." (+5)
-
-Kindness +2♪
-
-20
-
-7
-
-Requires Kindness Lv 5 (Angelic).  
-
-1. "You might be right." (+5)  
-    
-2. -  
-    
-3. -  
-    
-4. (Phone) "Feel like a real dad now?" (+5)
-
-Kindness +3♪
-
-14
-
-8
-
-1. "Something with curry." (+10)  
-    
-2. "I was just protecting Futaba." (+5)
-
-0
-
-9
-
-Requires completing "The Money-grubbing Uncle" request by speaking to Futaba outside LeBlanc.  
-
-1. "It’s great." (+10)  
-    
-2. "You have a great daughter." (+15)  
-    
-3. (Phone) Any (+5)
-
-40
-
-10
-
-N/A
-
-  
-
-### Gift Guide
-
-Gift Item
-
-Confidant Points
-
-Purchase Location
-
-Price
-
-Silver Bangle
-
-+50
-
-Turtle Diamond Jewelry Store, Station Underground Mall, Shibuya
-
-¥78,000
-
-Castella
-
-+50
-
-Supermarket, Station Underground Mall, Shibuya
-
-¥1,500
-
-Kitchen Tool Set
-
-+50
-
-General Store, Shinjuku
-
-¥4,900
-
-Robot Vacuum
-
-+50
-
-Electronics Superstore, Akihabara
-
-¥44,800
-
-Fountain Pen
-
-+50
-
-General Store, Shinjuku
-
-¥8,000
-
-Leather Pen Case
-
-+50
-
-Kichijoji Stationery Shop
-
-¥12,000
 
 ## Lovers - VI
 
 [![](https://images.steamusercontent.com/ugc/1914618751884788435/ED7C06CA06F1CD8B4E23F8BC4374768E0DE2261F/)](https://images.steamusercontent.com/ugc/1914618751884788435/ED7C06CA06F1CD8B4E23F8BC4374768E0DE2261F/)  
   
 
-Ann Takamaki
+### Ann Takamaki
+
+### Confidant Abilities
+| Rank | Ability |
+|------|----------|
+| 1    | - |
+| 2    | **Girl Talk**: If negotiation with a female Shadow fails, you can try again. |
+| 3    | **Follow Up**: Chance to perform a follow-up attack if Joker’s attack does not down the enemy. |
+| 4    | **Sexy Technique**: Chance to grab the enemy’s attention and cancel their action. |
+| 5    | **Crocodile Tears**: Chance to force enemies to ask for less during negotiations. |
+| 6    | **Harisen Recovery**: Chance to cure status ailments inflicted upon party members. |
+| 7    | - |
+| 8    | **Endure**: Chance to withstand an otherwise fatal attack with 1 HP remaining. |
+| 9    | **Protect**: Chance to shield Joker from an otherwise fatal attack. |
+| 10   | **Second Awakening**: Evolves Persona. |
+| MAX  | **Third Awakening**: Evolves Persona. |
+
+---
+
+#### Rank Up Progression
+| Rank | Requirements / Dialogue Choices | Next Pts |
+|------|---------------------------------|----------|
+| 1    | (Automatic) 4/15 | 0 |
+| 2    | Requires Kindness Lv 2 (Considerate). <br> 1. "She's so strong." (+15) <br> 2. "You might be right." (+10) <br> 3. "I couldn't just ignore you." (+10) <br> 4. Any (+15) <br> 5. Any (+5) | 35 |
+| 3    | 5. "Can we stop yet?" (+10) <br> 8. "Has that happened to you?" (+10) <br> 9. "That freedom sounds nice." (+5) <br> 10. (Phone) "Could be." (+5) | 25 |
+| 4    | 1. "I know what you mean." (+10) <br> 2. "That's hilarious." (+15) <br> 3. "Tell me." (+15) <br> 4. "Good idea." (+10) <br> 5. "Good luck with that." (+15) <br> 6. (Phone) "I train everyday." / "I carry Morgana in my bag." (+5) | 20 |
+| 5    | 1. "Give it up." (+5) <br> 2. "She's amazing, huh..." (+5) <br> 3. "It had grace." (+5) | 35 |
+| 6    | 1. "It seems that way." (+10) <br> 4. "Show her your own strength." (+15) <br> 5. (Phone) "Someone's motivated." / "I'll cheer you on." (+5) | 45 |
+| 7    | 1. "She admires you." (+5) <br> 4. "Go get 'em, tiger." (+5) <br> 5. (Phone) "You got this." (+5) | 30 |
+| 8    | 1. "You have some real guts." (+10) <br> 2. "There's no doubt in my mind." (+15) <br> 4. Any (+15) <br> 5. (Phone) "That's probably it." / "You can ask her yourself." (+5) | 67 |
+| 9    | 3. Any (+15) <br> **Friendship:** "You have the others." (+0) <br> **Romance:** "You have me." (+0) <br> (Phone) "I'm yours forever." (+10) | 35 |
+| 10   | N/A (1/13) | MAX |
+
+---
+
+#### Gift Guide
+| Gift Item | Confidant Points | Purchase Location | Price |
+|-----------|------------------|-------------------|-------|
+| Heart Ring | +50 | Jewelry Store, Station Underground Mall, Shibuya | ¥88,000 |
+| Uji Matcha Flan | +50 | Taisho Store Premium Supermarket, Station Underground Mall, Shibuya | ¥2,400 |
+| Truffles | +50 | Supermarket, Station Underground Mall, Shibuya | ¥2,800 |
+| Castella | +50 | Supermarket, Station Underground Mall, Shibuya | ¥1,500 |
+| Bath of Roses | +50 | Flower Shop, Shinjuku at Night | ¥3,200 |
+| Face Beautifier | +50 | Electronics Superstore, Akihabara | ¥9,800 |
 
-### **Confidant Abilities:**  
-
-Rank
-
-Ability
-
-1
-
-2
-
-**Girl Talk**: If negotiation with a female Shadow fails, you can try again.
-
-3
-
-**Follow Up**: Chance to perform a follow-up attack if Joker’s attack does not down the enemy.
-
-4
-
-**Sexy Technique**: Chance to grab the enemy’s attention and cancel their action.
-
-5
-
-**Crocodile Tears**: Chance to force enemies to ask for less during negotiations.
-
-6
-
-**Harisen Recovery**: Chance to cure status ailments inflicted upon party members.
-
-7
-
-8
-
-**Endure**: Chance to withstand an otherwise fatal attack with 1 HP remaining.
-
-9
-
-**Protect**: Chance to shield Joker from an otherwise fatal attack.
-
-10
-
-**Second Awakening**: Evolves Persona.
-
-MAX
-
-**Third Awakening**: Evolves Persona.
-
-  
-
-### Schedule
-
-**Time of Day**: Daytime  
-**Day of Week**: Tuesday, Wednesday, Friday  
-**Location:**
-
-- Weekdays - 2D Classroom  
-    
-- Weekends & Holidays - Shibuya Underground Mall
-
-  
-
-### Rank Up Progression
-
-Rank
-
-Requirements / Dialogue Choices
-
-Next Pts
-
-1
-
-(Automatic) 4/15
-
-0
-
-2
-
-Requires Kindness Lv 2 (Considerate).  
-
-1. "She's so strong." (+15)  
-    
-2. "You might be right." (+10)  
-    
-3. "I couldn't just ignore you." (+10)  
-    
-4. Any (+15)  
-    
-5. Any (+5)
-
-35
-
-3
-
-1. -  
-    
-2. -  
-    
-3. -  
-    
-4. -  
-    
-5. "Can we stop yet?" (+10)  
-    
-6. -  
-    
-7. -  
-    
-8. "Has that happened to you?" (+10)  
-    
-9. "That freedom sounds nice." (+5)  
-    
-10. (Phone) "Could be." (+5)
-
-25
-
-4
-
-1. "I know what you mean." (+10)  
-    
-2. "That's hilarious." (+15)  
-    
-3. "Tell me." (+15)  
-    
-4. "Good idea." (+10)  
-    
-5. "Good luck with that." (+15)  
-    
-6. (Phone) "I train everyday." / "I carry Morgana in my bag." (+5)
-
-20
-
-5
-
-1. "Give it up." (+5)  
-    
-2. "She's amazing, huh..." (+5)  
-    
-3. "It had grace." (+5)  
-    
-4. -  
-    
-5. -
-
-35
-
-6
-
-1. "It seems that way." (+10)  
-    
-2. -  
-    
-3. -  
-    
-4. "Show her your own strength." (+15)  
-    
-5. (Phone) "Someone's motivated." / "I'll cheer you on." (+5)
-
-45
-
-7
-
-1. "She admires you." (+5)  
-    
-2. -  
-    
-3. -  
-    
-4. "Go get 'em, tiger." (+5)  
-    
-5. (Phone) "You got this." (+5)
-
-30
-
-8
-
-1. "You have some real guts." (+10)  
-    
-2. "There's no doubt in my mind." (+15)  
-    
-3. -  
-    
-4. Any (+15)  
-    
-5. (Phone) "That's probably it." / "You can ask her yourself." (+5)
-
-67
-
-9
-
-1. -  
-    
-2. -  
-    
-3. Any (+15)
-
-Friendship:  
-
-- "You have the others." (+0)
-
-Romance:  
-
-- "You have me." (+0)  
-    
-- -  
-    
-- (Phone) "I'm yours forever." (+10)
-
-35
-
-10
-
-N/A
-
-MAX
-
-1/13
-
-N/A
-
-  
-
-### Gift Guide
-
-Gift Item
-
-Confidant Points
-
-Purchase Location
-
-Price
-
-Heart Ring
-
-+50
-
-Jewelry Store, Station Underground Mall, Shibuya
-
-¥88,000
-
-Uji Matcha Flan
-
-+50
-
-Taisho Store Premium Supermarket, Station Underground Mall, Shibuya
-
-¥2,400
-
-Truffles
-
-+50
-
-Supermarket, Station Underground Mall, Shibuya
-
-¥2,800
-
-Castella
-
-+50
-
-Supermarket, Station Underground Mall, Shibuya
-
-¥1,500
-
-Bath of Roses
-
-+50
-
-Flower Shop, Shinjuku at Night
-
-¥3,200
-
-Face Beautifier
-
-+50
-
-Electronics Superstore, Akihabara
-
-¥9,800
 
   
 
@@ -1756,259 +615,52 @@ _Receive Idol Poster_
 [![](https://images.steamusercontent.com/ugc/1914618751884789041/2CF02F9ED472DAB5B6ACCD307E8E348DE8D3F3AC/)](https://images.steamusercontent.com/ugc/1914618751884789041/2CF02F9ED472DAB5B6ACCD307E8E348DE8D3F3AC/)  
   
 
-Ryuji Sakamoto
+### Ryuji Sakamoto
+
+### Confidant Abilities
+| Rank | Ability |
+|------|----------|
+| 1    | - |
+| 2    | **Punk Talk**: If negotiation with an upbeat Shadow fails, you can try again. |
+| 3    | **Follow Up**: Chance to perform a follow-up attack if Joker's attack does not down the enemy. |
+| 4    | **Stealth Dash**: Makes you less likely to be found in the Metaverse while dashing. |
+| 5    | - |
+| 6    | **Harisen Recovery**: Chance to cure status ailments inflicted upon party members. |
+| 7    | **Insta-kill**: When encountering a weak Shadow (green enemy, 10 levels or lower), you may destroy it immediately. (Gains all EXP, money, items, and a persona as if that battle was won normally. Can trigger Jose effects and Fusion alerts.) |
+| 8    | **Endure**: Chance to withstand an otherwise fatal attack with 1 HP remaining. |
+| 9    | **Protect**: Chance to shield Joker from an otherwise fatal attack. |
+| 10   | **Second Awakening**: Evolves Persona. |
+| MAX  | **Third Awakening**: Evolves Persona. |
+
+---
+
+#### Rank Up Progression
+| Rank | Requirements / Dialogue Choices | Next Pts |
+|------|---------------------------------|----------|
+| 1    | (Automatic) 4/12 | 0 |
+| 2    | 1. "I'm counting on you." (+15) <br> 2. - <br> 3. Any (+5) <br> 4. Any (+5) | 20 |
+| 3    | 1. "Let's not fight." (+5) <br> 2. "Calm down, Ryuji." (+10) <br> 3. (Phone) "I can't exactly blame you." (+5) | 30 |
+| 4    | 1. "Are you worried about him?" (+5) <br> 2. "But you're doing great." (+15) | 20 |
+| 5    | Locked until 5/6. <br> 1. "Protein powder?" (+10) <br> 2. "You seem conflicted." / "Do you want to rejoin?" (+5) <br> 3. "So he's an ♥♥♥♥♥♥♥?" (+10) <br> 4. (Phone) "Don't worry. I gotcha." (+5) | 30 |
+| 6    | 1. "We can train at my place." (+10) <br> 2. "You guys should trust Nakaoka." (+15) <br> 3. "Absolutely." (+15) <br> 6. (Phone) "So he should've punched back?" (+5) | 45 |
+| 7    | Requires receiving text from Ryuji to go on a stakeout on Wednesday / Friday Evening <br> 1. "Let's talk to Takeishi." (+10) <br> 2. "I think it's cool, Ryuji." (+15) <br> 3. (Phone) "Never know until you try." (+5) | 45 |
+| 8    | 2. "Things turned out for the best." (+15) <br> 3. "All I did was watch." (+10) <br> 4. "You weren't cool though." (+10) <br> 5. (Phone) "So. Case closed?" (+5) | 60 |
+| 9    | 1. "Are you satisfied now?" (+10) <br> 2. "Don't do it." (+10) <br> 3. Any (+10) <br> 4. "I agree." (+5) <br> 5. (Phone) "Congratulations." / "Better watch out for them." (+5) | 60 |
+| 10   | N/A (1/13) | MAX |
+
+---
+
+#### Gift Guide
+| Gift Item | Confidant Points | Purchase Location | Price |
+|-----------|------------------|-------------------|-------|
+| Silver Bangle | +50 | Turtle Diamond Jewelry Store, Station Underground Mall, Shibuya | ¥78,000 |
+| Snack Pack | +50 | Rocinante, Central Street, Shibuya | ¥5,800 |
+| Cup Noodles Set | +50 | Rocinante, Central Street, Shibuya | ¥3,480 |
+| Wrist Weights | +50 | Next Ace Sports Store, Station Underground Mall, Shibuya | ¥6,800 |
+| Sports Sunglasses | +50 | Next Ace Sports Store, Station Underground Mall, Shibuya | ¥6,800 |
+| Robot Vacuum | +50 | Electronics Superstore, Akihabara | ¥44,800 |
+| Katana Keychain | +50 | Otaku Goods Shop, Akihabara | ¥500 |
 
-### **Confidant Abilities:**  
-
-Rank
-
-Ability
-
-1
-
-2
-
-**Punk Talk**: If negotiation with an upbeat Shadow fails, you can try again.
-
-3
-
-**Follow Up**: Chance to perform a follow-up attack if Joker's attack does not down the enemy.
-
-4
-
-**Stealth Dash**: Makes you less likely to be found in the Metaverse while dashing.
-
-5
-
-6
-
-**Harisen Recovery**: Chance to cure status ailments inflicted upon party members.
-
-7
-
-**Insta-kill**: When encountering a weak Shadow (green enemy, 10 levels or lower), you may destroy it immediately. (Gains all EXP, money, items, and a persona as if that battle was won normally. Can trigger Jose effects and Fusion alerts.)
-
-8
-
-**Endure**: Chance to withstand an otherwise fatal attack with 1 HP remaining.
-
-9
-
-**Protect**: Chance to shield Joker from an otherwise fatal attack.
-
-10
-
-**Second Awakening**: Evolves Persona.
-
-MAX
-
-**Third Awakening**: Evolves Persona.
-
-  
-
-### Schedule
-
-**Time of Day**: Daytime  
-**Day of Week**: Every Day (Irregular)  
-**Location:**
-
-- Weekdays - Outside 2D Classroom  
-    
-- Weekends & Holidays - Shibuya Arcade
-
-  
-
-### Rank Up Progression
-
-Rank
-
-Requirements / Dialogue Choices
-
-Next Pts
-
-1
-
-(Automatic) 4/12
-
-0
-
-2
-
-1. "I'm counting on you." (+15)  
-    
-2. -  
-    
-3. Any (+5)  
-    
-4. Any (+5)
-
-20
-
-3
-
-1. "Let's not fight." (+5)  
-    
-2. "Calm down, Ryuji." (+10)  
-    
-3. (Phone) "I can't exactly blame you." (+5)
-
-30
-
-4
-
-1. "Are you worried about him?" (+5)  
-    
-2. "But you're doing great." (+15)
-
-20
-
-5
-
-Locked until 5/6.  
-
-1. "Protein powder?" (+10)  
-    
-2. "You seem conflicted." / "Do you want to rejoin?" (+5)  
-    
-3. "So he's an ♥♥♥♥♥♥♥?" (+10)  
-    
-4. (Phone) "Don't worry. I gotcha." (+5)
-
-30
-
-6
-
-1. "We can train at my place." (+10)  
-    
-2. "You guys should trust Nakaoka." (+15)  
-    
-3. "Absolutely." (+15)  
-    
-4. -  
-    
-5. -  
-    
-6. (Phone) "So he should've punched back?" (+5)
-
-45
-
-7
-
-Requires receiving text from Ryuji to go on a stakeout on Wednesday / Friday Evening  
-
-1. "Let's talk to Takeishi." (+10)  
-    
-2. "I think it's cool, Ryuji." (+15)  
-    
-3. (Phone) "Never know until you try." (+5)
-
-45
-
-8
-
-1. -  
-    
-2. "Things turned out for the best." (+15)  
-    
-3. "All I did was watch." (+10)  
-    
-4. "You weren't cool though." (+10)  
-    
-5. (Phone) "So. Case closed?" (+5)
-
-60
-
-9
-
-1. "Are you satisfied now?" (+10)  
-    
-2. "Don't do it." (+10)  
-    
-3. Any (+10)  
-    
-4. "I agree." (+5)  
-    
-5. (Phone) "Congratulations." / "Better watch out for them." (+5)
-
-60
-
-10
-
-N/A
-
-MAX
-
-1/13
-
-N/A
-
-  
-
-### Gift Guide
-
-Gift Item
-
-Confidant Points
-
-Purchase Location
-
-Price
-
-Silver Bangle
-
-+50
-
-Turtle Diamond Jewelry Store, Station Underground Mall, Shibuya
-
-¥78,000
-
-Snack Pack
-
-+50
-
-Rocinante, Central Street, Shibuya
-
-¥5,800
-
-Cup Noodles Set
-
-+50
-
-Rocinante, Central Street, Shibuya
-
-¥3,480
-
-Wrist Weights
-
-+50
-
-Next Ace Sports Store, Station Underground Mall, Shibuya
-
-¥6,800
-
-Sports Sunglasses
-
-+50
-
-Next Ace Sports Store, Station Underground Mall, Shibuya
-
-¥6,800
-
-Robot Vacuum
-
-+50
-
-Electronics Superstore, Akihabara
-
-¥44,800
-
-Katana Keychain
-
-+50
-
-Otaku Goods Shop, Akihabara
-
-¥500
 
   
 
@@ -2087,582 +739,146 @@ _Receive Featherman Dolls_
 [![](https://images.steamusercontent.com/ugc/1914618751884789658/E3DB54A13EDD29F750AD9462422D12A2EF9E0E32/)](https://images.steamusercontent.com/ugc/1914618751884789658/E3DB54A13EDD29F750AD9462422D12A2EF9E0E32/)  
   
 
-Goro Akechi
-
-### **Confidant Abilities:**  
-*Learns **Follow Up** and **Smooth Talk** upon joining party.  
-
-Rank
-
-Ability
-
-0
-
-**Follow Up**: Chance to perform a follow-up attack if Joker's attack does not down the enemy.  
-**Smooth Talk**: If negotiation with a god-like Shadow fails, you can try again.
-
-1
-
-2
-
-**Sleuthing Instinct**: Chance to reveal one enemy affinity at the start of battle.
-
-3
-
-4
-
-**Sleuthing Mastery**: Chance to reveal all of one enemy's affinities at the start of battle.
-
-5
-
-6
-
-7
-
-**Harisen Recovery**: Chance to cure status ailments inflicted upon party members.
-
-8
-
-9
-
-10
-
-**Endure**: Chance to shield Joker from an otherwise fatal attack.  
-**Protect**: Chance to withstand an otherwise fatal attack with 1 HP remaining.[/list]
-
-MAX
-
-**Third Awakening**: Evolves Persona.
-
-  
-
-### Schedule
-
-**Time of Day**: Evening  
-**Day of Week**: Monday, Tuesday, Wednesday, Thursday, Friday, and Saturday  
-**Location:** Kichijoji - Outside the Darts Bar  
-*Rank 8 Deadline (11/17)  
-  
-Akechi doesn't follow a set weekly schedule, but he's usually available on Saturdays. Here's an exact list of dates you can hang out with him.  
-
-Month
-
-Date
-
-June
-
-13 (Mon), 16 (Thu), 22 (Wed), 23 (Thu), 25 (Sat), 29 (Wed)
-
-July
-
-2 (Sat), 6 (Wed), 9 (Sat), 12 (Tue), 19 (Tue), 26 (Tue), 30 (Sat)
-
-August
-
-2 (Tue), 6 (Sat), 9 (Tue), 13 (Sat), 17 (Wed), 20 (Sat), 24 (Wed), 27 (Sat), 30 (Tue)
-
-September
-
-3 (Sat), 21 (Wed), 24 (Sat), 28 (Wed)
-
-October
-
-1 (Sat), 5 (Wed), 8 (Sat), 15 (Sat), 22 (Sat), 31 (Mon)
-
-November
-
-2 (Wed), 5 (Sat), 7 (Mon), 9 (Wed), 12 (Sat), 14 (Mon), 15 (Tue), 17 (Thu)
-
-  
-
-### Rank Up Progression
-
-Rank
-
-Requirements / Dialogue Choices
-
-Next Pts
-
-1
-
-(Automatic) 6/10
-
-0
-
-2
-
-1. "You always seem so busy." (+5)  
-    
-2. -  
-    
-3. Any (+5)  
-    
-4. -  
-    
-5. "I see a lot of things." (+10)  
-    
-6. (Phone) "As rivals?" (+5)
-
-0
-
-3
-
-Requires Charm Lv 3 (Suave) and Knowledge Lv 3 (Scholarly).  
-
-1. -  
-    
-2. "Should've figured." (+10)  
-    
-3. -  
-    
-4. -  
-    
-5. -  
-    
-6. (Phone) "Wasn't it fun?" (+5)
-
-23
-
-4
-
-1. -  
-    
-2. "Now this is my kind of club." (+10)  
-    
-3. "Any recommendations?" (+10)  
-    
-4. "It's a great place." (+5)  
-    
-5. -  
-    
-6. "I can use a microwave..." (+15)  
-    
-7. (Phone) "I kinda get it." (+5)
-
-Unlocks Jazz Club in Kichijoji.
-
-40
-
-5
-
-1. -  
-    
-2. "Are you used to gunplay?" (+5)  
-    
-3. "You wanted to be a hero?" (+10)  
-    
-4. -  
-    
-5. (Phone) Any (+5)
-
-0
-
-6
-
-Locked until 8/28.  
-Moved to Leblanc.  
-
-1. "A while, huh?" (+10)  
-    
-2. "...You've been through a lot." (+5)  
-    
-3. "This is nothing." (+15)  
-    
-4. "Same." (+10)  
-    
-5. Any (+5)  
-    
-6. "I think you're right." (+10)  
-    
-7. (Phone) "My bad, I guess." (+5)
-
-0
-
-7
-
-Locked until 11/2.  
-Requires Knowledge Lv 4 (Encyclopedic).  
-
-1. "That's why it's so fun." (+10)  
-    
-2. -  
-    
-3. -  
-    
-4. "I couldn't let myself lose." (+10)  
-    
-5. -  
-    
-6. "You're my rival." (+0)  
-    
-7. (Phone) "We're rivals, aren't we?" (+5)
-
-0
-
-8
-
-Requires defeating Akechi in a 1v1 during event.  
-
-1. -  
-    
-2. -  
-    
-3. -  
-    
-4. -  
-    
-5. -  
-    
-6. "I definitely wouldn't lose." (+10)  
-    
-7. "Really hate losing, don't you?" (+10)  
-    
-8. **"I accept."** (+0)
-
-0
-
-9
-
-(Automatic) During Shido's Palace if Confidant at Rank 8 before trigger.
-
-N/A
-
-10
-
-(Automatic) During Shido's Palace if Confidant at Rank 8 before trigger.
-
-N/A
-
-MAX
-
-Requires having chosen **"I want to keep our promise."** the night after Confidant reaches Rank 10 when Joker is laying in bed thinking about Akechi.  
-  
-2/2
-
-N/A
-
-  
-
-### Gift Guide
-
-Gift Item
-
-Confidant Points
-
-Purchase Location
-
-Price
-
-Silver Bangle
-
-+50
-
-Turtle Diamond Jewelry Store, Station Underground Mall, Shibuya
-
-¥78,000
-
-Omni-Vitamin
-
-+50
-
-Rocinante, Central Street, Shibuya
-
-¥4,500
-
-Luxury Aroma Set
-
-+50
-
-Cosmetic Store, Underground Mall
-
-¥3,800
-
-Robot Vacuum
-
-+50
-
-Electronics Superstore, Akihabara
-
-¥44,800
-
-Face Beautifier
-
-+50
-
-Electronics Superstore, Akihabara
-
-¥9,800
-
-Electric Toothbrush
-
-+50
-
-Electronics Superstore, Akihabara
-
-¥29,800
-
-  
-
-### Bonus Events
-
-
-**Hangout Shinagawa** (7/29 - Requires Devil Rank 1+)  
-
+### Goro Akechi
+
+### **Confidant Abilities**  
+*Learns **Follow Up** and **Smooth Talk** upon joining party.*  
+
+| Rank | Ability |
+|------|---------|
+| 0 | **Follow Up**: Chance to perform a follow-up attack if Joker's attack does not down the enemy.<br>**Smooth Talk**: If negotiation with a god-like Shadow fails, you can try again. |
+| 1 | — |
+| 2 | **Sleuthing Instinct**: Chance to reveal one enemy affinity at the start of battle. |
+| 3 | — |
+| 4 | **Sleuthing Mastery**: Chance to reveal all of one enemy’s affinities at the start of battle. |
+| 5 | — |
+| 6 | — |
+| 7 | **Harisen Recovery**: Chance to cure status ailments inflicted upon party members. |
+| 8 | — |
+| 9 | — |
+| 10 | **Endure**: Chance to shield Joker from an otherwise fatal attack.<br>**Protect**: Chance to withstand an otherwise fatal attack with 1 HP remaining. |
+| MAX | **Third Awakening**: Evolves Persona. |
+
+---
+
+### **Schedule**  
+- **Time of Day**: Evening  
+- **Day of Week**: Monday–Saturday  
+- **Location**: Kichijoji – Outside the Darts Bar  
+- **Rank 8 Deadline**: 11/17  
+
+*Akechi does not follow a fixed weekly schedule, but is most often available on Saturdays.*  
+
+**Available Dates**:  
+- **June**: 13, 16, 22, 23, 25, 29  
+- **July**: 2, 6, 9, 12, 19, 26, 30  
+- **August**: 2, 6, 9, 13, 17, 20, 24, 27, 30  
+- **September**: 3, 21, 24, 28  
+- **October**: 1, 5, 8, 15, 22, 31  
+- **November**: 2, 5, 7, 9, 12, 14, 15, 17  
+
+---
+
+### **Rank Up Progression**  
+
+| Rank | Requirements / Dialogue Choices | Next Pts |
+|------|---------------------------------|----------|
+| 1 | (Automatic) 6/10 | 0 |
+| 2 | 1. "You always seem so busy." (+5)<br>3. Any (+5)<br>5. "I see a lot of things." (+10)<br>6. (Phone) "As rivals?" (+5) | 0 |
+| 3 | Requires Charm Lv 3 (Suave) & Knowledge Lv 3 (Scholarly).<br>2. "Should've figured." (+10)<br>6. (Phone) "Wasn't it fun?" (+5) | 23 |
+| 4 | 2. "Now this is my kind of club." (+10)<br>3. "Any recommendations?" (+10)<br>4. "It's a great place." (+5)<br>6. "I can use a microwave..." (+15)<br>7. (Phone) "I kinda get it." (+5)<br><br>Unlocks Jazz Club in Kichijoji. | 40 |
+| 5 | 2. "Are you used to gunplay?" (+5)<br>3. "You wanted to be a hero?" (+10)<br>5. (Phone) Any (+5) | 0 |
+| 6 | Locked until 8/28. Moves to Leblanc.<br>1. "A while, huh?" (+10)<br>2. "...You've been through a lot." (+5)<br>3. "This is nothing." (+15)<br>4. "Same." (+10)<br>5. Any (+5)<br>6. "I think you're right." (+10)<br>7. (Phone) "My bad, I guess." (+5) | 0 |
+| 7 | Locked until 11/2. Requires Knowledge Lv 4 (Encyclopedic).<br>1. "That's why it's so fun." (+10)<br>4. "I couldn't let myself lose." (+10)<br>6. "You're my rival." (+0)<br>7. (Phone) "We're rivals, aren't we?" (+5) | 0 |
+| 8 | Requires defeating Akechi in 1v1 event.<br>6. "I definitely wouldn't lose." (+10)<br>7. "Really hate losing, don't you?" (+10)<br>8. **"I accept."** (+0) | 0 |
+| 9 | (Automatic) During Shido’s Palace if Confidant at Rank 8 prior. | N/A |
+| 10 | (Automatic) During Shido’s Palace if Confidant at Rank 8 prior. | N/A |
+| MAX | Requires selecting **"I want to keep our promise."** after Rank 10 (night event). 2/2 | N/A |
+
+---
+
+### **Gift Guide**  
+
+| Gift Item | Confidant Points | Purchase Location | Price |
+|-----------|------------------|-------------------|-------|
+| Silver Bangle | +50 | Turtle Diamond Jewelry Store, Station Underground Mall, Shibuya | ¥78,000 |
+| Omni-Vitamin | +50 | Rocinante, Central Street, Shibuya | ¥4,500 |
+| Luxury Aroma Set | +50 | Cosmetic Store, Underground Mall | ¥3,800 |
+| Robot Vacuum | +50 | Electronics Superstore, Akihabara | ¥44,800 |
+| Face Beautifier | +50 | Electronics Superstore, Akihabara | ¥9,800 |
+| Electric Toothbrush | +50 | Electronics Superstore, Akihabara | ¥29,800 |
+
+---
+
+### **Bonus Events**  
+
+**Shinagawa Hangout** (7/29 – Requires Devil Rank 1+)  
 1. "It's a nice place." (+10)  
-    
-2. -  
-    
+2. —  
 3. "If you like." (Devil +10)  
-    
-4. "What of it?" / "It's nothing bad." (+5)
+4. "What of it?" / "It's nothing bad." (+5)  
+
 
 ## Hermit - IX
 
 [![](https://images.steamusercontent.com/ugc/1914618751884790202/F0807E34066ABE571DAA7F101D92C4D2E0F7C776/)](https://images.steamusercontent.com/ugc/1914618751884790202/F0807E34066ABE571DAA7F101D92C4D2E0F7C776/)  
   
 
-Futaba Sakura
+### Futaba Sakura
 
-### **Confidant Abilities:**  
+### **Confidant Abilities**  
 Learns Navigation and Support skills.  
 
-Rank
+| Rank | Ability |
+|------|---------|
+| 1 | **Moral Support**: Chance to cast Kaja or party-healing magic during battle. |
+| 2 | **Mementos Scan**: Chance to fully map a floor of Mementos when entering that floor. |
+| 3 | — |
+| 4 | **Position Hack**: Chance to instantly Hold Up enemies when starting a battle. |
+| 5 | — |
+| 6 | **Active Support**: Moral Support may now Charge or recover SP. |
+| 7 | **Treasure Reboot**: Chance to replenish all palace search objects after battle. |
+| 8 | — |
+| 9 | **Emergency Shift**: Chance to swap current party with backups when 2 or more people are KO’d. |
+| 10 | **Final Guard**: Chance to nullify a fatal attack to a current party member.<br>**Second Awakening**: Evolves Persona. |
+| MAX | **Third Awakening**: Evolves Persona. |
+
+---
+
+### **Schedule**  
+- **Time of Day**: Daytime (Non-Rainy)  
+- **Day of Week**: Wednesday, Thursday, Saturday, and Sunday  
+- **Location**: Outside Leblanc  
+
+---
+
+### **Rank Up Progression**  
+
+| Rank | Requirements / Dialogue Choices | Next Pts |
+|------|---------------------------------|----------|
+| 1 | (Automatic) 8/31 | 0 |
+| 2 | Requires Kindness Lv 4 (Selfless).<br>1. "That's a great idea." (+5)<br>2. "If we work together." (+10)<br>3. "Sounds good to me." (+0)<br>4. (Phone) "I bet it will." (+5) | 0 |
+| 3 | 1. "I was about to come find you." (+10)<br>2. "Good to see you again." (+15)<br>3. (Phone) "We'll both do our best." (+5) | 10 |
+| 4 | 1. "Let's do this together." (+15)<br>2. —<br>3. "I think it's cute." (+10)<br>4. (Phone) "We'll take it slow." / "I'll help you anytime." (+5) | 15 |
+| 5 | 1. —<br>2. "I think you're right." (+10)<br>3. "He's the protagonist." (+10)<br>4. (Phone) "You did great." (+5) | 26 |
+| 6 | 1. "That must have been a shock." (+10)<br>2. "You didn't know any better." (+5)<br>3. —<br>4. (Phone) "Are you running away again?" (+5) | 21 |
+| 7 | 1. "What horrible parents." / "We have to put a stop to this." (+5)<br>2. "I'll do it, for you." (+15) | 0 |
+| 8 | Requires completing "Daughter's Just a Meal Ticket" request.<br>1. "That's incredible." (+15)<br>2. "You worked really hard too." (+10)<br>3. —<br>4. (Phone) "Congrats." / "Want more pats?" (+5) | 30 |
+| 9 | 1. "You've really matured." (+10)<br>2. "Are you okay, Futaba?" (+10)<br>3. "If you want." / "No way." (+5)<br><br>**Friendship**: "Because we're teammates." (+0)<br>(Phone) Any (+5)<br>**Romance**: "Because I love you." (+0)<br>(Phone) "Do I really have to say it?" (+5) | 35 |
+| 10 | N/A | MAX 1/13 |
+
+---
+
+### **Gift Guide**  
+
+| Gift Item | Confidant Points | Purchase Location | Price |
+|-----------|------------------|-------------------|-------|
+| Heart Ring | +50 | Jewelry Store, Station Underground Mall, Shibuya | ¥88,000 |
+| Snack Pack | +50 | Rocinante, Central Street, Shibuya | ¥5,800 |
+| Cup Noodles Set | +50 | Rocinante, Central Street, Shibuya | ¥3,480 |
+| Local Mascot Set | +50 | Otaku Goods Shop, Akihabara | ¥3,600 |
+| Katana Keychain | +50 | Otaku Goods Shop, Akihabara | ¥500 |
 
-Ability
-
-1
-
-**Moral Support**: Chance to cast Kaja or party-healing magic during battle.
-
-2
-
-**Mementos Scan**: Chance to fully map a floor of Mementos when entering that floor.
-
-3
-
-4
-
-**Position Hack**: Chance to instantly Hold Up enemies when starting a battle.
-
-5
-
-6
-
-**Active Support**: Moral Support may now Charge or recover SP.
-
-7
-
-**Treasure Reboot**: Chance to replenish all palace search objects after battle.
-
-8
-
-9
-
-**Emergency Shift**: Chance to swap current party with backups when 2 or more people are KO'd.
-
-10
-
-**Final Guard**: Chance to nullify a fatal attack to a current party member.  
-**Second Awakening**: Evolves Persona.
-
-MAX
-
-**Third Awakening**: Evolves Persona.
-
-  
-
-### Schedule
-
-**Time of Day**: Daytime (Non-Rainy)  
-**Day of Week**: Wednesday, Thursday, Saturday, and Sunday  
-**Location:** Outside Leblanc  
-  
-
-### Rank Up Progression
-
-Rank
-
-Requirements / Dialogue Choices
-
-Next Pts
-
-1
-
-(Automatic) 8/31
-
-0
-
-2
-
-Requires Kindness Lv 4 (Selfless).  
-
-1. "That's a great idea." (+5)  
-    
-2. "If we work together." (+10)  
-    
-3. "Sounds good to me." (+0)  
-    
-4. (Phone) "I bet it will." (+5)
-
-0
-
-3
-
-1. "I was about to come find you." (+10)  
-    
-2. "Good to see you again." (+15)  
-    
-3. (Phone) "We'll both do our best." (+5)
-
-10
-
-4
-
-1. "Let's do this together." (+15)  
-    
-2. -  
-    
-3. "I think it's cute." (+10)  
-    
-4. (Phone) "We'll take it slow." / "I'll help you anytime." (+5)
-
-15
-
-5
-
-1. -  
-    
-2. "I think you're right." (+10)  
-    
-3. "He's the protagonist." (+10)  
-    
-4. (Phone) "You did great." (+5)
-
-26
-
-6
-
-1. "That must have been a shock." (+10)  
-    
-2. "You didn't know any better." (+5)  
-    
-3. -  
-    
-4. (Phone) "Are you running away again?" (+5)
-
-21
-
-7
-
-1. "What horrible parents." / "We have to put a stop to this." (+5)  
-    
-2. "I'll do it, for you." (+15)
-
-0
-
-8
-
-Requires completing "Daughter's Just a Meal Ticket" request.  
-
-1. "That's incredible." (+15)  
-    
-2. "You worked really hard too." (+10)  
-    
-3. -  
-    
-4. (Phone) "Congrats." / "Want more pats?" (+5)
-
-30
-
-9
-
-1. "You've really matured." (+10)  
-    
-2. "Are you okay, Futaba?" (+10)  
-    
-3. "If you want." / "No way." (+5)
-
-Friendship:  
-
-- "Because we're teammates." (+0)  
-    
-- (Phone) Any (+5)
-
-Romance:  
-
-- "Because I love you." (+0)  
-    
-- -  
-    
-- -  
-    
-- -  
-    
-- (Phone) "Do I really have to say it?" (+5)
-
-35
-
-10
-
-N/A
-
-MAX
-
-1/13
-
-N/A
-
-  
-
-### Gift Guide
-
-Gift Item
-
-Confidant Points
-
-Purchase Location
-
-Price
-
-Heart Ring
-
-+50
-
-Jewelry Store, Station Underground Mall, Shibuya
-
-¥88,000
-
-Snack Pack
-
-+50
-
-Rocinante, Central Street, Shibuya
-
-¥5,800
-
-Cup Noodles Set
-
-+50
-
-Rocinante, Central Street, Shibuya
-
-¥3,480
-
-Local Mascot Set
-
-+50
-
-Otaku Goods Shop, Akihabara
-
-¥3,600
-
-Katana Keychain
-
-+50
-
-Otaku Goods Shop, Akihabara
-
-¥500
 
   
 
@@ -2714,9 +930,9 @@ _Receive I <3 Tokyo Shirt_
 [![](https://images.steamusercontent.com/ugc/1914618751884790937/0EDA126CD165F5BB0DA42A9E2B1ABD0935FCA5C2/)](https://images.steamusercontent.com/ugc/1914618751884790937/0EDA126CD165F5BB0DA42A9E2B1ABD0935FCA5C2/)  
   
 
-Chihaya Mifune
+### Chihaya Mifune
 
-### **Confidant Abilities:**  
+#### Confidant Abilities:
 
 | Rank | Ability |
 |------|---------|
@@ -2733,7 +949,7 @@ Chihaya Mifune
 
 ---
 
-### Schedule  
+#### Schedule  
 
 **Time of Day**: Evening (Non-Rainy)  
 **Day of Week**: Tuesday, Thursday, and Sunday  
@@ -2741,7 +957,7 @@ Chihaya Mifune
 
 ---
 
-### Rank Up Progression  
+#### Rank Up Progression  
 
 | Rank | Requirements / Dialogue Choices | Next Pts |
 |------|---------------------------------|----------|
@@ -2758,7 +974,7 @@ Chihaya Mifune
 
 ---
 
-### Gift Guide  
+#### Gift Guide  
 
 | Gift Item       | Confidant Points | Purchase Location | Price |
 |-----------------|-----------------|-----------------|-------|
@@ -2789,9 +1005,9 @@ _Receive Skytree Lamp_
 [![](https://images.steamusercontent.com/ugc/1914618751884791544/B33A6878A8EDB5134518801E037E8AA9A36513A2/)](https://images.steamusercontent.com/ugc/1914618751884791544/B33A6878A8EDB5134518801E037E8AA9A36513A2/)  
   
 
-Caroline & Justine
+### Caroline & Justine
 
-### **Confidant Abilities:**  
+#### Confidant Abilities:
 
 | Rank | Ability |
 |------|---------|
@@ -2808,7 +1024,7 @@ Caroline & Justine
 
 ---
 
-### Schedule  
+#### Schedule  
 
 **Time of Day**: Any Time  
 **Day of Week**: Any Day  
@@ -2816,7 +1032,7 @@ Caroline & Justine
 
 ---
 
-### Rank Up Progression  
+#### Rank Up Progression  
 
 | Rank | Requirements / Dialogue Choices |
 |------|--------------------------------|
@@ -2858,9 +1074,9 @@ The twins can be invited outside the Velvet Room (Evenings unless specified), do
 [![](https://images.steamusercontent.com/ugc/1914618751884792157/45CDD2A523BB8C63D5195788E01832414AB342BF/)](https://images.steamusercontent.com/ugc/1914618751884792157/45CDD2A523BB8C63D5195788E01832414AB342BF/)  
   
 
-Munehisa Iwai
+### Munehisa Iwai
 
-### **Confidant Abilities:**  
+#### Confidant Abilities:
 
 | Rank | Ability |
 |------|---------|
@@ -2877,7 +1093,7 @@ Munehisa Iwai
 
 ---
 
-### Schedule  
+#### Schedule  
 
 **Time of Day**: Evening  
 **Day of Week**: Saturday, Sunday, and Holidays  
@@ -2885,7 +1101,7 @@ Munehisa Iwai
 
 ---
 
-### Rank Up Progression  
+#### Rank Up Progression  
 
 | Rank | Requirements / Dialogue Choices | Next Pts |
 |------|---------------------------------|----------|
@@ -2902,7 +1118,7 @@ Munehisa Iwai
 
 ---
 
-### Gift Guide  
+#### Gift Guide  
 
 | Gift Item       | Confidant Points | Purchase Location | Price |
 |-----------------|------------------|------------------|-------|
@@ -2932,9 +1148,9 @@ _Receive Swan Boat_
 [![](https://images.steamusercontent.com/ugc/1914618751884792832/DA4E2DCF8FA721E55FD788571AB47446CECFF346/)](https://images.steamusercontent.com/ugc/1914618751884792832/DA4E2DCF8FA721E55FD788571AB47446CECFF346/)  
   
 
-Tae Takemi
+### Tae Takemi
 
-### **Confidant Abilities:**  
+#### Confidant Abilities:
 
 | Rank | Ability |
 |------|---------|
@@ -2951,7 +1167,7 @@ Tae Takemi
 
 ---
 
-### Schedule  
+#### Schedule  
 
 **Time of Day**: Daytime  
 **Day of Week**: Any Day *(won’t appear after Rank Up for the next 3 days)*  
@@ -2959,7 +1175,7 @@ Tae Takemi
 
 ---
 
-### Rank Up Progression  
+#### Rank Up Progression  
 
 | Rank | Requirements / Dialogue Choices | Next Pts |
 |------|---------------------------------|----------|
@@ -2976,7 +1192,7 @@ Tae Takemi
 
 ---
 
-### Gift Guide  
+#### Gift Guide  
 
 | Gift Item      | Confidant Points | Purchase Location | Price |
 |----------------|------------------|------------------|-------|
@@ -3005,9 +1221,9 @@ Tae Takemi
 [![](https://images.steamusercontent.com/ugc/1914618751884793515/53BBD96748A1C55EE7A5F484619FD0EE1EBE8621/)](https://images.steamusercontent.com/ugc/1914618751884793515/53BBD96748A1C55EE7A5F484619FD0EE1EBE8621/)  
   
 
-Sadayo Kawakami
+### Sadayo Kawakami
 
-### **Confidant Abilities:**  
+#### Confidant Abilities:
 
 | Rank | Ability |
 |------|---------|
@@ -3024,7 +1240,7 @@ Sadayo Kawakami
 
 ---
 
-### Schedule  
+#### Schedule  
 
 **Time of Day**: Evening  
 **Day of Week**: Friday and Saturday  
@@ -3032,7 +1248,7 @@ Sadayo Kawakami
 
 ---
 
-### Rank Up Progression  
+#### Rank Up Progression  
 
 | Rank | Requirements / Dialogue Choices | Next Pts |
 |------|---------------------------------|----------|
@@ -3049,7 +1265,7 @@ Sadayo Kawakami
 
 ---
 
-### Gift Guide  
+#### Gift Guide  
 
 | Gift Item          | Confidant Points | Purchase Location | Price |
 |--------------------|------------------|------------------|-------|
@@ -3099,9 +1315,9 @@ _Receive Sadayo Taiyaki_
 [![](https://images.steamusercontent.com/ugc/1914618751884794096/1286E612A90741467B6940081BED36B6F3EA8BD4/)](https://images.steamusercontent.com/ugc/1914618751884794096/1286E612A90741467B6940081BED36B6F3EA8BD4/)  
   
 
-Ichiko Ohya
+### Ichiko Ohya
 
-### **Confidant Abilities:**  
+#### Confidant Abilities:
 
 | Rank | Ability |
 |------|---------|
@@ -3118,7 +1334,7 @@ Ichiko Ohya
 
 ---
 
-### Schedule  
+#### Schedule  
 
 **Time of Day**: Evening  
 **Day of Week**: Monday, Tuesday, Thursday, and Friday  
@@ -3126,7 +1342,7 @@ Ichiko Ohya
 
 ---
 
-### Rank Up Progression  
+#### Rank Up Progression  
 
 | Rank | Requirements / Dialogue Choices | Next Pts |
 |------|---------------------------------|----------|
@@ -3143,7 +1359,7 @@ Ichiko Ohya
 
 ---
 
-### Gift Guide  
+#### Gift Guide  
 
 | Gift Item          | Confidant Points | Purchase Location | Price |
 |--------------------|------------------|------------------|-------|
@@ -3171,9 +1387,9 @@ _Receive Sushi Teacup_
 [![](https://images.steamusercontent.com/ugc/1914618751884794732/3D19318DC41D59E48C0A4FD844E54876A56DA9E3/)](https://images.steamusercontent.com/ugc/1914618751884794732/3D19318DC41D59E48C0A4FD844E54876A56DA9E3/)  
   
 
-Shinya Oda
+### Shinya Oda
 
-### **Confidant Abilities:**  
+#### Confidant Abilities:
 
 | Rank | Ability |
 |------|---------|
@@ -3190,7 +1406,7 @@ Shinya Oda
 
 ---
 
-### Schedule  
+#### Schedule  
 
 **Time of Day**: Daytime  
 **Day of Week**: Monday, Tuesday, Thursday, and Saturday  
@@ -3198,7 +1414,7 @@ Shinya Oda
 
 ---
 
-### Rank Up Progression  
+#### Rank Up Progression  
 
 | Rank | Requirements / Dialogue Choices | Next Pts |
 |------|---------------------------------|----------|
@@ -3215,7 +1431,7 @@ Shinya Oda
 
 ---
 
-### Gift Guide  
+#### Gift Guide  
 
 | Gift Item       | Confidant Points | Purchase Location | Price |
 |-----------------|------------------|------------------|-------|
@@ -3249,9 +1465,9 @@ _Receive Balloons_
 [![](https://images.steamusercontent.com/ugc/1914618751884795448/7BF9B9CCE1381C4BA2F227E9AD47175DA60E9C4A/)](https://images.steamusercontent.com/ugc/1914618751884795448/7BF9B9CCE1381C4BA2F227E9AD47175DA60E9C4A/)  
   
 
-Hifumi Togo
+### Hifumi Togo
 
-### **Confidant Abilities:**  
+#### Confidant Abilities:
 
 | Rank | Ability |
 |------|---------|
@@ -3268,7 +1484,7 @@ Hifumi Togo
 
 ---
 
-### Schedule  
+#### Schedule  
 
 **Time of Day**: Evening  
 **Day of Week**: Monday, Wednesday, and Saturday  
@@ -3276,7 +1492,7 @@ Hifumi Togo
 
 ---
 
-### Rank Up Progression  
+#### Rank Up Progression  
 
 | Rank | Requirements / Dialogue Choices | Next Pts |
 |------|---------------------------------|----------|
@@ -3293,7 +1509,7 @@ Hifumi Togo
 
 ---
 
-### Gift Guide  
+#### Gift Guide  
 
 | Gift Item   | Confidant Points | Purchase Location | Price |
 |-------------|------------------|------------------|-------|
@@ -3344,9 +1560,9 @@ _Receive King Piece_
 [![](https://images.steamusercontent.com/ugc/1914618751884796037/2A630CF7C35745BB184FA8D58B44408A152C0B3D/)](https://images.steamusercontent.com/ugc/1914618751884796037/2A630CF7C35745BB184FA8D58B44408A152C0B3D/)  
   
 
-**Yuuki Mishima**
+### Yuuki Mishima
 
-### **Confidant Abilities:**  
+#### Confidant Abilities:
 
 | Rank | Ability |
 |------|---------|
@@ -3363,7 +1579,7 @@ _Receive King Piece_
 
 ---
 
-### Schedule  
+#### Schedule  
 
 **Time of Day**: Evening  
 **Day of Week**: Any Day *(Won't appear after Rank Up for the next 3 days)*  
@@ -3374,7 +1590,7 @@ _Receive King Piece_
 
 ---
 
-### Rank Up Progression  
+#### Rank Up Progression  
 
 Rank up requirement is tied to the number of completed requests.  
 
@@ -3420,9 +1636,9 @@ Rank up requirement is tied to the number of completed requests.
 [![](https://images.steamusercontent.com/ugc/1914618751884796710/2D5C0455D2DEC6A2DB23FB4EDD6B9BBD66F6F72C/)](https://images.steamusercontent.com/ugc/1914618751884796710/2D5C0455D2DEC6A2DB23FB4EDD6B9BBD66F6F72C/)  
   
 
-**Toranosuke Yoshida**
+### Toranosuke Yoshida
 
-### **Confidant Abilities:**  
+#### Confidant Abilities:
 
 | Rank | Ability |
 |------|---------|
@@ -3439,7 +1655,7 @@ Rank up requirement is tied to the number of completed requests.
 
 ---
 
-### Schedule  
+#### Schedule  
 
 **Time of Day**: Evening (Non-rainy)  
 **Day of Week**: Sunday (Any Day for Rank 1 Only)  
@@ -3448,7 +1664,7 @@ Rank up requirement is tied to the number of completed requests.
 
 ---
 
-### Rank Up Progression  
+#### Rank Up Progression  
 
 Rank Up is tied to just spending time.  
 
@@ -3471,9 +1687,9 @@ Rank Up is tied to just spending time.
 [![](https://images.steamusercontent.com/ugc/1914618751884797400/99300FE3DEEAB163FE62C71C9A627B94A8EBFC54/)](https://images.steamusercontent.com/ugc/1914618751884797400/99300FE3DEEAB163FE62C71C9A627B94A8EBFC54/)  
   
 
-**Sae Niijima**
+### Sae Niijima
 
-### **Confidant Abilities:**  
+#### Confidant Abilities:
 
 | Rank | Ability |
 |------|---------|
@@ -3490,7 +1706,7 @@ Rank Up is tied to just spending time.
 
 ---
 
-### Rank Up Progression  
+#### Rank Up Progression  
 
 Automatic - Tied to Story Progression  
 
@@ -3513,9 +1729,9 @@ Automatic - Tied to Story Progression
 [![](https://images.steamusercontent.com/ugc/1914618751884798125/213AC0D9112EE6E082C46CBABA0634894F88EAA9/)](https://images.steamusercontent.com/ugc/1914618751884798125/213AC0D9112EE6E082C46CBABA0634894F88EAA9/)  
   
 
-**Kasumi Yoshizawa**
+### Kasumi Yoshizawa
 
-### **Confidant Abilities:**  
+#### Confidant Abilities:
 
 | Rank | Ability |
 |------|---------|
@@ -3531,14 +1747,14 @@ Automatic - Tied to Story Progression
 | 10   | **Second Awakening**: Evolves Persona. |
 | MAX  | **Third Awakening**: Evolves Persona. |
 
-### Schedule  
+#### Schedule  
 
 **Time of Day**: Daytime  
 **Day of Week**: Wednesday & Sunday  
 **Location**: Kichijoji (Near Entrance)  
 *Rank 5 Deadline (12/23)*  
 
-### Rank Up Progression  
+#### Rank Up Progression  
 
 | Rank | Requirements / Dialogue Choices | Next Pts |
 |------|---------------------------------|----------|
@@ -3553,7 +1769,7 @@ Automatic - Tied to Story Progression
 | 9    | 1. Any (+5)<br>2. Any (+5)<br>3. "Of course I do." (+5)<br>4. Any (+10)<br>5. "Go ahead." (+10)<br><br>**Friendship:** "Let's stay friends." (+0) / "You can always rely on me." (+10) / (Phone) "I'm glad to hear that." (+5)<br>**Romance:** "I love you too." (+0) / Any (+5) / Any (+15) / (Phone) "Get used to it." (+5) | 80 |
 | 10   | N/A (Locked until 2/2) | MAX |
 
-### Gift Guide  
+#### Gift Guide  
 
 | Gift Item          | Confidant Points | Purchase Location | Price   |
 |--------------------|------------------|------------------|---------|
@@ -3604,9 +1820,9 @@ _Receive Sea Slug Doll_
 [![](https://images.steamusercontent.com/ugc/1914618751884798846/1BE6C1C31B30477AAF45A0942E830C6163875EB3/)](https://images.steamusercontent.com/ugc/1914618751884798846/1BE6C1C31B30477AAF45A0942E830C6163875EB3/)  
   
 
-Takuto Maruki
+### Takuto Maruki
 
-### **Confidant Abilities:**  
+#### Confidant Abilities:
 Chance effects only benefit Joker.  
 
 |Rank|Ability|
@@ -3622,7 +1838,7 @@ Chance effects only benefit Joker.
 |9|**Detox DX**: Raises the chance of Detox X succeeding.|
 |10|**Wakefulness**: Raises the SP recovered from Mindfulness.|
 
-### Schedule
+#### Schedule
 
 **Time of Day**: Daytime  
 **Day of Week**: Monday & Friday (During School Days)  
@@ -3630,7 +1846,7 @@ Chance effects only benefit Joker.
 *Rank 9 Deadline (11/18)  
   
 
-### Rank Up Progression
+#### Rank Up Progression
 
 | Rank | Requirements / Dialogue Choices | Next Pts |
 |:----:|:---|:---:|
@@ -3647,7 +1863,7 @@ Chance effects only benefit Joker.
 
   
 
-### Gift Guide
+#### Gift Guide
 
 | Gift Item           | Confidant Points | Purchase Location                          | Price    |
 | :------------------ | :--------------- | :----------------------------------------- | :------- |
