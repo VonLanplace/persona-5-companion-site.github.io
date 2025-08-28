@@ -1,6 +1,6 @@
 ## Fool - 0
 
-![](imagens/00-Fool---Igor.png)
+![](../imagens/00-Fool---Igor.png)
   
 
 ### Igor
