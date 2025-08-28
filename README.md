@@ -14,9 +14,9 @@ ___
 
 
 ___
-## [[All-Classroom-&-Exam-Answers|All Classroom & Exam Answers]]
+## [All Classroom & Exam Answers](All-Classroom-&-Exam-Answers.md)
 ___
-## [[Persona-5-Shadows|Persona 5 Shadows]]
+## [Persona 5 Shadows](Persona-5-Shadows.md)
 ___
-## [[Social-Stats-Guide|Social Stats Guide]]
+## [Social Stats Guide](Social-Stats-Guide)
 ___
