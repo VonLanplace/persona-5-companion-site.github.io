@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "README"
             }
+          },
+          {
+            "id": "f1fb16dd979d880a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Social-Stats-Guide.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Social-Stats-Guide"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "53faa957596cde63",
@@ -170,10 +184,14 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "e382f34514bad0f3",
+  "active": "f1fb16dd979d880a",
   "lastOpenFiles": [
-    "All-Classroom-&-Exam-Answers.md",
+    "Temp.md",
+    "Social-Stats-Guide.md",
     "README.md",
+    "data",
+    "Negotiation-Questions.md",
+    "All-Classroom-&-Exam-Answers.md",
     "Persona-5-Shadows.md",
     "Complete-Confidants-Guide.md",
     "Persona-5-Shadows-CENTERED.md",
@@ -182,7 +200,6 @@
     "confidants/00-Fool.md",
     "Sem título 1.base",
     "Sem título.base",
-    "Temp.md",
     "confidants/03-Empress.md",
     "confidants/01-Magician.md",
     "confidants/02-Priestess.md",
@@ -198,9 +215,6 @@
     "confidants/13-Death.md",
     "confidants/14-Temperance.md",
     "confidants/15-Devil.md",
-    "confidants/16-Tower.md",
-    "confidants/17-Star.md",
-    "confidants/18-Moon.md",
     "imagens/250x250/00-Fool---Igor.png",
     "imagens/250x250",
     "imagens/Não confirmado 133440.crdownload",
@@ -208,7 +222,6 @@
     "imagens/XXI-Faith---Kasumi.png~",
     "imagens/night-calendar.png~",
     "imagens/20-Judgement---Sae.png~",
-    "imagens/19-Sun---Yoshida.png~",
     "imagens/250x250/3-Empress---Haru.png",
     "imagens/250x250/02-Priestess---Makoto.png",
     "imagens/250x250/01-Magician---Morgana.png",
