@@ -39,4 +39,3 @@ tags:
 | 9    | (Automatic) 10/11 |
 | 10   | (Automatic) 12/24 |
 
----
