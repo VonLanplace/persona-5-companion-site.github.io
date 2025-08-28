@@ -1,7 +1,7 @@
 # Persona 5 Player Aid
 ___
 
-## Confidants Guide
+## [[Complete-Confidants-Guide|Confidants Guide]]
 
 |                                                                              |                                                                               |                                                                                    |                                                                           |
 | ---------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
@@ -13,4 +13,10 @@ ___
 | [![](imagens/125x125/20-Judgement---Sae.png)](confidants/20-Judgement.md)    | [![](imagens/125x125/XXI-Faith---Kasumi.png)](confidants/XXI-Faith.md)        | [![](imagens/125x125/XXII-Councillor---Maruki.png)](confidants/XXII-Councillor.md) |                                                                           |
 
 
+___
+## [[All-Classroom-&-Exam-Answers|All Classroom & Exam Answers]]
+___
+## [[Persona-5-Shadows|Persona 5 Shadows]]
+___
+## [[Social-Stats-Guide|Social Stats Guide]]
 ___
