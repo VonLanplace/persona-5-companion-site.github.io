@@ -4,13 +4,13 @@
 Same with older Persona games, the player has a number of social stats to improve in order to advance the story. Persona 5 Royal has two more stats than Persona 3 (Courage, Charm, and Academics.) Persona 4 has the same number of stats as Persona 5 with Knowledge, Expression, Diligence, Understanding, and Courage. The main difference, however, is that Persona 5 needs fewer points for a particular stat to be boosted. Also, Persona 5 has more ways than the previous games to rank up these Social Stats. This is especially useful since the game is based on real-time.
 ### Social Stats List
 
-|Rank|Knowledge|Charm|Kindness|Guts|Proficiency|
-|---|---|---|---|---|---|
-|Rank 1|Oblivious|Existent|Inoffensive|Milquetoast|Bumbling|
-|Rank 2|Learned|Head-turning|Considerate|Bold|Decent|
-|Rank 3|Scholarly|Suave|Empathetic|Staunch|Skilled|
-|Rank 4|Encyclopedic|Charismatic|Selfless|Dauntless|Masterful|
-|Rank 5|Erudite|Debonair|Angelic|Lionhearted|Transcendent|
+|  Rank  |  Knowledge   |    Charm     |  Kindness   |    Guts     | Proficiency  |
+| :----: | :----------: | :----------: | :---------: | :---------: | :----------: |
+| Rank 1 |  Oblivious   |   Existent   | Inoffensive | Milquetoast |   Bumbling   |
+| Rank 2 |   Learned    | Head-turning | Considerate |    Bold     |    Decent    |
+| Rank 3 |  Scholarly   |    Suave     | Empathetic  |   Staunch   |   Skilled    |
+| Rank 4 | Encyclopedic | Charismatic  |  Selfless   |  Dauntless  |  Masterful   |
+| Rank 5 |   Erudite    |   Debonair   |   Angelic   | Lionhearted | Transcendent |
 
 Each stat ranges from 0-5. These stats can be increased by earning points in activities. After obtaining a certain number of points, the stat will increase. This then allows you to access certain events that require certain levels of the various stats.
 
@@ -39,7 +39,7 @@ Here is a breakdown of the points for each social stat to rank up in Persona 5 R
 
 Numerous activities increase the player’s social stats. Each activity affects a particular social stat. Additionally, there are some activities that boost 2 or more stats depending on the nature of the activity. Stats can additionally increase when increasing social links with confidants.
 
-[List of Confidants](https://samurai-gamers.com/persona-5/confidants-list-schedule-guide/)
+[List of Confidants](./README.md)
 
 | **Knowledge**                                                    | **Charm**                                                                                         | **Kindness**                                                                                                        | **Guts**                                                                                        | **Proficiency**                                                                |
 | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
@@ -56,4 +56,6 @@ Players can unlock various events by leveling their social stats. Some of these 
 
 Social stats offer some additional benefits as well. For example, increasing your Knowledge allows you to perform better during tests. Charm helps mainly in unlocking more part-time jobs. Guts grants you the bravery to face people in special cases. Finally, Proficiency makes you more efficient at crafting infiltration tools and unlocks more part-time jobs.
 
+<!--
 # https://samurai-gamers.com/persona-5/human-parameters-maximize/
+-->

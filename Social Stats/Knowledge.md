@@ -3,9 +3,9 @@ Knowledge is the social stat responsible for your academic performance. The majo
 
 ### Class
 
-|Activity|Detail|Gains|
-|---|---|---|
-|[Answer class questions correctly](https://samurai-gamers.com/persona-5/answers-class-questions/)|You can check the answers by pressing the touchpad on your controller. The correct answer should be the one with the highest number of votes.|- +1 Knowledge|
+| Activity                                                                                          | Detail                                                                                                                                        | Gains          |
+| ------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | -------------- |
+| [Answer class questions correctly](https://samurai-gamers.com/persona-5/answers-class-questions/) | You can check the answers by pressing the touchpad on your controller. The correct answer should be the one with the highest number of votes. | - +1 Knowledge |
 
 [All Class Question Answers](https://samurai-gamers.com/persona-5/answers-class-questions/)
 
@@ -27,20 +27,20 @@ Knowledge is the social stat responsible for your academic performance. The majo
 
 ### Confidant
 
-|Activity|Detail|Gains|
-|---|---|---|
-|[Spend time with Hifumi Togo](https://samurai-gamers.com/persona-5/star-confidant-hifumi-togou/)|Unlock the Star Confidant available after 6/25|- +1 Knowledge|
+| Activity                    | Detail                                         | Gains          |
+| --------------------------- | ---------------------------------------------- | -------------- |
+| Spend time with Hifumi Togo | Unlock the Star Confidant available after 6/25 | - +1 Knowledge |
 
 ### Miscellaneous
 
-|Activity|Detail|Gains|
-|---|---|---|
-|Watch Back to the Ninja|Premieres in the Shibuya movie theater from October to November|- +3 Knowledge|
-|Watch Soraemon|Premiers at the Shinjuku movie theater from August to September|- +3 Knowledge|
-|[Finish Reading Books](https://samurai-gamers.com/persona-5/book-locations-effects/)|Can be done in the library, on the passenger’s seat of the train, or on the stool in Leblanc|Each of these books grants +3 Knowledge:<br><br>- The Great Thief<br>- Medjed Menace<br>- Wise Men’s Words|
-|[Do part-time work at the Crossroads bar and speak with the red-faced man](https://samurai-gamers.com/persona-5/persona-5-part-time-job-list/)|Requires: Rank 4 Proficiency, Rank 3 Charm, and Rank 3 Guts|- +2 Knowledge|
-|Drink juice at Shibuya Underground Walkway|Can be bought every Sunday and raises a random stat|- +1 Knowledge|
-|Finish the Big Bang Burger challenge once|Requires: Rank 2 in Knowledge, Guts, and Proficiency|- Comet Burger +1 Knowledge<br>- Gravity Burger +2 Knowledge<br>- Cosmic Tower Burger +3 Knowledge<br><br>Also raises Guts, Charm, and Proficiency by 1/2/3|
+| Activity                                                                             | Detail                                                                                       | Gains                                                                                                                                                       |
+| ------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Watch Back to the Ninja                                                              | Premieres in the Shibuya movie theater from October to November                              | - +3 Knowledge                                                                                                                                              |
+| Watch Soraemon                                                                       | Premiers at the Shinjuku movie theater from August to September                              | - +3 Knowledge                                                                                                                                              |
+| [Finish Reading Books](https://samurai-gamers.com/persona-5/book-locations-effects/) | Can be done in the library, on the passenger’s seat of the train, or on the stool in Leblanc | Each of these books grants +3 Knowledge:<br><br>- The Great Thief<br>- Medjed Menace<br>- Wise Men’s Words                                                  |
+| Do part-time work at the Crossroads bar and speak with the red-faced man             | Requires: Rank 4 Proficiency, Rank 3 Charm, and Rank 3 Guts                                  | - +2 Knowledge                                                                                                                                              |
+| Drink juice at Shibuya Underground Walkway                                           | Can be bought every Sunday and raises a random stat                                          | - +1 Knowledge                                                                                                                                              |
+| Finish the Big Bang Burger challenge once                                            | Requires: Rank 2 in Knowledge, Guts, and Proficiency                                         | - Comet Burger +1 Knowledge<br>- Gravity Burger +2 Knowledge<br>- Cosmic Tower Burger +3 Knowledge<br><br>Also raises Guts, Charm, and Proficiency by 1/2/3 |
 ### Persona 5 Royal Social Stats
 
 |                                            |                                    |                                                |
