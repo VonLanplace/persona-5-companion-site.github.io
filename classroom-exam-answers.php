@@ -7,8 +7,8 @@
 </head>
 <body>
 
-    <details>
-        <summary>All Classroom & Exam Answers</summary>
+    <div>
+        <h2>All Classroom & Exam Answers</h2>
     
         <details>
             <summary>April</summary>
@@ -192,7 +192,7 @@
                 </table>
             </div>
         </details>
-    </details>
+    </div>
 
 </body>
 </html>
