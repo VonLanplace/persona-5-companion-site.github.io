@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Persona 5 Royal - Companion Site</title>
+    <title>Persona 5 Royal - Negotiation Questions</title>
 </head>
 <body>
     <h2>Negotiation Questions</h2>
@@ -59,7 +59,6 @@
         $questions_line = fgets(stream: $questions_csv);
         $raw_data = [] ;
 
-        //TODO 
         while (($questions_line = fgetcsv($questions_csv)) !== FALSE) {
             if ( $question_ref !== "" && stripos(haystack: $questions_line[0], needle: $question_ref) !== false) {
                 $options = [];
