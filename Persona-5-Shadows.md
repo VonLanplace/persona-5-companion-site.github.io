@@ -1,4 +1,4 @@
-# Persona 5 Shadows
+# Persona 5 Shadows Locations
 ## Palaces
 ### 1 - Kamoshida’s Palace - Castle
 
