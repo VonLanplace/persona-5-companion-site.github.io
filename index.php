@@ -15,7 +15,7 @@
         <br><hr>
         <?php include("shadows-locations.html");?>
         <br><hr>
-        <?php include("negotiation-questions.html");?>
+        <?php include("negotiation-questions.php");?>
         <br><hr>
     </body>
 </html>
