@@ -1,5 +1,5 @@
 <?php
-    $arcana = (int) $_GET['arcana'];
+    $arcana = (int) $_POST['arcana'];
 ?>
 
 <!DOCTYPE html>

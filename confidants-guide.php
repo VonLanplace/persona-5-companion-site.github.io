@@ -11,7 +11,7 @@
         </div>
         <div>
             <h2>Confidants Guide</h2>
-            <form action="index.php" method="get">
+            <form action="index.php" method="post">
                 <table>
                     <tr>
                         <td>
@@ -155,16 +155,80 @@
                     switch ($arcana):
                     case 0:
                         include 'confidants/00-Fool.html';
-                    break;
-
+                        break;
                     case 1:
                         include 'confidants/01-Magician.html';
-                    break;
+                        break;
+                    case 2:
+                        include 'confidants/02-Priestess.html';
+                        break;
+                    case 3:
+                        include 'confidants/03-Empress.html';
+                        break;
+                    case 4:
+                        include 'confidants/04-Emperor.html';
+                        break;
+                    case 5:
+                        include 'confidants/05-Hierophant.html';
+                        break;
+                    case 6:
+                        include 'confidants/06-Lovers.html';
+                        break;
+                    case 7:
+                        include 'confidants/07-Chariot.html';
+                        break;
+                    case 8:
+                        include 'confidants/08-Justice.html';
+                        break;
+                    case 9:
+                        include 'confidants/09-Hermit.html';
+                        break;
+                    case 10:
+                        include 'confidants/10-Fortune.html';
+                        break;
+                    case 11:
+                        include 'confidants/11-Strength.html';
+                        break;
+                    case 12:
+                        include 'confidants/12-Hanged-Man.html';
+                        break;
+                    case 13:
+                        include 'confidants/13-Death.html';
+                        break;
+                    case 14:
+                        include 'confidants/14-Temperance.html';
+                        break;
+                    case 15:
+                        include 'confidants/15-Devil.html';
+                        break;
+                    case 16:
+                        include 'confidants/16-Tower.html';
+                        break;
+                    case 17:
+                        include 'confidants/17-Star.html';
+                        break;
+                    case 18:
+                        include 'confidants/18-Moon.html';
+                        break;
+                    case 19:
+                        include 'confidants/19-Sun.html';
+                        break;
+                    case 20:
+                        include 'confidants/20-Judgement.html';
+                        break;
+                    case 21:
+                        include 'confidants/XXI-Faith.html';
+                        break;
+                    case 22:
+                        include 'confidants/XXII-Councillor.html';
+                        break;
 
                     default:
 
                     endswitch;
                 ?>
+
+
             </div>  
         </div>
     </body>
