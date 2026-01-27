@@ -9,13 +9,13 @@
     <body>
         <h1>Persona 5 Royal - Companion Site</h1>
         <br><hr>
-        <?php include("confidants-guide.php");?>
+        <?php include("confidants-guide.html");?>
         <br><hr>
         <?php include("classroom-exam-answers.html");?>
         <br><hr>
         <?php include("shadows-locations.html");?>
         <br><hr>
-        <?php include("negotiation-questions.php");?>
+        <?php include("negotiation-questions.html");?>
         <br><hr>
     </body>
 </html>
