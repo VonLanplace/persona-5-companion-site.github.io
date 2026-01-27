@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persona 5 Royal - All Classroom & Exam Answers</title>
+</head>
+<body>
+
+    <details>
+        <summary>All Classroom & Exam Answers</summary>
+    
+        <details>
+            <summary>April</summary>
+            <div class="content">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Answer</th>
+                            <th class="choice-col">#</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>4/12</td><td>Villains.</td><td class="choice-col">#3</td></tr>
+                        <tr><td>4/19</td><td>They're the same.</td><td class="choice-col">#3</td></tr>
+                        <tr><td>4/23</td><td>All of Them.</td><td class="choice-col">#4</td></tr>
+                        <tr><td>4/25</td><td>You unquestioningly support it.</td><td class="choice-col">#1</td></tr>
+                        <tr><td>4/25</td><td>You have a duty to correct it.</td><td class="choice-col">#3</td></tr>
+                        <tr><td>4/27</td><td>Four Color Theorem.</td><td class="choice-col">#2</td></tr>
+                        <tr><td>4/30</td><td>Wonder.</td><td class="choice-col">#2</td></tr>
+                        <tr><td>4/30</td><td>Child.</td><td class="choice-col">#2</td></tr>
+                        <tr><td>4/30</td><td>A prodigy.</td><td class="choice-col">#3</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </details>
+
+        <details>
+            <summary>May (First Exam)</summary>
+            <div class="content">
+                <h3>Classroom Questions</h3>
+                <table>
+                    <tbody>
+                        <tr><td>5/7</td><td>Fatal Woman.</td><td class="choice-col">#3</td></tr>
+                        <tr><td>5/10</td><td>The Heian Period.</td><td class="choice-col">#3</td></tr>
+                    </tbody>
+                </table>
+                <h3>Exam Questions</h3>
+                <table>
+                    <tbody>
+                        <tr><td>5/11</td><td>Minamoto no Yoshitsune.</td><td class="choice-col">#2</td></tr>
+                        <tr><td>5/11</td><td>Minamoto no Yoritomo.</td><td class="choice-col">#3</td></tr>
+                        <tr><td>5/11</td><td>Yoritomo won.</td><td class="choice-col">#1</td></tr>
+                        <tr><td>5/11</td><td>The weak.</td><td class="choice-col">#1</td></tr>
+                        <tr><td>5/12</td><td>Cognition.</td><td class="choice-col">#4</td></tr>
+                        <tr><td>5/12</td><td>Both.</td><td class="choice-col">#3</td></tr>
+                        <tr><td>5/13</td><td>The Devil’s Dictionary.</td><td class="choice-col">#4</td></tr>
+                        <tr><td>5/13</td><td>Femme Fatale.</td><td class="choice-col">#2</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </details>
+
+        <details>
+            <summary>June</summary>
+            <div class="content">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Answer</th>
+                            <th class="choice-col">#</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>6/4</td><td>The halo effect.</td><td class="choice-col">#2</td></tr>
+                        <tr><td>6/7</td><td>The number of legs.</td><td class="choice-col">#3</td></tr>
+                        <tr><td>6/8</td><td>Controlling public thought.</td><td class="choice-col">#3</td></tr>
+                        <tr><td>6/13</td><td>Green.</td><td class="choice-col">#2</td></tr>
+                        <tr><td>6/15</td><td>Coins.</td><td class="choice-col">#2</td></tr>
+                        <tr><td>6/20</td><td>Smartphone.</td><td class="choice-col">#2</td></tr>
+                        <tr><td>6/23</td><td>A pope.</td><td class="choice-col">#3</td></tr>
+                        <tr><td>6/27</td><td>Dogs.</td><td class="choice-col">#3</td></tr>
+                        <tr><td>6/29</td><td>Gold.</td><td class="choice-col">#2</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </details>
+
+        <details>
+            <summary>July (Second Exam)</summary>
+            <div class="content">
+                <h3>Classroom Questions</h3>
+                <table>
+                    <tbody>
+                        <tr><td>7/1</td><td>Barbarian’s head.</td><td class="choice-col">#3</td></tr>
+                        <tr><td>7/4</td><td>Julius and Augustus.</td><td class="choice-col">#2</td></tr>
+                        <tr><td>7/11</td><td>Memories that last a long time.</td><td class="choice-col">#2</td></tr>
+                    </tbody>
+                </table>
+                <h3>Exam Questions</h3>
+                <table>
+                    <tbody>
+                        <tr><td>7/13</td><td>64 degrees.</td><td class="choice-col">#3</td></tr>
+                        <tr><td>7/14</td><td>Red King Crab.</td><td class="choice-col">#3</td></tr>
+                        <tr><td>7/15</td><td>Raining cats and dogs.</td><td class="choice-col">#3</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </details>
+
+        <details>
+            <summary>September</summary>
+            <div class="content">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Answer</th>
+                            <th class="choice-col">#</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>9/3</td><td>Prosperity.</td><td class="choice-col">#3</td></tr>
+                        <tr><td>9/6</td><td>Chronostasis.</td><td class="choice-col">#2</td></tr>
+                        <tr><td>9/14</td><td>Money loans for collateral.</td><td class="choice-col">#1</td></tr>
+                        <tr><td>9/24</td><td>20 white, 12 black.</td><td class="choice-col">#2</td></tr>
+                        <tr><td>9/28</td><td>Syndrome.</td><td class="choice-col">#3</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </details>
+
+        <details>
+            <summary>October (Third Exam)</summary>
+            <div class="content">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Answer</th>
+                            <th class="choice-col">#</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>10/17</td><td>32 surfaces.</td><td class="choice-col">#3</td></tr>
+                        <tr><td>10/18</td><td>Charles-Henri Sanson.</td><td class="choice-col">#3</td></tr>
+                        <tr><td>10/19</td><td>Slave labor.</td><td class="choice-col">#2</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </details>
+
+        <details>
+            <summary>November</summary>
+            <div class="content">
+                <table>
+                    <tbody>
+                        <tr><td>11/2</td><td>A share of stolen goods.</td><td class="choice-col">#3</td></tr>
+                        <tr><td>11/8</td><td>Any age.</td><td class="choice-col">#1</td></tr>
+                        <tr><td>11/14</td><td>Because of high altitude.</td><td class="choice-col">#3</td></tr>
+                        <tr><td>11/17</td><td>Cochleoid.</td><td class="choice-col">#2</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </details>
+
+        <details>
+            <summary>December (Final Exam)</summary>
+            <div class="content">
+                <table>
+                    <tbody>
+                        <tr><td>12/20</td><td>D.</td><td class="choice-col">#4</td></tr>
+                        <tr><td>12/21</td><td>Hearts.</td><td class="choice-col">#1</td></tr>
+                        <tr><td>12/22</td><td>Japan.</td><td class="choice-col">#4</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </details>
+
+        <details>
+            <summary>January</summary>
+            <div class="content">
+                <table>
+                    <tbody>
+                        <tr><td>1/11</td><td>How numerous they are.</td><td class="choice-col">#3</td></tr>
+                        <tr><td>1/18</td><td>Impressive.</td><td class="choice-col">#2</td></tr>
+                        <tr><td>1/24</td><td>Kind-hearted.</td><td class="choice-col">#2</td></tr>
+                        <tr><td>1/27</td><td>To friends of friends.</td><td class="choice-col">#2</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </details>
+    </details>
+
+</body>
+</html>
