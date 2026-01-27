@@ -145,6 +145,8 @@
                 </table>
             </form>
 
+            <?php   if($arcana >= 0) {echo "<br><hr>";}?>
+
             <div>
                 <?php
                     switch ($arcana):
