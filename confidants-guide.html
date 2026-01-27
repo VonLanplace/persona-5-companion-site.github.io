@@ -150,34 +150,5 @@
         <div id="conteudo-confidant">
             </div>
     </div>
-
-    <script>
-        function carregarGuia(arquivo) {
-            const areaConteudo = document.getElementById('conteudo-confidant');
-            const divisor = document.getElementById('divisor');
-
-            // Faz a requisição para buscar o arquivo HTML correspondente
-            fetch('confidants/' + arquivo + '.html')
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error('Não foi possível encontrar o arquivo: ' + arquivo);
-                    }
-                    return response.text();
-                })
-                .then(html => {
-                    divisor.style.display = 'block';
-                    areaConteudo.innerHTML = html;
-                })
-                .catch(error => {
-                    console.error(error);
-                    areaConteudo.innerHTML = '<p>Erro ao carregar o conteúdo.</p>';
-                });
-        }
-
-        function limparConteudo() {
-            document.getElementById('conteudo-confidant').innerHTML = '';
-            document.getElementById('divisor').style.display = 'none';
-        }
-    </script>
 </body>
 </html>
