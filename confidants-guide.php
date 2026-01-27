@@ -1,4 +1,4 @@
-<?php ?>
+<?php $arcana = (int) $_POST['arcana'];?>
 <!DOCTYPE html>
 <html lang="us">
     <head>
@@ -6,9 +6,6 @@
         <title>Persona 5 Royal - Companion Site</title>
     </head>
     <body>
-        <div>
-
-        </div>
         <div>
             <h2>Confidants Guide</h2>
             <form action="index.php" method="post">
@@ -150,8 +147,6 @@
 
             <div>
                 <?php
-
-
                     switch ($arcana):
                     case 0:
                         include 'confidants/00-Fool.html';
@@ -222,13 +217,10 @@
                     case 22:
                         include 'confidants/XXII-Councillor.html';
                         break;
-
                     default:
 
                     endswitch;
                 ?>
-
-
             </div>  
         </div>
     </body>

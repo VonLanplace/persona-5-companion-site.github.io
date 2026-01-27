@@ -1,6 +1,4 @@
-<?php
-    $arcana = (int) $_POST['arcana'];
-?>
+<?php ?>
 
 <!DOCTYPE html>
 <html lang="us">
@@ -10,6 +8,6 @@
     </head>
     <body>
         <?php include("confidants-guide.php");?>
-        <?php include("");?>
+        <?php include("classroom-exam-answers.php");?>
     </body>
 </html>
