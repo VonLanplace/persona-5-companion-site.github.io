@@ -1,4 +1,4 @@
-<?php $arcana = (int) $_GET['arcana']; ?>
+<?php $arcana = (int) $_GET['arcana'] ?? ""; ?>
 <!DOCTYPE html>
 <html lang="us">
     <head>
@@ -31,13 +31,13 @@
                                 <img src="imagens/125x125/03-Empress---Haru.png" alt="Arcana 3">
                             </button>
                         </td>
-                    </tr>
-                    <tr>
                         <td>
                             <button type="submit" name="arcana" value="5">
                                 <img src="imagens/125x125/04-Emperor---Yusuke.png" alt="Arcana 4">
                             </button>
                         </td>
+                    </tr>
+                    <tr>
                         <td>
                             <button type="submit" name="arcana" value="6">
                                 <img src="imagens/125x125/05-Hierophant---Sojiro.png" alt="Arcana 5">
@@ -53,8 +53,6 @@
                             <img src="imagens/125x125/07-Chariot---Ryuji.png" alt="Arcana 7">
                             </button>
                         </td>
-                    </tr>
-                    <tr>
                         <td>
                             <button type="submit" name="arcana" value="9">
                                 <img src="imagens/125x125/08-Justice---Akechi.png" alt="Arcana 8">
@@ -65,6 +63,8 @@
                                 <img src="imagens/125x125/09-Hermit---Futaba.png" alt="Arcana 9">
                             </button>
                         </td>
+                    </tr>
+                    <tr>
                         <td>
                             <button type="submit" name="arcana" value="11">
                                 <img src="imagens/125x125/10-Fortune---Chihaya.png" alt="Arcana 10">
@@ -75,8 +75,6 @@
                                 <img src="imagens/125x125/11-Strength---Twins.png" alt="Arcana 11">
                             </button>
                         </td>
-                    </tr>
-                    <tr>
                         <td>
                             <button type="submit" name="arcana" value="13">
                                 <img src="imagens/125x125/12-Hanged-Man---Iwai.png" alt="Arcana 12">
@@ -92,13 +90,14 @@
                                 <img src="imagens/125x125/14-Temperance---Kawakami.png" alt="Arcana 14">
                             </button>
                         </td>
+                    </tr>
+                    <tr>
                         <td>
                             <button type="submit" name="arcana" value="16">
                                 <img src="imagens/125x125/15-Devil---Ohya.png" alt="Arcana 15">
                             </button>
                         </td>
-                    </tr>
-                    <tr>
+
                         <td>
                             <button type="submit" name="arcana" value="17">
                                 <img src="imagens/125x125/16-Tower---Shinya.png" alt="Arcana 16">
@@ -122,6 +121,11 @@
                     </tr>
                     <tr>
                         <td>
+                            <button type="submit" name="arcana" value="-1">
+                                <img src="." alt="clear">
+                            </button>
+                        </td>
+                        <td>
                             <button type="submit" name="arcana" value="21">
                                 <img src="imagens/125x125/20-Judgement---Sae.png" alt="Arcana 20">
                             </button>
@@ -138,7 +142,7 @@
                         </td>
                         <td>
                             <button type="submit" name="arcana" value="-1">
-                                <img src="imagens/125x125/XXII-Councillor---Maruki.png" alt="Arcana -1">
+                                <img src="." alt="clear">
                             </button>
                         </td>
                     </tr>
