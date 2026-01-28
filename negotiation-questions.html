@@ -3,29 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Persona 5 Royal - Negotiation Questions</title>
-    <style>
-        table {
-            border-collapse: collapse;
-            margin-top: 10px;
-        }
-        td, th {
-            border: 1px solid #ccc;
-            padding: 4px 8px;
-            text-align: center;
-        }
-        summary {
-            cursor: pointer;
-            font-weight: bold;
-        }
-    </style>
 </head>
 <body>
 
 <h2>Negotiation Questions</h2>
 
 <form id="searchForm">
-    <input type="text" id="question_ref" placeholder="Search question">
+    <input type="text" id="question_ref" placeholder="Question">
     <button type="submit">Search</button>
+    <button type="button" onclick="limparNegociacao()">Clear</button> </form>
 </form>
 
 <div id="results"></div>
