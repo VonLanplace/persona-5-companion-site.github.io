@@ -91,6 +91,9 @@ function setupNegotiationSearch() {
     searchForm.addEventListener('submit', (e) => {
         e.preventDefault();
         const query = document.getElementById('question_ref').value.toLowerCase();
+        if(query == ""){
+            return;
+        }
         const resultsContainer = document.getElementById('results');
         resultsContainer.innerHTML = "";
 
@@ -133,4 +136,15 @@ function setupNegotiationSearch() {
             resultsContainer.appendChild(details);
         });
     });
+}
+
+function limparNegociacao() {
+    const resultsContainer = document.getElementById('results');
+    const inputField = document.getElementById('question_ref');
+    
+    if (resultsContainer) resultsContainer.innerHTML = "";
+    if (inputField) {
+        inputField.value = "";
+        inputField.focus(); // Devolve o foco ao campo de texto para facilitar nova busca
+    }
 }
