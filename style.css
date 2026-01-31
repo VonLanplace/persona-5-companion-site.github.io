@@ -1,0 +1,200 @@
+body {
+  background-color: var(--background);
+  color: var(--text);
+}
+
+h2 {
+  background-color: var(--col1);
+  color: var(--background);
+  border: 1px solid none;
+  border-radius: 5px;
+  padding: 0px 5px;
+}
+
+div {
+  max-width: 98%;
+  min-height: auto;
+}
+
+* {
+  background-color: var(--background);
+  color: var(--text);
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 0px 5px;
+  border-radius: 5px;
+  font-size: 1.17em;
+  font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+summary {
+  color: var(--text);
+  background-color: var(--col2);
+}
+
+summary:hover {
+  color: var(--background);
+  background-color: var(--col1);
+}
+
+summary * {
+  color: inherit;
+  background-color: inherit;
+}
+
+.inner-details summary {
+  color: var(--text);
+  background-color: var(--col3);
+  font-size: 1em;
+}
+
+.inner-details summary:hover {
+  color: var(--background);
+  background-color: var(--col2);
+  font-size: 1em;
+}
+
+img {
+  border: solid black 5px;
+  width: inherit;
+  height: auto;
+  display: block;
+}
+
+table,
+th,
+td {
+  border: groove var(--col1) 2px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: center; /* Centraliza horizontalmente */
+  vertical-align: middle; /* Centraliza verticalmente */
+  padding: 8px;
+}
+
+table {
+  max-width: 90%;
+  border: solid var(--col1) 2px;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th {
+  background-color: var(--col1);
+  color: var(--background);
+}
+
+td {
+  color: var(--background);
+  background-color: var(--text);
+  width: fit-content;
+}
+
+td * {
+  color: inherit;
+  background-color: inherit;
+}
+
+#arcana-person-name {
+  display: flex; /* Ativa o alinhamento flexível */
+  align-items: center; /* Centraliza o texto verticalmente em relação à imagem */
+  gap: 15px; /* Espaçamento entre a foto e o nome */
+  padding: 10px;
+  background-color: var(--col2); /* Opcional: apenas para visualização */
+  border-radius: 8px;
+}
+
+#arcana-person-name img {
+  width: 100px; /* Tamanho da miniatura */
+  height: auto; /* Mantém a proporção quadrada */
+  object-fit: cover; /* Garante que a imagem preencha o quadrado sem distorcer */
+  border-radius: 50%; /* Opcional: deixa a miniatura redonda */
+  border: 2px solid #333;
+}
+
+#arcana-person-name h3,
+#arcana-person-name h3 * {
+  margin: 0; /* Remove margens padrão do h3 que podem desalinhá-lo */
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  color: inherit;
+  background-color: inherit;
+}
+
+.confidants-guide table,
+.confidants-guide th,
+.confidants-guide td {
+  margin: 0 0;
+  border: 0 0;
+  padding: 1px;
+  border: none;
+  background-color: var(--background);
+}
+.confidants-guide button img {
+  border-style: none var(--background) 0px;
+  background-color: var(--col1);
+  width: inherit;
+  height: auto;
+  display: block;
+}
+.confidants-guide button {
+  cursor: pointer;
+  background-color: var(--background);
+  width: 100%;
+  height: auto;
+  padding: 0;
+}
+.confidants-guide table {
+  height: auto;
+  width: 100%;
+  padding: 0;
+  margin: 0 0;
+  width: 90%;
+}
+
+.negotiation-questions form {
+  flex-direction: column;
+  color: var(--col1);
+  background-color: var(--col2);
+  border-style: none;
+  border-radius: 10px;
+  padding: 5px 5px;
+  font-size: 1.17em;
+  font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  width: fit-content;
+}
+.negotiation-questions button {
+  cursor: pointer;
+  font-size: 1em;
+  color: var(--text);
+  background-color: var(--col3);
+  border-style: solid none none none;
+  border-radius: 10px;
+  border-width: 2px;
+  padding: auto;
+}
+.negotiation-questions input {
+  font-size: 1em;
+  color: var(--text);
+  background-color: var(--col2);
+  border-style: none none solid none;
+  border-radius: 10px;
+  border-width: 2px;
+  padding: auto;
+}
