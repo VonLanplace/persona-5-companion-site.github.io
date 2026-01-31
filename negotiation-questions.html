@@ -1,20 +1,22 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="cores.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Persona 5 Royal - Negotiation Questions</title>
-</head>
-<body>
+  </head>
+  <body>
+    <div class="negotiation-questions">
+      <h2>Negotiation Questions</h2>
 
-<h2>Negotiation Questions</h2>
+      <form id="searchForm">
+        <input type="text" id="question_ref" placeholder="Question" />
+        <button type="submit">Search</button>
+        <button type="button" onclick="limparNegociacao()">Clear</button>
+      </form>
 
-<form id="searchForm">
-    <input type="text" id="question_ref" placeholder="Question">
-    <button type="submit">Search</button>
-    <button type="button" onclick="limparNegociacao()">Clear</button> </form>
-</form>
-
-<div id="results"></div>
-
-</body>
+      <div id="results"></div>
+    </div>
+  </body>
 </html>

@@ -1,200 +1,383 @@
+/* =========================
+   IMPORT DE FONTES
+========================= */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600&display=swap");
+
+/* =========================
+   VARIÁVEIS GLOBAIS
+========================= */
+:root {
+  --font-title: "Bebas Neue", "Oswald", sans-serif;
+  --font-text: "Montserrat", Arial, sans-serif;
+}
+
+/* =========================
+   RESET BÁSICO
+========================= */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* =========================
+   MOBILE FIRST
+========================= */
 body {
   background-color: var(--background);
   color: var(--text);
+  font-family: var(--font-text);
+  font-size: 16px;
+  line-height: 1.4;
+  padding: 10px;
 }
 
+/* TÍTULOS */
+h1,
 h2 {
+  font-family: var(--font-title);
+  letter-spacing: 1px;
   background-color: var(--col1);
   color: var(--background);
-  border: 1px solid none;
   border-radius: 5px;
-  padding: 0px 5px;
+  padding: 4px 8px;
+  text-align: center;
 }
 
+h3 {
+  font-family: var(--font-title);
+  letter-spacing: 0.5px;
+}
+
+/* ELEMENTOS GERAIS */
 div {
-  max-width: 98%;
-  min-height: auto;
+  max-width: 100%;
 }
 
-* {
-  background-color: var(--background);
-  color: var(--text);
+img {
+  border: solid black 4px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
+/* =========================
+   DETAILS / SUMMARY
+========================= */
 summary::-webkit-details-marker {
   display: none;
 }
+
 summary {
   list-style: none;
   cursor: pointer;
-  padding: 0px 5px;
+  padding: 6px 10px;
   border-radius: 5px;
-  font-size: 1.17em;
-  font-weight: bold;
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
-
-summary {
-  color: var(--text);
+  font-family: var(--font-title);
+  font-size: 1.1rem;
+  text-align: center;
+  margin: 1em 0;
   background-color: var(--col2);
+  color: var(--col3);
 }
 
 summary:hover {
-  color: var(--background);
   background-color: var(--col1);
-}
-
-summary * {
-  color: inherit;
-  background-color: inherit;
+  color: var(--background);
 }
 
 .inner-details summary {
-  color: var(--text);
   background-color: var(--col3);
-  font-size: 1em;
+  color: var(--text);
+  font-size: 1rem;
 }
 
 .inner-details summary:hover {
   color: var(--background);
   background-color: var(--col2);
-  font-size: 1em;
 }
 
-img {
-  border: solid black 5px;
-  width: inherit;
-  height: auto;
-  display: block;
-}
-
-table,
-th,
-td {
-  border: groove var(--col1) 2px;
-  border-collapse: collapse;
-}
-
-th,
-td {
-  text-align: center; /* Centraliza horizontalmente */
-  vertical-align: middle; /* Centraliza verticalmente */
-  padding: 8px;
-}
-
+/* =========================
+   TABELAS (MOBILE)
+========================= */
 table {
-  max-width: 90%;
-  border: solid var(--col1) 2px;
+  max-width: 100%;
   border-collapse: collapse;
-  margin-bottom: 20px;
+  margin: 0 auto 20px auto;
+  font-size: 0.9rem;
+}
 
-  margin-left: auto;
-  margin-right: auto;
+th,
+td {
+  padding: 6px;
+  text-align: center;
 }
 
 th {
   background-color: var(--col1);
   color: var(--background);
+  font-family: var(--font-title);
 }
 
 td {
-  color: var(--background);
   background-color: var(--text);
-  width: fit-content;
+  color: var(--background);
 }
 
-td * {
-  color: inherit;
-  background-color: inherit;
+/* =========================
+   CONFIDANTS GUIDE (MOBILE)
+========================= */
+.confidants-guide {
+  overflow-x: auto;
 }
 
-#arcana-person-name {
-  display: flex; /* Ativa o alinhamento flexível */
-  align-items: center; /* Centraliza o texto verticalmente em relação à imagem */
-  gap: 15px; /* Espaçamento entre a foto e o nome */
-  padding: 10px;
-  background-color: var(--col2); /* Opcional: apenas para visualização */
-  border-radius: 8px;
-}
-
-#arcana-person-name img {
-  width: 100px; /* Tamanho da miniatura */
-  height: auto; /* Mantém a proporção quadrada */
-  object-fit: cover; /* Garante que a imagem preencha o quadrado sem distorcer */
-  border-radius: 50%; /* Opcional: deixa a miniatura redonda */
-  border: 2px solid #333;
-}
-
-#arcana-person-name h3,
-#arcana-person-name h3 * {
-  margin: 0; /* Remove margens padrão do h3 que podem desalinhá-lo */
-  font-family: sans-serif;
-  font-size: 1.2rem;
-  color: inherit;
-  background-color: inherit;
-}
-
-.confidants-guide table,
-.confidants-guide th,
-.confidants-guide td {
-  margin: 0 0;
-  border: 0 0;
-  padding: 1px;
-  border: none;
-  background-color: var(--background);
-}
-.confidants-guide button img {
-  border-style: none var(--background) 0px;
-  background-color: var(--col1);
-  width: inherit;
-  height: auto;
-  display: block;
-}
-.confidants-guide button {
-  cursor: pointer;
-  background-color: var(--background);
-  width: 100%;
-  height: auto;
-  padding: 0;
-}
 .confidants-guide table {
-  height: auto;
-  width: 100%;
+  width: max-content;
+}
+
+.confidants-guide button {
+  background: none;
+  border: none;
   padding: 0;
-  margin: 0 0;
+  cursor: pointer;
+}
+
+.confidants-guide button img {
+  width: 100%;
+  border: none;
+}
+
+/* =========================
+   FORMULÁRIO (MOBILE)
+========================= */
+.negotiation-questions form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 1em auto;
+  padding: 10px;
+  background-color: var(--col2);
+  border-radius: 10px;
   width: 90%;
 }
 
-.negotiation-questions form {
-  flex-direction: column;
-  color: var(--col1);
-  background-color: var(--col2);
-  border-style: none;
-  border-radius: 10px;
-  padding: 5px 5px;
-  font-size: 1.17em;
-  font-weight: bold;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  width: fit-content;
-}
+.negotiation-questions input,
 .negotiation-questions button {
-  cursor: pointer;
-  font-size: 1em;
-  color: var(--text);
-  background-color: var(--col3);
-  border-style: solid none none none;
-  border-radius: 10px;
-  border-width: 2px;
-  padding: auto;
+  font-size: 1rem;
+  padding: 8px;
+  border-radius: 8px;
 }
-.negotiation-questions input {
-  font-size: 1em;
+
+.negotiation-questions button {
+  background-color: var(--col3);
   color: var(--text);
-  background-color: var(--col2);
-  border-style: none none solid none;
-  border-radius: 10px;
-  border-width: 2px;
-  padding: auto;
+  border: none;
+  cursor: pointer;
+}
+
+/* =========================
+   DESKTOP (>= 768px)
+========================= */
+@media (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+
+  h1,
+  h2 {
+    font-size: 2rem;
+  }
+
+  table {
+    font-size: 1rem;
+    max-width: 90%;
+  }
+
+  .negotiation-questions form {
+    flex-direction: row;
+    align-items: center;
+    width: fit-content;
+  }
+
+  .negotiation-questions input {
+    min-width: 250px;
+  }
+}
+
+/* =========================
+   DESKTOP GRANDE (>= 1200px)
+========================= */
+@media (min-width: 1200px) {
+  body {
+    max-width: 1200px;
+    margin: auto;
+  }
+}
+
+/* =========================
+   PERSONA 5 CORE FX
+========================= */
+
+:root {
+  --p5-shadow: 4px 4px 0px #000;
+  --p5-shadow-hover: 6px 6px 0px #000;
+  --p5-skew: -4deg;
+}
+
+/* =========================
+   TÍTULOS REBELDES
+========================= */
+
+h1,
+h2 {
+  transform: skew(var(--p5-skew));
+  box-shadow: var(--p5-shadow);
+  position: relative;
+}
+
+h1::after,
+h2::after {
+  content: "";
+  position: absolute;
+  inset: 4px;
+  border: 2px solid #000;
+  pointer-events: none;
+}
+
+/* =========================
+   SUMMARY = BOTÃO DE MENU
+========================= */
+
+summary {
+  transform: skew(var(--p5-skew));
+  box-shadow: var(--p5-shadow);
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+summary:hover {
+  transform: skew(var(--p5-skew)) translate(-2px, -2px);
+  box-shadow: var(--p5-shadow-hover);
+}
+
+/* Remove skew do texto interno */
+summary span,
+summary p {
+  display: inline-block;
+  transform: skew(calc(var(--p5-skew) * -1));
+}
+
+/* =========================
+   DETAILS CONTAINER
+========================= */
+
+details {
+  margin-bottom: 1em;
+  padding-left: 4px;
+  border-left: 4px solid var(--col1);
+}
+
+/* =========================
+   INNER DETAILS
+========================= */
+
+.inner-details summary {
+  transform: skew(-2deg);
+  box-shadow: 3px 3px 0 #000;
+}
+
+/* =========================
+   TABELAS ESTILO P5
+========================= */
+
+table {
+  transform: skew(-1deg);
+  box-shadow: var(--p5-shadow);
+}
+
+th {
+  transform: skew(-2deg);
+  letter-spacing: 1px;
+}
+
+td {
+  transform: skew(-1deg);
+}
+
+/* Corrige texto dentro das células */
+th *,
+td * {
+  display: inline-block;
+  transform: skew(1deg);
+}
+
+/* =========================
+   IMAGENS COMO "RECORTES"
+========================= */
+
+img {
+  transform: rotate(-1deg);
+  box-shadow: var(--p5-shadow);
+}
+
+/* =========================
+   CONFIDANTS – CARTAS
+========================= */
+
+.confidants-guide button {
+  transform: rotate(-2deg) skew(-2deg);
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+  box-shadow: 3px 3px 0 #000;
+}
+
+.confidants-guide button:hover {
+  transform: rotate(-2deg) skew(-2deg) translate(-2px, -2px);
+  box-shadow: 5px 5px 0 #000;
+}
+
+/* =========================
+   FORMULÁRIO P5
+========================= */
+
+.negotiation-questions form {
+  transform: skew(-2deg);
+  box-shadow: var(--p5-shadow);
+}
+
+.negotiation-questions input,
+.negotiation-questions button {
+  transform: skew(2deg);
+  font-family: var(--font-title);
+  letter-spacing: 1px;
+}
+
+.negotiation-questions button:hover {
+  transform: skew(2deg) translate(-2px, -2px);
+  box-shadow: 3px 3px 0 #000;
+}
+
+/* =========================
+   MICRO-ANIMAÇÃO DE IMPACTO
+========================= */
+
+@keyframes p5-pop {
+  0% {
+    transform: scale(0.98) skew(var(--p5-skew));
+  }
+  100% {
+    transform: scale(1) skew(var(--p5-skew));
+  }
+}
+
+summary:active,
+button:active {
+  animation: p5-pop 0.08s ease;
+}
+
+hr {
+  visibility: hidden;
 }

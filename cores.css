@@ -1,7 +1,16 @@
 :root {
-  --col1: red;
-  --col2: blue;
-  --col3: green;
-  --background: black;
-  --text: antiquewhite;
+  /* Vermelho Phantom Thieves */
+  --col1: #e60012;
+
+  /* Amarelo de destaque / alerta */
+  --col2: #f5c400;
+
+  /* Cinza escuro para UI secundária */
+  --col3: #1c1c1c;
+
+  /* Preto absoluto de fundo */
+  --background: #000000;
+
+  /* Branco levemente quente (não cansa o olho) */
+  --text: #f5f5f0;
 }
