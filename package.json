@@ -1,0 +1,17 @@
+{
+  "name": "persona-5-companion-site",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Data-driven static site for Persona 5 Royal companion guides.",
+  "type": "module",
+  "scripts": {
+    "build": "node _build/build.mjs",
+    "check": "node _build/check.mjs",
+    "clean": "node _build/clean.mjs",
+    "serve": "node _build/serve.mjs",
+    "verify": "npm run clean && npm run build && npm run check"
+  },
+  "devDependencies": {
+    "node-html-parser": "^7.0.1"
+  }
+}

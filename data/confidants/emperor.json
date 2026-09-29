@@ -1,0 +1,282 @@
+{
+  "slug": "emperor",
+  "order": 4,
+  "arcana": "Emperor",
+  "numeral": "IV",
+  "person": "Yusuke Kitagawa",
+  "portrait": "04-Emperor---Yusuke.png",
+  "sections": [
+    {
+      "id": "confidant-abilities",
+      "title": "Confidant Abilities",
+      "kind": "table",
+      "note": "",
+      "head": [
+        "Rank",
+        "Ability"
+      ],
+      "rows": [
+        [
+          "1",
+          "<strong>Card Duplication</strong>: <br> Allows Yusuke to duplicate Skill Cards after 1 day."
+        ],
+        [
+          "2",
+          "-"
+        ],
+        [
+          "3",
+          "<strong>Follow Up</strong>: <br> Chance to perform a follow-up attack if Joker's attack does not down the enemy."
+        ],
+        [
+          "4",
+          "<strong>Art Talk</strong>: <br> If negotiation with a lone Shadow fails, you can try again."
+        ],
+        [
+          "5",
+          "<strong>Card Creation</strong>: <br> Allows Yusuke to create any Skill Card he has copied before after 1 day."
+        ],
+        [
+          "6",
+          "<strong>Harisen Recovery</strong>: <br> Chance to cure status ailments inflicted upon party members."
+        ],
+        [
+          "7",
+          "<strong>Live Painting</strong>: <br> Allows Yusuke to use Card Duplication and Card Creation on the spot."
+        ],
+        [
+          "8",
+          "<strong>Endure</strong>: <br> Chance to withstand an otherwise fatal attack with 1 HP remaining."
+        ],
+        [
+          "9",
+          "<strong>Protect</strong>: <br> Chance to shield Joker from an otherwise fatal attack."
+        ],
+        [
+          "10",
+          "<strong>Second Awakening</strong>: <br> Evolves Persona."
+        ],
+        [
+          "MAX",
+          "<strong>Third Awakening</strong>: <br> Evolves Persona."
+        ]
+      ]
+    },
+    {
+      "id": "rank-up-progression",
+      "title": "Rank Up Progression",
+      "kind": "table",
+      "note": "",
+      "head": [
+        "Rank",
+        "Requirements / Dialogue Choices",
+        "Next Pts"
+      ],
+      "rows": [
+        [
+          "1",
+          "<strong>Available Starting 6/18</strong><br>Event requires defeating Slimes in Mementos with Yusuke. <br><strong>Reward:</strong> Receive Recarm Skill Card",
+          "0"
+        ],
+        [
+          "2",
+          "1. \"It's novel.\" / \"It's enigmatic.\" (+5) <br> 2. \"I can't wait.\" (+15) <br> 3. (Phone) \"You're already doing enough.\" (+5)",
+          "0"
+        ],
+        [
+          "3",
+          "1. \"Don't let it bother you.\" (+5) <br> 3. \"This isn't like you.\" (+15) <br> 4. Any (+5) <br> 5. \"That's the spirit.\" (+5)",
+          "25"
+        ],
+        [
+          "4",
+          "1. \"Why are we in a boat?\" / \"I should bring a girl here.\" (+5) <br> 2. \"Love comes in all forms.\" (+10) <br> 3. (Phone) \"Don't get discouraged.\" (+5)",
+          "15"
+        ],
+        [
+          "5",
+          "1. \"Do you want me to strip?\" (+15) <br> 2. \"I'm sure you will.\" / \"It doesn’t look like it.\" (+10) <br> 3. (Phone) \"There's still hope.\" (+5)",
+          "25"
+        ],
+        [
+          "6",
+          "<strong>Requires Proficiency Lv 4 (Masterful).</strong><br> 1. \"It feels nostalgic.\" (+5) <br> 4. \"I couldn't possibly tell you.\" (+15) <br> 5. (Phone) \"He had a certain dignity.\" (+5)",
+          "20"
+        ],
+        [
+          "7",
+          "2. \"What do you mean?\" (+5) <br> 3. \"The truth is within you.\" (+15) <br> 4. (Phone) \"Calm down.\" / \"It's not a crime to enjoy sushi.\" (+5)",
+          "26"
+        ],
+        [
+          "8",
+          "1. \"It has to be Ann.\" (+5) <br> 2. \"You've really grown, Yusuke.\" (+10)",
+          "22"
+        ],
+        [
+          "9",
+          "1. \"Her love for her son.\" (+15) <br> 2. \"You've really changed, Yusuke.\" (+15)",
+          "35"
+        ],
+        [
+          "10",
+          "N/A (1/13)",
+          "MAX"
+        ]
+      ]
+    },
+    {
+      "id": "gift-guide",
+      "title": "Gift Guide",
+      "kind": "table",
+      "note": "",
+      "head": [
+        "Gift Item",
+        "Confidant Points",
+        "Purchase Location",
+        "Price"
+      ],
+      "rows": [
+        [
+          "Silver Bangle",
+          "+50",
+          "Turtle Diamond Jewelry Store, Station Underground Mall, Shibuya",
+          "¥78,000"
+        ],
+        [
+          "Glass Vase",
+          "+50",
+          "Japan Sundries Shop, Station Underground Mall, Shibuya",
+          "¥3,200"
+        ],
+        [
+          "Uji Matcha Flan",
+          "+50",
+          "Taisho Store Premium Supermarket, Station Underground Mall, Shibuya",
+          "¥2,400"
+        ],
+        [
+          "Truffles",
+          "+50",
+          "Supermarket, Station Underground Mall, Shibuya",
+          "¥2,800"
+        ],
+        [
+          "Castella",
+          "+50",
+          "Supermarket, Station Underground Mall, Shibuya",
+          "¥1,500"
+        ],
+        [
+          "Watercolor Postcard",
+          "+50",
+          "Kichijoji Stationery Shop",
+          "¥800"
+        ]
+      ]
+    },
+    {
+      "id": "bonus-events",
+      "title": "Bonus Events",
+      "kind": "bonus-events",
+      "blocks": [
+        {
+          "type": "event",
+          "heading": "<strong>Hangout Movies</strong> (8/5 - Kindness +3♪)",
+          "items": [
+            {
+              "kind": "choice",
+              "text": "\"I don't mind.\" (+10)"
+            }
+          ]
+        },
+        {
+          "type": "event",
+          "heading": "<strong>Hangout Study</strong> (10/15 - Knowledge +3♪)",
+          "items": [
+            {
+              "kind": "choice",
+              "text": "Any (+5)"
+            }
+          ]
+        },
+        {
+          "type": "event",
+          "heading": "<strong>Hangout Ogikubo</strong>",
+          "items": [
+            {
+              "kind": "choice",
+              "text": "\"Nutrients?\" / \"You should be a food critic.\" (+10)"
+            }
+          ]
+        },
+        {
+          "type": "event",
+          "heading": "<strong>Hangout Jinbocho</strong>",
+          "items": [
+            {
+              "kind": "choice",
+              "text": "\"It's an incredible book.\" (+15)"
+            }
+          ]
+        },
+        {
+          "type": "event",
+          "heading": "<strong>Hangout Ueno</strong>",
+          "items": [
+            {
+              "kind": "choice",
+              "text": "\"This noise is relaxing?\" (+15)"
+            },
+            {
+              "kind": "note",
+              "text": "<em>Receive Nude Statue</em>"
+            }
+          ]
+        },
+        {
+          "type": "event",
+          "heading": "<strong>Hangout Meiji-Shrine</strong>",
+          "items": [
+            {
+              "kind": "choice",
+              "text": "\"Boatloads of money.\" (+10)"
+            },
+            {
+              "kind": "note",
+              "text": "<em>Receive Hamaya</em>"
+            }
+          ]
+        },
+        {
+          "type": "event",
+          "heading": "<strong>Hangout Ikebukuro</strong>",
+          "items": [
+            {
+              "kind": "choice",
+              "text": "\"I'm glad you're better now.\" (+10)"
+            },
+            {
+              "kind": "note",
+              "text": "<em>Receive Star Stickers</em>"
+            }
+          ]
+        },
+        {
+          "type": "event",
+          "heading": "<strong>Hangout Shinagawa</strong>",
+          "items": [
+            {
+              "kind": "choice",
+              "text": "\"Truly one of life's mysteries.\" (+15)"
+            },
+            {
+              "kind": "choice",
+              "text": "\"Want a free sample?\" (+15)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

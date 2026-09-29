@@ -1,34 +1,168 @@
 <!doctype html>
-<html lang="us">
+<html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <title>Persona 5 Royal - Companion Site</title>
-
-    <link rel="icon" type="image/x-icon" href="favicon.ico" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="cores.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Persona 5 Royal Companion</title>
+    <meta name="description" content="Companion guides for Persona 5 Royal: confidant ranks and gift guides, shadow locations, classroom exam answers, negotiation questions and social stat maximising." />
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+    <meta property="og:title" content="Persona 5 Royal Companion" />
+    <meta property="og:description" content="Companion guides for Persona 5 Royal: confidant ranks and gift guides, shadow locations, classroom exam answers, negotiation questions and social stat maximising." />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600&display=swap"
+    />
+    <link rel="stylesheet" href="./assets/css/tokens.css" />
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/layout.css" />
+    <link rel="stylesheet" href="./assets/css/components.css" />
   </head>
   <body>
-    <div class="index">
-      <h1>Persona 5 Royal - Companion Site</h1>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="wrap">
+      <header class="site-header">
+        <h1 class="site-title"><a class="site-title-link" href="./">Persona 5 Royal Companion</a></h1>
+        <nav class="site-nav" aria-label="Main">
+          <a href="./" aria-current="page">Home</a>
+          <a href="./confidants/">Confidants</a>
+          <a href="./shadows/">Shadows</a>
+          <a href="./classroom/">Classroom</a>
+          <a href="./negotiation/">Negotiation</a>
+          <a href="./social-stats/">Social Stats</a>
+        </nav>
+      </header>
 
-      <br />
-      <hr />
-      <div id="confidants"></div>
+      <main id="main">
+        
+        <h2>Everything you need in one place</h2>
+      <p class="page-intro">A companion for Persona 5 Royal: every confidant, every
+      Shadow, every exam answer and every negotiation prompt.</p>
 
-      <div id="classroom"></div>
+      <ul class="card-grid card-grid--wide">
+        <li><a class="card card--wide" href="./confidants/">
+          <span class="card-body">Confidants<small>23 companions with abilities, schedules, rank-up choices and gift guides.</small></span>
+        </a></li>
+        <li><a class="card card--wide" href="./shadows/">
+          <span class="card-body">Shadow Locations<small>18 locations and 221 Shadows across every palace and Mementos floor.</small></span>
+        </a></li>
+        <li><a class="card card--wide" href="./classroom/">
+          <span class="card-body">Classroom Answers<small>All 9 exams with the best response for each one.</small></span>
+        </a></li>
+        <li><a class="card card--wide" href="./negotiation/">
+          <span class="card-body">Negotiation Questions<small>Search all 195 prompts and see how each answer shifts the four personalities.</small></span>
+        </a></li>
+        <li><a class="card card--wide" href="./social-stats/">
+          <span class="card-body">Social Stats<small>Charm, Guts, Kindness, Knowledge and Proficiency - every way to raise them.</small></span>
+        </a></li>
+      </ul>
 
-      <br />
-      <hr />
-      <div id="shadows"></div>
+      <h2>Start with a confidant</h2>
+      <ul class="card-grid">
+      <li><a class="card" href="./confidants/fool.html">
+        <img src="./assets/img/confidants/sm/fool.png" alt="Igor" width="125" height="125" loading="lazy" />
+        <span class="card-body">Fool<small>Igor</small></span>
+      </a></li>
+      <li><a class="card" href="./confidants/magician.html">
+        <img src="./assets/img/confidants/sm/magician.png" alt="Morgana" width="125" height="125" loading="lazy" />
+        <span class="card-body">Magician<small>Morgana</small></span>
+      </a></li>
+      <li><a class="card" href="./confidants/priestess.html">
+        <img src="./assets/img/confidants/sm/priestess.png" alt="Makoto Nijima" width="125" height="125" loading="lazy" />
+        <span class="card-body">Priestess<small>Makoto Nijima</small></span>
+      </a></li>
+      <li><a class="card" href="./confidants/empress.html">
+        <img src="./assets/img/confidants/sm/empress.png" alt="Haru Okumura" width="125" height="125" loading="lazy" />
+        <span class="card-body">Empress<small>Haru Okumura</small></span>
+      </a></li>
+      <li><a class="card" href="./confidants/emperor.html">
+        <img src="./assets/img/confidants/sm/emperor.png" alt="Yusuke Kitagawa" width="125" height="125" loading="lazy" />
+        <span class="card-body">Emperor<small>Yusuke Kitagawa</small></span>
+      </a></li>
+      <li><a class="card" href="./confidants/hierophant.html">
+        <img src="./assets/img/confidants/sm/hierophant.png" alt="Sojiro Sakura" width="125" height="125" loading="lazy" />
+        <span class="card-body">Hierophant<small>Sojiro Sakura</small></span>
+      </a></li>
+      <li><a class="card" href="./confidants/lovers.html">
+        <img src="./assets/img/confidants/sm/lovers.png" alt="Ann Takamaki" width="125" height="125" loading="lazy" />
+        <span class="card-body">Lovers<small>Ann Takamaki</small></span>
+      </a></li>
+      <li><a class="card" href="./confidants/chariot.html">
+        <img src="./assets/img/confidants/sm/chariot.png" alt="Ryuji Sakamoto" width="125" height="125" loading="lazy" />
+        <span class="card-body">Chariot<small>Ryuji Sakamoto</small></span>
+      </a></li>
+      <li><a class="card" href="./confidants/justice.html">
+        <img src="./assets/img/confidants/sm/justice.png" alt="Goro Akechi" width="125" height="125" loading="lazy" />
+        <span class="card-body">Justice<small>Goro Akechi</small></span>
+      </a></li>
+      <li><a class="card" href="./confidants/hermit.html">
+        <img src="./assets/img/confidants/sm/hermit.png" alt="Futaba Sakura" width="125" height="125" loading="lazy" />
+        <span class="card-body">Hermit<small>Futaba Sakura</small></span>
+      </a></li>
+      <li><a class="card" href="./confidants/fortune.html">
+        <img src="./assets/img/confidants/sm/fortune.png" alt="Chihaya Mifune" width="125" height="125" loading="lazy" />
+        <span class="card-body">Fortune<small>Chihaya Mifune</small></span>
+      </a></li>
+      <li><a class="card" href="./confidants/strength.html">
+        <img src="./assets/img/confidants/sm/strength.png" alt="Caroline &amp; Justine" width="125" height="125" loading="lazy" />
+        <span class="card-body">Strength<small>Caroline &amp; Justine</small></span>
+      </a></li>
+      <li><a class="card" href="./confidants/hanged-man.html">
+        <img src="./assets/img/confidants/sm/hanged-man.png" alt="Munehisa Iwai" width="125" height="125" loading="lazy" />
+        <span class="card-body">Hanged-Man<small>Munehisa Iwai</small></span>
+      </a></li>
+      <li><a class="card" href="./confidants/death.html">
+        <img src="./assets/img/confidants/sm/death.png" alt="Tae Takemi" width="125" height="125" loading="lazy" />
+        <span class="card-body">Death<small>Tae Takemi</small></span>
+      </a></li>
+      <li><a class="card" href="./confidants/temperance.html">
+        <img src="./assets/img/confidants/sm/temperance.png" alt="Sadayo Kawakami" width="125" height="125" loading="lazy" />
+        <span class="card-body">Temperance<small>Sadayo Kawakami</small></span>
+      </a></li>
+      <li><a class="card" href="./confidants/devil.html">
+        <img src="./assets/img/confidants/sm/devil.png" alt="Ichiko Ohya" width="125" height="125" loading="lazy" />
+        <span class="card-body">Devil<small>Ichiko Ohya</small></span>
+      </a></li>
+      <li><a class="card" href="./confidants/tower.html">
+        <img src="./assets/img/confidants/sm/tower.png" alt="Shinya Oda" width="125" height="125" loading="lazy" />
+        <span class="card-body">Tower<small>Shinya Oda</small></span>
+      </a></li>
+      <li><a class="card" href="./confidants/star.html">
+        <img src="./assets/img/confidants/sm/star.png" alt="Hifumi Togo" width="125" height="125" loading="lazy" />
+        <span class="card-body">Star<small>Hifumi Togo</small></span>
+      </a></li>
+      <li><a class="card" href="./confidants/moon.html">
+        <img src="./assets/img/confidants/sm/moon.png" alt="Yuuki Mishima" width="125" height="125" loading="lazy" />
+        <span class="card-body">Moon<small>Yuuki Mishima</small></span>
+      </a></li>
+      <li><a class="card" href="./confidants/sun.html">
+        <img src="./assets/img/confidants/sm/sun.png" alt="Toranosuke Yoshida" width="125" height="125" loading="lazy" />
+        <span class="card-body">Sun<small>Toranosuke Yoshida</small></span>
+      </a></li>
+      <li><a class="card" href="./confidants/judgement.html">
+        <img src="./assets/img/confidants/sm/judgement.png" alt="Sae Niijima" width="125" height="125" loading="lazy" />
+        <span class="card-body">Judgement<small>Sae Niijima</small></span>
+      </a></li>
+      <li><a class="card" href="./confidants/faith.html">
+        <img src="./assets/img/confidants/sm/faith.png" alt="Kasumi Yoshizawa" width="125" height="125" loading="lazy" />
+        <span class="card-body">Faith<small>Kasumi Yoshizawa</small></span>
+      </a></li>
+      <li><a class="card" href="./confidants/councillor.html">
+        <img src="./assets/img/confidants/sm/councillor.png" alt="Takuto Maruki" width="125" height="125" loading="lazy" />
+        <span class="card-body">Councillor<small>Takuto Maruki</small></span>
+      </a></li>
+    </ul>
+      </main>
 
-      <br />
-      <hr />
-      <div id="negotiation"></div>
-
-      <br />
-      <hr />
-      <script src="script.js"></script>
+      <footer class="site-footer">
+        <p>
+          Fan-made companion for <em>Persona 5 Royal</em>. Not affiliated with or endorsed by ATLUS.
+          Game data &copy; ATLUS / SEGA.
+        </p>
+      </footer>
     </div>
+  
   </body>
 </html>

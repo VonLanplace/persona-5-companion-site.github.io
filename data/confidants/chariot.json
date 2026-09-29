@@ -1,0 +1,330 @@
+{
+  "slug": "chariot",
+  "order": 7,
+  "arcana": "Chariot",
+  "numeral": "VII",
+  "person": "Ryuji Sakamoto",
+  "portrait": "07-Chariot---Ryuji.png",
+  "sections": [
+    {
+      "id": "confidant-abilities",
+      "title": "Confidant Abilities",
+      "kind": "table",
+      "note": "",
+      "head": [
+        "Rank",
+        "Ability"
+      ],
+      "rows": [
+        [
+          "1",
+          "-"
+        ],
+        [
+          "2",
+          "<strong>Punk Talk</strong>: <br> If negotiation with an upbeat Shadow fails, you can try again."
+        ],
+        [
+          "3",
+          "<strong>Follow Up</strong>: <br> Chance to perform a follow-up attack if Joker's attack does not down the enemy."
+        ],
+        [
+          "4",
+          "<strong>Stealth Dash</strong>: <br> Makes you less likely to be found in the Metaverse while dashing."
+        ],
+        [
+          "5",
+          "-"
+        ],
+        [
+          "6",
+          "<strong>Harisen Recovery</strong>: <br> Chance to cure status ailments inflicted upon party members."
+        ],
+        [
+          "7",
+          "<strong>Insta-kill</strong>: <br> When encountering a weak Shadow (green enemy, 10 levels or lower), you may destroy it immediately. (Gains all EXP, money, items, and a persona as if that battle was won normally. Can trigger Jose effects and Fusion alerts.)"
+        ],
+        [
+          "8",
+          "<strong>Endure</strong>: <br> Chance to withstand an otherwise fatal attack with 1 HP remaining."
+        ],
+        [
+          "9",
+          "<strong>Protect</strong>: <br> Chance to shield Joker from an otherwise fatal attack."
+        ],
+        [
+          "10",
+          "<strong>Second Awakening</strong>: <br> Evolves Persona."
+        ],
+        [
+          "MAX",
+          "<strong>Third Awakening</strong>: <br> Evolves Persona."
+        ]
+      ]
+    },
+    {
+      "id": "rank-up-progression",
+      "title": "Rank Up Progression",
+      "kind": "table",
+      "note": "",
+      "head": [
+        "Rank",
+        "Requirements / Dialogue Choices",
+        "Next Pts"
+      ],
+      "rows": [
+        [
+          "1",
+          "(Automatic) 4/12",
+          "0"
+        ],
+        [
+          "2",
+          "1. \"I'm counting on you.\" (+15) <br> 2. - <br> 3. Any (+5) <br> 4. Any (+5)",
+          "20"
+        ],
+        [
+          "3",
+          "1. \"Let's not fight.\" (+5) <br> 2. \"Calm down, Ryuji.\" (+10) <br> 3. (Phone) \"I can't exactly blame you.\" (+5)",
+          "30"
+        ],
+        [
+          "4",
+          "1. \"Are you worried about him?\" (+5) <br> 2. \"But you're doing great.\" (+15)",
+          "20"
+        ],
+        [
+          "5",
+          "Locked until 5/6. <br> 1. \"Protein powder?\" (+10) <br> 2. \"You seem conflicted.\" / \"Do you want to rejoin?\" (+5) <br> 3. \"So he's an ♥♥♥♥♥♥♥?\" (+10) <br> 4. (Phone) \"Don't worry. I gotcha.\" (+5)",
+          "30"
+        ],
+        [
+          "6",
+          "1. \"We can train at my place.\" (+10) <br> 2. \"You guys should trust Nakaoka.\" (+15) <br> 3. \"Absolutely.\" (+15) <br> 6. (Phone) \"So he should've punched back?\" (+5)",
+          "45"
+        ],
+        [
+          "7",
+          "<strong >Requires receiving text from Ryuji to go on a stakeout on Wednesday / Friday Evening</strong><br> 1. \"Let's talk to Takeishi.\" (+10) <br> 2. \"I think it's cool, Ryuji.\" (+15) <br> 3. (Phone) \"Never know until you try.\" (+5)",
+          "45"
+        ],
+        [
+          "8",
+          "2. \"Things turned out for the best.\" (+15) <br> 3. \"All I did was watch.\" (+10) <br> 4. \"You weren't cool though.\" (+10) <br> 5. (Phone) \"So. Case closed?\" (+5)",
+          "60"
+        ],
+        [
+          "9",
+          "1. \"Are you satisfied now?\" (+10) <br> 2. \"Don't do it.\" (+10) <br> 3. Any (+10) <br> 4. \"I agree.\" (+5) <br> 5. (Phone) \"Congratulations.\" / \"Better watch out for them.\" (+5)",
+          "60"
+        ],
+        [
+          "10",
+          "N/A (1/13)",
+          "MAX"
+        ]
+      ]
+    },
+    {
+      "id": "gift-guide",
+      "title": "Gift Guide",
+      "kind": "table",
+      "note": "",
+      "head": [
+        "Gift Item",
+        "Confidant Points",
+        "Purchase Location",
+        "Price"
+      ],
+      "rows": [
+        [
+          "Silver Bangle",
+          "+50",
+          "Turtle Diamond Jewelry Store, Station Underground Mall, Shibuya",
+          "¥78,000"
+        ],
+        [
+          "Snack Pack",
+          "+50",
+          "Rocinante, Central Street, Shibuya",
+          "¥5,800"
+        ],
+        [
+          "Cup Noodles Set",
+          "+50",
+          "Rocinante, Central Street, Shibuya",
+          "¥3,480"
+        ],
+        [
+          "Wrist Weights",
+          "+50",
+          "Next Ace Sports Store, Station Underground Mall, Shibuya",
+          "¥6,800"
+        ],
+        [
+          "Sports Sunglasses",
+          "+50",
+          "Next Ace Sports Store, Station Underground Mall, Shibuya",
+          "¥6,800"
+        ],
+        [
+          "Robot Vacuum",
+          "+50",
+          "Electronics Superstore, Akihabara",
+          "¥44,800"
+        ],
+        [
+          "Katana Keychain",
+          "+50",
+          "Otaku Goods Shop, Akihabara",
+          "¥500"
+        ]
+      ]
+    },
+    {
+      "id": "bonus-events",
+      "title": "Bonus Events",
+      "kind": "bonus-events",
+      "blocks": [
+        {
+          "type": "event",
+          "heading": "<strong>Hangout Study</strong> (5/10 - Knowledge +3♪)",
+          "items": [
+            {
+              "kind": "choice",
+              "text": "Any (+5)"
+            }
+          ]
+        },
+        {
+          "type": "event",
+          "heading": "<strong>Hangout Harajuku</strong> (5/29 - Cleared Madarame's Palace)",
+          "items": [
+            {
+              "kind": "choice",
+              "text": "\"He is suspicious.\" (Moon +15)"
+            },
+            {
+              "kind": "choice",
+              "text": "\"Kinda want to try it.\" (Chariot &amp; Lovers +15)"
+            }
+          ]
+        },
+        {
+          "type": "event",
+          "heading": "<strong>Hangout Movies</strong> (5/29 - Kindness +3♪)",
+          "items": [
+            {
+              "kind": "choice",
+              "text": "\"They do.\" (+10)"
+            }
+          ]
+        },
+        {
+          "type": "event",
+          "heading": "<strong>Hangout Ichigaya</strong> (7/3 - Cleared Kaneshiro's Palace, Requires Temperance Rank 1+)",
+          "items": [
+            {
+              "kind": "choice",
+              "text": "\"This is shady.\" (+10)"
+            },
+            {
+              "kind": "choice",
+              "text": ""
+            },
+            {
+              "kind": "choice",
+              "text": "Any (Chariot &amp; Temperance +10)"
+            }
+          ]
+        },
+        {
+          "type": "event",
+          "heading": "<strong>Hangout Study</strong> (7/12 - Knowledge +3♪)",
+          "items": [
+            {
+              "kind": "choice",
+              "text": "Any (+5)"
+            }
+          ]
+        },
+        {
+          "type": "event",
+          "heading": "<strong>Hangout Study</strong> (10/16 - Knowledge +3♪)",
+          "items": [
+            {
+              "kind": "choice",
+              "text": "Any (+5)"
+            }
+          ]
+        },
+        {
+          "type": "event",
+          "heading": "<strong>Hangout Ogikubo</strong>",
+          "items": [
+            {
+              "kind": "choice",
+              "text": "\"I'm in love.\" (+15)"
+            },
+            {
+              "kind": "note",
+              "text": "<em>Receive Ramen Bowl</em>"
+            }
+          ]
+        },
+        {
+          "type": "event",
+          "heading": "<strong>Hangout Tsukishima</strong>",
+          "items": [
+            {
+              "kind": "choice",
+              "text": "\"Wanna see who can eat more?\" / \"Burns make it taste better.\" (+15)"
+            }
+          ]
+        },
+        {
+          "type": "event",
+          "heading": "<strong>Hangout Suidobashi</strong>",
+          "items": [
+            {
+              "kind": "choice",
+              "text": "\"Don't get sick again, OK?\" (+15)"
+            }
+          ]
+        },
+        {
+          "type": "event",
+          "heading": "<strong>Hangout Akihabara</strong>",
+          "items": [
+            {
+              "kind": "choice",
+              "text": "\"Money is everything.\" (+10)"
+            }
+          ]
+        },
+        {
+          "type": "event",
+          "heading": "<strong>Hangout Nakano</strong>",
+          "items": [
+            {
+              "kind": "choice",
+              "text": "\"Let's go to the game center.\" (+10)"
+            },
+            {
+              "kind": "choice",
+              "text": "\"Let's check it out.\" (+15)"
+            },
+            {
+              "kind": "choice",
+              "text": ""
+            },
+            {
+              "kind": "note",
+              "text": "<em>Receive Featherman Dolls</em>"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

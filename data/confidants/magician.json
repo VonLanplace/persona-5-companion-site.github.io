@@ -1,0 +1,122 @@
+{
+  "slug": "magician",
+  "order": 1,
+  "arcana": "Magician",
+  "numeral": "I",
+  "person": "Morgana",
+  "portrait": "01-Magician---Morgana.png",
+  "sections": [
+    {
+      "id": "confidant-abilities",
+      "title": "Confidant Abilities",
+      "kind": "table",
+      "note": "",
+      "head": [
+        "Rank",
+        "Ability"
+      ],
+      "rows": [
+        [
+          "1",
+          "<strong>Infiltration Tools</strong>: <br> Allows you to craft basic infiltration tools."
+        ],
+        [
+          "2",
+          "-"
+        ],
+        [
+          "3",
+          "<b>Follow Up</b>: <br> Chance to perform a follow-up attack if Joker's attack does not down the enemy."
+        ],
+        [
+          "4",
+          "<b>Kitty Talk</b>: <br> If negotiation with an animal-type Shadow fails, you can try again."
+        ],
+        [
+          "5",
+          "<b>Pickpocket</b>: <br> Chance to obtain an item when Joker performs a melee attack."
+        ],
+        [
+          "6",
+          "<b>Ace Tools</b>: <br> Allows you to craft all infiltration tools."
+        ],
+        [
+          "7",
+          "<b>Harisen Recovery</b>: <br> Chance to cure status ailments inflicted upon party members."
+        ],
+        [
+          "8",
+          "<b>Endure</b>: <br> Chance to withstand an otherwise fatal attack with 1 HP remaining."
+        ],
+        [
+          "9",
+          "<b>Protect</b>: <br> Chance to shield Joker from an otherwise fatal attack."
+        ],
+        [
+          "10",
+          "<b>Second Awakening</b>: <br> Evolves Persona."
+        ],
+        [
+          "MAX",
+          "<b>Third Awakening</b>: <br> Evolves Persona."
+        ]
+      ]
+    },
+    {
+      "id": "rank-up-progression",
+      "title": "Rank Up Progression",
+      "kind": "table",
+      "note": "",
+      "head": [
+        "Rank",
+        "Requirements / Dialogue Choices"
+      ],
+      "rows": [
+        [
+          "1",
+          "<i>(Automatic)</i> 4/15"
+        ],
+        [
+          "2",
+          "<i>(Automatic)</i> 4/20 ~ 4/29 <br> (Stealing Kamoshida's Treasure)"
+        ],
+        [
+          "3",
+          "<i>(Automatic)</i> 5/22 ~ 6/3 <br> (Clear Madarame's Palace)"
+        ],
+        [
+          "4",
+          "<i>(Automatic)</i> 6/20"
+        ],
+        [
+          "5",
+          "<i>(Automatic)</i> 6/23 ~ 7/7 <br> (Kaneshiro's Palace Route Secured)"
+        ],
+        [
+          "6",
+          "<i>(Automatic)</i> 7/25"
+        ],
+        [
+          "7",
+          "<i>(Automatic)</i> 8/29"
+        ],
+        [
+          "8",
+          "<i>(Automatic)</i> 9/17"
+        ],
+        [
+          "9",
+          "<i>(Automatic)</i> 9/21 ~ 10/10 <br> (Clear Okumura's Palace)"
+        ],
+        [
+          "10",
+          "<i>(Automatic)</i> 12/23"
+        ],
+        [
+          "MAX",
+          "<i>(Automatic)</i> 1/10"
+        ]
+      ]
+    }
+  ]
+}

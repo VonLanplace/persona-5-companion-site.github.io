@@ -1,0 +1,255 @@
+{
+  "slug": "star",
+  "order": 17,
+  "arcana": "Star",
+  "numeral": "XVII",
+  "person": "Hifumi Togo",
+  "portrait": "17-Star---Hifumi.png",
+  "sections": [
+    {
+      "id": "confidant-abilities",
+      "title": "Confidant Abilities",
+      "kind": "table",
+      "note": "",
+      "head": [
+        "Rank",
+        "Ability"
+      ],
+      "rows": [
+        [
+          "1",
+          "<strong>Koma Sabaki</strong>: <br> Allows you to swap current party with backup members during Joker's turn."
+        ],
+        [
+          "2",
+          "-"
+        ],
+        [
+          "3",
+          "<strong>Uchikomi</strong>: <br> Chance for follow-up by a backup member if Joker downs an enemy."
+        ],
+        [
+          "4",
+          "-"
+        ],
+        [
+          "5",
+          "<strong>Kakoi Kuzushi</strong>: <br> Allows you to attempt an escape, even when surrounded by the enemy."
+        ],
+        [
+          "6",
+          "-"
+        ],
+        [
+          "7",
+          "<strong>Narikin</strong>: <br> Earn double money if a battle is won in 1 turn after a successful ambush."
+        ],
+        [
+          "8",
+          "-"
+        ],
+        [
+          "9",
+          "<strong>Touryou</strong>: <br> Decreases turn delay to zero, allowing you to instantly escape battle."
+        ],
+        [
+          "10",
+          "<strong>Togo System</strong>: <br> Allows you to swap current party with backup members during anyone's turn."
+        ]
+      ]
+    },
+    {
+      "id": "schedule",
+      "title": "Schedule",
+      "kind": "schedule",
+      "items": [
+        {
+          "label": "Time of Day",
+          "value": "Evening<br><strong>Day of Week</strong>: Monday, Wednesday, and Saturday<br><strong>Location</strong>: Kanda Church"
+        }
+      ]
+    },
+    {
+      "id": "rank-up-progression",
+      "title": "Rank Up Progression",
+      "kind": "table",
+      "note": "",
+      "head": [
+        "Rank",
+        "Requirements / Dialogue Choices",
+        "Next Pts"
+      ],
+      "rows": [
+        [
+          "1",
+          "<strong>Requires Charm Lv 3 (Suave).</strong><br><strong>Reward: </strong><em>Knowledge +1♪</em>",
+          "0"
+        ],
+        [
+          "2",
+          "1. \"That's interesting.\" (+5)<br> 3. \"But you don't want to, right?\" (+5) <br><br><strong>Reward: </strong><em>Knowledge +1♪</em>",
+          "0"
+        ],
+        [
+          "3",
+          "1. \"Describes you perfectly.\" (+5)<br> 2. \"Having a difficult time?\" (+5)<br> 3. (Phone) \"Bring it on.\" (+5) <br><br><strong>Reward: </strong><em>Knowledge +1♪</em>",
+          "10"
+        ],
+        [
+          "4",
+          "1. \"I don't mind.\" / \"Must've been the katsu curry.\" (+5)<br> 2. \"They're cool.\" (+5)<br> 3. (Phone) \"I'd love to.\" / \"Where shall we go next?\" (+5)",
+          "14"
+        ],
+        [
+          "5",
+          "1. \"She's scary.\" (+5)<br> 2. \"You should stop then.\" (+5)<br> 3. (Phone) \"You've got a lot to deal with...\" (+5) <br><br><strong>Reward: </strong><em>Knowledge +1♪</em>",
+          "14"
+        ],
+        [
+          "6",
+          "1. \"Is that frustrating?\" (+5)<br> 2. \"Do you still like shogi?\" / \"Do what you love.\" (+5)<br> 3. (Phone) \"You're imagining things.\" (+5) <br><br><strong>Reward: </strong><em>Knowledge +1♪</em>",
+          "22"
+        ],
+        [
+          "7",
+          "1. \"It may come down to luck.\" (+10)<br> 2. \"I believe in you.\" (+10) <br><br><strong>Reward: </strong><em>Knowledge +1♪</em>",
+          "0"
+        ],
+        [
+          "8",
+          "<strong> Requires Knowledge Lv 5 (Erudite) and <br> completing \"Upstaging the Stage Mother\" request. </strong><br><br> 1. \"That won't work.\" (+5) <br><br><strong>Actual Rank Up Dialogue:</strong><br> 1. \"I'm glad her heart changed.\" (+10)<br> 3. (Phone) \"I support it.\" (+5) <br><br><strong>Reward: </strong><em>Knowledge +1♪</em>",
+          "30"
+        ],
+        [
+          "9",
+          "1. \"Give it all you got.\" (+5)<br> 2. \"A very queenly decision.\" (+10) <br><br><strong>Friendship:</strong><br> \"I want to become stronger.\" (+0) <br> (Phone) Any (+5) <br><br><strong>Romance:</strong><br> \"I want to stay by your side.\" (+0) / \"I want us to date.\" (+0) <br> (Phone) Any (+5)",
+          "30"
+        ],
+        [
+          "10",
+          "N/A",
+          "-"
+        ]
+      ]
+    },
+    {
+      "id": "gift-guide",
+      "title": "Gift Guide",
+      "kind": "table",
+      "note": "",
+      "head": [
+        "Gift Item",
+        "Confidant Points",
+        "Purchase Location",
+        "Price"
+      ],
+      "rows": [
+        [
+          "Heart Ring",
+          "+50",
+          "Jewelry Store, Station Underground Mall, Shibuya",
+          "¥88,000"
+        ],
+        [
+          "Book Cover",
+          "+50",
+          "Japan Sundries Shop, Station Underground Mall, Shibuya",
+          "¥3,000"
+        ],
+        [
+          "Sakura Fan",
+          "+50",
+          "Japan Sundries Shop, Station Underground Mall, Shibuya",
+          "¥4,800"
+        ],
+        [
+          "Bath of Roses",
+          "+50",
+          "Flower Shop, Shinjuku at Night",
+          "¥3,200"
+        ]
+      ]
+    },
+    {
+      "id": "bonus-events",
+      "title": "Bonus Events",
+      "kind": "bonus-events",
+      "blocks": [
+        {
+          "type": "event",
+          "heading": "<strong>Hawaii Trip</strong> (9/10 - Requires Star Rank 5+)",
+          "items": [
+            {
+              "kind": "note",
+              "text": "1. \"You look great!\" (+15)"
+            },
+            {
+              "kind": "note",
+              "text": "2. \"Yeah, I'd like to try some.\" (+15)"
+            },
+            {
+              "kind": "note",
+              "text": "3. \"I had fun.\" (+15)"
+            },
+            {
+              "kind": "note",
+              "text": "4. Any (+15)"
+            },
+            {
+              "kind": "note",
+              "text": "5."
+            },
+            {
+              "kind": "note",
+              "text": "<em>Receive Honu Charm</em>"
+            }
+          ]
+        },
+        {
+          "type": "event",
+          "heading": "<strong>Hangout Inokashira</strong>",
+          "items": [
+            {
+              "kind": "choice",
+              "text": "Any (+15)"
+            }
+          ]
+        },
+        {
+          "type": "event",
+          "heading": "<strong>Hangout Jinbocho</strong> (Requires Star Rank 8+)",
+          "items": [
+            {
+              "kind": "choice",
+              "text": "\"Leave it to me.\" (+15)"
+            },
+            {
+              "kind": "note",
+              "text": "<em>Receive King Piece</em>"
+            }
+          ]
+        },
+        {
+          "type": "event",
+          "heading": "<strong>Hangout Wilton Buffet</strong> (Requires Star Rank 9+ Friendship Only)",
+          "items": [
+            {
+              "kind": "choice",
+              "text": "\"I have a recommendation.\" (+15)"
+            }
+          ]
+        },
+        {
+          "type": "event",
+          "heading": "<strong>Hangout Odaiba</strong> (Requires Star Rank 9+ Romance Only)",
+          "items": [
+            {
+              "kind": "choice",
+              "text": "\"You can always count on me.\" (+15)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

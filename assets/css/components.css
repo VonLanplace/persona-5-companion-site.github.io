@@ -1,0 +1,486 @@
+/* ==========================================================================
+   Components
+   ========================================================================== */
+
+/* Disclosure (details / summary) --------------------------------------- */
+
+summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 8px 14px;
+  margin: 1em 0;
+  font-family: var(--font-title);
+  font-size: 1.15rem;
+  letter-spacing: 1px;
+  text-align: center;
+  background-color: var(--col2);
+  color: var(--col3);
+  transform: skew(var(--p5-skew));
+  box-shadow: var(--p5-shadow);
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary:hover {
+  background-color: var(--col1);
+  color: var(--background);
+  transform: skew(var(--p5-skew)) translate(-2px, -2px);
+  box-shadow: var(--p5-shadow-hover);
+}
+
+/* Undo the skew on the summary's own text. */
+summary > span,
+summary > strong {
+  display: inline-block;
+  transform: skew(calc(var(--p5-skew) * -1));
+}
+
+details {
+  margin-bottom: 1em;
+  padding-left: 10px;
+  border-left: 4px solid var(--col1);
+}
+
+details[open] > summary {
+  margin-bottom: 0.75rem;
+}
+
+/* Nested disclosure inside a section. */
+.inner-details summary {
+  background-color: var(--col3);
+  color: var(--text);
+  font-size: 1rem;
+  transform: skew(-2deg);
+  box-shadow: 3px 3px 0 #000;
+}
+
+.inner-details summary:hover {
+  color: var(--col3);
+  background-color: var(--col2);
+}
+
+/* Cards ----------------------------------------------------------------- */
+
+.card {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+  background: var(--surface);
+  border: 0;
+  padding: 0;
+  overflow: hidden;
+  transform: rotate(-1deg) skew(-2deg);
+  box-shadow: 3px 3px 0 #000;
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.card:hover,
+.card:focus-visible {
+  transform: rotate(-1deg) skew(-2deg) translate(-2px, -2px);
+  box-shadow: 5px 5px 0 #000;
+}
+
+.card img {
+  width: 100%;
+  border: 0;
+  transform: none;
+  box-shadow: none;
+}
+
+.card-body {
+  background: var(--col2);
+  color: var(--col3);
+  padding: 6px 8px;
+  font-family: var(--font-title);
+  font-size: 1.05rem;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+  transform: skew(2deg);
+  margin: -1px 0 0;
+}
+
+.card-body small {
+  display: block;
+  font-family: var(--font-text);
+  font-size: 0.7rem;
+  letter-spacing: 0;
+  text-transform: none;
+  opacity: 0.75;
+}
+
+/* Wide variant used for section index tiles. */
+.card--wide {
+  transform: skew(var(--p5-skew));
+  box-shadow: var(--p5-shadow);
+}
+
+.card--wide:hover,
+.card--wide:focus-visible {
+  transform: skew(var(--p5-skew)) translate(-2px, -2px);
+  box-shadow: var(--p5-shadow-hover);
+}
+
+.card--wide .card-body {
+  background: var(--col3);
+  color: var(--text);
+  transform: skew(calc(var(--p5-skew) * -1));
+  padding: 12px 14px;
+  text-align: left;
+}
+
+.card--wide .card-body small {
+  margin-top: 4px;
+  color: var(--muted);
+  opacity: 1;
+}
+
+/* Tables ---------------------------------------------------------------- */
+
+/*
+ * Wide guides tables are the primary content, so they get their own
+ * horizontal scroll container rather than forcing the whole page to
+ * scroll sideways on a phone.
+ */
+.table-wrap {
+  overflow-x: auto;
+  margin: 0 auto 1.5rem;
+  max-width: 100%;
+}
+
+table {
+  width: 100%;
+  min-width: 480px;
+  border-collapse: collapse;
+  margin: 0 auto;
+  font-size: 0.9rem;
+  background: var(--background);
+  transform: skew(-1deg);
+  box-shadow: var(--p5-shadow);
+}
+
+th,
+td {
+  padding: 8px 10px;
+  text-align: left;
+  vertical-align: top;
+  border: 1px solid var(--border);
+}
+
+th {
+  background-color: var(--col1);
+  color: var(--background);
+  font-family: var(--font-title);
+  font-size: 1.05rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  transform: skew(-2deg);
+  white-space: nowrap;
+}
+
+td {
+  color: var(--text);
+  background: var(--surface);
+}
+
+/* Undo skew inside cells so the text stays upright. */
+th > *,
+td > * {
+  display: inline-block;
+  transform: skew(1deg);
+}
+
+tbody tr:nth-child(even) td {
+  background: var(--surface-2);
+}
+
+/* Column alignment coming from Markdown tables. */
+.ta-center {
+  text-align: center;
+}
+
+.ta-right {
+  text-align: right;
+}
+
+.ta-left {
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  table {
+    font-size: 1rem;
+  }
+}
+
+/* Schedule -------------------------------------------------------------- */
+
+.schedule {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 0.5rem;
+  max-width: 60ch;
+}
+
+.schedule li {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1rem;
+  margin: 0;
+  padding: 8px 12px;
+  background: var(--surface);
+  border-left: 3px solid var(--col2);
+}
+
+.schedule .schedule-label {
+  font-family: var(--font-title);
+  letter-spacing: 1px;
+  color: var(--col2);
+  flex: 0 0 10rem;
+}
+
+/* Bonus events ---------------------------------------------------------- */
+
+.events {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.event h3,
+.event h4 {
+  margin-top: 0;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.choice-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.3rem;
+}
+
+.choice-list li {
+  margin: 0;
+  padding: 4px 10px 4px 26px;
+  position: relative;
+  background: var(--surface);
+  font-size: 0.95rem;
+}
+
+.choice-list li::before {
+  content: "\2022";
+  position: absolute;
+  left: 10px;
+  color: var(--col2);
+}
+
+.choice-list li.is-blank {
+  background: transparent;
+  min-height: 0.5rem;
+  padding: 0;
+}
+
+.choice-list li.is-blank::before {
+  content: none;
+}
+
+.choice-list li.is-note {
+  background: transparent;
+  padding-left: 26px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+/* Forms ----------------------------------------------------------------- */
+
+.search-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 1.5rem auto;
+  padding: 14px;
+  background-color: var(--col2);
+  border-radius: 10px;
+  width: 100%;
+  max-width: 640px;
+  transform: skew(-2deg);
+  box-shadow: var(--p5-shadow);
+}
+
+.search-form input,
+.search-form button {
+  font-size: 1rem;
+  padding: 10px 12px;
+  border: 0;
+  border-radius: 8px;
+  transform: skew(2deg);
+  font-family: var(--font-text);
+}
+
+.search-form button {
+  background-color: var(--col3);
+  color: var(--text);
+  cursor: pointer;
+  font-family: var(--font-title);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.search-form button:hover {
+  transform: skew(2deg) translate(-2px, -2px);
+  box-shadow: 3px 3px 0 #000;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-status {
+  text-align: center;
+  color: var(--col3);
+  font-size: 0.9rem;
+  min-height: 1.4em;
+}
+
+@media (min-width: 768px) {
+  .form-row {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .search-form input {
+    flex: 1 1 auto;
+    min-width: 250px;
+  }
+}
+
+/* Negotiation result table ---------------------------------------------- */
+
+.result-meta {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-bottom: 0.5rem;
+}
+
+.grade-bad {
+  color: var(--col1);
+  font-weight: 600;
+}
+
+.grade-ok {
+  color: var(--col2);
+  font-style: italic;
+}
+
+.grade-good {
+  color: #3ddc84;
+  font-weight: 700;
+}
+
+/* Long-form prose (rendered from Markdown) ------------------------------- */
+
+.prose {
+  max-width: 78ch;
+  margin: 0 auto;
+}
+
+.prose h2 {
+  text-align: left;
+  font-size: 1.6rem;
+  margin-top: 2.5rem;
+}
+
+.prose h3 {
+  font-size: 1.25rem;
+}
+
+.prose .table-wrap {
+  max-width: 100%;
+}
+
+/* Portrait -------------------------------------------------------------- */
+
+.portrait {
+  width: 220px;
+  max-width: 60%;
+  margin: 0 auto 1rem;
+  border: 4px solid #000;
+  transform: rotate(-1deg);
+  box-shadow: var(--p5-shadow);
+}
+
+.person-name {
+  text-align: center;
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+}
+
+.badge {
+  display: inline-block;
+  font-family: var(--font-title);
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  background: var(--col3);
+  color: var(--col2);
+  border: 1px solid var(--col2);
+  padding: 1px 10px;
+  transform: skew(var(--p5-skew));
+}
+
+.badge--royal {
+  background: var(--col1);
+  border-color: var(--col1);
+  color: var(--text);
+}
+
+/* Micro-animation ------------------------------------------------------- */
+
+@keyframes p5-pop {
+  0% {
+    transform: scale(0.98) skew(var(--p5-skew));
+  }
+  100% {
+    transform: scale(1) skew(var(--p5-skew));
+  }
+}
+
+summary:active,
+button:active,
+.card:active {
+  animation: p5-pop 0.08s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  summary,
+  .card,
+  .search-form input,
+  .search-form button,
+  .site-nav a,
+  .page-nav a {
+    transition: none;
+  }
+
+  summary:active,
+  button:active,
+  .card:active {
+    animation: none;
+  }
+}
