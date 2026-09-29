@@ -1,0 +1,213 @@
+{
+  "slug": "moon",
+  "order": 18,
+  "arcana": "Moon",
+  "numeral": "XVIII",
+  "person": "Yuuki Mishima",
+  "portrait": "18-Moon---Mishima.png",
+  "sections": [
+    {
+      "id": "confidant-abilities",
+      "title": "Confidant Abilities",
+      "kind": "table",
+      "note": "",
+      "head": [
+        "Rank",
+        "Ability"
+      ],
+      "rows": [
+        [
+          "1",
+          "-"
+        ],
+        [
+          "2",
+          "<strong>Mishima's Support</strong>: <br> Allows backup members to earn EXP."
+        ],
+        [
+          "3",
+          "<strong>Mishima's Enthusiasm</strong>: <br> Increases EXP earned from battle."
+        ],
+        [
+          "4",
+          "-"
+        ],
+        [
+          "5",
+          "<strong>Mishima's Desperation</strong>: <br> Increases EXP earned by backup members."
+        ],
+        [
+          "6",
+          "-"
+        ],
+        [
+          "7",
+          "<strong>Phanboy</strong>: <br> Greatly increases EXP earned from battle."
+        ],
+        [
+          "8",
+          "-"
+        ],
+        [
+          "9",
+          "-"
+        ],
+        [
+          "10",
+          "<strong>Salvation Wish</strong>: <br> Allows backup members to earn the same EXP as current party members."
+        ]
+      ]
+    },
+    {
+      "id": "schedule",
+      "title": "Schedule",
+      "kind": "schedule",
+      "items": [
+        {
+          "label": "Time of Day",
+          "value": "Evening<br><strong>Day of Week</strong>: Any Day <em>(Won't appear after Rank Up for the next 3 days)</em><br>"
+        },
+        {
+          "label": "",
+          "value": "• Shibuya Central Street"
+        },
+        {
+          "label": "",
+          "value": "• Moves to Shinjuku when it opens"
+        },
+        {
+          "label": "",
+          "value": "• Moves to Akihabara when it opens"
+        }
+      ]
+    },
+    {
+      "id": "rank-up-progression",
+      "title": "Rank Up Progression",
+      "kind": "table",
+      "note": "",
+      "head": [
+        "Rank",
+        "Requirements / Dialogue Choices"
+      ],
+      "rows": [
+        [
+          "1",
+          "(Automatic)"
+        ],
+        [
+          "2",
+          "(Automatic) 5/8"
+        ],
+        [
+          "3",
+          "Requires completing 1 request"
+        ],
+        [
+          "4",
+          "Requires completing 2 requests"
+        ],
+        [
+          "5",
+          "Requires completing 3 requests"
+        ],
+        [
+          "6",
+          "Requires completing 4 requests"
+        ],
+        [
+          "7",
+          "Requires completing 5 requests <br><em>(two interactions to trigger rank up)</em>"
+        ],
+        [
+          "8",
+          "Requires completing 7 requests"
+        ],
+        [
+          "9",
+          "Requires completing 8 requests"
+        ],
+        [
+          "10",
+          "Requires completing 10 requests"
+        ]
+      ]
+    },
+    {
+      "id": "request-list-counts-towards-rank-progression",
+      "title": "Request List (Counts Towards Rank Progression)",
+      "kind": "table",
+      "note": "",
+      "head": [
+        "Request",
+        "Date / How to Receive Request"
+      ],
+      "rows": [
+        [
+          "One Who Bullies Bullies",
+          "Moon Rank 3"
+        ],
+        [
+          "Part-time Job, Full-time Hell",
+          "Moon Rank 4"
+        ],
+        [
+          "Man of Many Faces and Debts",
+          "Moon Rank 8"
+        ],
+        [
+          "The Bark and Bite of a Bully",
+          "5/9"
+        ],
+        [
+          "If Cats Disappeared from the City",
+          "The day after clearing Museum Palace"
+        ],
+        [
+          "An Elderly's Meaning of Life",
+          "6/5"
+        ],
+        [
+          "Sadism Is Just a Sign of Love",
+          "6/6"
+        ],
+        [
+          "The Lovesick Cyberstalking Girl",
+          "7/10"
+        ],
+        [
+          "We Aren't Just Your Slaves",
+          "8/2 or the day after clearing Pyramid Palace"
+        ],
+        [
+          "Who's Been Assaulting People?",
+          "8/3 or two days after clearing Pyramid Palace"
+        ],
+        [
+          "Calling for Justice for Cats",
+          "8/4 or three days after clearing Pyramid Palace"
+        ],
+        [
+          "Who's Muscling in Yongen-Jaya?",
+          "8/29"
+        ],
+        [
+          "The Killer Who Cleans Up Trash",
+          "10/14"
+        ],
+        [
+          "Swindling Old Folk is Pretty Low",
+          "11/25"
+        ],
+        [
+          "The Head Honcho in Showbiz",
+          "12/3 or the day after clearing Cruiser Palace"
+        ],
+        [
+          "O My Young Sister, I Cry For You",
+          "1/14"
+        ]
+      ]
+    }
+  ]
+}

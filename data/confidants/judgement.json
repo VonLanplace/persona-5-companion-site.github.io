@@ -1,0 +1,114 @@
+{
+  "slug": "judgement",
+  "order": 20,
+  "arcana": "Judgement",
+  "numeral": "XX",
+  "person": "Sae Niijima",
+  "portrait": "20-Judgement---Sae.png",
+  "sections": [
+    {
+      "id": "confidant-abilities",
+      "title": "Confidant Abilities",
+      "kind": "table",
+      "note": "",
+      "head": [
+        "Rank",
+        "Ability"
+      ],
+      "rows": [
+        [
+          "1",
+          "-"
+        ],
+        [
+          "2",
+          "-"
+        ],
+        [
+          "3",
+          "-"
+        ],
+        [
+          "4",
+          "-"
+        ],
+        [
+          "5",
+          "-"
+        ],
+        [
+          "6",
+          "-"
+        ],
+        [
+          "7",
+          "-"
+        ],
+        [
+          "8",
+          "-"
+        ],
+        [
+          "9",
+          "-"
+        ],
+        [
+          "10",
+          "<strong>True Justice</strong><br><em> Cooperate as comrades who fight for justice and seek the truth. </em>"
+        ]
+      ]
+    },
+    {
+      "id": "rank-up-progression",
+      "title": "Rank Up Progression",
+      "kind": "table",
+      "note": "",
+      "head": [
+        "Rank",
+        "Requirements / Dialogue Choices"
+      ],
+      "rows": [
+        [
+          "1",
+          "(Automatic) 7/9"
+        ],
+        [
+          "2",
+          "(Automatic) 7/24"
+        ],
+        [
+          "3",
+          "(Automatic) 8/22"
+        ],
+        [
+          "4",
+          "(Automatic) 9/13"
+        ],
+        [
+          "5",
+          "(Automatic) 10/12"
+        ],
+        [
+          "6",
+          "(Automatic) 10/28"
+        ],
+        [
+          "7",
+          "(Automatic) 11/20"
+        ],
+        [
+          "8",
+          "(Automatic) 11/20"
+        ],
+        [
+          "9",
+          "(Automatic) 11/20"
+        ],
+        [
+          "10",
+          "(Automatic) 11/20 <br><em>(Requires at least Normal Ending)</em>"
+        ]
+      ]
+    }
+  ]
+}

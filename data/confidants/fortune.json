@@ -1,0 +1,205 @@
+{
+  "slug": "fortune",
+  "order": 10,
+  "arcana": "Fortune",
+  "numeral": "X",
+  "person": "Chihaya Mifune",
+  "portrait": "10-Fortune---Chihaya.png",
+  "sections": [
+    {
+      "id": "confidant-abilities",
+      "title": "Confidant Abilities",
+      "kind": "table",
+      "note": "",
+      "head": [
+        "Rank",
+        "Ability"
+      ],
+      "rows": [
+        [
+          "1",
+          "<strong>Luck Reading</strong>: <br> Temporarily increases the growth rate (50%) of a selected social stat."
+        ],
+        [
+          "2",
+          "-"
+        ],
+        [
+          "3",
+          "<strong>Money Reading</strong>: <br> Temporarily increases money earned from battle."
+        ],
+        [
+          "4",
+          "-"
+        ],
+        [
+          "5",
+          "<strong>Affinity Reading</strong>: <br> Deepens your bond (+5 points) with a Confidant of your choice."
+        ],
+        [
+          "6",
+          "-"
+        ],
+        [
+          "7",
+          "<strong>Special Fate Reading</strong>: <br> Provides a preview of all abilities for a Confidant of your choice."
+        ],
+        [
+          "8",
+          "<strong>Celestial Reading</strong>: <br> Increases the chances of fusion alarms occurring in the Velvet Room."
+        ],
+        [
+          "9",
+          "-"
+        ],
+        [
+          "10",
+          "<strong>Special Bond Reading</strong>: <br> Displays the responses that grant the highest confidant points during Confidant events."
+        ]
+      ]
+    },
+    {
+      "id": "schedule",
+      "title": "Schedule",
+      "kind": "schedule",
+      "items": [
+        {
+          "label": "Time of Day",
+          "value": "Evening (Non-Rainy)<br><strong>Day of Week</strong>: Tuesday, Thursday, and Sunday<br><strong>Location</strong>: Shinjuku, Fortune Telling Booth"
+        }
+      ]
+    },
+    {
+      "id": "rank-up-progression",
+      "title": "Rank Up Progression",
+      "kind": "table",
+      "note": "",
+      "head": [
+        "Rank",
+        "Requirements / Dialogue Choices",
+        "Next Pts"
+      ],
+      "rows": [
+        [
+          "1",
+          "<strong >Requires visiting her 3 times before rank up triggers.<br> - 1st visit: Simply meet her.<br> - 2nd visit: Purchase a Holy Stone for ¥100,000.<br> - 3rd visit: Receive the \"Ending the Boyfriend's Abuse\" request (must be completed). </strong>",
+          "0"
+        ],
+        [
+          "2",
+          "1. \"Encourage her.\" (+0)<br> 2. \"Overturn your fate!\" (+0)<br> 3. \"Open your mind to change.\" (+5)<br> 4. (Phone) \"Of course I am.\" (+5)",
+          "0"
+        ],
+        [
+          "3",
+          "1. \"Follow his heart.\" (+0)<br> 2. \"Thieves may steal her away.\" (+0)<br> 3. -",
+          "15"
+        ],
+        [
+          "4",
+          "2. \"Trust in yourself.\" (+10)<br> 6. (Phone) \"I didn't do much.\" (+5)",
+          "15"
+        ],
+        [
+          "5",
+          "1. \"You're such a hard worker.\" (+10)",
+          "15"
+        ],
+        [
+          "6",
+          "4. \"You're just Chihaya to me.\" (+15)<br> 5. (Phone) \"Be honest with yourself.\" (+5)",
+          "30"
+        ],
+        [
+          "7",
+          "1. \"I don't think so.\" (+15)<br> 2. (Phone) \"Are you gonna be okay?\" / \"Be careful.\" (+5)",
+          "20"
+        ],
+        [
+          "8",
+          "<strong> Requires visiting after rank 7 <br>to receive and complete \"Debunking the Psychic!\" request.</strong><br> 1. \"I know.\" (+10)<br> 2. Any (+15)<br> 3. \"Hell yeah I am.\" (+15)<br> 4. (Phone) \"It was all your own will.\" (+5)",
+          "46"
+        ],
+        [
+          "9",
+          "<strong> Refunds the ¥100,000 used to initiate confidant.</strong><br> 2. \"Well, fate can be changed.\" (+15)<br><br><strong>Friendship:</strong><br> - \"I like having my fortune read.\" (+0)<br> - (Phone) \"I'm planning on it.\" (+5)<br><strong>Romance:</strong><br> - \"So I can be with you.\" (+0)<br> - (Phone) \"I wanted to hear your voice too.\" (+5)",
+          "21"
+        ],
+        [
+          "10",
+          "N/A",
+          "N/A"
+        ]
+      ]
+    },
+    {
+      "id": "gift-guide",
+      "title": "Gift Guide",
+      "kind": "table",
+      "note": "",
+      "head": [
+        "Gift Item",
+        "Confidant Points",
+        "Purchase Location",
+        "Price"
+      ],
+      "rows": [
+        [
+          "Heart Ring",
+          "+50",
+          "Jewelry Store, Station Underground Mall, Shibuya",
+          "¥88,000"
+        ],
+        [
+          "Star Mirror",
+          "+50",
+          "General Store, Shinjuku",
+          "¥4,000"
+        ],
+        [
+          "Robot Vacuum",
+          "+50",
+          "Electronics Superstore, Akihabara",
+          "¥44,800"
+        ],
+        [
+          "Electric Toothbrush",
+          "+50",
+          "Electronics Superstore, Akihabara",
+          "¥29,800"
+        ]
+      ]
+    },
+    {
+      "id": "bonus-events",
+      "title": "Bonus Events",
+      "kind": "bonus-events",
+      "blocks": [
+        {
+          "type": "event",
+          "heading": "<strong>Hangout Jinbocho</strong> (Requires Fortune Rank 4+)",
+          "items": [
+            {
+              "kind": "choice",
+              "text": "\"Autobiographies of great people.\" (+15)"
+            }
+          ]
+        },
+        {
+          "type": "event",
+          "heading": "<strong>Hangout Skytree</strong> (Requires Fortune Rank 8+)",
+          "items": [
+            {
+              "kind": "choice",
+              "text": "\"Such a delicious thrill...\" (+15)"
+            },
+            {
+              "kind": "note",
+              "text": "<em>Receive Skytree Lamp</em>"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

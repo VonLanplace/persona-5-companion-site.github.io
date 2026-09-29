@@ -1,0 +1,253 @@
+{
+  "slug": "temperance",
+  "order": 14,
+  "arcana": "Temperance",
+  "numeral": "XIV",
+  "person": "Sadayo Kawakami",
+  "portrait": "14-Temperance---Kawakami.png",
+  "sections": [
+    {
+      "id": "confidant-abilities",
+      "title": "Confidant Abilities",
+      "kind": "table",
+      "note": "",
+      "head": [
+        "Rank",
+        "Ability"
+      ],
+      "rows": [
+        [
+          "1",
+          "<strong>Slack Off</strong>: <br> Allows you to perform various activities (read, craft, or sleep) in Kawakami's class."
+        ],
+        [
+          "2",
+          "-"
+        ],
+        [
+          "3",
+          "<strong>Housekeeping</strong>: <br> Allows you to request Kawakami to make coffee or do laundry for you."
+        ],
+        [
+          "4",
+          "-"
+        ],
+        [
+          "5",
+          "<strong>Free Time</strong>: <br> Allows you to <strong>Slack Off</strong> in other teachers' classes."
+        ],
+        [
+          "6",
+          "<strong>Super Housekeeping</strong>: <br> Allows you to request Kawakami to make curry or infiltration tools for you."
+        ],
+        [
+          "7",
+          "-"
+        ],
+        [
+          "8",
+          "-"
+        ],
+        [
+          "9",
+          "-"
+        ],
+        [
+          "10",
+          "<strong>Special Massage</strong>: <br> Allows you to request a massage after going into the Metaverse, letting you go out at night."
+        ]
+      ]
+    },
+    {
+      "id": "schedule",
+      "title": "Schedule",
+      "kind": "schedule",
+      "items": [
+        {
+          "label": "Time of Day",
+          "value": "Evening<br><strong>Day of Week</strong>: Friday and Saturday<br><strong>Location</strong>: Payphone at Leblanc (¥5,000 per call)"
+        }
+      ]
+    },
+    {
+      "id": "rank-up-progression",
+      "title": "Rank Up Progression",
+      "kind": "table",
+      "note": "",
+      "head": [
+        "Rank",
+        "Requirements / Dialogue Choices",
+        "Next Pts"
+      ],
+      "rows": [
+        [
+          "1",
+          "<strong> Requires talking to Mishima after clearing Madarame's Palace to initiate <br> Operation Maidwatch.<br> Talk to Kawakami outside the staff room afterwards to get her phone number.<br> Requires Guts Lv 3 (Staunch) to call her. </strong>",
+          "0"
+        ],
+        [
+          "2",
+          "1. \"It does.\" (+5)<br> 2. \"Absolutely not!\" (+5)<br> 5. Any (+5)",
+          "20"
+        ],
+        [
+          "3",
+          "1. \"Yeah, they do.\" / \"Do some real cooking.\" (+5)<br> 3. \"I'll request you more often.\" (+15)<br> 5. (Phone) \"Thanks.\" (+5)",
+          "37"
+        ],
+        [
+          "4",
+          "2. \"How rude.\" (+5)<br> 3. \"You need to love yourself.\" (+15) <br><br><strong>Reward:</strong> Kindness +2♪",
+          "0"
+        ],
+        [
+          "5",
+          "1. \"It's fun.\" / \"Who’s the Master here?\" (+5)<br> 2. \"How terrible...\" / \"So, did you stop?\" (+5)<br> 6. (Phone) \"You want some?\" (+5)",
+          "11"
+        ],
+        [
+          "6",
+          "1. \"Want to rest a bit?\" (+5)<br> 2. \"Are you all right?\" (+15)<br> 4. (Phone) \"How are you feeling, though?\" (+5)",
+          "37"
+        ],
+        [
+          "7",
+          "1. \"Don't pay them.\" (+10)<br> 2. \"Think this through more.\" (<em>+15 Romance Flag</em>)",
+          "0"
+        ],
+        [
+          "8",
+          "1. \"Is this really what you want?\" (+10)<br> 2. \"If that's what you decided.\" (+10)<br> 5. Any (+15)<br> 6. \"That’s reassuring.\" (+15)<br> 7. (Phone) Any (+5)",
+          "0"
+        ],
+        [
+          "9",
+          "<strong> Requires completing A Teacher Maid to Suffer request <br> (Received the next school day after Rank 8 trigger). </strong><br><br> 1. \"Nonsense.\" (+10)<br> 2. Any (+15)<br> 3. \"I want to keep seeing you.\" (+5) <br><br><strong>Friendship:</strong><br> \"Got it.\" (+5), (Phone) \"You can do it.\" (+5)<br><br><strong>Romance:</strong><br> \"I mean what I say.\" (+0) / \"I'm a man; you're a woman.\" (+0)",
+          "0"
+        ],
+        [
+          "10",
+          "N/A",
+          "-"
+        ]
+      ]
+    },
+    {
+      "id": "gift-guide",
+      "title": "Gift Guide",
+      "kind": "table",
+      "note": "",
+      "head": [
+        "Gift Item",
+        "Confidant Points",
+        "Purchase Location",
+        "Price"
+      ],
+      "rows": [
+        [
+          "Heart Ring",
+          "+50",
+          "Jewelry Store, Station Underground Mall, Shibuya",
+          "¥88,000"
+        ],
+        [
+          "Robot Vacuum",
+          "+50",
+          "Electronics Superstore, Akihabara",
+          "¥44,800"
+        ],
+        [
+          "Digital Camera",
+          "+50",
+          "Electronics Superstore, Akihabara",
+          "¥39,800"
+        ],
+        [
+          "Face Beautifier",
+          "+50",
+          "Electronics Superstore, Akihabara",
+          "¥9,800"
+        ],
+        [
+          "Electric Toothbrush",
+          "+50",
+          "Electronics Superstore, Akihabara",
+          "¥29,800"
+        ],
+        [
+          "Blaring Alarm Clock",
+          "+50",
+          "Electronics Superstore, Akihabara",
+          "¥12,000"
+        ]
+      ]
+    },
+    {
+      "id": "bonus-events",
+      "title": "Bonus Events",
+      "kind": "bonus-events",
+      "blocks": [
+        {
+          "type": "intro",
+          "html": "<strong>Hawaii Trip</strong> (9/10 - Requires Temperance Rank 10 Romance Only)"
+        },
+        {
+          "type": "intro",
+          "html": "• \"Your swimsuit.\" (+15)"
+        },
+        {
+          "type": "intro",
+          "html": "• \"It's the true pleasure of traveling.\" (+15)"
+        },
+        {
+          "type": "intro",
+          "html": "• \"I wanted to see you more.\" (+15)"
+        },
+        {
+          "type": "intro",
+          "html": "• \"Are these matching?\" (+15)"
+        },
+        {
+          "type": "intro",
+          "html": "•"
+        },
+        {
+          "type": "intro",
+          "html": "<em>Receive Hawaiian Ring</em>"
+        },
+        {
+          "type": "intro",
+          "html": "<strong>Post School Festival Party</strong> (10/26 - Requires Temperance Rank 10 Romance Only)"
+        },
+        {
+          "type": "intro",
+          "html": "•"
+        },
+        {
+          "type": "intro",
+          "html": "• \"Thanks.\" (+15)"
+        },
+        {
+          "type": "intro",
+          "html": "•"
+        },
+        {
+          "type": "intro",
+          "html": "•"
+        },
+        {
+          "type": "intro",
+          "html": "<em>Receive Sadayo Taiyaki</em>"
+        },
+        {
+          "type": "intro",
+          "html": "<strong>Hangout Ueno</strong> (Requires Temperance Rank 10)"
+        },
+        {
+          "type": "intro",
+          "html": "• \"I'm looking forward to it.\" (+15)"
+        }
+      ]
+    }
+  ]
+}

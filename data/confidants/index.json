@@ -1,0 +1,186 @@
+[
+  {
+    "slug": "fool",
+    "order": 0,
+    "arcana": "Fool",
+    "numeral": "0",
+    "person": "Igor",
+    "portrait": "00-Fool---Igor.png"
+  },
+  {
+    "slug": "magician",
+    "order": 1,
+    "arcana": "Magician",
+    "numeral": "I",
+    "person": "Morgana",
+    "portrait": "01-Magician---Morgana.png"
+  },
+  {
+    "slug": "priestess",
+    "order": 2,
+    "arcana": "Priestess",
+    "numeral": "II",
+    "person": "Makoto Nijima",
+    "portrait": "02-Priestess---Makoto.png"
+  },
+  {
+    "slug": "empress",
+    "order": 3,
+    "arcana": "Empress",
+    "numeral": "III",
+    "person": "Haru Okumura",
+    "portrait": "03-Empress---Haru.png"
+  },
+  {
+    "slug": "emperor",
+    "order": 4,
+    "arcana": "Emperor",
+    "numeral": "IV",
+    "person": "Yusuke Kitagawa",
+    "portrait": "04-Emperor---Yusuke.png"
+  },
+  {
+    "slug": "hierophant",
+    "order": 5,
+    "arcana": "Hierophant",
+    "numeral": "V",
+    "person": "Sojiro Sakura",
+    "portrait": "05-Hierophant---Sojiro.png"
+  },
+  {
+    "slug": "lovers",
+    "order": 6,
+    "arcana": "Lovers",
+    "numeral": "VI",
+    "person": "Ann Takamaki",
+    "portrait": "06-Lovers---Ann.png"
+  },
+  {
+    "slug": "chariot",
+    "order": 7,
+    "arcana": "Chariot",
+    "numeral": "VII",
+    "person": "Ryuji Sakamoto",
+    "portrait": "07-Chariot---Ryuji.png"
+  },
+  {
+    "slug": "justice",
+    "order": 8,
+    "arcana": "Justice",
+    "numeral": "VIII",
+    "person": "Goro Akechi",
+    "portrait": "08-Justice---Akechi.png"
+  },
+  {
+    "slug": "hermit",
+    "order": 9,
+    "arcana": "Hermit",
+    "numeral": "IX",
+    "person": "Futaba Sakura",
+    "portrait": "09-Hermit---Futaba.png"
+  },
+  {
+    "slug": "fortune",
+    "order": 10,
+    "arcana": "Fortune",
+    "numeral": "X",
+    "person": "Chihaya Mifune",
+    "portrait": "10-Fortune---Chihaya.png"
+  },
+  {
+    "slug": "strength",
+    "order": 11,
+    "arcana": "Strength",
+    "numeral": "XI",
+    "person": "Caroline & Justine",
+    "portrait": "11-Strength---Twins.png"
+  },
+  {
+    "slug": "hanged-man",
+    "order": 12,
+    "arcana": "Hanged-Man",
+    "numeral": "XII",
+    "person": "Munehisa Iwai",
+    "portrait": "12-Hanged-Man---Iwai.png"
+  },
+  {
+    "slug": "death",
+    "order": 13,
+    "arcana": "Death",
+    "numeral": "XIII",
+    "person": "Tae Takemi",
+    "portrait": "13-Death---Takemi.png"
+  },
+  {
+    "slug": "temperance",
+    "order": 14,
+    "arcana": "Temperance",
+    "numeral": "XIV",
+    "person": "Sadayo Kawakami",
+    "portrait": "14-Temperance---Kawakami.png"
+  },
+  {
+    "slug": "devil",
+    "order": 15,
+    "arcana": "Devil",
+    "numeral": "XV",
+    "person": "Ichiko Ohya",
+    "portrait": "15-Devil---Ohya.png"
+  },
+  {
+    "slug": "tower",
+    "order": 16,
+    "arcana": "Tower",
+    "numeral": "XVI",
+    "person": "Shinya Oda",
+    "portrait": "16-Tower---Shinya.png"
+  },
+  {
+    "slug": "star",
+    "order": 17,
+    "arcana": "Star",
+    "numeral": "XVII",
+    "person": "Hifumi Togo",
+    "portrait": "17-Star---Hifumi.png"
+  },
+  {
+    "slug": "moon",
+    "order": 18,
+    "arcana": "Moon",
+    "numeral": "XVIII",
+    "person": "Yuuki Mishima",
+    "portrait": "18-Moon---Mishima.png"
+  },
+  {
+    "slug": "sun",
+    "order": 19,
+    "arcana": "Sun",
+    "numeral": "XIX",
+    "person": "Toranosuke Yoshida",
+    "portrait": "19-Sun---Yoshida.png"
+  },
+  {
+    "slug": "judgement",
+    "order": 20,
+    "arcana": "Judgement",
+    "numeral": "XX",
+    "person": "Sae Niijima",
+    "portrait": "20-Judgement---Sae.png"
+  },
+  {
+    "slug": "faith",
+    "order": 0,
+    "arcana": "Faith",
+    "numeral": "",
+    "person": "Kasumi Yoshizawa",
+    "portrait": "XXI-Faith---Kasumi.png"
+  },
+  {
+    "slug": "councillor",
+    "order": 0,
+    "arcana": "Councillor",
+    "numeral": "",
+    "person": "Takuto Maruki",
+    "portrait": "XXII-Councillor---Maruki.png"
+  }
+]

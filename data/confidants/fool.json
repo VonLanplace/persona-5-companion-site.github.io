@@ -1,0 +1,114 @@
+{
+  "slug": "fool",
+  "order": 0,
+  "arcana": "Fool",
+  "numeral": "0",
+  "person": "Igor",
+  "portrait": "00-Fool---Igor.png",
+  "sections": [
+    {
+      "id": "confidant-abilities",
+      "title": "Confidant Abilities",
+      "kind": "table",
+      "note": "",
+      "head": [
+        "Rank",
+        "Ability"
+      ],
+      "rows": [
+        [
+          "1",
+          "<strong>Wild Talk</strong>: <br> Allows you to negotiate with Shadows after performing a Hold Up. <br><strong>Arcana Burst</strong>: <br> Earn bonus EXP when fusing Personas based on their Arcana's Confidant rank."
+        ],
+        [
+          "2",
+          "<strong>Third Eye</strong>: <br> Lets you see things normally invisible to the naked eye."
+        ],
+        [
+          "3",
+          "<strong>Power Stock</strong>: <br> Increases your Persona stock to 8 slots."
+        ],
+        [
+          "4",
+          "-"
+        ],
+        [
+          "5",
+          "<strong>Super Stock</strong>: <br> Increases your Persona stock to 10 slots."
+        ],
+        [
+          "6",
+          "<strong>High Arcana Burst</strong>: <br> Increases the EXP bonus granted by Arcana Burst."
+        ],
+        [
+          "7",
+          "-"
+        ],
+        [
+          "8",
+          "<strong>Ultra Stock</strong>: <br> Increases your Persona stock to 12 slots."
+        ],
+        [
+          "9",
+          "-"
+        ],
+        [
+          "10",
+          "<strong>Max Arcana Burst</strong>: <br> Greatly increases the EXP bonus granted by Arcana Burst."
+        ]
+      ]
+    },
+    {
+      "id": "rank-up-progression",
+      "title": "Rank Up Progression",
+      "kind": "table",
+      "note": "",
+      "head": [
+        "Rank",
+        "Requirements / Dialogue Choices"
+      ],
+      "rows": [
+        [
+          "1",
+          "(Automatic) 4/12"
+        ],
+        [
+          "2",
+          "(Automatic) 4/18 ~ 4/30 <br> (Palace Infiltration)"
+        ],
+        [
+          "3",
+          "(Automatic) 5/5"
+        ],
+        [
+          "4",
+          "(Automatic) 5/22 ~ 6/3 <br> (Clear Madarame's Palace)"
+        ],
+        [
+          "5",
+          "(Automatic) 6/11"
+        ],
+        [
+          "6",
+          "(Automatic) 6/23 ~ 7/7 <br> (Kaneshiro's Palace Route Secured)"
+        ],
+        [
+          "7",
+          "(Automatic) 8/22"
+        ],
+        [
+          "8",
+          "(Automatic) 8/31"
+        ],
+        [
+          "9",
+          "(Automatic) 10/11"
+        ],
+        [
+          "10",
+          "(Automatic) 12/24"
+        ]
+      ]
+    }
+  ]
+}

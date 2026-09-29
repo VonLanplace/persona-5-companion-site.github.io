@@ -1,0 +1,211 @@
+{
+  "slug": "strength",
+  "order": 11,
+  "arcana": "Strength",
+  "numeral": "XI",
+  "person": "Caroline & Justine",
+  "portrait": "11-Strength---Twins.png",
+  "sections": [
+    {
+      "id": "confidant-abilities",
+      "title": "Confidant Abilities",
+      "kind": "table",
+      "note": "",
+      "head": [
+        "Rank",
+        "Ability"
+      ],
+      "rows": [
+        [
+          "1",
+          "<strong>Group Guillotine</strong>: <br> Allows you to fuse three Personas to create powerful new ones."
+        ],
+        [
+          "2",
+          "-"
+        ],
+        [
+          "3",
+          "<strong>Lockdown</strong>: <br> Allows you to leave a Persona to learn an attribute resistance."
+        ],
+        [
+          "4",
+          "-"
+        ],
+        [
+          "5",
+          "<strong>Special Treatment</strong>: <br> Allows you to pay to create Personas of a higher level."
+        ],
+        [
+          "6",
+          "-"
+        ],
+        [
+          "7",
+          "-"
+        ],
+        [
+          "8",
+          "<strong>Guillotine Booster</strong>: <br> Increases the possible fusions of Personas in Group Guillotine (4+)."
+        ],
+        [
+          "9",
+          "-"
+        ],
+        [
+          "10",
+          "<strong>VIP Treatment</strong>: <br> Reduces the amount of money needed for Special Treatment."
+        ]
+      ]
+    },
+    {
+      "id": "schedule",
+      "title": "Schedule",
+      "kind": "schedule",
+      "items": [
+        {
+          "label": "Time of Day",
+          "value": "Any Time<br><strong>Day of Week</strong>: Any Day<br><strong>Location</strong>: The Velvet Room"
+        }
+      ]
+    },
+    {
+      "id": "rank-up-progression",
+      "title": "Rank Up Progression",
+      "kind": "table",
+      "note": "",
+      "head": [
+        "Rank",
+        "Requirements / Dialogue Choices"
+      ],
+      "rows": [
+        [
+          "1",
+          "<strong> Have a Jack Frost that knows Mabufu <br> (fusion unlocked at Lv. 11) </strong><br><br> Jack Frost learns Mabufu at Lv 12 <br><strong>OR</strong><br> Arsene + Agathion = Succubus<br> Succubus + Pixie = Cait Sith<br><strong>Cait Sith + Regent (Mabufu) = Jack Frost</strong><br>"
+        ],
+        [
+          "2",
+          "<strong> Have an Ame-no-Uzume with Frei <br> (fusion unlocked at Lv. 16) </strong><br><br> Hua Po + Berith = Suzaku<br><strong>Berith + Suzaku (Frei) = Ame-no-Uzume</strong><br>"
+        ],
+        [
+          "3",
+          "<strong> Have a Flauros with Tarukaja <br> (fusion unlocked at Lv. 19) </strong><br><br> Berith + Regent = Orobas<br> Jack-o'-Lantern + Angel = Eligor<br><strong>Berith + Orobas + Eligor (Tarukaja) = Flauros</strong><br>"
+        ],
+        [
+          "4",
+          "<strong> Have a Phoenix with Counter <br> (fusion unlocked at Lv. 21) </strong><br><br> Hua Po + Jack-o'-Lantern = Yaksini<br> Kodama + Flauros = Oni<br><strong>Yaksini (Counter) + Oni (Counter) = Phoenix</strong><br>"
+        ],
+        [
+          "5",
+          "<strong> Have a Setanta with Rakukaja <br> (fusion unlocked at Lv. 25) </strong><br><br> Jack-o'-Lantern + Agathion = Silky<br> Suzaku + Kaguya Picaro = Lamia<br><strong>Silky + Lamia (Rakukaja) = Setanta</strong><br><strong>OR</strong><br> Berith (Rakukaja) + Hua Po = Suzaku (Rakukaja)<br><strong>Suzaku (Rakukaja) + Phoenix = Setanta</strong><br>"
+        ],
+        [
+          "6",
+          "<strong> Have a Neko Shogun with Dekaja <br> (fusion unlocked at Lv. 30) </strong><br><br> High Pixie + Orobas (Dekaja) = Sudama (Dekaja)<br> Flauros + Ariadne = Anzu (also learns Dekaja at Lv 28)<br><strong>Kodama + Anzu + Sudama (Dekaja) = Neko Shogun</strong><br>"
+        ],
+        [
+          "7",
+          "<strong> Have a Lachesis with Tetraja<br> (fusion unlocked at Lv. 35) </strong><br><br> Ariadne + Jack Frost = Principality<br> Pixie + Principality (Tetraja) = Anubis (Tetraja)<br><strong>Tam Lin + Anubis (Tetraja) = Lachesis</strong><br><strong>OR</strong><br> Clotho learns Tetraja at Lv 28 <br><strong>Clotho (Tetraja) + Stone of Scone = Lachesis</strong><br>"
+        ],
+        [
+          "8",
+          "<strong> Have a Hecatoncheires with Masukunda <br> (fusion unlocked at Lv. 42) </strong><br><br> Hua Po + Thoth (Masukunda) = Andras (Masukunda)<br>- <strong>Anzu + Andras (Masukunda) = Hecatoncheires</strong><br><strong>OR</strong><br> Lilim learns Masukunda at Lv 34<br><strong>Lilim (Masukunda) + Anzu = Hecatoncheires</strong><br>"
+        ],
+        [
+          "9",
+          "<strong> Have a Bugs with Samarecarm <br> (fusion unlocked at Lv. 49) <br></strong><br><em> Requires completing \"The Lovesick Cyberstalking Girl\" <br> request (July 10) </em><br><br> Hariti learns Samarecarm at Lv 41<br> Izanagi Picaro + Oni = Pisaca<br> Sandman + Orobas = Pisaca<br><strong>Pixie + Pisaca + Hariti (Samarecarm) = Bugs</strong><br>"
+        ],
+        [
+          "10",
+          "<strong> Have a Seth with High Counter<br> (fusion unlocked at Lv. 51) </strong><br><br> Bicorn + Kaguya Picaro (High Counter) = Isis (High Counter)<br><strong> Anubis + Thoth + Horus + Isis (High Counter) = Seth </strong><br><strong>OR</strong><br> Dakini learns High Counter at Lv 52<br> Dakini (High Counter) + Ame-no-Uzume = Anubis (High Counter)<br><strong> Anubis (High Counter) + Thoth + Horus + Isis = Seth </strong><br>"
+        ]
+      ]
+    },
+    {
+      "id": "bonus-events",
+      "title": "Bonus Events",
+      "kind": "bonus-events",
+      "blocks": [
+        {
+          "type": "intro",
+          "html": "The twins can be invited outside the Velvet Room (Evenings unless specified), <br> doing so will reward you with skill cards each time."
+        },
+        {
+          "type": "table",
+          "head": [
+            "Earliest Date Available",
+            "Skill Card Reward (Event Location)",
+            "Requirement"
+          ],
+          "rows": [
+            [
+              "6/6",
+              "Maragi &amp; Mabufu (Big Bang Burger)",
+              ""
+            ],
+            [
+              "6/7",
+              "Frei &amp; Psi (Movie Theater)",
+              "Watched a movie at Shibuya."
+            ],
+            [
+              "6/15",
+              "Apt Pupil &amp; Sharp Student (Gym)",
+              ""
+            ],
+            [
+              "6/25",
+              "Samarecarm (Church)",
+              ""
+            ],
+            [
+              "6/26",
+              "Masukukaja &amp; Masukunda (Aquarium)",
+              ""
+            ],
+            [
+              "7/28",
+              "Tarukaja, Rakukaja, and Sukukaja (Sky Tree)",
+              ""
+            ],
+            [
+              "9/2 - 9/29 &amp; Daytime Only",
+              "Growth 2 (Beach)",
+              ""
+            ],
+            [
+              "9/3",
+              "Tetraja, Dekunda, and Dekaja (Maid Cafe)",
+              "Eaten at the maid cafe in Akihabara."
+            ],
+            [
+              "10/1 &amp; Non-rainy weather",
+              "Tetrakarn (Destiny Land)",
+              ""
+            ],
+            [
+              "10/1 - 11/3",
+              "Regenerate 3 (Art Museum)",
+              ""
+            ],
+            [
+              "11/25",
+              "High Counter (Leblanc)",
+              ""
+            ],
+            [
+              "12/1 - 12/19",
+              "Heat Riser (Underground Mall)",
+              ""
+            ],
+            [
+              "1/13",
+              "Enduring Soul (Your Room)",
+              "Done all previous dates."
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}
