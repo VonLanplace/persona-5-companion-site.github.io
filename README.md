@@ -29,15 +29,13 @@ Everything the site serves is **generated**; everything you edit lives in
 straight from the branch.
 
 ```
-data/                      <- you edit this
+data/                      <- you edit this; every file in here is JSON
   confidants/*.json          23 confidants, structured (abilities, schedule,
                              rank-up, gifts, bonus events)
   shadows/locations.json     palaces + mementos tables
   classroom/exams.json       every exam and its answer
-  social-stats/*.md          the five stat guides, in Markdown
-  negotiation/questions.csv  195 prompts and their effect codes
-  shadows/shadow-locations-source.md
-                             the original hand-written notes, kept for reference
+  social-stats/*.json        the five stat guides, as a flat block list
+  negotiation/questions.json 195 prompts and their effect codes
 
 _build/                    <- the build itself
   build.mjs                  data/ -> HTML
@@ -45,7 +43,7 @@ _build/                    <- the build itself
   clean.mjs                  removes generated output
   serve.mjs                  local static server
   runtime/negotiation.js     hand-written client JS, copied to assets/js/
-  lib/                       layout, markdown renderer, helpers
+  lib/                       layout, block renderer, helpers
 
 assets/                    <- static, hand-maintained
   css/                       tokens, base, layout, components
@@ -68,19 +66,24 @@ confidants/  shadows/  classroom/  negotiation/  social-stats/   <- GENERATED
 
 ### Editing a social stat guide
 
-Just edit the Markdown in `data/social-stats/`. Tables, links, headings and
-inline `<br>` are supported; anything else is escaped and shown as text.
+Edit the block list in `data/social-stats/<slug>.json`. A block is a heading, a
+paragraph, a link list or a table. A table cell is a string, a link object
+(`{label, href}` for an external link, `{label, ref}` for a sibling guide), or
+an array of either — an array is a multi-line cell and is joined with `<br>` on
+render. Put no markup in the data: anything resembling a tag is escaped and
+shown as text, so the data can never inject HTML.
 
 ### Adding a negotiation question
 
-Append a row to `data/negotiation/questions.csv`:
+Append an entry to `data/negotiation/questions.json`:
 
-```
-prompt;response 1;code;response 2;code;response 3;code
+```json
+{ "prompt": "…", "answers": [ { "text": "…", "code": "2333" } ] }
 ```
 
-The code is up to four digits — one per personality (Gloomy, Irritable, Timid,
-Upbeat), left-padded with zeroes. `1` is bad, `2` neutral, `3` good. So `2333`
+The code is one to four digits — one per personality (Gloomy, Irritable, Timid,
+Upbeat), **not** zero-padded in the data; the runtime left-pads it to four.
+`1` is bad, `2` neutral, `3` good, and `0` renders as a blank cell. So `2333`
 means "bad for Gloomy, good for the other three".
 
 ---

@@ -58,8 +58,11 @@ will hang or fail rather than fail fast.
 - Do not run `git push` from an agent session. Prepare the branch and the commit,
   then hand the user the exact command to run themselves.
 - `push.default` is unset (`simple`), so a new branch needs `--set-upstream`.
-- Fetch, build, check and local git operations need no auth. Only push and
-  anything touching a private remote does.
+- `git fetch` authenticates over SSH too, so it hits the same passphrase. To
+  learn the remote's state, read the local tracking refs instead
+  (`git branch -vv`, `git rev-list --left-right --count origin/<b>...<b>`) —
+  but they are only as fresh as the last fetch, so say so when it matters.
+- Build, check and purely local git operations need no auth at all.
 
 ## Hard constraints the checker enforces
 
@@ -101,19 +104,42 @@ means editing that array, not the HTML.
 
 ## Social stat guides
 
-`data/social-stats/*.md` is rendered by `_build/lib/markdown.mjs`, which is a
-deliberately tiny subset, not CommonMark. Supported: ATX headings, paragraphs,
-pipe tables with an alignment row, inline links, `**bold**`, `*em*`,
-`` `code` ``, and inline `<br> <em> <strong> <i> <b> <code>`. **Lists, images,
-block quotes, fenced code and horizontal rules are not supported** — they render
-as literal paragraph text.
+`data/social-stats/*.json` is rendered by `_build/lib/blocks.mjs` from a flat
+block list. There is no markup in the data — a block is one of:
 
-Two consequences:
-- The **first paragraph** of each file becomes the page's `<meta name="description">`
-  (truncated to 200 chars) and the card blurb on `social-stats/index.html`.
-  Write it as a real description.
-- Sibling cross-links are authored as `./charm.md`; the build rewrites them to
-  `charm.html` automatically. Write the `.md` form.
+```json
+{ "type": "heading",   "level": 3, "text": "Class" }
+{ "type": "paragraph", "text": "..." }
+{ "type": "links",     "items": [ { "label": "Guts", "ref": "guts" } ] }
+{ "type": "table", "head": ["Activity", "Detail", "Gains"],
+  "rows": [ ["Ordering Frui-Tea", "Will appear in July", ["- +1 Charm", "- +3 Charm"]] ] }
+```
+
+A table cell is a `string`, a link object (`{label, href}` external or
+`{label, ref}` for a sibling guide), or an **array** of either. The array *is*
+the line break — it is joined with `<br>` on render, so never put `<br>` in the
+data. Any literal tag in a string is escaped and shown as text, so the data
+cannot inject HTML.
+
+- `ref` is a sibling slug; it renders as `<slug>.html`. All social stat pages
+  are depth 1 in the same directory, so no `link(depth, …)` prefix is needed.
+- `description` is an explicit field and becomes the page's
+  `<meta name="description">` (truncated to 200 chars by the build) and the card
+  blurb on `social-stats/index.html`. Write it as a real description.
+- The old Markdown renderer escaped `<br>` instead of emitting it, so the
+  pre-2.1 pages displayed 106 literal `&lt;br&gt;` strings. The block renderer
+  fixes that; do not reintroduce an escape-then-passthrough allowlist.
+
+## Negotiation questions
+
+`data/negotiation/questions.json` is `{prompt, answers: [{text, code}]}`. The
+build maps it to the `{q, a}` wire shape in `assets/js/negotiation-data.js`, so
+`_build/runtime/negotiation.js` is unaffected by data-shape changes.
+
+`code` is a string of 1–4 digits, one per personality (Gloomy, Irritable,
+Timid, Upbeat), **not** zero-padded in the data. `gradeCells` in the runtime
+left-pads to 4, so `"302"` means Gloomy 0, Irritable 3, Timid 0, Upbeat 2.
+`0` renders as a blank cell.
 
 ## Other build quirks
 
@@ -129,4 +155,8 @@ Two consequences:
 - Adding a confidant means: `data/confidants/<slug>.json`, an entry in
   `data/confidants/index.json`, and portraits at both
   `assets/img/confidants/{sm,md}/<slug>.png`.
-- The build is deterministic — running it twice produces no diff.
+- The build is deterministic — running it twice produces no diff. That is worth
+  exploiting: snapshot `sha256sum` of the generated HTML before a data-format
+  change and diff after, to prove the change altered only what you intended.
+- Every file under `data/` is JSON. There is deliberately no `.md` or `.csv`
+  left, and no hand-rolled parser in `_build/lib/`.
