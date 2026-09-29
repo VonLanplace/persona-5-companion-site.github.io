@@ -1,0 +1,267 @@
+{
+  "slug": "proficiency",
+  "label": "Proficiency",
+  "description": "Proficiency is a social stat that deals with mechanical skills like crafting resources, repairing broken items, and hitting home runs. Make it a habit to craft infiltration tools as they increase the stat and provide staple consumables for heists. The higher your proficiency and the more tools you craft, the faster you will be able to create them. Since most of the activities that raise Proficiency don’t provide other social stat gains, you need to invest in this stat early on to unlock more efficient activities like part-time jobs.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Proficiency is a social stat that deals with mechanical skills like crafting resources, repairing broken items, and hitting home runs. Make it a habit to craft infiltration tools as they increase the stat and provide staple consumables for heists. The higher your proficiency and the more tools you craft, the faster you will be able to create them. Since most of the activities that raise Proficiency don’t provide other social stat gains, you need to invest in this stat early on to unlock more efficient activities like part-time jobs."
+    },
+    {
+      "type": "links",
+      "items": [
+        {
+          "label": "All Social Stats Guide",
+          "href": "https://samurai-gamers.com/persona-5/human-parameters-maximize/"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How to Increase Proficiency"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Craft and repair"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Activity",
+        "Detail",
+        "Gains"
+      ],
+      "rows": [
+        [
+          {
+            "label": "Craft infiltration tools",
+            "href": "https://samurai-gamers.com/persona-5/infiltration-tools/"
+          },
+          "Can be done at your work station in Leblanc",
+          "- +2 Proficiency (Sometimes gives +3)"
+        ],
+        [
+          "Repair the broken computer",
+          [
+            "- You can purchase a computer in Yongen-Jaya on 9/1",
+            "- Repair tools can be bought from Akihabara",
+            "",
+            "Can be done at your work station in Leblanc"
+          ],
+          "- +2 Proficiency"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Services"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Activity",
+        "Detail",
+        "Gains"
+      ],
+      "rows": [
+        [
+          "Ordering Totem Pole while studying at the diner",
+          "Appears the week before October",
+          [
+            "- +1 Proficiency",
+            "- +2 Knowledge Clear skies",
+            "- +3 Knowledge Rainy day"
+          ]
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Leblanc"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Activity",
+        "Detail",
+        "Gains"
+      ],
+      "rows": [
+        [
+          "Watch a DVD in your room",
+          "Buy the TV from Yumenoshima, Yongen-Jaya. Rent a DVD from Central Street, Shibuya",
+          "- +2 Proficiency (Guy McVer)"
+        ],
+        [
+          {
+            "label": "Play a video game",
+            "href": "https://samurai-gamers.com/persona-5/mini-game-tv-video-game/"
+          },
+          "Purchase a retro game console from Yumenoshima, Yongen-Jaya",
+          "- +2 Proficiency (Golfer Sarutahiko)"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Part-time"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Activity",
+        "Detail",
+        "Gains"
+      ],
+      "rows": [
+        [
+          "Do Part-time at Beef Bowl",
+          "Appears on 5/18 and requires Rank 2 Proficiency",
+          [
+            "- +2 Proficiency",
+            "- +3 Proficiency (Giving correct orders)"
+          ]
+        ],
+        [
+          "Do Part-time at Crossroads bar and speak with the female office worker",
+          "Requires: Rank 4 Proficiency, Rank 3 Charm, and Rank 3 Guts",
+          "- +2 Proficiency"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Confidant"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Activity",
+        "Detail",
+        "Gains"
+      ],
+      "rows": [
+        [
+          "Spend time with Munehisa Iwai",
+          "You need to unlock the Hanged Man Confidant",
+          "- +2 Proficiency"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Miscellaneous"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Activity",
+        "Detail",
+        "Gains"
+      ],
+      "rows": [
+        [
+          {
+            "label": "Finish reading books",
+            "href": "https://samurai-gamers.com/persona-5/book-locations-effects/"
+          },
+          "Can be done in the library, on the passenger’s seat of the train, or on the stool in Leblanc",
+          [
+            "Each of these books grants +3 Proficiency:",
+            "",
+            "- Tidying the Heart (bought at Taiheido Bookstore)",
+            "- Woman in the Dark (rent on library)"
+          ]
+        ],
+        [
+          "Big Bang Burger Challenge",
+          [
+            "Requires: Rank 2 in Knowledge, Guts, and Proficiency",
+            "",
+            "(Succeeding challenges require +1 to the above mentioned social stats)"
+          ],
+          [
+            "- Comet Burger +1 Proficiency",
+            "- Gravity Burger +2 Proficiency",
+            "- Cosmic Tower Burger +3 Proficiency",
+            "",
+            "Also raises Knowledge, Charm, and Guts by 1/2/3"
+          ]
+        ],
+        [
+          "Play at the Batting Cage",
+          "–",
+          [
+            "- +1 Proficiency",
+            "- +2 Proficiency (If hitting 5 pitches)"
+          ]
+        ],
+        [
+          {
+            "label": "Watch a movie",
+            "href": "https://samurai-gamers.com/persona-5/movie-theater-guide/"
+          },
+          [
+            "- Admission Possible – Premieres in October (Shibuya)",
+            "- March of the Sheeple – Premieres in January (Yongen-Jaya)"
+          ],
+          "- +3 Proficiency"
+        ],
+        [
+          "Drink juice at Shibuya Underground Walkway",
+          "Can be bought every Sunday and raises a random stat",
+          "- +1 Proficiency"
+        ],
+        [
+          {
+            "label": "Go fishing",
+            "href": "https://samurai-gamers.com/persona-5/mini-game-fishing/"
+          },
+          "–",
+          "- +1 Proficiency"
+        ],
+        [
+          {
+            "label": "Play billiards",
+            "href": "https://samurai-gamers.com/persona-5/billiards-mini-game-guide/"
+          },
+          "Can be accessed at the Kichijoji bar.",
+          ""
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Persona 5 Royal Social Stats"
+    },
+    {
+      "type": "links",
+      "items": [
+        {
+          "label": "Charm",
+          "ref": "charm"
+        },
+        {
+          "label": "Guts",
+          "ref": "guts"
+        },
+        {
+          "label": "Kindness",
+          "ref": "kindness"
+        },
+        {
+          "label": "Knowledge",
+          "ref": "knowledge"
+        }
+      ]
+    }
+  ]
+}

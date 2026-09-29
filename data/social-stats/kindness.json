@@ -1,0 +1,254 @@
+{
+  "slug": "kindness",
+  "label": "Kindness",
+  "description": "The social stat that will determine your progression in confidants. Most of the activities associated with kindness include having a green thumb such as taking care of the plant in your room or working part-time as a florist. Kindness can also be earned by spending time with confidants like Sojiro, Oda, and the downcast woman at the bar. Invest in Kindness early to eventually have these confidants warm up to you. Other confidants like Futaba and Ann also require a higher level in Kindness to advance. Futaba in particular can provide some useful support skills whenever the party’s in a pinch, so be sure to raise your Kindness for better chances at gaining battle insurance.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The social stat that will determine your progression in confidants. Most of the activities associated with kindness include having a green thumb such as taking care of the plant in your room or working part-time as a florist. Kindness can also be earned by spending time with confidants like Sojiro, Oda, and the downcast woman at the bar. Invest in Kindness early to eventually have these confidants warm up to you. Other confidants like Futaba and Ann also require a higher level in Kindness to advance. Futaba in particular can provide some useful support skills whenever the party’s in a pinch, so be sure to raise your Kindness for better chances at gaining battle insurance."
+    },
+    {
+      "type": "links",
+      "items": [
+        {
+          "label": "All Social Stats Guide",
+          "href": "https://samurai-gamers.com/persona-5/human-parameters-maximize/"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How to Increase Kindness"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Gardening"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Activity",
+        "Detail",
+        "Gains"
+      ],
+      "rows": [
+        [
+          "Tending the plant in Leblanc",
+          [
+            "Will appear after you clean your room.",
+            "",
+            "- You can purchase plant nutrients from:",
+            "the Discount Store at Shibuya Central Street, the Flower shop in Shibuya Underground Mall",
+            "the Flower Shop in Shinjuku Red-light District",
+            "- You can use them once every 16 days."
+          ],
+          [
+            "- +1 Kindness (Garden Energy)",
+            "- +2 Kindness (Bio Nutrients)",
+            "- +3 Kindness (Mega Fertilizer)"
+          ]
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Services"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Activity",
+        "Detail",
+        "Gains"
+      ],
+      "rows": [
+        [
+          "Ordering nostalgic steak while studying at the diner",
+          "–",
+          [
+            "- +1 Kindness",
+            "- +2 Knowledge Clear skies",
+            "- +3 Knowledge Rainy day"
+          ]
+        ],
+        [
+          "Visit the Maid Cafe in Akihabara",
+          "Forgive the maid when she makes a mistake",
+          [
+            "- +1 Kindness",
+            "- +2 Charm"
+          ]
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Leblanc"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Activity",
+        "Detail",
+        "Gains"
+      ],
+      "rows": [
+        [
+          "Watch a DVD in your room",
+          [
+            "Buy the tv from Yumenoshima, Yongen-Jaya",
+            "",
+            "Rent a DVD from Central Street, Shibuya"
+          ],
+          [
+            "Each section grants a fixed amount of Kindness:",
+            "",
+            "- Wraith (+2 Kindness)",
+            "- ICU (+3 Kindness)"
+          ]
+        ],
+        [
+          {
+            "label": "Play a video game",
+            "href": "https://samurai-gamers.com/persona-5/mini-game-tv-video-game/"
+          },
+          "Purchase a retro game console from Yumenoshima, Yongen-Jaya, play Train of Life",
+          [
+            "- +1 Kindness (Garden Energy)",
+            "- +2 Kindness (Winning the game)"
+          ]
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Part-time"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Activity",
+        "Detail",
+        "Gains"
+      ],
+      "rows": [
+        [
+          "Do Part-time at Rafflesia Flower shop",
+          "Requires rank 2 Charm",
+          [
+            "- +2 Kindness",
+            "- +3 Kindness (Getting correct flowers)"
+          ]
+        ],
+        [
+          "Do part-time work at Crossroads bar and speak with the downcast woman",
+          "Requires rank 4 Proficiency, rank 3 Char, and rank 3 Guts",
+          "- +2 Kindness"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Confidant"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Activity",
+        "Detail",
+        "Gains"
+      ],
+      "rows": [
+        [
+          "Spend time with Shinya Oda",
+          "Unlock the Tower Confidant",
+          "- +3 Kindness"
+        ],
+        [
+          "Spend time with Sojiro Sakura",
+          "Unlock the Hierophant Confidant",
+          "- +3 Kindness"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Miscellaneous"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Activity",
+        "Detail",
+        "Gains"
+      ],
+      "rows": [
+        [
+          {
+            "label": "Finish reading books",
+            "href": "https://samurai-gamers.com/persona-5/book-locations-effects/"
+          },
+          "Can be done in the library, on the passenger’s seat of the train, or on the stool in Leblanc",
+          [
+            "Each of these books grants +3 Kindness:",
+            "",
+            "- Zorro, The Outlaw",
+            "- The Illusory Popess",
+            "- Buchiko’s Story",
+            "- Call Me Chief"
+          ]
+        ],
+        [
+          "Watch movies",
+          [
+            "- The Cake Knight Rises – Premieres in May (Shibuya)",
+            "- Mes Miserables – Premieres in August (Shibuya)",
+            "- Clean Hard – Premieres in December (Shibuya)",
+            "- The Duhvengers – Premieres in October (Shinjuku)",
+            "- Popo’s Nest – Premieres in November (Yongen-Jaya)",
+            "- The Good Father – Premieres in February (Yongen-Jaya)"
+          ],
+          "- +3 Kindness"
+        ],
+        [
+          "Drink juice at Shibuya Underground Walkway",
+          "Can be bought every Sunday and raises a random stat",
+          "- +1 Kindness"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Persona 5 Royal Social Stats"
+    },
+    {
+      "type": "links",
+      "items": [
+        {
+          "label": "Charm",
+          "ref": "charm"
+        },
+        {
+          "label": "Guts",
+          "ref": "guts"
+        },
+        {
+          "label": "Knowledge",
+          "ref": "knowledge"
+        },
+        {
+          "label": "Proficiency",
+          "ref": "proficiency"
+        }
+      ]
+    }
+  ]
+}

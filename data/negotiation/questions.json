@@ -1,0 +1,3317 @@
+[
+  {
+    "prompt": "A bad rep spreads like wildfire. If I were you, I'd quit all this nonsense. What's the point?",
+    "answers": [
+      {
+        "text": "You're right.",
+        "code": "2333"
+      },
+      {
+        "text": "I don't care.",
+        "code": "3002"
+      },
+      {
+        "text": "I don't know any other way.",
+        "code": "3213"
+      }
+    ]
+  },
+  {
+    "prompt": "After all, isn't it not pitiable when one denies one's own feelings?",
+    "answers": [
+      {
+        "text": "It is a difficult topic.",
+        "code": "3000"
+      },
+      {
+        "text": "But the outcome is clear.",
+        "code": "0"
+      },
+      {
+        "text": "It's mature to admit defeat.",
+        "code": "302"
+      }
+    ]
+  },
+  {
+    "prompt": "After confronting me like this... Are you that kind of human too?",
+    "answers": [
+      {
+        "text": "That's not my style.",
+        "code": "2300"
+      },
+      {
+        "text": "What's wrong with that?",
+        "code": "130"
+      },
+      {
+        "text": "So what?",
+        "code": "3300"
+      }
+    ]
+  },
+  {
+    "prompt": "Ah, it's a shame. If I'd taken this seriously from the start, I wouldn't be in this sorry state.",
+    "answers": [
+      {
+        "text": "Then get serious now.",
+        "code": "3200"
+      },
+      {
+        "text": "Making excuses?",
+        "code": "2300"
+      },
+      {
+        "text": "I wasn't trying either.",
+        "code": "1233"
+      }
+    ]
+  },
+  {
+    "prompt": "Ain't people your age suppose'ta be out on dates and stuff instead?",
+    "answers": [
+      {
+        "text": "Right after this, kid.",
+        "code": "23"
+      },
+      {
+        "text": "Such a rude little boy...",
+        "code": "202"
+      },
+      {
+        "text": "Dating's not important.",
+        "code": "3333"
+      }
+    ]
+  },
+  {
+    "prompt": "And if that's the case, why don't you just stop this futile endeavor? It's meaningless...",
+    "answers": [
+      {
+        "text": "You have a point there...",
+        "code": "0"
+      },
+      {
+        "text": "I can't stop.",
+        "code": "300"
+      },
+      {
+        "text": "I'll find meaning in it.",
+        "code": "3"
+      }
+    ]
+  },
+  {
+    "prompt": "Are all the kids these days doin' stuff like this?",
+    "answers": [
+      {
+        "text": "Yeah, we sure are.",
+        "code": "1330"
+      },
+      {
+        "text": "No, I thought this up myself.",
+        "code": "2323"
+      },
+      {
+        "text": "Want to join in?",
+        "code": "2130"
+      }
+    ]
+  },
+  {
+    "prompt": "Are you bored?",
+    "answers": [
+      {
+        "text": "Yes, I'm bored.",
+        "code": "200"
+      },
+      {
+        "text": "I'm actually pretty busy.",
+        "code": "303"
+      },
+      {
+        "text": "I never thought about it.",
+        "code": "3320"
+      }
+    ]
+  },
+  {
+    "prompt": "Are you fighting to help or protect the world or something?",
+    "answers": [
+      {
+        "text": "That's right.",
+        "code": "20"
+      },
+      {
+        "text": "I won't tell you.",
+        "code": "3000"
+      },
+      {
+        "text": "It pays the bills.",
+        "code": "1003"
+      }
+    ]
+  },
+  {
+    "prompt": "As far as you're concerned, what kind of person was I to you?",
+    "answers": [
+      {
+        "text": "My rival.",
+        "code": "2332"
+      },
+      {
+        "text": "Nobody, really.",
+        "code": "1113"
+      },
+      {
+        "text": "It doesn't matter.",
+        "code": "3220"
+      }
+    ]
+  },
+  {
+    "prompt": "...But be-hee-fore all that, let's enjoy a little chat, ho!",
+    "answers": [
+      {
+        "text": "All right, I suppose.",
+        "code": "3000"
+      },
+      {
+        "text": "There's no need for that.",
+        "code": "0"
+      },
+      {
+        "text": "[...]",
+        "code": "0"
+      }
+    ]
+  },
+  {
+    "prompt": "But before you do, do something funny. What can you do?",
+    "answers": [
+      {
+        "text": "Impressions.",
+        "code": "300"
+      },
+      {
+        "text": "Making funny faces.",
+        "code": "130"
+      },
+      {
+        "text": "Nothing.",
+        "code": "3000"
+      }
+    ]
+  },
+  {
+    "prompt": "But is it fair to my kind if only I find such happiness, leaving them all behind?",
+    "answers": [
+      {
+        "text": "I think so.",
+        "code": "2100"
+      },
+      {
+        "text": "They can all come.",
+        "code": "3"
+      },
+      {
+        "text": "Your kind?",
+        "code": "1000"
+      }
+    ]
+  },
+  {
+    "prompt": "But I've been around the block, so I know--there's something else you want from me, isn't there?",
+    "answers": [
+      {
+        "text": "Nope.",
+        "code": "300"
+      },
+      {
+        "text": "I just love the elderly.",
+        "code": "33"
+      },
+      {
+        "text": "I just want you to die happy.",
+        "code": "3100"
+      }
+    ]
+  },
+  {
+    "prompt": "But I've got a catch phrase that I'm famous for.",
+    "answers": [
+      {
+        "text": "Hee-ho!",
+        "code": "2"
+      },
+      {
+        "text": "Hee-haw!",
+        "code": "3"
+      },
+      {
+        "text": "Personaaa!",
+        "code": "0"
+      }
+    ]
+  },
+  {
+    "prompt": "But this way of life in this world is all I've ever known.",
+    "answers": [
+      {
+        "text": "It's not meaningless.",
+        "code": "3332"
+      },
+      {
+        "text": "There are other ways to live.",
+        "code": "2202"
+      },
+      {
+        "text": "You had a good run.",
+        "code": "3003"
+      }
+    ]
+  },
+  {
+    "prompt": "But what if I ripped your body apart? ...What color blood would come pouring out?",
+    "answers": [
+      {
+        "text": "Red.",
+        "code": "331"
+      },
+      {
+        "text": "Green.",
+        "code": "213"
+      },
+      {
+        "text": "I don't bleed or cry.",
+        "code": "3110"
+      }
+    ]
+  },
+  {
+    "prompt": "Can you sacrifice yourself in order to demonstrate your adoration of our Father?",
+    "answers": [
+      {
+        "text": "I can.",
+        "code": "0"
+      },
+      {
+        "text": "I can't.",
+        "code": "0"
+      },
+      {
+        "text": "I don't adore him.",
+        "code": "300"
+      }
+    ]
+  },
+  {
+    "prompt": "Can you sacrifice yourself in order to demonstrate your veneration of our Father?",
+    "answers": [
+      {
+        "text": "I can certainly try.",
+        "code": "2033"
+      },
+      {
+        "text": "No can do.",
+        "code": "2300"
+      },
+      {
+        "text": "What's veneration?",
+        "code": "203"
+      }
+    ]
+  },
+  {
+    "prompt": "Care to explain yourself? I certainly hope you have a good reason for this boorish treatment.",
+    "answers": [
+      {
+        "text": "That would take a while.",
+        "code": "2133"
+      },
+      {
+        "text": "There's no need to explain.",
+        "code": "3210"
+      },
+      {
+        "text": "Just shut up...",
+        "code": "302"
+      }
+    ]
+  },
+  {
+    "prompt": "C'mon, what's with the mask? Kinda cringy, don'tcha think?",
+    "answers": [
+      {
+        "text": "Sure is.",
+        "code": "3232"
+      },
+      {
+        "text": "Shut up...",
+        "code": "3102"
+      },
+      {
+        "text": "I'm secretly a kid.",
+        "code": "2323"
+      }
+    ]
+  },
+  {
+    "prompt": "Confess your sins.",
+    "answers": [
+      {
+        "text": "I apologize.",
+        "code": "0"
+      },
+      {
+        "text": "I think... I was wrong.",
+        "code": "0"
+      },
+      {
+        "text": "No chance.",
+        "code": "300"
+      }
+    ]
+  },
+  {
+    "prompt": "Could this be what humans call a proposal...?",
+    "answers": [
+      {
+        "text": "I'm surprised you knew.",
+        "code": "1203"
+      },
+      {
+        "text": "No, it's not.",
+        "code": "1300"
+      },
+      {
+        "text": "That's a myth.",
+        "code": "3100"
+      }
+    ]
+  },
+  {
+    "prompt": "Couldn't ya at least make me a cup of tea or somethin'? Hell, that'd be real polite.",
+    "answers": [
+      {
+        "text": "So sorry.",
+        "code": "231"
+      },
+      {
+        "text": "Brew your own.",
+        "code": "303"
+      },
+      {
+        "text": "I'm not known for being polite.",
+        "code": "3301"
+      }
+    ]
+  },
+  {
+    "prompt": "Did I just see your hand shaking? Isn't your guilt tormenting you?",
+    "answers": [
+      {
+        "text": "It's just a chill.",
+        "code": "1000"
+      },
+      {
+        "text": "Yeah, I can't take it...",
+        "code": "2003"
+      },
+      {
+        "text": "Shut up.",
+        "code": "3000"
+      }
+    ]
+  },
+  {
+    "prompt": "Did I... lose?",
+    "answers": [
+      {
+        "text": "Yup...",
+        "code": "2102"
+      },
+      {
+        "text": "Not sure yet.",
+        "code": "3300"
+      },
+      {
+        "text": "Nah, you totally won.",
+        "code": "1133"
+      }
+    ]
+  },
+  {
+    "prompt": "Didn't you feel like that when you were a kid, too?",
+    "answers": [
+      {
+        "text": "It's not so bad-olescent.",
+        "code": "3220"
+      },
+      {
+        "text": "Being a kid is tough.",
+        "code": "2333"
+      },
+      {
+        "text": "I don't remember.",
+        "code": "3000"
+      }
+    ]
+  },
+  {
+    "prompt": "Do you have a dish you're good at?",
+    "answers": [
+      {
+        "text": "Fried rice.",
+        "code": "2003"
+      },
+      {
+        "text": "Mystery meat.",
+        "code": "1003"
+      },
+      {
+        "text": "What are you saying?",
+        "code": "3000"
+      }
+    ]
+  },
+  {
+    "prompt": "Do you have a lot of friends? Ever feel like the things they do are annoying?",
+    "answers": [
+      {
+        "text": "Sometimes.",
+        "code": "232"
+      },
+      {
+        "text": "No.",
+        "code": "2000"
+      },
+      {
+        "text": "I have no friends.",
+        "code": "303"
+      }
+    ]
+  },
+  {
+    "prompt": "Do you know what I speak of?",
+    "answers": [
+      {
+        "text": "Sin...?",
+        "code": "103"
+      },
+      {
+        "text": "Please tell me.",
+        "code": "230"
+      },
+      {
+        "text": "I've done nothing wrong.",
+        "code": "300"
+      }
+    ]
+  },
+  {
+    "prompt": "Do you seek friendly competition with a beloved neighbor? Or have you come to destroy a hated foe?",
+    "answers": [
+      {
+        "text": "You're a beloved neighbor.",
+        "code": "333"
+      },
+      {
+        "text": "You're a loathsome foe.",
+        "code": "200"
+      },
+      {
+        "text": "You sound preachy.",
+        "code": "3103"
+      }
+    ]
+  },
+  {
+    "prompt": "Do you...think of me as a charlatan?",
+    "answers": [
+      {
+        "text": "I don't think that.",
+        "code": "1000"
+      },
+      {
+        "text": "I think of you as a foe.",
+        "code": "0"
+      },
+      {
+        "text": "You're not one?",
+        "code": "0"
+      }
+    ]
+  },
+  {
+    "prompt": "Do you think they really mean it all the time?",
+    "answers": [
+      {
+        "text": "Yes.",
+        "code": "320"
+      },
+      {
+        "text": "No, but they say it anyway.",
+        "code": "30"
+      },
+      {
+        "text": "I'm cuter than most kids.",
+        "code": "3003"
+      }
+    ]
+  },
+  {
+    "prompt": "Doesn't what you're doing bother your conscience?",
+    "answers": [
+      {
+        "text": "Now that you mention it...",
+        "code": "3030"
+      },
+      {
+        "text": "...Nope",
+        "code": "300"
+      },
+      {
+        "text": "I'm past such things.",
+        "code": "0"
+      }
+    ]
+  },
+  {
+    "prompt": "Don't take this the wrong way, but man... Bein' a carefree kid sure must be nice.",
+    "answers": [
+      {
+        "text": "I want to be a kid forever.",
+        "code": "1232"
+      },
+      {
+        "text": "I prefer being an adult.",
+        "code": "2300"
+      },
+      {
+        "text": "I wish I was still a baby.",
+        "code": "1003"
+      }
+    ]
+  },
+  {
+    "prompt": "Don't you think expecting your would-be victim to be receptive to your words is unreasonable?",
+    "answers": [
+      {
+        "text": "I do.",
+        "code": "2320"
+      },
+      {
+        "text": "I don't.",
+        "code": "300"
+      },
+      {
+        "text": "Don't worry about it.",
+        "code": "3033"
+      }
+    ]
+  },
+  {
+    "prompt": "Don't you think it's sad that slang and sayings can grow old and get outdated?",
+    "answers": [
+      {
+        "text": "That is sad.",
+        "code": "1000"
+      },
+      {
+        "text": "I don't think so.",
+        "code": "300"
+      },
+      {
+        "text": "That just proves you're old.",
+        "code": "3000"
+      }
+    ]
+  },
+  {
+    "prompt": "For you to force me to prostrate myself, as one who only seeks your well-being... Is there anything more irrational?",
+    "answers": [
+      {
+        "text": "My apologies.",
+        "code": "2000"
+      },
+      {
+        "text": "I don't want salvation.",
+        "code": "300"
+      },
+      {
+        "text": "Shut up.",
+        "code": "100"
+      }
+    ]
+  },
+  {
+    "prompt": "Guess what I want you to read me before you tuck me into bed!",
+    "answers": [
+      {
+        "text": "An animal book",
+        "code": "3031"
+      },
+      {
+        "text": "A story about a Yakuza",
+        "code": "103"
+      },
+      {
+        "text": "I have no idea",
+        "code": "300"
+      }
+    ]
+  },
+  {
+    "prompt": "Had I known things would turn out like this, I'd wish I had found the courage to ask that girl out...",
+    "answers": [
+      {
+        "text": "It's not too late.",
+        "code": "3031"
+      },
+      {
+        "text": "You never had a chance.",
+        "code": "1300"
+      },
+      {
+        "text": "I'll make sure she's happy.",
+        "code": "2003"
+      }
+    ]
+  },
+  {
+    "prompt": "Have you made an appointment, ho?",
+    "answers": [
+      {
+        "text": "I have.",
+        "code": "2003"
+      },
+      {
+        "text": "That's not it.",
+        "code": "1"
+      },
+      {
+        "text": "Just tell me what you know.",
+        "code": "0"
+      }
+    ]
+  },
+  {
+    "prompt": "...Heed my words. I am not the one you should detest.",
+    "answers": [
+      {
+        "text": "You're right.",
+        "code": "300"
+      },
+      {
+        "text": "That's absurd.",
+        "code": "2"
+      },
+      {
+        "text": "I'll be the judge of that.",
+        "code": "3"
+      }
+    ]
+  },
+  {
+    "prompt": "Hell, I got all sortsa girls lined up if you're into that.",
+    "answers": [
+      {
+        "text": "Really?",
+        "code": "2133"
+      },
+      {
+        "text": "You're trying way too hard.",
+        "code": "1222"
+      },
+      {
+        "text": "I'm not interested.",
+        "code": "3311"
+      }
+    ]
+  },
+  {
+    "prompt": "Hey. Aren't you hungry? Can we take a break and go eat somewhere?",
+    "answers": [
+      {
+        "text": "What're we getting?",
+        "code": "3"
+      },
+      {
+        "text": "Yeah.",
+        "code": "30"
+      },
+      {
+        "text": "Now's not the time.",
+        "code": "303"
+      }
+    ]
+  },
+  {
+    "prompt": "Hey, how about this? If you don't shoot me, then I'll kiss you. Not a bad deal, right?",
+    "answers": [
+      {
+        "text": "Not a bad idea.",
+        "code": "2033"
+      },
+      {
+        "text": "I don't want a kiss.",
+        "code": "1002"
+      },
+      {
+        "text": "Have some self-respect.",
+        "code": "3301"
+      }
+    ]
+  },
+  {
+    "prompt": "Hey, if I don't die here, what do you think I'll be like in the future?",
+    "answers": [
+      {
+        "text": "A fashionable older woman.",
+        "code": "333"
+      },
+      {
+        "text": "I can't measure that.",
+        "code": "22"
+      },
+      {
+        "text": "Living in darkness.",
+        "code": "3000"
+      }
+    ]
+  },
+  {
+    "prompt": "Hey, if ya got any medicine, lend me some. One of them painkillers...",
+    "answers": [
+      {
+        "text": "Are you okay?",
+        "code": "3032"
+      },
+      {
+        "text": "I have some antacids.",
+        "code": "1003"
+      },
+      {
+        "text": "That won't change anything.",
+        "code": "3300"
+      }
+    ]
+  },
+  {
+    "prompt": "Hey, if you got any medicine, lend me some. They're supposed ta work miracles, right...?",
+    "answers": [
+      {
+        "text": "Are you OK?",
+        "code": "0"
+      },
+      {
+        "text": "What kind of medicine?",
+        "code": "3000"
+      },
+      {
+        "text": "That won't change anything?",
+        "code": "3300"
+      }
+    ]
+  },
+  {
+    "prompt": "Hey, is my hair flat? Does it look weird?",
+    "answers": [
+      {
+        "text": "It looks cute.",
+        "code": "30"
+      },
+      {
+        "text": "It's weird looking.",
+        "code": "0"
+      },
+      {
+        "text": "Who cares?",
+        "code": "0"
+      }
+    ]
+  },
+  {
+    "prompt": "Hey, let's play a game! Guess what I wanna eat!",
+    "answers": [
+      {
+        "text": "Hamburgers.",
+        "code": "33"
+      },
+      {
+        "text": "Curry.",
+        "code": "20"
+      },
+      {
+        "text": "Shut up.",
+        "code": "300"
+      }
+    ]
+  },
+  {
+    "prompt": "Hey, mister, will you give me a yummy snack to eat?",
+    "answers": [
+      {
+        "text": "Later.",
+        "code": "3033"
+      },
+      {
+        "text": "No way.",
+        "code": "300"
+      },
+      {
+        "text": "What would you like?",
+        "code": "222"
+      }
+    ]
+  },
+  {
+    "prompt": "Hey. So whaddya feel when you think about the future?",
+    "answers": [
+      {
+        "text": "An average level of happiness.",
+        "code": "332"
+      },
+      {
+        "text": "Live fast, die young.",
+        "code": "3"
+      },
+      {
+        "text": "Nothing.",
+        "code": "3022"
+      }
+    ]
+  },
+  {
+    "prompt": "Hey, sonny if somethin's been botherin' you. I'm willin' ta give you a listen.",
+    "answers": [
+      {
+        "text": "My relationships...",
+        "code": "331"
+      },
+      {
+        "text": "I smell sweaty.",
+        "code": "110"
+      },
+      {
+        "text": "I have no worries.",
+        "code": "3000"
+      }
+    ]
+  },
+  {
+    "prompt": "...Hey, there's no need for all this, right? Let's drop the drama and just go get something to eat. The thought has crossed your mind, hasn't it? Come on, where would you take me?",
+    "answers": [
+      {
+        "text": "An expensive French restaurant.",
+        "code": "1000"
+      },
+      {
+        "text": "A busy ramen joint.",
+        "code": "2000"
+      },
+      {
+        "text": "Where would you like to go?",
+        "code": "3000"
+      }
+    ]
+  },
+  {
+    "prompt": "Hey. Why aren't ya at school?",
+    "answers": [
+      {
+        "text": "It's after school.",
+        "code": "2322"
+      },
+      {
+        "text": "I don't feel like going.",
+        "code": "3233"
+      },
+      {
+        "text": "I actually finished school.",
+        "code": "203"
+      }
+    ]
+  },
+  {
+    "prompt": "Honestly, aren't I, like, a way better girl than those idols?",
+    "answers": [
+      {
+        "text": "You're more unique.",
+        "code": "100"
+      },
+      {
+        "text": "Not really...",
+        "code": "0"
+      },
+      {
+        "text": "Who cares about idols?",
+        "code": "3300"
+      }
+    ]
+  },
+  {
+    "prompt": "How about we live together? What kind of place do you want to live in?",
+    "answers": [
+      {
+        "text": "I can't live with you.",
+        "code": "1300"
+      },
+      {
+        "text": "Next to a convenience store.",
+        "code": "2003"
+      },
+      {
+        "text": "What are you talking about?",
+        "code": "3200"
+      }
+    ]
+  },
+  {
+    "prompt": "How 'bout we have an interview? You're the winner, after all. I'll listen to whatever you gotta say.",
+    "answers": [
+      {
+        "text": "I feel great.",
+        "code": "313"
+      },
+      {
+        "text": "I want to aim higher.",
+        "code": "322"
+      },
+      {
+        "text": "Fighting is pointless.",
+        "code": "3031"
+      }
+    ]
+  },
+  {
+    "prompt": "How 'bout you, sonny? What kinda trip do you wanna take?",
+    "answers": [
+      {
+        "text": "A luxury cruise.",
+        "code": "1303"
+      },
+      {
+        "text": "Don't want to go anywhere.",
+        "code": "3132"
+      },
+      {
+        "text": "A trip to hell.",
+        "code": "2100"
+      }
+    ]
+  },
+  {
+    "prompt": "How 'bout you? You wanna get married someday?",
+    "answers": [
+      {
+        "text": "I do.",
+        "code": "2302"
+      },
+      {
+        "text": "I don't.",
+        "code": "111"
+      },
+      {
+        "text": "That's impossible.",
+        "code": "3001"
+      }
+    ]
+  },
+  {
+    "prompt": "How can you do such terrible things to a cute hee-ho like me!?",
+    "answers": [
+      {
+        "text": "I'm sorry.",
+        "code": "30"
+      },
+      {
+        "text": "Now that you mention it...",
+        "code": "3002"
+      },
+      {
+        "text": "...Cute?",
+        "code": "0"
+      }
+    ]
+  },
+  {
+    "prompt": "How did I lose to you? I mean... I win when it comes to looks, ho.",
+    "answers": [
+      {
+        "text": "You're right.",
+        "code": "2"
+      },
+      {
+        "text": "No, I do.",
+        "code": "3"
+      },
+      {
+        "text": "It's all about heart.",
+        "code": "0"
+      }
+    ]
+  },
+  {
+    "prompt": "How did you find out about me, ho?",
+    "answers": [
+      {
+        "text": "Some flyers.",
+        "code": "3000"
+      },
+      {
+        "text": "A speciatly site.",
+        "code": "33"
+      },
+      {
+        "text": "Word of mouth.",
+        "code": "32"
+      }
+    ]
+  },
+  {
+    "prompt": "Humans always want either an autograph or a self-hee, ho. Which is it, ho?",
+    "answers": [
+      {
+        "text": "I want an autograph.",
+        "code": "2020"
+      },
+      {
+        "text": "I want a photo.",
+        "code": "3032"
+      },
+      {
+        "text": "Give me your credit card.",
+        "code": "3001"
+      }
+    ]
+  },
+  {
+    "prompt": "Humans talk over drinks, right? How 'bout it? Hell, let me buy ya a round, sonny.",
+    "answers": [
+      {
+        "text": "Quit messing around.",
+        "code": "311"
+      },
+      {
+        "text": "You're really paying?",
+        "code": "3"
+      },
+      {
+        "text": "I'm a minor.",
+        "code": "3301"
+      }
+    ]
+  },
+  {
+    "prompt": "I also have loved ones who would miss me. You do catch my meaning, yes?",
+    "answers": [
+      {
+        "text": "I do now.",
+        "code": "1032"
+      },
+      {
+        "text": "That doesn't matter.",
+        "code": "302"
+      },
+      {
+        "text": "I'm always alone.",
+        "code": "3000"
+      }
+    ]
+  },
+  {
+    "prompt": "I can't sadden my fans, ho. ...You catch my drift, don't you?",
+    "answers": [
+      {
+        "text": "I'm rooting for you.",
+        "code": "33"
+      },
+      {
+        "text": "Tell me.",
+        "code": "0"
+      },
+      {
+        "text": "You have no fans.",
+        "code": "0"
+      }
+    ]
+  },
+  {
+    "prompt": "I coulda been a star...",
+    "answers": [
+      {
+        "text": "A star?",
+        "code": "3232"
+      },
+      {
+        "text": "That's not happening.",
+        "code": "301"
+      },
+      {
+        "text": "Are you giving up?",
+        "code": "3233"
+      }
+    ]
+  },
+  {
+    "prompt": "I don't hate you. No, I don't feel that way at all...",
+    "answers": [
+      {
+        "text": "Is that so?",
+        "code": "3000"
+      },
+      {
+        "text": "Too late.",
+        "code": "300"
+      },
+      {
+        "text": "Then let's hold hands.",
+        "code": "133"
+      }
+    ]
+  },
+  {
+    "prompt": "I fear neither death, nor you.",
+    "answers": [
+      {
+        "text": "In your situation?",
+        "code": "3"
+      },
+      {
+        "text": "You're tough.",
+        "code": "330"
+      },
+      {
+        "text": "Don't push yourself.",
+        "code": "32"
+      }
+    ]
+  },
+  {
+    "prompt": "...I gotta ask. How do you work out?",
+    "answers": [
+      {
+        "text": "I don't really train.",
+        "code": "3302"
+      },
+      {
+        "text": "I just have a knack for it.",
+        "code": "2131"
+      },
+      {
+        "text": "At a gym from hell.",
+        "code": "123"
+      }
+    ]
+  },
+  {
+    "prompt": "I guess women are really more social these days, finding so many fun things to do outside the home.",
+    "answers": [
+      {
+        "text": "That's so true.",
+        "code": "2330"
+      },
+      {
+        "text": "Men are social too.",
+        "code": "2300"
+      },
+      {
+        "text": "Is that so?",
+        "code": "3000"
+      }
+    ]
+  },
+  {
+    "prompt": "I insist you surrender yourself to the authorities.",
+    "answers": [
+      {
+        "text": "This is a misunderstanding.",
+        "code": "2332"
+      },
+      {
+        "text": "I apologize.",
+        "code": "1132"
+      },
+      {
+        "text": "You've got the wrong idea.",
+        "code": "3223"
+      }
+    ]
+  },
+  {
+    "prompt": "I know when I'm gettin' all sweaty. I'm glistenin', ain't I?",
+    "answers": [
+      {
+        "text": "Like a disco ball.",
+        "code": "2332"
+      },
+      {
+        "text": "Not at all.",
+        "code": "1133"
+      },
+      {
+        "text": "Why does that matter?",
+        "code": "3222"
+      }
+    ]
+  },
+  {
+    "prompt": "I lost. Here I lay, at your feet, at your mercy. Just what do you want from me?",
+    "answers": [
+      {
+        "text": "Give me something.",
+        "code": "2333"
+      },
+      {
+        "text": "Grovel before me.",
+        "code": "301"
+      },
+      {
+        "text": "I don't know.",
+        "code": "3100"
+      }
+    ]
+  },
+  {
+    "prompt": "I mean, how does it feel to wave your gun at an enemy who's completely lost the will to fight?",
+    "answers": [
+      {
+        "text": "It's not bad.",
+        "code": "2300"
+      },
+      {
+        "text": "...I could get used to it.",
+        "code": "2003"
+      },
+      {
+        "text": "It pains my heart...",
+        "code": "2030"
+      }
+    ]
+  },
+  {
+    "prompt": "I need to recover, ho. Don't you feel that way too?",
+    "answers": [
+      {
+        "text": "Yeah, sometimes.",
+        "code": "33"
+      },
+      {
+        "text": "Battle is what soothes me.",
+        "code": "0"
+      },
+      {
+        "text": "Quit whining.",
+        "code": "0"
+      }
+    ]
+  },
+  {
+    "prompt": "I occasionally wish to pamper myself as a reward for working hard. How would you do that?",
+    "answers": [
+      {
+        "text": "Relax at home.",
+        "code": "1232"
+      },
+      {
+        "text": "Go impulse shopping.",
+        "code": "203"
+      },
+      {
+        "text": "Don't be so selfish.",
+        "code": "3100"
+      }
+    ]
+  },
+  {
+    "prompt": "I suppose it makes no difference if you kill me or if I die just a little bit later, dearie.",
+    "answers": [
+      {
+        "text": "That's right",
+        "code": "300"
+      },
+      {
+        "text": "That isn't true",
+        "code": "1000"
+      },
+      {
+        "text": "That's still a long ways off",
+        "code": "0"
+      }
+    ]
+  },
+  {
+    "prompt": "I suppose that's why I feel so confused, child. After all, why am I being treated like this?",
+    "answers": [
+      {
+        "text": "Because you resisted.",
+        "code": "2322"
+      },
+      {
+        "text": "It can't be helped.",
+        "code": "1003"
+      },
+      {
+        "text": "It's for your own good.",
+        "code": "1000"
+      }
+    ]
+  },
+  {
+    "prompt": "\"I suppose this \"\"real world\"\" where you come from must be fairly boring.\"",
+    "answers": [
+      {
+        "text": "You're right.",
+        "code": "3230"
+      },
+      {
+        "text": "It keeps me busy.",
+        "code": "2302"
+      },
+      {
+        "text": "It's better than here.",
+        "code": "2003"
+      }
+    ]
+  },
+  {
+    "prompt": "I think dying alone isn't so bad, dearie, but isn't living alone in the first place the real tragedy?",
+    "answers": [
+      {
+        "text": "I don't think so.",
+        "code": "0"
+      },
+      {
+        "text": "Maybe you're right.",
+        "code": "3200"
+      },
+      {
+        "text": "Being alone is a luxury.",
+        "code": "3"
+      }
+    ]
+  },
+  {
+    "prompt": "\"I think the way you're treating me is \"\"overfamiliar.\"\" I think...\"",
+    "answers": [
+      {
+        "text": "We are friends.",
+        "code": "303"
+      },
+      {
+        "text": "What's wrong with that?",
+        "code": "1000"
+      },
+      {
+        "text": "It's because you're cute.",
+        "code": "3000"
+      }
+    ]
+  },
+  {
+    "prompt": "I wanted to go on vacation, too, before all this happened...",
+    "answers": [
+      {
+        "text": "That's too bad.",
+        "code": "1332"
+      },
+      {
+        "text": "What are you getting at?",
+        "code": "3203"
+      },
+      {
+        "text": "You have a boyfriend?",
+        "code": "2003"
+      }
+    ]
+  },
+  {
+    "prompt": "I was going to catch a great buy, live a life of celebrity... Where'd it all go wrong?",
+    "answers": [
+      {
+        "text": "You did nothing wrong.",
+        "code": "0"
+      },
+      {
+        "text": "You dreamed too big.",
+        "code": "1000"
+      },
+      {
+        "text": "It's your personality.",
+        "code": "0"
+      }
+    ]
+  },
+  {
+    "prompt": "I wish I could see what kind of parents raised you to run loose and wreak havoc like this.",
+    "answers": [
+      {
+        "text": "I'll introduce you to them later.",
+        "code": "1233"
+      },
+      {
+        "text": "I won't show you.",
+        "code": "0"
+      },
+      {
+        "text": "Leave my parents out of this.",
+        "code": "3300"
+      }
+    ]
+  },
+  {
+    "prompt": "I wish they would leave us old people alone. After all, it's not like we have much time left.",
+    "answers": [
+      {
+        "text": "I agree.",
+        "code": "332"
+      },
+      {
+        "text": "Speak for yourself.",
+        "code": "2000"
+      },
+      {
+        "text": "There's an aging boom...",
+        "code": "3010"
+      }
+    ]
+  },
+  {
+    "prompt": "I wonder how things might have been between us if cicumstances were different somehow.",
+    "answers": [
+      {
+        "text": "We wouldn't have been enemies.",
+        "code": "2000"
+      },
+      {
+        "text": "We'd have gotten married.",
+        "code": "0"
+      },
+      {
+        "text": "Nothing would've changed.",
+        "code": "3002"
+      }
+    ]
+  },
+  {
+    "prompt": "I wonder how things might have been between us if circumstances had been different somehow?",
+    "answers": [
+      {
+        "text": "We would have dated.",
+        "code": "0"
+      },
+      {
+        "text": "We'd have gotten married.",
+        "code": "0"
+      },
+      {
+        "text": "Nothing would've changed.",
+        "code": "3000"
+      }
+    ]
+  },
+  {
+    "prompt": "I wonder if it's about time I quit this job.",
+    "answers": [
+      {
+        "text": "Hang in there.",
+        "code": "1000"
+      },
+      {
+        "text": "That's a good idea.",
+        "code": "0"
+      },
+      {
+        "text": "And then what?",
+        "code": "3000"
+      }
+    ]
+  },
+  {
+    "prompt": "I wonder if us speaking together like this now means that we are somehow connected...",
+    "answers": [
+      {
+        "text": "It could be.",
+        "code": "3233"
+      },
+      {
+        "text": "No way.",
+        "code": "2322"
+      },
+      {
+        "text": "It's fate.",
+        "code": "3220"
+      }
+    ]
+  },
+  {
+    "prompt": "I would have never accepted this task if I knew it would involve this sort of suffering.",
+    "answers": [
+      {
+        "text": "That's a pity...",
+        "code": "2130"
+      },
+      {
+        "text": "Uninformed choices are bad.",
+        "code": "3303"
+      },
+      {
+        "text": "Complaining won't help.",
+        "code": "2100"
+      }
+    ]
+  },
+  {
+    "prompt": "If so, then won't you overlook this? Let's make a deal...",
+    "answers": [
+      {
+        "text": "All right.",
+        "code": "333"
+      },
+      {
+        "text": "A deal with the enemy?",
+        "code": "3020"
+      },
+      {
+        "text": "I can't trust you.",
+        "code": "120"
+      }
+    ]
+  },
+  {
+    "prompt": "If that's the plan, well, you better make sure I'm satisfied.",
+    "answers": [
+      {
+        "text": "Don't toy with me.",
+        "code": "2321"
+      },
+      {
+        "text": "You're not making sense.",
+        "code": "3202"
+      },
+      {
+        "text": "What would you like?",
+        "code": "3133"
+      }
+    ]
+  },
+  {
+    "prompt": "If that's true, then I don't think there's any real point in killing me...",
+    "answers": [
+      {
+        "text": "Of course, there's a point.",
+        "code": "0"
+      },
+      {
+        "text": "You're right",
+        "code": "200"
+      },
+      {
+        "text": "Then who's the real enemy?",
+        "code": "3000"
+      }
+    ]
+  },
+  {
+    "prompt": "If yer gonna kill me, do me a solid and make it quick.",
+    "answers": [
+      {
+        "text": "Aren't you scared?",
+        "code": "3332"
+      },
+      {
+        "text": "I'll have some more fun first.",
+        "code": "1313"
+      },
+      {
+        "text": "I won't make you suffer.",
+        "code": "3232"
+      }
+    ]
+  },
+  {
+    "prompt": "If you ask me, it's a lot more fun ta go chasin' after younger ladies, but...",
+    "answers": [
+      {
+        "text": "This is true.",
+        "code": "2330"
+      },
+      {
+        "text": "That's not very fun.",
+        "code": "2320"
+      },
+      {
+        "text": "You dirty old man.",
+        "code": "3023"
+      }
+    ]
+  },
+  {
+    "prompt": "If you capture me, what you going to do to me?",
+    "answers": [
+      {
+        "text": "Take pride in capturing you",
+        "code": "2300"
+      },
+      {
+        "text": "Use you to decorate the hall",
+        "code": "2103"
+      },
+      {
+        "text": "Nothing.",
+        "code": "3030"
+      }
+    ]
+  },
+  {
+    "prompt": "\"If your girlfriend asked if you wanted to have dinner with \"\"everybody\"\", what you you say?\"",
+    "answers": [
+      {
+        "text": "Sure.",
+        "code": "203"
+      },
+      {
+        "text": "I'm busy.",
+        "code": "300"
+      },
+      {
+        "text": "What are you talking about?",
+        "code": "3000"
+      }
+    ]
+  },
+  {
+    "prompt": "\"If your girlfriend asked if you were free to have dinner with her \"\"friends\"\", what would you say?\"",
+    "answers": [
+      {
+        "text": "Sure.",
+        "code": "3003"
+      },
+      {
+        "text": "I'm busy.",
+        "code": "2"
+      },
+      {
+        "text": "What are you talking about?",
+        "code": "0"
+      }
+    ]
+  },
+  {
+    "prompt": "If your parents could see you now, I'm sure it would break their hearts...",
+    "answers": [
+      {
+        "text": "You might be right...",
+        "code": "1030"
+      },
+      {
+        "text": "This doesn't involve them.",
+        "code": "0"
+      },
+      {
+        "text": "Actually, they'd rejoice.",
+        "code": "3"
+      }
+    ]
+  },
+  {
+    "prompt": "I'll go out with you just for today if there are no strings attached.",
+    "answers": [
+      {
+        "text": "If it pleases you.",
+        "code": "2333"
+      },
+      {
+        "text": "No strings attached?",
+        "code": "3023"
+      },
+      {
+        "text": "I've got enough on my plate...",
+        "code": "323"
+      }
+    ]
+  },
+  {
+    "prompt": "I'm a super popular Shadow, you hee-know. My fans won't just sit around and take this, ho.",
+    "answers": [
+      {
+        "text": "Please forgive me.",
+        "code": "2033"
+      },
+      {
+        "text": "Fans?",
+        "code": "3000"
+      },
+      {
+        "text": "So what?",
+        "code": "2000"
+      }
+    ]
+  },
+  {
+    "prompt": "I'm busy, ho. It's tough being so popular.",
+    "answers": [
+      {
+        "text": "You do sound busy.",
+        "code": "3033"
+      },
+      {
+        "text": "Your popularity won't last.",
+        "code": "0"
+      },
+      {
+        "text": "Who cares?",
+        "code": "3002"
+      }
+    ]
+  },
+  {
+    "prompt": "I'm inclined to turn you down, but if you still wish to speak, I will perhaps consider it.",
+    "answers": [
+      {
+        "text": "You have nothing I want.",
+        "code": "3312"
+      },
+      {
+        "text": "Do you have time?",
+        "code": "2123"
+      },
+      {
+        "text": "Don't turn me down.",
+        "code": "1032"
+      }
+    ]
+  },
+  {
+    "prompt": "I'm just putting this out there, but you wouldn't treat me this way if I were younger, right? ...It's true, isn't it?",
+    "answers": [
+      {
+        "text": "It's not true.",
+        "code": "1330"
+      },
+      {
+        "text": "Maybe.",
+        "code": "3103"
+      },
+      {
+        "text": "Cougars are all the rage now.",
+        "code": "2200"
+      }
+    ]
+  },
+  {
+    "prompt": "...I'm not going to go easy on you for doing something like this, you know...",
+    "answers": [
+      {
+        "text": "I'm sorry.",
+        "code": "301"
+      },
+      {
+        "text": "Prepare for the worst.",
+        "code": "1030"
+      },
+      {
+        "text": "How much do you want?",
+        "code": "3101"
+      }
+    ]
+  },
+  {
+    "prompt": "I'm not the one you should want to shoot...",
+    "answers": [
+      {
+        "text": "You've got a point there...",
+        "code": "2133"
+      },
+      {
+        "text": "Not necessarily.",
+        "code": "300"
+      },
+      {
+        "text": "Anyone will do.",
+        "code": "3100"
+      }
+    ]
+  },
+  {
+    "prompt": "I'm sure a miracle's gonna happen to me, right?",
+    "answers": [
+      {
+        "text": "Miracles don't exist.",
+        "code": "1000"
+      },
+      {
+        "text": "I'd be jealous if it did.",
+        "code": "1032"
+      },
+      {
+        "text": "I'm waiting.",
+        "code": "33"
+      }
+    ]
+  },
+  {
+    "prompt": "I'm sure there're other people in the world who'd irritate you more. C'mon, tell me.",
+    "answers": [
+      {
+        "text": "Older people trying to look young.",
+        "code": "223"
+      },
+      {
+        "text": "No one bothers me.",
+        "code": "2130"
+      },
+      {
+        "text": "I hate everyone.",
+        "code": "300"
+      }
+    ]
+  },
+  {
+    "prompt": "I'm thinking that maybe I should act more grandmotherly. How can I go ahead and do that for you?",
+    "answers": [
+      {
+        "text": "Make me a homemade meal.",
+        "code": "33"
+      },
+      {
+        "text": "Scold me every so often.",
+        "code": "300"
+      },
+      {
+        "text": "You don't have to do anything.",
+        "code": "3000"
+      }
+    ]
+  },
+  {
+    "prompt": "I'm tired of being a kid. Didn't you feel that way when you were little, too?",
+    "answers": [
+      {
+        "text": "Sure did.",
+        "code": "3000"
+      },
+      {
+        "text": "Not really.",
+        "code": "0"
+      },
+      {
+        "text": "I want to be a kid forever.",
+        "code": "20"
+      }
+    ]
+  },
+  {
+    "prompt": "I'm well-connected, okay? I know some people that are pretty complicated.",
+    "answers": [
+      {
+        "text": "I want to meet them.",
+        "code": "133"
+      },
+      {
+        "text": "Complicated...?",
+        "code": "1200"
+      },
+      {
+        "text": "Liar.",
+        "code": "3000"
+      }
+    ]
+  },
+  {
+    "prompt": "In the end, killin' me's just a waste of yer time and energy. You get what I'm sayin', right?",
+    "answers": [
+      {
+        "text": "When you put it that way...",
+        "code": "100"
+      },
+      {
+        "text": "It's not a waste.",
+        "code": "100"
+      },
+      {
+        "text": "Enemies must be eliminated.",
+        "code": "200"
+      }
+    ]
+  },
+  {
+    "prompt": "Is it because I'm not acting mature enough? Like, what the heck makes someone mature, anyway?",
+    "answers": [
+      {
+        "text": "Being old enough to drink.",
+        "code": "2"
+      },
+      {
+        "text": "Paying your own rent.",
+        "code": "200"
+      },
+      {
+        "text": "Questioning maturity.",
+        "code": "3003"
+      }
+    ]
+  },
+  {
+    "prompt": "\"Is it 'cause I wasn't a \"\"good kid\"\"?\"",
+    "answers": [
+      {
+        "text": "Yes.",
+        "code": "2303"
+      },
+      {
+        "text": "No.",
+        "code": "30"
+      },
+      {
+        "text": "It has nothing to do with this.",
+        "code": "3101"
+      }
+    ]
+  },
+  {
+    "prompt": "Is it just me, or does something stink?",
+    "answers": [
+      {
+        "text": "It's just you.",
+        "code": "230"
+      },
+      {
+        "text": "It's coming from you.",
+        "code": "1100"
+      },
+      {
+        "text": "I smell a lie.",
+        "code": "3013"
+      }
+    ]
+  },
+  {
+    "prompt": "Is it not a breeding ground for impudent humans? How do you view this world of yours?",
+    "answers": [
+      {
+        "text": "Full of corrupt adults.",
+        "code": "300"
+      },
+      {
+        "text": "Plenty of places to shop.",
+        "code": "0"
+      },
+      {
+        "text": "Looks normal to me.",
+        "code": "0"
+      }
+    ]
+  },
+  {
+    "prompt": "Is it not possible for this series of events involving you and me to be attributed to that?",
+    "answers": [
+      {
+        "text": "Fair enough.",
+        "code": "3033"
+      },
+      {
+        "text": "That is incorrect.",
+        "code": "2323"
+      },
+      {
+        "text": "What are you talking about?",
+        "code": "3200"
+      }
+    ]
+  },
+  {
+    "prompt": "Is it okay if I get mad right now?",
+    "answers": [
+      {
+        "text": "Do it.",
+        "code": "1302"
+      },
+      {
+        "text": "Please don't.",
+        "code": "3000"
+      },
+      {
+        "text": "You're so cute.",
+        "code": "3003"
+      }
+    ]
+  },
+  {
+    "prompt": "Is it only for men? Where did you get it?",
+    "answers": [
+      {
+        "text": "Do you want it?",
+        "code": "3333"
+      },
+      {
+        "text": "Internet shopping.",
+        "code": "2000"
+      },
+      {
+        "text": "It's not available for sale.",
+        "code": "1000"
+      }
+    ]
+  },
+  {
+    "prompt": "Is it scary to get a shot? Does it make you cry, mister?",
+    "answers": [
+      {
+        "text": "I did.",
+        "code": "30"
+      },
+      {
+        "text": "I endure it.",
+        "code": "3"
+      },
+      {
+        "text": "I like shots.",
+        "code": "0"
+      }
+    ]
+  },
+  {
+    "prompt": "Is there a reason why I just can't beat you?",
+    "answers": [
+      {
+        "text": "I'm younger, that's all.",
+        "code": "1000"
+      },
+      {
+        "text": "I've totally got girl power.",
+        "code": "3"
+      },
+      {
+        "text": "Figure it out yourself.",
+        "code": "3000"
+      }
+    ]
+  },
+  {
+    "prompt": "Is there really any benefit for me if I joined with you?",
+    "answers": [
+      {
+        "text": "I think there is.",
+        "code": "232"
+      },
+      {
+        "text": "I can't promise that.",
+        "code": "3302"
+      },
+      {
+        "text": "It's a matter of feeling.",
+        "code": "3"
+      }
+    ]
+  },
+  {
+    "prompt": "Isn't that just like when a human woman gets married and moves in with her husband?",
+    "answers": [
+      {
+        "text": "That's right.",
+        "code": "2033"
+      },
+      {
+        "text": "No.",
+        "code": "3300"
+      },
+      {
+        "text": "I love someone else.",
+        "code": "2000"
+      }
+    ]
+  },
+  {
+    "prompt": "Isn't that kinda... outdated thinking?",
+    "answers": [
+      {
+        "text": "Yea.",
+        "code": "0"
+      },
+      {
+        "text": "No way.",
+        "code": "30"
+      },
+      {
+        "text": "It's for your own good.",
+        "code": "3"
+      }
+    ]
+  },
+  {
+    "prompt": "Isn't that kinda... outdated thinking?",
+    "answers": [
+      {
+        "text": "Sorry.",
+        "code": "0"
+      },
+      {
+        "text": "It's not.",
+        "code": "30"
+      },
+      {
+        "text": "I'm fine with it.",
+        "code": "13"
+      }
+    ]
+  },
+  {
+    "prompt": "It's bad to talk to yourself.",
+    "answers": [
+      {
+        "text": "I wasn't talking to myself.",
+        "code": "2303"
+      },
+      {
+        "text": "You're here, aren't you?",
+        "code": "3200"
+      },
+      {
+        "text": "You're right, I'm sorry.",
+        "code": "32"
+      }
+    ]
+  },
+  {
+    "prompt": "It's fine to cry sometimes.",
+    "answers": [
+      {
+        "text": "No way.",
+        "code": "303"
+      },
+      {
+        "text": "Right, it is.",
+        "code": "1230"
+      },
+      {
+        "text": "Are you trying to comfort me?",
+        "code": "3000"
+      }
+    ]
+  },
+  {
+    "prompt": "It's kind of chilly, isn't it?",
+    "answers": [
+      {
+        "text": "I'm cold.",
+        "code": "3330"
+      },
+      {
+        "text": "It's not cold at all.",
+        "code": "13"
+      },
+      {
+        "text": "I can stand it.",
+        "code": "223"
+      }
+    ]
+  },
+  {
+    "prompt": "I've... always wanted to say this, but... I think you are a pretty decent person.",
+    "answers": [
+      {
+        "text": "Are you trying to flatter me?",
+        "code": "2212"
+      },
+      {
+        "text": "What are you saying?",
+        "code": "3000"
+      },
+      {
+        "text": "Thanks.",
+        "code": "1233"
+      }
+    ]
+  },
+  {
+    "prompt": "...Just what the hell are you? A monster? A human? Are you a boy? A girl?",
+    "answers": [
+      {
+        "text": "I am what you fear.",
+        "code": "3103"
+      },
+      {
+        "text": "I am a man.",
+        "code": "2002"
+      },
+      {
+        "text": "I'm just a kid.",
+        "code": "20"
+      }
+    ]
+  },
+  {
+    "prompt": "Just what's your purpose in doing all of this? Is it for money, or just to have fun?",
+    "answers": [
+      {
+        "text": "It's for justice.",
+        "code": "32"
+      },
+      {
+        "text": "For fun.",
+        "code": "323"
+      },
+      {
+        "text": "For money.",
+        "code": "1022"
+      }
+    ]
+  },
+  {
+    "prompt": "Listen, do you like people that are into older guys?",
+    "answers": [
+      {
+        "text": "I do.",
+        "code": "2103"
+      },
+      {
+        "text": "I'm into young men.",
+        "code": "1232"
+      },
+      {
+        "text": "I hate older men.",
+        "code": "3300"
+      }
+    ]
+  },
+  {
+    "prompt": "Looking at you, you seem a little stiff. Are you constipated?",
+    "answers": [
+      {
+        "text": "Yeah, I am...",
+        "code": "332"
+      },
+      {
+        "text": "What are you saying?",
+        "code": "3200"
+      },
+      {
+        "text": "Mind your own business.",
+        "code": "103"
+      }
+    ]
+  },
+  {
+    "prompt": "Maybe if I just kept my mouth shut, you wouldn't be doing this to me.",
+    "answers": [
+      {
+        "text": "You might be right.",
+        "code": "2230"
+      },
+      {
+        "text": "It doesn't make a difference.",
+        "code": "3102"
+      },
+      {
+        "text": "Silence is complicity.",
+        "code": "2200"
+      }
+    ]
+  },
+  {
+    "prompt": "My heart is pounding. It feels like it's going to pop right out of my chest...",
+    "answers": [
+      {
+        "text": "Are you all right?",
+        "code": "3232"
+      },
+      {
+        "text": "That's an adrenaline rush.",
+        "code": "1322"
+      },
+      {
+        "text": "Is that a good thing?",
+        "code": "202"
+      }
+    ]
+  },
+  {
+    "prompt": "Nothin' like a bad day to get ya up and fightin', ho.",
+    "answers": [
+      {
+        "text": "That's right.",
+        "code": "333"
+      },
+      {
+        "text": "I'm tired.",
+        "code": "3021"
+      },
+      {
+        "text": "I want to go home.",
+        "code": "2000"
+      }
+    ]
+  },
+  {
+    "prompt": "Now that I'm looking at you, you're not half bad. I'll make you into a star! What do you say?!",
+    "answers": [
+      {
+        "text": "No thanks.",
+        "code": "3022"
+      },
+      {
+        "text": "I can't be a star.",
+        "code": "2033"
+      },
+      {
+        "text": "I'll be a super-star!",
+        "code": "2300"
+      }
+    ]
+  },
+  {
+    "prompt": "Now that you're an adult, what do you think is a good way to kill time?",
+    "answers": [
+      {
+        "text": "Fishing.",
+        "code": "3030"
+      },
+      {
+        "text": "Reading.",
+        "code": "3000"
+      },
+      {
+        "text": "Doing whatever I want.",
+        "code": "2"
+      }
+    ]
+  },
+  {
+    "prompt": "Now you know how I feel, being put in such a horrible position. The world isn't fair, is it?",
+    "answers": [
+      {
+        "text": "It's not fair at all.",
+        "code": "3320"
+      },
+      {
+        "text": "It's very fair.",
+        "code": "103"
+      },
+      {
+        "text": "Maybe this is your fault.",
+        "code": "30"
+      }
+    ]
+  },
+  {
+    "prompt": "...Oh, don't tell me... You are a male, correct?",
+    "answers": [
+      {
+        "text": "I'm a boy.",
+        "code": "3203"
+      },
+      {
+        "text": "I'm a girl.",
+        "code": "3020"
+      },
+      {
+        "text": "Why does it matter?",
+        "code": "310"
+      }
+    ]
+  },
+  {
+    "prompt": "Oh, I'm just playing around, ho. What's wrong? You don't have a sense of humor, ho?",
+    "answers": [
+      {
+        "text": "You scared me.",
+        "code": "31"
+      },
+      {
+        "text": "I do.",
+        "code": "3033"
+      },
+      {
+        "text": "I'm not laughing.",
+        "code": "12"
+      }
+    ]
+  },
+  {
+    "prompt": "Please, I ask for your assistance. Lend me your strength.",
+    "answers": [
+      {
+        "text": "I will not help you.",
+        "code": "1300"
+      },
+      {
+        "text": "I will help you.",
+        "code": "2022"
+      },
+      {
+        "text": "Do you really need it?",
+        "code": "232"
+      }
+    ]
+  },
+  {
+    "prompt": "Please, just let me go. I won't ever do anything bad again.",
+    "answers": [
+      {
+        "text": "I can't believe you.",
+        "code": "3002"
+      },
+      {
+        "text": "I'll let you go.",
+        "code": "1233"
+      },
+      {
+        "text": "I'm not falling for that.",
+        "code": "2323"
+      }
+    ]
+  },
+  {
+    "prompt": "Power is intoxicating, is it not? How does it feel to be in a position to kill me?",
+    "answers": [
+      {
+        "text": "I don't know.",
+        "code": "3223"
+      },
+      {
+        "text": "It's a thrill.",
+        "code": "12"
+      },
+      {
+        "text": "It's nothing special.",
+        "code": "3300"
+      }
+    ]
+  },
+  {
+    "prompt": "...Right? So you understand my pain, don't you?",
+    "answers": [
+      {
+        "text": "I don't.",
+        "code": "300"
+      },
+      {
+        "text": "I'm used to it.",
+        "code": "3"
+      },
+      {
+        "text": "I do.",
+        "code": "2033"
+      }
+    ]
+  },
+  {
+    "prompt": "Seems like the young folk these days can get ahold of anything just by searching for it online.",
+    "answers": [
+      {
+        "text": "You're right.",
+        "code": "3032"
+      },
+      {
+        "text": "Not everything is online.",
+        "code": "21"
+      },
+      {
+        "text": "What are you looking for?",
+        "code": "303"
+      }
+    ]
+  },
+  {
+    "prompt": "Since it seems you have a moment, perhaps you will entertain me by answering a question or two?",
+    "answers": [
+      {
+        "text": "I don't have time.",
+        "code": "302"
+      },
+      {
+        "text": "I suppose so...",
+        "code": "2033"
+      },
+      {
+        "text": "Go ahead.",
+        "code": "2002"
+      }
+    ]
+  },
+  {
+    "prompt": "So, how does it feel to live a life full of lies?",
+    "answers": [
+      {
+        "text": "It's not a lie.",
+        "code": "30"
+      },
+      {
+        "text": "It's my life.",
+        "code": "302"
+      },
+      {
+        "text": "How is my life a lie?",
+        "code": "3000"
+      }
+    ]
+  },
+  {
+    "prompt": "So, how do I look, ho? Just as cool as always, right?",
+    "answers": [
+      {
+        "text": "You look good.",
+        "code": "233"
+      },
+      {
+        "text": "You're not cool at all.",
+        "code": "3101"
+      },
+      {
+        "text": "Who are you?",
+        "code": "202"
+      }
+    ]
+  },
+  {
+    "prompt": "So, you're the one that's been making a fuss? C'mon now, don't get so upset...",
+    "answers": [
+      {
+        "text": "That's right.",
+        "code": "2301"
+      },
+      {
+        "text": "I am calm.",
+        "code": "3233"
+      },
+      {
+        "text": "You're the one making the fuss.",
+        "code": "30"
+      }
+    ]
+  },
+  {
+    "prompt": "Some people get happy when they're told they're cute, don't they?",
+    "answers": [
+      {
+        "text": "You're right.",
+        "code": "2032"
+      },
+      {
+        "text": "No.",
+        "code": "1301"
+      },
+      {
+        "text": "Only if they're a kid.",
+        "code": "3020"
+      }
+    ]
+  },
+  {
+    "prompt": "Someone's a little sad, huh?",
+    "answers": [
+      {
+        "text": "I'm not sad.",
+        "code": "203"
+      },
+      {
+        "text": "I just want to be left alone.",
+        "code": "2032"
+      },
+      {
+        "text": "Are you sad, too?",
+        "code": "3000"
+      }
+    ]
+  },
+  {
+    "prompt": "Tell me, how did you get so strong? Are you using some kinda cheats?",
+    "answers": [
+      {
+        "text": "That's a secret.",
+        "code": "233"
+      },
+      {
+        "text": "Hard work and dedication.",
+        "code": "2003"
+      },
+      {
+        "text": "It's my bloodline.",
+        "code": "2"
+      }
+    ]
+  },
+  {
+    "prompt": "Tell me, what is something you're good at?",
+    "answers": [
+      {
+        "text": "Nothing...",
+        "code": "2301"
+      },
+      {
+        "text": "I'm good at everything.",
+        "code": "2233"
+      },
+      {
+        "text": "I'm good at sports.",
+        "code": "2323"
+      }
+    ]
+  },
+  {
+    "prompt": "That's not very nice. I have feelings, you know!",
+    "answers": [
+      {
+        "text": "I'm sorry.",
+        "code": "230"
+      },
+      {
+        "text": "So do I.",
+        "code": "2323"
+      },
+      {
+        "text": "I'm fine with it.",
+        "code": "1101"
+      }
+    ]
+  },
+  {
+    "prompt": "The things that happened in the past, the things that will happen in the future... Do you feel nothing towards any of it?",
+    "answers": [
+      {
+        "text": "Of course I do.",
+        "code": "332"
+      },
+      {
+        "text": "I feel nothing.",
+        "code": "3302"
+      },
+      {
+        "text": "Why do you ask?",
+        "code": "3203"
+      }
+    ]
+  },
+  {
+    "prompt": "There must have been something that made you stronger... Just what was it?",
+    "answers": [
+      {
+        "text": "I don't know.",
+        "code": "3200"
+      },
+      {
+        "text": "I'm not that strong.",
+        "code": "2323"
+      },
+      {
+        "text": "My past made me strong.",
+        "code": "2"
+      }
+    ]
+  },
+  {
+    "prompt": "This is kind of... weird, isn't it? For us to be doing this...",
+    "answers": [
+      {
+        "text": "It sure is.",
+        "code": "3332"
+      },
+      {
+        "text": "What are you talking about?",
+        "code": "2333"
+      },
+      {
+        "text": "I don't think it's weird.",
+        "code": "1033"
+      }
+    ]
+  },
+  {
+    "prompt": "This isn't what I imagined. I thought my life would be better.",
+    "answers": [
+      {
+        "text": "Me, too.",
+        "code": "3030"
+      },
+      {
+        "text": "What did you imagine?",
+        "code": "2023"
+      },
+      {
+        "text": "You can still start over.",
+        "code": "2223"
+      }
+    ]
+  },
+  {
+    "prompt": "This is supposed to be the final boss, but I'm just a kid... What's with this reality?",
+    "answers": [
+      {
+        "text": "The world is unfair.",
+        "code": "3302"
+      },
+      {
+        "text": "There's no point in complaining.",
+        "code": "23"
+      },
+      {
+        "text": "Just go home.",
+        "code": "2321"
+      }
+    ]
+  },
+  {
+    "prompt": "This just means that the two of us... The two of us have been bound by destiny, ho!",
+    "answers": [
+      {
+        "text": "You're exaggerating.",
+        "code": "1022"
+      },
+      {
+        "text": "That's not it.",
+        "code": "3123"
+      },
+      {
+        "text": "Bound by destiny...",
+        "code": "2233"
+      }
+    ]
+  },
+  {
+    "prompt": "Those who would defy me... Are you all as rude as you are?",
+    "answers": [
+      {
+        "text": "Yeah, we are.",
+        "code": "3130"
+      },
+      {
+        "text": "What are you going to do about it?",
+        "code": "2312"
+      },
+      {
+        "text": "That's just my personality.",
+        "code": "3332"
+      }
+    ]
+  },
+  {
+    "prompt": "Tsk, you're so stubborn. How about we just have a little fun instead?",
+    "answers": [
+      {
+        "text": "Okay, fine.",
+        "code": "2032"
+      },
+      {
+        "text": "No thanks.",
+        "code": "3220"
+      },
+      {
+        "text": "What do you have in mind?",
+        "code": "303"
+      }
+    ]
+  },
+  {
+    "prompt": "What do I do...? I can't think of anything! I'm drawing a blank here!",
+    "answers": [
+      {
+        "text": "Give up.",
+        "code": "1330"
+      },
+      {
+        "text": "That's your problem.",
+        "code": "23"
+      },
+      {
+        "text": "Just chill out.",
+        "code": "32"
+      }
+    ]
+  },
+  {
+    "prompt": "What do you do with your spare time?",
+    "answers": [
+      {
+        "text": "I work.",
+        "code": "2113"
+      },
+      {
+        "text": "I watch movies.",
+        "code": "33"
+      },
+      {
+        "text": "I just stay home.",
+        "code": "3022"
+      }
+    ]
+  },
+  {
+    "prompt": "What do you do when you don't feel like doing anything at all?",
+    "answers": [
+      {
+        "text": "I get it over with.",
+        "code": "33"
+      },
+      {
+        "text": "I don't do it.",
+        "code": "3302"
+      },
+      {
+        "text": "I ask for help.",
+        "code": "20"
+      }
+    ]
+  },
+  {
+    "prompt": "What do you think is a good way to get through a long, boring lecture?",
+    "answers": [
+      {
+        "text": "Listening closely.",
+        "code": "3232"
+      },
+      {
+        "text": "Sleeping.",
+        "code": "3301"
+      },
+      {
+        "text": "Doodling.",
+        "code": "303"
+      }
+    ]
+  },
+  {
+    "prompt": "What do you think of me?",
+    "answers": [
+      {
+        "text": "You're a cool boss.",
+        "code": "333"
+      },
+      {
+        "text": "You're a liar.",
+        "code": "3101"
+      },
+      {
+        "text": "You're just a kid.",
+        "code": "32"
+      }
+    ]
+  },
+  {
+    "prompt": "What do you think of people who take public transportation?",
+    "answers": [
+      {
+        "text": "They're mature.",
+        "code": "2332"
+      },
+      {
+        "text": "They're selfish.",
+        "code": "1103"
+      },
+      {
+        "text": "Why would I care?",
+        "code": "200"
+      }
+    ]
+  },
+  {
+    "prompt": "What do you think you're doing? Why don't you have a good answer for me?",
+    "answers": [
+      {
+        "text": "I'm done with you.",
+        "code": "3102"
+      },
+      {
+        "text": "I don't have to answer.",
+        "code": "3330"
+      },
+      {
+        "text": "I don't have an answer.",
+        "code": "32"
+      }
+    ]
+  },
+  {
+    "prompt": "What makes you so different from everyone else? Tell me. I'll even listen to your long, boring story.",
+    "answers": [
+      {
+        "text": "I'm a normal guy.",
+        "code": "2002"
+      },
+      {
+        "text": "I don't have to tell you.",
+        "code": "33"
+      },
+      {
+        "text": "I'm not different.",
+        "code": "20"
+      }
+    ]
+  },
+  {
+    "prompt": "What will you do with me now?",
+    "answers": [
+      {
+        "text": "I'll keep you as a pet.",
+        "code": "1021"
+      },
+      {
+        "text": "I'll let you go.",
+        "code": "3232"
+      },
+      {
+        "text": "I'll lock you up.",
+        "code": "2110"
+      }
+    ]
+  },
+  {
+    "prompt": "What're you gonna do after this is all over? You got a party planned or somethin'?",
+    "answers": [
+      {
+        "text": "I'll go home.",
+        "code": "2330"
+      },
+      {
+        "text": "I'm not sure yet.",
+        "code": "32"
+      },
+      {
+        "text": "I have to go to work.",
+        "code": "1232"
+      }
+    ]
+  },
+  {
+    "prompt": "What's it like to live with so many people? All the noise and crowds... doesn't it bother you?",
+    "answers": [
+      {
+        "text": "I don't know any other way.",
+        "code": "2323"
+      },
+      {
+        "text": "I hate it.",
+        "code": "3302"
+      },
+      {
+        "text": "I'm not bothered.",
+        "code": "2303"
+      }
+    ]
+  },
+  {
+    "prompt": "What's the right way to live your life, then? Tell me, since you're so enlightened.",
+    "answers": [
+      {
+        "text": "I don't know.",
+        "code": "3120"
+      },
+      {
+        "text": "Just live without regrets.",
+        "code": "33"
+      },
+      {
+        "text": "I'm not sure.",
+        "code": "2202"
+      }
+    ]
+  },
+  {
+    "prompt": "What's with the scary face? It's not cute at all! Are you upset, mister?",
+    "answers": [
+      {
+        "text": "No, I'm fine.",
+        "code": "3333"
+      },
+      {
+        "text": "\"Who are you calling \"\"mister\"\"?\"",
+        "code": "203"
+      },
+      {
+        "text": "I'm just a little mad.",
+        "code": "231"
+      }
+    ]
+  },
+  {
+    "prompt": "What's with the way you're talkin'? Are you from out of town or somethin'?",
+    "answers": [
+      {
+        "text": "It's just the way I talk.",
+        "code": "2303"
+      },
+      {
+        "text": "Yeah, I am.",
+        "code": "30"
+      },
+      {
+        "text": "I am from the city.",
+        "code": "3002"
+      }
+    ]
+  },
+  {
+    "prompt": "When you look in the mirror, what do you see?",
+    "answers": [
+      {
+        "text": "A bad person.",
+        "code": "2221"
+      },
+      {
+        "text": "An average person.",
+        "code": "32"
+      },
+      {
+        "text": "A handsome man.",
+        "code": "330"
+      }
+    ]
+  },
+  {
+    "prompt": "Why do you look so lonely? Is it because you were cast out?",
+    "answers": [
+      {
+        "text": "I'm not lonely.",
+        "code": "203"
+      },
+      {
+        "text": "Maybe so.",
+        "code": "2030"
+      },
+      {
+        "text": "My friends are waiting.",
+        "code": "22"
+      }
+    ]
+  },
+  {
+    "prompt": "Why do you look so lost? Is it because you are burdened by what you've done?",
+    "answers": [
+      {
+        "text": "I'm not lost.",
+        "code": "2323"
+      },
+      {
+        "text": "I'm a little tired.",
+        "code": "2302"
+      },
+      {
+        "text": "What are you getting at?",
+        "code": "2033"
+      }
+    ]
+  },
+  {
+    "prompt": "Why don't you talk to me? Aren't you going to tell me a secret or two?",
+    "answers": [
+      {
+        "text": "I have no secrets.",
+        "code": "2332"
+      },
+      {
+        "text": "I don't trust you.",
+        "code": "3302"
+      },
+      {
+        "text": "I'll share later.",
+        "code": "20"
+      }
+    ]
+  },
+  {
+    "prompt": "Why is it that you can kill so easily? Are you that far from being human?",
+    "answers": [
+      {
+        "text": "I'm just good at it.",
+        "code": "103"
+      },
+      {
+        "text": "I'm still human.",
+        "code": "3000"
+      },
+      {
+        "text": "I'm not human.",
+        "code": "2033"
+      }
+    ]
+  },
+  {
+    "prompt": "You have a look about you... Did you come from a big family?",
+    "answers": [
+      {
+        "text": "Yes.",
+        "code": "2320"
+      },
+      {
+        "text": "No, I'm an only child.",
+        "code": "2133"
+      },
+      {
+        "text": "What are you implying?",
+        "code": "3202"
+      }
+    ]
+  },
+  {
+    "prompt": "You know... It's not a crime to be weak.",
+    "answers": [
+      {
+        "text": "It sure is.",
+        "code": "13"
+      },
+      {
+        "text": "It is a crime.",
+        "code": "102"
+      },
+      {
+        "text": "What are you talking about?",
+        "code": "3022"
+      }
+    ]
+  },
+  {
+    "prompt": "You know... If you took it easy, you might just get some sleep.",
+    "answers": [
+      {
+        "text": "Maybe you're right...",
+        "code": "3030"
+      },
+      {
+        "text": "I don't have time.",
+        "code": "303"
+      },
+      {
+        "text": "I'm not tired.",
+        "code": "22"
+      }
+    ]
+  },
+  {
+    "prompt": "You know what? I'm gonna ask you a simple question.",
+    "answers": [
+      {
+        "text": "Shoot.",
+        "code": "32"
+      },
+      {
+        "text": "Are you sure it's simple?",
+        "code": "303"
+      },
+      {
+        "text": "I don't want to answer.",
+        "code": "3302"
+      }
+    ]
+  },
+  {
+    "prompt": "You may not like it, but what are you?",
+    "answers": [
+      {
+        "text": "A kid.",
+        "code": "3232"
+      },
+      {
+        "text": "An adult.",
+        "code": "30"
+      },
+      {
+        "text": "I'm nothing.",
+        "code": "3301"
+      }
+    ]
+  },
+  {
+    "prompt": "You have no hobbies or anything? It's all just fighting?",
+    "answers": [
+      {
+        "text": "I have no hobbies.",
+        "code": "3301"
+      },
+      {
+        "text": "I have hobbies.",
+        "code": "33"
+      },
+      {
+        "text": "I like fighting.",
+        "code": "10"
+      }
+    ]
+  },
+  {
+    "prompt": "You wanna come with me on my next big journey, ho?",
+    "answers": [
+      {
+        "text": "I would love to.",
+        "code": "2232"
+      },
+      {
+        "text": "I have other plans.",
+        "code": "3332"
+      },
+      {
+        "text": "I'm not a hee-ho!",
+        "code": "2000"
+      }
+    ]
+  },
+  {
+    "prompt": "You're right... How could I not realize this?! This world is meaningless!",
+    "answers": [
+      {
+        "text": "It's not meaningless.",
+        "code": "3330"
+      },
+      {
+        "text": "I've been trying to tell you that.",
+        "code": "2020"
+      },
+      {
+        "text": "That's right.",
+        "code": "2303"
+      }
+    ]
+  },
+  {
+    "prompt": "You're lucky it was just me. You can't do anything like this in the real world, right?",
+    "answers": [
+      {
+        "text": "That's right.",
+        "code": "1330"
+      },
+      {
+        "text": "I choose my targets carefully.",
+        "code": "2010"
+      },
+      {
+        "text": "I'm serious about this.",
+        "code": "310"
+      }
+    ]
+  },
+  {
+    "prompt": "You're showing off your strength to me, aren't you? I total-hee read your mind, ho.",
+    "answers": [
+      {
+        "text": "You're misunderstanding.",
+        "code": "0"
+      },
+      {
+        "text": "The hell are you saying?",
+        "code": "0"
+      },
+      {
+        "text": "Make me your apprentice.",
+        "code": "2000"
+      }
+    ]
+  },
+  {
+    "prompt": "You're s'posed to go easy on kids! Are you stupid? Do you go to school and get stupid grades?",
+    "answers": [
+      {
+        "text": "I'm smart.",
+        "code": "1333"
+      },
+      {
+        "text": "I'm good at PE.",
+        "code": "3132"
+      },
+      {
+        "text": "Shut up.",
+        "code": "12"
+      }
+    ]
+  }
+]
