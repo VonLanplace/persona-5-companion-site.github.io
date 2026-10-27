@@ -132,18 +132,27 @@ cannot inject HTML.
 
 ## Negotiation questions
 
-`data/negotiation/questions.json` is
-`{prompt, answers: [{text, grades}]}`, where `grades` is an object keyed
-`gloomy`, `irritable`, `timid`, `upbeat` — in that order. Each value is the
-translated effect (`"BAD"`, `"OK"`, `"GOOD"`), or `""` for no effect. The build
-maps it to the `{q, a}` wire shape in `assets/js/negotiation-data.js`, so
-`_build/runtime/negotiation.js` is unaffected by data-shape changes. The runtime
-renders the labels as-is; only the label-to-CSS-class mapping lives in JS.
+`data/negotiation/p5.json` and `data/negotiation/royal.json` are arrays of
+`{prompt, answers: [{text, grades, notes?, unconfirmed?}]}`, where `grades` is an
+object keyed `gloomy`, `irritable`, `timid`, `upbeat` — in that order. Each value
+is the translated effect (`"BAD"`, `"OK"`, `"GOOD"`), or `""` for no effect.
+`notes` and `unconfirmed` are sparse objects keyed by the same personalities.
 
-When converting a legacy 1–4 digit code, left-pad it to four digits first
-(`"302"` → `"0302"`), then map `0` → `""`, `1` → `"BAD"`, `2` → `"OK"`,
-`3` → `"GOOD"` in Gloomy, Irritable, Timid, Upbeat order. Do not drop the padding
-or the personalities shift.
+The sources are the P5 Questions and Royal Questions pages of the
+[Persona 5 Negotiation Guide](https://joyceychen.com/persona5-negotiation/) by
+joyce-chen. They are a work in progress with explicit unconfirmed flags. Preserve
+each source's order and duplicate prompts. Map `-` to `""`; for a compound value
+(`"GOOD / OK?"`, `"OK/BAD?"`) use the first label in `grades` and keep the raw
+text in `notes`; keep explicit non-standard values such as `"None"` in `notes`
+with an empty grade; set the matching `unconfirmed` key when the guide marks a
+cell as unconfirmed. The runtime displays `notes[key]` when present, otherwise
+`grades[key]`, and adds `grade-unconfirmed` plus a visually hidden marker.
+
+The build maps both files to `window.P5_NEGOTIATION = {p5, royal}` in
+`assets/js/negotiation-data.js`; keep `_build/runtime/negotiation.js` working
+against that shape. The runtime defaults to Royal, switches between the two
+datasets with the P5/Royal control, searches prompt and response text, and adds
+the `badge--royal` marker to the Royal results heading.
 
 ## Other build quirks
 
@@ -151,7 +160,7 @@ or the personalities shift.
   `assets/js/`. A new generated top-level directory must be added to
   `GENERATED_DIRS` in `_build/clean.mjs`, and any new hand-kept root file must be
   added to `KEEP_FILES` there or `clean` will delete it.
-- Negotiation data is emitted as `window.P5_QUESTIONS` in
+- Negotiation data is emitted as `window.P5_NEGOTIATION` in
   `assets/js/negotiation-data.js` (not `fetch`ed) so the page works offline and
   from `file://`. `check` would also reject the `fetch` version.
 - The prev/next links and the confidant grid follow the **array order** of

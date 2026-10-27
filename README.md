@@ -1,7 +1,8 @@
 # Persona 5 Royal Companion
 
 A fan companion for **Persona 5 Royal**: every confidant, every Shadow, every
-classroom exam answer, every negotiation prompt, and how to max every social stat.
+classroom exam answer, every Persona 5 and Royal negotiation prompt, and how to
+max every social stat.
 
 The site is static and hosted on GitHub Pages. There is no framework and no
 client-side router — every page is a real HTML document at its own URL, so
@@ -44,7 +45,8 @@ data/                      <- you edit this; every file in here is JSON
   shadows/locations.json     palaces + mementos tables
   classroom/exams.json       every exam and its answer
   social-stats/*.json        the five stat guides, as a flat block list
-  negotiation/questions.json 195 prompts and their effect grades
+  negotiation/p5.json        259 Persona 5 prompts + effect grades
+  negotiation/royal.json     277 Persona 5 Royal prompts + effect grades
 
 _build/                    <- the build itself
   build.mjs                  data/ -> HTML
@@ -84,7 +86,8 @@ shown as text, so the data can never inject HTML.
 
 ### Adding a negotiation question
 
-Append an entry to `data/negotiation/questions.json`:
+Append an entry to `data/negotiation/p5.json` or
+`data/negotiation/royal.json`:
 
 ```json
 {
@@ -97,6 +100,12 @@ Append an entry to `data/negotiation/questions.json`:
         "irritable": "GOOD",
         "timid": "GOOD",
         "upbeat": "GOOD"
+      },
+      "notes": {
+        "irritable": "GOOD / OK?"
+      },
+      "unconfirmed": {
+        "upbeat": true
       }
     }
   ]
@@ -104,11 +113,33 @@ Append an entry to `data/negotiation/questions.json`:
 ```
 
 `grades` is the translated effect for each personality: `"BAD"`, `"OK"`,
-`"GOOD"`, or `""` for no effect. The JSON is the source of truth — the runtime
-only renders these labels. When converting an old 1–4 digit effect code, left-pad
-it to four digits first (`"302"` → `"0302"`), then map `0` to `""`, `1` to
-`"BAD"`, `2` to `"OK"` and `3` to `"GOOD"` in Gloomy, Irritable, Timid, Upbeat
-order.
+`"GOOD"`, or `""` for no effect. `notes` and `unconfirmed` are optional and only
+exist where the source reports an ambiguous or unconfirmed reaction. The runtime
+shows the note text instead of the bare grade, so `"GOOD / OK?"` is displayed
+exactly as written. Non-standard source values such as `"None"` are also kept in
+`notes` with an empty grade.
+
+The JSON follows the P5 Questions and Royal Questions pages in the
+[Persona 5 Negotiation Guide](https://joyceychen.com/persona5-negotiation/)
+by [joyce-chen](https://github.com/joyce-chen/persona5-negotiation). Keep each
+source's order and duplicate prompts. Map `-` to `""`; for a compound value use
+its first label in `grades` and keep the full text in `notes`; set the matching
+`unconfirmed` key when the guide marks a reaction as unconfirmed.
+
+The page defaults to Royal and has a P5/Royal selector. The search matches both
+prompt text and response text within the selected version.
+
+---
+
+## Data sources
+
+Negotiation questions and reactions come from the
+[Persona 5 Negotiation Guide](https://joyceychen.com/persona5-negotiation/) by
+[joyce-chen](https://github.com/joyce-chen/persona5-negotiation), specifically
+the [P5 Questions](https://joyceychen.com/persona5-negotiation/) and
+[Royal Questions](https://joyceychen.com/persona5-negotiation/royal) pages. The
+guide is a work in progress and marks some reactions as unconfirmed; those flags
+are preserved in both JSON files.
 
 ---
 
@@ -122,6 +153,8 @@ order.
 - a page is missing a `<title>`, meta description, `lang`, or its single `<h1>`
 - an `<img>` is missing `width`/`height` (causes layout shift) or `alt`
 - a `<table>` has no `<thead>`, or a row's cell count disagrees with its header
+- negotiation data has missing prompts/answers or invalid grades/notes, or the
+  P5/Royal controls are missing
 - legacy artefacts reappear: `border="1"`, `onclick=`, `<details id>`
 
 ---
@@ -148,5 +181,7 @@ empty `<div>`s. That architecture caused a number of problems, all now fixed:
 | No `.gitignore`, no `.nojekyll`, `.vscode/` committed | Added |
 
 The migration from the old hand-written HTML to `data/*.json` was verified
-row-for-row: all 23 confidants, 18 shadow locations (221 rows), 9 exams and 195
-negotiation questions are accounted for, with no content dropped.
+row-for-row: all 23 confidants, 18 shadow locations (221 rows), 9 exams and the
+original 195 negotiation questions are accounted for. The negotiation data now
+includes the 259-question P5 set and the 277-question Royal set from the source
+guide, with a selector on the page.
