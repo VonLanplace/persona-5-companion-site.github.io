@@ -9,6 +9,7 @@
  *   - the document declares a lang, a title and a meta description
  *   - tables have a header row and no rows with the wrong column count
  *   - no file is left orphaned in the output
+ *   - negotiation questions and their optional metadata match the JSON schema
  */
 
 import { readFile, readdir, stat } from "node:fs/promises";
@@ -20,6 +21,9 @@ import { parse } from "node-html-parser";
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const GENERATED_DIRS = ["", "confidants", "shadows", "classroom", "negotiation", "social-stats"];
 const SKIP = new Set(["node_modules", ".git", "data", "_build", "assets", "package.json", "package-lock.json", "README.md", ".nojekyll", ".gitignore", ".vscode", "favicon.ico"]);
+
+const PERSONALITIES = ["gloomy", "irritable", "timid", "upbeat"];
+const GRADES = new Set(["", "BAD", "OK", "GOOD"]);
 
 const problems = [];
 const fail = (file, msg) => problems.push(`${file}: ${msg}`);
@@ -140,7 +144,8 @@ for (const f of expected) {
 
 const negotiationPage = path.join(ROOT, "negotiation/index.html");
 if (existsSync(negotiationPage)) {
-    const scripts = parse(await readFile(negotiationPage, "utf8"))
+    const negotiationDom = parse(await readFile(negotiationPage, "utf8"));
+    const scripts = negotiationDom
         .querySelectorAll("script[src]")
         .map((script) => script.getAttribute("src") || "");
     const dataIndex = scripts.findIndex((src) =>
@@ -155,6 +160,11 @@ if (existsSync(negotiationPage)) {
             "negotiation-data.js must load before negotiation.js",
         );
     }
+    for (const version of ["p5", "royal"]) {
+        if (!negotiationDom.querySelector(`[data-version="${version}"]`)) {
+            fail("negotiation/index.html", `missing ${version} version control`);
+        }
+    }
 }
 
 for (const d of GENERATED_DIRS) {
@@ -167,6 +177,82 @@ const confidants = JSON.parse(
 for (const c of confidants) {
     const f = `confidants/${c.slug}.html`;
     if (!existsSync(path.join(ROOT, f))) fail(f, "confidant page missing");
+}
+
+// --- negotiation data shape ------------------------------------------------
+
+function validateNegotiation(file, data) {
+    if (!Array.isArray(data) || data.length === 0) {
+        fail(file, "expected a non-empty array");
+        return;
+    }
+
+    data.forEach((question, qi) => {
+        const where = `question ${qi + 1}`;
+        if (typeof question.prompt !== "string" || !question.prompt.trim()) {
+            fail(file, `${where} is missing a prompt`);
+        }
+        if (!Array.isArray(question.answers) || question.answers.length === 0) {
+            fail(file, `${where} has no answers`);
+            return;
+        }
+
+        question.answers.forEach((answer, ai) => {
+            const answerWhere = `${where} answer ${ai + 1}`;
+            if (typeof answer.text !== "string" || !answer.text.trim()) {
+                fail(file, `${answerWhere} is missing response text`);
+            }
+            if (!answer.grades || typeof answer.grades !== "object") {
+                fail(file, `${answerWhere} is missing grades`);
+                return;
+            }
+
+            const keys = Object.keys(answer.grades);
+            if (
+                keys.length !== PERSONALITIES.length ||
+                !PERSONALITIES.every((key) => keys.includes(key))
+            ) {
+                fail(
+                    file,
+                    `${answerWhere} grades must have exactly ${PERSONALITIES.join(", ")}`,
+                );
+            }
+            for (const key of PERSONALITIES) {
+                if (!GRADES.has(answer.grades[key])) {
+                    fail(
+                        file,
+                        `${answerWhere} has invalid ${key} grade: ${JSON.stringify(answer.grades[key])}`,
+                    );
+                }
+            }
+
+            for (const field of ["notes", "unconfirmed"]) {
+                if (answer[field] === undefined) continue;
+                if (
+                    !answer[field] ||
+                    typeof answer[field] !== "object" ||
+                    Array.isArray(answer[field])
+                ) {
+                    fail(file, `${answerWhere} ${field} must be an object`);
+                    continue;
+                }
+                for (const [key, value] of Object.entries(answer[field])) {
+                    if (!PERSONALITIES.includes(key)) {
+                        fail(file, `${answerWhere} ${field} has unknown key: ${key}`);
+                    } else if (field === "notes" && (typeof value !== "string" || !value.trim())) {
+                        fail(file, `${answerWhere} has an empty note for ${key}`);
+                    } else if (field === "unconfirmed" && value !== true) {
+                        fail(file, `${answerWhere} unconfirmed.${key} must be true`);
+                    }
+                }
+            }
+        });
+    });
+}
+
+for (const file of ["data/negotiation/p5.json", "data/negotiation/royal.json"]) {
+    const data = JSON.parse(await readFile(path.join(ROOT, file), "utf8"));
+    validateNegotiation(file, data);
 }
 
 /* ----------------------------------------------------------------- report */
