@@ -49,6 +49,7 @@ export function link(depth, href) {
  * @param {string} opts.body        Pre-rendered page content
  * @param {Array<{href:string,label:string,external?:boolean}>} [opts.head]
  * @param {Array<{src:string,type?:string}>} [opts.scripts]
+ * @param {{href:string,label:string,credit?:string}} [opts.footerSource]
  */
 export function page(opts) {
     const {
@@ -61,6 +62,7 @@ export function page(opts) {
         head = [],
         scripts = [],
         canonical,
+        footerSource,
     } = opts;
 
     const p = prefix(depth);
@@ -102,6 +104,14 @@ export function page(opts) {
         )
         .join("\n  ");
 
+    const footerSourceLine = footerSource
+        ? `        <p class="site-footer__source">Source: <a href="${escapeHtml(
+              footerSource.href,
+          )}" target="_blank" rel="noopener noreferrer">${escapeHtml(
+              footerSource.label,
+          )}</a>${footerSource.credit ? ` by ${escapeHtml(footerSource.credit)}` : ""}.</p>\n`
+        : "";
+
     return `<!doctype html>
 <html lang="en">
   <head>
@@ -141,7 +151,7 @@ export function page(opts) {
       </main>
 
       <footer class="site-footer">
-        <p>
+${footerSourceLine}        <p>
           Fan-made companion for <em>Persona 5 Royal</em>. Not affiliated with or endorsed by ATLUS.
           Game data &copy; ATLUS / SEGA.
         </p>

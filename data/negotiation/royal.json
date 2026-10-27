@@ -18,6 +18,9 @@
           "irritable": "",
           "timid": "",
           "upbeat": "OK"
+        },
+        "unconfirmed": {
+          "upbeat": true
         }
       },
       {
@@ -27,6 +30,11 @@
           "irritable": "OK",
           "timid": "BAD",
           "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "irritable": true,
+          "timid": true,
+          "upbeat": true
         }
       }
     ]
@@ -59,6 +67,9 @@
           "irritable": "GOOD",
           "timid": "",
           "upbeat": "OK"
+        },
+        "unconfirmed": {
+          "upbeat": true
         }
       }
     ]
@@ -105,6 +116,9 @@
           "irritable": "OK",
           "timid": "",
           "upbeat": ""
+        },
+        "unconfirmed": {
+          "gloomy": true
         }
       },
       {
@@ -114,6 +128,9 @@
           "irritable": "GOOD",
           "timid": "",
           "upbeat": ""
+        },
+        "unconfirmed": {
+          "gloomy": true
         }
       },
       {
@@ -123,6 +140,9 @@
           "irritable": "OK",
           "timid": "GOOD",
           "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "gloomy": true
         }
       }
     ]
@@ -251,6 +271,9 @@
           "irritable": "GOOD",
           "timid": "OK",
           "upbeat": ""
+        },
+        "unconfirmed": {
+          "gloomy": true
         }
       }
     ]
@@ -265,6 +288,9 @@
           "irritable": "",
           "timid": "OK",
           "upbeat": ""
+        },
+        "unconfirmed": {
+          "timid": true
         }
       },
       {
@@ -297,6 +323,9 @@
           "irritable": "GOOD",
           "timid": "GOOD",
           "upbeat": "OK"
+        },
+        "unconfirmed": {
+          "gloomy": true
         }
       },
       {
@@ -306,6 +335,9 @@
           "irritable": "BAD",
           "timid": "BAD",
           "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "gloomy": true
         }
       },
       {
@@ -329,6 +361,9 @@
           "irritable": "",
           "timid": "",
           "upbeat": ""
+        },
+        "unconfirmed": {
+          "gloomy": true
         }
       },
       {
@@ -393,6 +428,9 @@
           "irritable": "BAD",
           "timid": "",
           "upbeat": ""
+        },
+        "unconfirmed": {
+          "irritable": true
         }
       },
       {
@@ -411,6 +449,9 @@
           "irritable": "",
           "timid": "",
           "upbeat": ""
+        },
+        "unconfirmed": {
+          "gloomy": true
         }
       }
     ]
@@ -457,6 +498,9 @@
           "irritable": "",
           "timid": "",
           "upbeat": "OK"
+        },
+        "unconfirmed": {
+          "upbeat": true
         }
       },
       {
@@ -498,6 +542,9 @@
           "irritable": "OK",
           "timid": "",
           "upbeat": "OK"
+        },
+        "unconfirmed": {
+          "irritable": true
         }
       },
       {
@@ -539,6 +586,9 @@
           "irritable": "BAD",
           "timid": "BAD",
           "upbeat": ""
+        },
+        "unconfirmed": {
+          "timid": true
         }
       }
     ]
@@ -571,6 +621,9 @@
           "irritable": "GOOD",
           "timid": "",
           "upbeat": ""
+        },
+        "unconfirmed": {
+          "irritable": true
         }
       }
     ]
@@ -626,6 +679,9 @@
           "irritable": "OK",
           "timid": "BAD",
           "upbeat": ""
+        },
+        "unconfirmed": {
+          "irritable": true
         }
       },
       {
@@ -699,6 +755,9 @@
           "irritable": "GOOD",
           "timid": "",
           "upbeat": ""
+        },
+        "unconfirmed": {
+          "irritable": true
         }
       }
     ]
@@ -777,6 +836,9 @@
           "irritable": "",
           "timid": "",
           "upbeat": ""
+        },
+        "unconfirmed": {
+          "gloomy": true
         }
       },
       {
@@ -809,6 +871,9 @@
           "irritable": "BAD",
           "timid": "",
           "upbeat": "OK"
+        },
+        "unconfirmed": {
+          "irritable": true
         }
       },
       {
@@ -818,6 +883,9 @@
           "irritable": "GOOD",
           "timid": "",
           "upbeat": ""
+        },
+        "unconfirmed": {
+          "irritable": true
         }
       },
       {
@@ -873,6 +941,9 @@
           "irritable": "",
           "timid": "",
           "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "upbeat": true
         }
       },
       {
@@ -882,6 +953,9 @@
           "irritable": "",
           "timid": "",
           "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "upbeat": true
         }
       },
       {
@@ -905,6 +979,10 @@
           "irritable": "OK",
           "timid": "GOOD",
           "upbeat": "OK"
+        },
+        "unconfirmed": {
+          "irritable": true,
+          "upbeat": true
         }
       },
       {
@@ -923,6 +1001,10 @@
           "irritable": "GOOD",
           "timid": "",
           "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "irritable": true,
+          "upbeat": true
         }
       }
     ]
@@ -969,6 +1051,12 @@
           "irritable": "GOOD",
           "timid": "GOOD",
           "upbeat": "GOOD"
+        },
+        "notes": {
+          "irritable": "GOOD / OK?"
+        },
+        "unconfirmed": {
+          "irritable": true
         }
       },
       {
@@ -978,6 +1066,9 @@
           "irritable": "OK",
           "timid": "",
           "upbeat": ""
+        },
+        "unconfirmed": {
+          "irritable": true
         }
       },
       {
@@ -1115,6 +1206,9 @@
           "irritable": "",
           "timid": "",
           "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "gloomy": true
         }
       }
     ]
@@ -1161,6 +1255,9 @@
           "irritable": "",
           "timid": "",
           "upbeat": ""
+        },
+        "unconfirmed": {
+          "gloomy": true
         }
       },
       {
@@ -1289,6 +1386,9 @@
           "irritable": "",
           "timid": "",
           "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "gloomy": true
         }
       },
       {
@@ -1362,6 +1462,9 @@
           "irritable": "OK",
           "timid": "OK",
           "upbeat": "OK"
+        },
+        "unconfirmed": {
+          "timid": true
         }
       },
       {
@@ -1385,6 +1488,9 @@
           "irritable": "",
           "timid": "",
           "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "upbeat": true
         }
       },
       {
@@ -1403,6 +1509,10 @@
           "irritable": "GOOD",
           "timid": "",
           "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "irritable": true,
+          "upbeat": true
         }
       }
     ]
@@ -1435,6 +1545,9 @@
           "irritable": "GOOD",
           "timid": "",
           "upbeat": "BAD"
+        },
+        "unconfirmed": {
+          "upbeat": true
         }
       }
     ]
@@ -1449,6 +1562,10 @@
           "irritable": "GOOD",
           "timid": "GOOD",
           "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "irritable": true,
+          "upbeat": true
         }
       },
       {
@@ -1458,6 +1575,9 @@
           "irritable": "",
           "timid": "OK",
           "upbeat": "OK"
+        },
+        "unconfirmed": {
+          "upbeat": true
         }
       },
       {
@@ -1522,6 +1642,9 @@
           "irritable": "",
           "timid": "",
           "upbeat": ""
+        },
+        "unconfirmed": {
+          "gloomy": true
         }
       },
       {
@@ -1673,6 +1796,9 @@
           "irritable": "GOOD",
           "timid": "GOOD",
           "upbeat": "BAD"
+        },
+        "unconfirmed": {
+          "irritable": true
         }
       },
       {
@@ -1682,6 +1808,9 @@
           "irritable": "BAD",
           "timid": "BAD",
           "upbeat": ""
+        },
+        "unconfirmed": {
+          "irritable": true
         }
       },
       {
@@ -1746,6 +1875,9 @@
           "irritable": "OK",
           "timid": "GOOD",
           "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "irritable": true
         }
       },
       {
@@ -1755,6 +1887,9 @@
           "irritable": "OK",
           "timid": "",
           "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "irritable": true
         }
       }
     ]
@@ -1842,6 +1977,10 @@
           "irritable": "GOOD",
           "timid": "OK",
           "upbeat": "OK"
+        },
+        "unconfirmed": {
+          "timid": true,
+          "upbeat": true
         }
       },
       {
@@ -1874,6 +2013,10 @@
           "irritable": "BAD",
           "timid": "GOOD",
           "upbeat": "OK"
+        },
+        "unconfirmed": {
+          "irritable": true,
+          "upbeat": true
         }
       },
       {
@@ -1883,6 +2026,9 @@
           "irritable": "BAD",
           "timid": "",
           "upbeat": ""
+        },
+        "unconfirmed": {
+          "irritable": true
         }
       }
     ]
@@ -1897,6 +2043,9 @@
           "irritable": "GOOD",
           "timid": "",
           "upbeat": "OK"
+        },
+        "unconfirmed": {
+          "upbeat": true
         }
       },
       {
@@ -1906,6 +2055,9 @@
           "irritable": "BAD",
           "timid": "BAD",
           "upbeat": "BAD"
+        },
+        "unconfirmed": {
+          "irritable": true
         }
       },
       {
@@ -1938,6 +2090,9 @@
           "irritable": "",
           "timid": "",
           "upbeat": "OK"
+        },
+        "unconfirmed": {
+          "gloomy": true
         }
       },
       {
@@ -1993,6 +2148,9 @@
           "irritable": "",
           "timid": "",
           "upbeat": ""
+        },
+        "unconfirmed": {
+          "gloomy": true
         }
       },
       {
@@ -2002,6 +2160,9 @@
           "irritable": "",
           "timid": "GOOD",
           "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "upbeat": true
         }
       },
       {
@@ -2011,6 +2172,9 @@
           "irritable": "",
           "timid": "GOOD",
           "upbeat": "OK"
+        },
+        "unconfirmed": {
+          "upbeat": true
         }
       }
     ]
@@ -2025,6 +2189,9 @@
           "irritable": "",
           "timid": "OK",
           "upbeat": ""
+        },
+        "unconfirmed": {
+          "timid": true
         }
       },
       {
@@ -2043,6 +2210,9 @@
           "irritable": "",
           "timid": "",
           "upbeat": "BAD"
+        },
+        "unconfirmed": {
+          "upbeat": true
         }
       }
     ]
@@ -2057,6 +2227,9 @@
           "irritable": "GOOD",
           "timid": "BAD",
           "upbeat": "BAD"
+        },
+        "unconfirmed": {
+          "irritable": true
         }
       },
       {
@@ -2203,6 +2376,9 @@
           "irritable": "BAD",
           "timid": "GOOD",
           "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "irritable": true
         }
       }
     ]
@@ -2258,6 +2434,10 @@
           "irritable": "BAD",
           "timid": "GOOD",
           "upbeat": "BAD"
+        },
+        "unconfirmed": {
+          "gloomy": true,
+          "irritable": true
         }
       },
       {
@@ -2267,6 +2447,9 @@
           "irritable": "BAD",
           "timid": "OK",
           "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "irritable": true
         }
       }
     ]
@@ -2345,6 +2528,9 @@
           "irritable": "GOOD",
           "timid": "GOOD",
           "upbeat": "OK"
+        },
+        "unconfirmed": {
+          "upbeat": true
         }
       },
       {
@@ -2354,6 +2540,9 @@
           "irritable": "BAD",
           "timid": "GOOD",
           "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "irritable": true
         }
       },
       {
@@ -2363,6 +2552,9 @@
           "irritable": "OK",
           "timid": "OK",
           "upbeat": "OK"
+        },
+        "unconfirmed": {
+          "irritable": true
         }
       }
     ]
@@ -2395,6 +2587,9 @@
           "irritable": "BAD",
           "timid": "",
           "upbeat": ""
+        },
+        "unconfirmed": {
+          "irritable": true
         }
       }
     ]
@@ -2409,6 +2604,9 @@
           "irritable": "GOOD",
           "timid": "",
           "upbeat": ""
+        },
+        "unconfirmed": {
+          "gloomy": true
         }
       },
       {
@@ -2418,6 +2616,9 @@
           "irritable": "",
           "timid": "",
           "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "gloomy": true
         }
       },
       {
@@ -2427,6 +2628,9 @@
           "irritable": "",
           "timid": "GOOD",
           "upbeat": ""
+        },
+        "unconfirmed": {
+          "gloomy": true
         }
       }
     ]
@@ -2441,6 +2645,9 @@
           "irritable": "",
           "timid": "GOOD",
           "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "timid": true
         }
       },
       {
@@ -2473,6 +2680,11 @@
           "irritable": "OK",
           "timid": "GOOD",
           "upbeat": "OK"
+        },
+        "unconfirmed": {
+          "gloomy": true,
+          "irritable": true,
+          "upbeat": true
         }
       },
       {
@@ -2482,6 +2694,9 @@
           "irritable": "OK",
           "timid": "",
           "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "upbeat": true
         }
       },
       {
@@ -2491,6 +2706,9 @@
           "irritable": "BAD",
           "timid": "",
           "upbeat": ""
+        },
+        "unconfirmed": {
+          "irritable": true
         }
       }
     ]
@@ -2537,6 +2755,10 @@
           "irritable": "GOOD",
           "timid": "OK",
           "upbeat": "OK"
+        },
+        "unconfirmed": {
+          "timid": true,
+          "upbeat": true
         }
       },
       {
@@ -2560,7 +2782,7 @@
     ]
   },
   {
-    "prompt": "\"I suppose this \"\"real world\"\" where you come from must be fairly boring.\"",
+    "prompt": "I suppose this \"real world\" where you come from must be fairly boring.",
     "answers": [
       {
         "text": "You're right.",
@@ -2587,6 +2809,9 @@
           "irritable": "",
           "timid": "",
           "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "gloomy": true
         }
       }
     ]
@@ -2624,7 +2849,7 @@
     ]
   },
   {
-    "prompt": "\"I think the way you're treating me is \"\"overfamiliar.\"\" I think...\"",
+    "prompt": "I think the way you're treating me is \"overfamiliar.\" I think...",
     "answers": [
       {
         "text": "We are friends.",
@@ -2642,6 +2867,9 @@
           "irritable": "",
           "timid": "",
           "upbeat": ""
+        },
+        "unconfirmed": {
+          "gloomy": true
         }
       },
       {
@@ -2729,6 +2957,9 @@
           "irritable": "OK",
           "timid": "GOOD",
           "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "gloomy": true
         }
       },
       {
@@ -2770,6 +3001,9 @@
           "irritable": "",
           "timid": "",
           "upbeat": ""
+        },
+        "unconfirmed": {
+          "gloomy": true
         }
       },
       {
@@ -2889,6 +3123,12 @@
           "irritable": "OK",
           "timid": "GOOD",
           "upbeat": "GOOD"
+        },
+        "notes": {
+          "gloomy": "GOOD / OK"
+        },
+        "unconfirmed": {
+          "gloomy": true
         }
       },
       {
@@ -2939,6 +3179,9 @@
           "irritable": "BAD",
           "timid": "",
           "upbeat": ""
+        },
+        "unconfirmed": {
+          "gloomy": true
         }
       }
     ]
@@ -2985,6 +3228,9 @@
           "irritable": "GOOD",
           "timid": "OK",
           "upbeat": "BAD"
+        },
+        "unconfirmed": {
+          "timid": true
         }
       },
       {
@@ -3026,6 +3272,9 @@
           "irritable": "OK",
           "timid": "",
           "upbeat": ""
+        },
+        "unconfirmed": {
+          "irritable": true
         }
       },
       {
@@ -3090,6 +3339,9 @@
           "irritable": "GOOD",
           "timid": "OK",
           "upbeat": ""
+        },
+        "unconfirmed": {
+          "irritable": true
         }
       },
       {
@@ -3136,7 +3388,7 @@
     ]
   },
   {
-    "prompt": "\"If your girlfriend asked if you wanted to have dinner with \"\"everybody\"\", what you you say?\"",
+    "prompt": "If your girlfriend asked if you wanted to have dinner with \"everybody\", what you you say?",
     "answers": [
       {
         "text": "Sure.",
@@ -3168,7 +3420,7 @@
     ]
   },
   {
-    "prompt": "\"If your girlfriend asked if you were free to have dinner with her \"\"friends\"\", what would you say?\"",
+    "prompt": "If your girlfriend asked if you were free to have dinner with her \"friends\", what would you say?",
     "answers": [
       {
         "text": "Sure.",
@@ -3291,6 +3543,9 @@
           "irritable": "",
           "timid": "",
           "upbeat": ""
+        },
+        "unconfirmed": {
+          "gloomy": true
         }
       }
     ]
@@ -3346,6 +3601,9 @@
           "irritable": "BAD",
           "timid": "OK",
           "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "timid": true
         }
       },
       {
@@ -3369,6 +3627,10 @@
           "irritable": "GOOD",
           "timid": "GOOD",
           "upbeat": ""
+        },
+        "unconfirmed": {
+          "irritable": true,
+          "timid": true
         }
       },
       {
@@ -3378,6 +3640,10 @@
           "irritable": "BAD",
           "timid": "",
           "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "irritable": true,
+          "upbeat": true
         }
       },
       {
@@ -3387,6 +3653,9 @@
           "irritable": "OK",
           "timid": "",
           "upbeat": ""
+        },
+        "unconfirmed": {
+          "irritable": true
         }
       }
     ]
@@ -3401,6 +3670,10 @@
           "irritable": "GOOD",
           "timid": "",
           "upbeat": "BAD"
+        },
+        "unconfirmed": {
+          "irritable": true,
+          "upbeat": true
         }
       },
       {
@@ -3410,6 +3683,10 @@
           "irritable": "",
           "timid": "GOOD",
           "upbeat": ""
+        },
+        "unconfirmed": {
+          "gloomy": true,
+          "timid": true
         }
       },
       {
@@ -3419,6 +3696,11 @@
           "irritable": "BAD",
           "timid": "",
           "upbeat": "BAD"
+        },
+        "unconfirmed": {
+          "gloomy": true,
+          "irritable": true,
+          "upbeat": true
         }
       }
     ]
@@ -3433,6 +3715,9 @@
           "irritable": "BAD",
           "timid": "GOOD",
           "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "gloomy": true
         }
       },
       {
@@ -3451,6 +3736,9 @@
           "irritable": "BAD",
           "timid": "",
           "upbeat": ""
+        },
+        "unconfirmed": {
+          "gloomy": true
         }
       }
     ]
@@ -3483,6 +3771,10 @@
           "irritable": "",
           "timid": "GOOD",
           "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "timid": true,
+          "upbeat": true
         }
       }
     ]
@@ -3497,6 +3789,9 @@
           "irritable": "OK",
           "timid": "OK",
           "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "irritable": true
         }
       },
       {
@@ -3506,6 +3801,10 @@
           "irritable": "BAD",
           "timid": "GOOD",
           "upbeat": ""
+        },
+        "unconfirmed": {
+          "gloomy": true,
+          "irritable": true
         }
       },
       {
@@ -3515,6 +3814,9 @@
           "irritable": "GOOD",
           "timid": "",
           "upbeat": ""
+        },
+        "unconfirmed": {
+          "irritable": true
         }
       }
     ]
@@ -3561,6 +3863,9 @@
           "irritable": "",
           "timid": "",
           "upbeat": ""
+        },
+        "unconfirmed": {
+          "gloomy": true
         }
       },
       {
@@ -3579,6 +3884,9 @@
           "irritable": "",
           "timid": "OK",
           "upbeat": ""
+        },
+        "unconfirmed": {
+          "timid": true
         }
       }
     ]
@@ -3602,6 +3910,10 @@
           "irritable": "OK",
           "timid": "",
           "upbeat": ""
+        },
+        "unconfirmed": {
+          "gloomy": true,
+          "irritable": true
         }
       },
       {
@@ -3634,6 +3946,9 @@
           "irritable": "BAD",
           "timid": "",
           "upbeat": ""
+        },
+        "unconfirmed": {
+          "irritable": true
         }
       },
       {
@@ -3643,6 +3958,9 @@
           "irritable": "OK",
           "timid": "",
           "upbeat": ""
+        },
+        "unconfirmed": {
+          "irritable": true
         }
       }
     ]
@@ -3657,6 +3975,9 @@
           "irritable": "",
           "timid": "",
           "upbeat": "OK"
+        },
+        "unconfirmed": {
+          "upbeat": true
         }
       },
       {
@@ -3666,6 +3987,9 @@
           "irritable": "OK",
           "timid": "",
           "upbeat": ""
+        },
+        "unconfirmed": {
+          "irritable": true
         }
       },
       {
@@ -3675,12 +3999,15 @@
           "irritable": "",
           "timid": "",
           "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "upbeat": true
         }
       }
     ]
   },
   {
-    "prompt": "\"Is it 'cause I wasn't a \"\"good kid\"\"?\"",
+    "prompt": "Is it 'cause I wasn't a \"good kid\"?",
     "answers": [
       {
         "text": "Yes.",
@@ -3794,6 +4121,12 @@
           "irritable": "GOOD",
           "timid": "OK",
           "upbeat": "GOOD"
+        },
+        "notes": {
+          "upbeat": "GOOD / OK"
+        },
+        "unconfirmed": {
+          "upbeat": true
         }
       },
       {
@@ -3849,6 +4182,10 @@
           "irritable": "GOOD",
           "timid": "GOOD",
           "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "irritable": true,
+          "upbeat": true
         }
       },
       {
@@ -3890,6 +4227,9 @@
           "irritable": "",
           "timid": "",
           "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "upbeat": true
         }
       },
       {
@@ -3922,6 +4262,9 @@
           "irritable": "",
           "timid": "",
           "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "upbeat": true
         }
       },
       {
@@ -3945,6 +4288,9 @@
           "irritable": "OK",
           "timid": "GOOD",
           "upbeat": "OK"
+        },
+        "unconfirmed": {
+          "irritable": true
         }
       },
       {
@@ -4016,7 +4362,7 @@
         "grades": {
           "gloomy": "",
           "irritable": "",
-          "timid": "GOOD",
+          "timid": "",
           "upbeat": ""
         }
       },
@@ -4044,80 +4390,16 @@
         }
       },
       {
-        "text": "It's not.",
+        "text": "It's for your own good.",
         "grades": {
           "gloomy": "",
           "irritable": "",
-          "timid": "GOOD",
-          "upbeat": ""
-        }
-      },
-      {
-        "text": "I'm fine with it.",
-        "grades": {
-          "gloomy": "",
-          "irritable": "",
-          "timid": "BAD",
-          "upbeat": "GOOD"
-        }
-      }
-    ]
-  },
-  {
-    "prompt": "It's bad to talk to yourself.",
-    "answers": [
-      {
-        "text": "I wasn't talking to myself.",
-        "grades": {
-          "gloomy": "OK",
-          "irritable": "GOOD",
           "timid": "",
           "upbeat": "GOOD"
         }
       },
       {
-        "text": "You're here, aren't you?",
-        "grades": {
-          "gloomy": "GOOD",
-          "irritable": "OK",
-          "timid": "",
-          "upbeat": ""
-        }
-      },
-      {
-        "text": "You're right, I'm sorry.",
-        "grades": {
-          "gloomy": "",
-          "irritable": "",
-          "timid": "GOOD",
-          "upbeat": "OK"
-        }
-      }
-    ]
-  },
-  {
-    "prompt": "It's fine to cry sometimes.",
-    "answers": [
-      {
-        "text": "No way.",
-        "grades": {
-          "gloomy": "",
-          "irritable": "GOOD",
-          "timid": "",
-          "upbeat": "GOOD"
-        }
-      },
-      {
-        "text": "Right, it is.",
-        "grades": {
-          "gloomy": "BAD",
-          "irritable": "OK",
-          "timid": "GOOD",
-          "upbeat": ""
-        }
-      },
-      {
-        "text": "Are you trying to comfort me?",
+        "text": "It's timeless.",
         "grades": {
           "gloomy": "GOOD",
           "irritable": "",
@@ -4128,158 +4410,30 @@
     ]
   },
   {
-    "prompt": "It's kind of chilly, isn't it?",
+    "prompt": "It is to become aware of the gaze of our Father, who watches over you with loving grace.",
     "answers": [
       {
-        "text": "I'm cold.",
-        "grades": {
-          "gloomy": "GOOD",
-          "irritable": "GOOD",
-          "timid": "GOOD",
-          "upbeat": ""
-        }
-      },
-      {
-        "text": "It's not cold at all.",
+        "text": "I don't understand.",
         "grades": {
           "gloomy": "",
-          "irritable": "",
-          "timid": "BAD",
-          "upbeat": "GOOD"
-        }
-      },
-      {
-        "text": "I can stand it.",
-        "grades": {
-          "gloomy": "",
-          "irritable": "OK",
-          "timid": "OK",
-          "upbeat": "GOOD"
-        }
-      }
-    ]
-  },
-  {
-    "prompt": "I've... always wanted to say this, but... I think you are a pretty decent person.",
-    "answers": [
-      {
-        "text": "Are you trying to flatter me?",
-        "grades": {
-          "gloomy": "OK",
-          "irritable": "OK",
-          "timid": "BAD",
-          "upbeat": "OK"
-        }
-      },
-      {
-        "text": "What are you saying?",
-        "grades": {
-          "gloomy": "GOOD",
           "irritable": "",
           "timid": "",
           "upbeat": ""
         }
       },
       {
-        "text": "Thanks.",
+        "text": "I feel his gaze.",
         "grades": {
-          "gloomy": "BAD",
+          "gloomy": "",
           "irritable": "OK",
           "timid": "GOOD",
           "upbeat": "GOOD"
         }
-      }
-    ]
-  },
-  {
-    "prompt": "...Just what the hell are you? A monster? A human? Are you a boy? A girl?",
-    "answers": [
-      {
-        "text": "I am what you fear.",
-        "grades": {
-          "gloomy": "GOOD",
-          "irritable": "BAD",
-          "timid": "",
-          "upbeat": "GOOD"
-        }
       },
       {
-        "text": "I am a man.",
-        "grades": {
-          "gloomy": "OK",
-          "irritable": "",
-          "timid": "",
-          "upbeat": "OK"
-        }
-      },
-      {
-        "text": "I'm just a kid.",
+        "text": "I prefer a harsher stare.",
         "grades": {
           "gloomy": "",
-          "irritable": "",
-          "timid": "OK",
-          "upbeat": ""
-        }
-      }
-    ]
-  },
-  {
-    "prompt": "Just what's your purpose in doing all of this? Is it for money, or just to have fun?",
-    "answers": [
-      {
-        "text": "It's for justice.",
-        "grades": {
-          "gloomy": "",
-          "irritable": "",
-          "timid": "GOOD",
-          "upbeat": "OK"
-        }
-      },
-      {
-        "text": "For fun.",
-        "grades": {
-          "gloomy": "",
-          "irritable": "GOOD",
-          "timid": "OK",
-          "upbeat": "GOOD"
-        }
-      },
-      {
-        "text": "For money.",
-        "grades": {
-          "gloomy": "BAD",
-          "irritable": "",
-          "timid": "OK",
-          "upbeat": "OK"
-        }
-      }
-    ]
-  },
-  {
-    "prompt": "Listen, do you like people that are into older guys?",
-    "answers": [
-      {
-        "text": "I do.",
-        "grades": {
-          "gloomy": "OK",
-          "irritable": "BAD",
-          "timid": "",
-          "upbeat": "GOOD"
-        }
-      },
-      {
-        "text": "I'm into young men.",
-        "grades": {
-          "gloomy": "BAD",
-          "irritable": "OK",
-          "timid": "GOOD",
-          "upbeat": "OK"
-        }
-      },
-      {
-        "text": "I hate older men.",
-        "grades": {
-          "gloomy": "GOOD",
           "irritable": "GOOD",
           "timid": "",
           "upbeat": ""
@@ -4288,636 +4442,896 @@
     ]
   },
   {
-    "prompt": "Looking at you, you seem a little stiff. Are you constipated?",
+    "prompt": "It look like you corner me... But how me know this not trick? How me know you really winning?",
     "answers": [
       {
-        "text": "Yeah, I am...",
-        "grades": {
-          "gloomy": "",
-          "irritable": "GOOD",
-          "timid": "GOOD",
-          "upbeat": "OK"
-        }
-      },
-      {
-        "text": "What are you saying?",
-        "grades": {
-          "gloomy": "GOOD",
-          "irritable": "OK",
-          "timid": "",
-          "upbeat": ""
-        }
-      },
-      {
-        "text": "Mind your own business.",
-        "grades": {
-          "gloomy": "",
-          "irritable": "BAD",
-          "timid": "",
-          "upbeat": "GOOD"
-        }
-      }
-    ]
-  },
-  {
-    "prompt": "Maybe if I just kept my mouth shut, you wouldn't be doing this to me.",
-    "answers": [
-      {
-        "text": "You might be right.",
-        "grades": {
-          "gloomy": "OK",
-          "irritable": "OK",
-          "timid": "GOOD",
-          "upbeat": ""
-        }
-      },
-      {
-        "text": "It doesn't make a difference.",
-        "grades": {
-          "gloomy": "GOOD",
-          "irritable": "BAD",
-          "timid": "",
-          "upbeat": "OK"
-        }
-      },
-      {
-        "text": "Silence is complicity.",
-        "grades": {
-          "gloomy": "OK",
-          "irritable": "OK",
-          "timid": "",
-          "upbeat": ""
-        }
-      }
-    ]
-  },
-  {
-    "prompt": "My heart is pounding. It feels like it's going to pop right out of my chest...",
-    "answers": [
-      {
-        "text": "Are you all right?",
-        "grades": {
-          "gloomy": "GOOD",
-          "irritable": "OK",
-          "timid": "GOOD",
-          "upbeat": "OK"
-        }
-      },
-      {
-        "text": "That's an adrenaline rush.",
-        "grades": {
-          "gloomy": "BAD",
-          "irritable": "GOOD",
-          "timid": "OK",
-          "upbeat": "OK"
-        }
-      },
-      {
-        "text": "Is that a good thing?",
-        "grades": {
-          "gloomy": "",
-          "irritable": "OK",
-          "timid": "",
-          "upbeat": "OK"
-        }
-      }
-    ]
-  },
-  {
-    "prompt": "Nothin' like a bad day to get ya up and fightin', ho.",
-    "answers": [
-      {
-        "text": "That's right.",
-        "grades": {
-          "gloomy": "",
-          "irritable": "GOOD",
-          "timid": "GOOD",
-          "upbeat": "GOOD"
-        }
-      },
-      {
-        "text": "I'm tired.",
-        "grades": {
-          "gloomy": "GOOD",
-          "irritable": "",
-          "timid": "OK",
-          "upbeat": "BAD"
-        }
-      },
-      {
-        "text": "I want to go home.",
-        "grades": {
-          "gloomy": "OK",
-          "irritable": "",
-          "timid": "",
-          "upbeat": ""
-        }
-      }
-    ]
-  },
-  {
-    "prompt": "Now that I'm looking at you, you're not half bad. I'll make you into a star! What do you say?!",
-    "answers": [
-      {
-        "text": "No thanks.",
-        "grades": {
-          "gloomy": "GOOD",
-          "irritable": "",
-          "timid": "OK",
-          "upbeat": "OK"
-        }
-      },
-      {
-        "text": "I can't be a star.",
-        "grades": {
-          "gloomy": "OK",
-          "irritable": "",
-          "timid": "GOOD",
-          "upbeat": "GOOD"
-        }
-      },
-      {
-        "text": "I'll be a super-star!",
-        "grades": {
-          "gloomy": "OK",
-          "irritable": "GOOD",
-          "timid": "",
-          "upbeat": ""
-        }
-      }
-    ]
-  },
-  {
-    "prompt": "Now that you're an adult, what do you think is a good way to kill time?",
-    "answers": [
-      {
-        "text": "Fishing.",
-        "grades": {
-          "gloomy": "GOOD",
-          "irritable": "",
-          "timid": "GOOD",
-          "upbeat": ""
-        }
-      },
-      {
-        "text": "Reading.",
-        "grades": {
-          "gloomy": "GOOD",
-          "irritable": "",
-          "timid": "",
-          "upbeat": ""
-        }
-      },
-      {
-        "text": "Doing whatever I want.",
-        "grades": {
-          "gloomy": "",
-          "irritable": "",
-          "timid": "",
-          "upbeat": "OK"
-        }
-      }
-    ]
-  },
-  {
-    "prompt": "Now you know how I feel, being put in such a horrible position. The world isn't fair, is it?",
-    "answers": [
-      {
-        "text": "It's not fair at all.",
-        "grades": {
-          "gloomy": "GOOD",
-          "irritable": "GOOD",
-          "timid": "OK",
-          "upbeat": ""
-        }
-      },
-      {
-        "text": "It's very fair.",
-        "grades": {
-          "gloomy": "",
-          "irritable": "BAD",
-          "timid": "",
-          "upbeat": "GOOD"
-        }
-      },
-      {
-        "text": "Maybe this is your fault.",
-        "grades": {
-          "gloomy": "",
-          "irritable": "",
-          "timid": "GOOD",
-          "upbeat": ""
-        }
-      }
-    ]
-  },
-  {
-    "prompt": "...Oh, don't tell me... You are a male, correct?",
-    "answers": [
-      {
-        "text": "I'm a boy.",
-        "grades": {
-          "gloomy": "GOOD",
-          "irritable": "OK",
-          "timid": "",
-          "upbeat": "GOOD"
-        }
-      },
-      {
-        "text": "I'm a girl.",
-        "grades": {
-          "gloomy": "GOOD",
-          "irritable": "",
-          "timid": "OK",
-          "upbeat": ""
-        }
-      },
-      {
-        "text": "Why does it matter?",
+        "text": "Because it's the truth.",
         "grades": {
           "gloomy": "",
           "irritable": "GOOD",
           "timid": "BAD",
           "upbeat": ""
         }
-      }
-    ]
-  },
-  {
-    "prompt": "Oh, I'm just playing around, ho. What's wrong? You don't have a sense of humor, ho?",
-    "answers": [
+      },
       {
-        "text": "You scared me.",
+        "text": "It's a lie.",
         "grades": {
           "gloomy": "",
           "irritable": "",
-          "timid": "GOOD",
-          "upbeat": "BAD"
-        }
-      },
-      {
-        "text": "I do.",
-        "grades": {
-          "gloomy": "GOOD",
-          "irritable": "",
-          "timid": "GOOD",
-          "upbeat": "GOOD"
-        }
-      },
-      {
-        "text": "I'm not laughing.",
-        "grades": {
-          "gloomy": "",
-          "irritable": "",
-          "timid": "BAD",
-          "upbeat": "OK"
-        }
-      }
-    ]
-  },
-  {
-    "prompt": "Please, I ask for your assistance. Lend me your strength.",
-    "answers": [
-      {
-        "text": "I will not help you.",
-        "grades": {
-          "gloomy": "BAD",
-          "irritable": "GOOD",
           "timid": "",
           "upbeat": ""
         }
       },
-      {
-        "text": "I will help you.",
-        "grades": {
-          "gloomy": "OK",
-          "irritable": "",
-          "timid": "OK",
-          "upbeat": "OK"
-        }
-      },
-      {
-        "text": "Do you really need it?",
-        "grades": {
-          "gloomy": "",
-          "irritable": "OK",
-          "timid": "GOOD",
-          "upbeat": "OK"
-        }
-      }
-    ]
-  },
-  {
-    "prompt": "Please, just let me go. I won't ever do anything bad again.",
-    "answers": [
-      {
-        "text": "I can't believe you.",
-        "grades": {
-          "gloomy": "GOOD",
-          "irritable": "",
-          "timid": "",
-          "upbeat": "OK"
-        }
-      },
-      {
-        "text": "I'll let you go.",
-        "grades": {
-          "gloomy": "BAD",
-          "irritable": "OK",
-          "timid": "GOOD",
-          "upbeat": "GOOD"
-        }
-      },
-      {
-        "text": "I'm not falling for that.",
-        "grades": {
-          "gloomy": "OK",
-          "irritable": "GOOD",
-          "timid": "OK",
-          "upbeat": "GOOD"
-        }
-      }
-    ]
-  },
-  {
-    "prompt": "Power is intoxicating, is it not? How does it feel to be in a position to kill me?",
-    "answers": [
       {
         "text": "I don't know.",
         "grades": {
           "gloomy": "GOOD",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "It seems the Son of Man have denounced the word of our father. Tell me, what worth have you found?",
+    "answers": [
+      {
+        "text": "I noticed.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "OK",
+          "upbeat": ""
+        },
+        "unconfirmed": {
+          "irritable": true
+        }
+      },
+      {
+        "text": "I can survive alone.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": ""
+        },
+        "unconfirmed": {
+          "irritable": true
+        }
+      },
+      {
+        "text": "Find it for me.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "It'd prolly be a big downer if the birthday boy didn't show to his party, sooo...",
+    "answers": [
+      {
+        "text": "Happy birthday.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "GOOD",
+          "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "irritable": true
+        }
+      },
+      {
+        "text": "I had no idea.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "This'll be your deathday too.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "OK",
+          "timid": "",
+          "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "irritable": true
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "It's clichéd, but we could talk about life... Ask each other things like what sort of girls we're into...",
+    "answers": [
+      {
+        "text": "I like older women.",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "GOOD",
+          "timid": "GOOD",
+          "upbeat": "GOOD"
+        }
+      },
+      {
+        "text": "No preference.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "",
+          "timid": "OK",
+          "upbeat": "OK"
+        }
+      },
+      {
+        "text": "I like men.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "OK",
+          "timid": "GOOD",
+          "upbeat": ""
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "...It's fine. Do as you please.",
+    "answers": [
+      {
+        "text": "I need your help.",
+        "grades": {
+          "gloomy": "BAD",
+          "irritable": "OK",
+          "timid": "GOOD",
+          "upbeat": "OK"
+        }
+      },
+      {
+        "text": "Lick my boots.",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": "GOOD"
+        }
+      },
+      {
+        "text": "Are you sure it's fine?",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "",
+          "timid": "",
+          "upbeat": "GOOD"
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "It's hard to tell under the mask, but... you're actually handsome, aren't you?",
+    "answers": [
+      {
+        "text": "How did you know?",
+        "grades": {
+          "gloomy": "",
+          "irritable": "BAD",
+          "timid": "",
+          "upbeat": ""
+        },
+        "unconfirmed": {
+          "irritable": true
+        }
+      },
+      {
+        "text": "No, not all.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "GOOD",
+          "upbeat": ""
+        },
+        "unconfirmed": {
+          "irritable": true,
+          "timid": true
+        }
+      },
+      {
+        "text": "I look ok, I guess.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "GOOD",
+          "timid": "OK",
+          "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "irritable": true,
+          "upbeat": true
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "It's no fun going home when only my annoying mom and dad are there.",
+    "answers": [
+      {
+        "text": "Parents are annoying.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "GOOD",
+          "timid": "OK",
+          "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "timid": true,
+          "upbeat": true
+        }
+      },
+      {
+        "text": "You should love your parents.",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "GOOD",
+          "timid": "BAD",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "Why not come to my place?",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "OK",
+          "timid": "GOOD",
+          "upbeat": ""
+        },
+        "unconfirmed": {
+          "gloomy": true
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "It's pretty rude, man.",
+    "answers": [
+      {
+        "text": "No it isn't.",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "GOOD",
+          "timid": "OK",
+          "upbeat": "OK"
+        }
+      },
+      {
+        "text": "It's part of my face.",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "GOOD",
+          "timid": "OK",
+          "upbeat": "GOOD"
+        }
+      },
+      {
+        "text": "My apologies.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "OK",
+          "timid": "GOOD",
+          "upbeat": "OK"
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "I've been projecting a \"don't speak to me\" aura towards you.",
+    "answers": [
+      {
+        "text": "I noticed.",
+        "grades": {
+          "gloomy": "OK",
           "irritable": "OK",
           "timid": "OK",
           "upbeat": "GOOD"
         }
       },
       {
-        "text": "It's a thrill.",
+        "text": "I didn't feel an \"aura.\"",
         "grades": {
-          "gloomy": "",
-          "irritable": "",
-          "timid": "BAD",
-          "upbeat": "OK"
-        }
-      },
-      {
-        "text": "It's nothing special.",
-        "grades": {
-          "gloomy": "GOOD",
-          "irritable": "GOOD",
-          "timid": "",
-          "upbeat": ""
-        }
-      }
-    ]
-  },
-  {
-    "prompt": "...Right? So you understand my pain, don't you?",
-    "answers": [
-      {
-        "text": "I don't.",
-        "grades": {
-          "gloomy": "",
-          "irritable": "GOOD",
-          "timid": "",
-          "upbeat": ""
-        }
-      },
-      {
-        "text": "I'm used to it.",
-        "grades": {
-          "gloomy": "",
-          "irritable": "",
-          "timid": "",
-          "upbeat": "GOOD"
-        }
-      },
-      {
-        "text": "I do.",
-        "grades": {
-          "gloomy": "OK",
-          "irritable": "",
-          "timid": "GOOD",
-          "upbeat": "GOOD"
-        }
-      }
-    ]
-  },
-  {
-    "prompt": "Seems like the young folk these days can get ahold of anything just by searching for it online.",
-    "answers": [
-      {
-        "text": "You're right.",
-        "grades": {
-          "gloomy": "GOOD",
-          "irritable": "",
-          "timid": "GOOD",
-          "upbeat": "OK"
-        }
-      },
-      {
-        "text": "Not everything is online.",
-        "grades": {
-          "gloomy": "",
-          "irritable": "",
+          "gloomy": "BAD",
+          "irritable": "BAD",
           "timid": "OK",
           "upbeat": "BAD"
+        },
+        "unconfirmed": {
+          "irritable": true
         }
       },
       {
-        "text": "What are you looking for?",
-        "grades": {
-          "gloomy": "",
-          "irritable": "GOOD",
-          "timid": "",
-          "upbeat": "GOOD"
-        }
-      }
-    ]
-  },
-  {
-    "prompt": "Since it seems you have a moment, perhaps you will entertain me by answering a question or two?",
-    "answers": [
-      {
-        "text": "I don't have time.",
-        "grades": {
-          "gloomy": "",
-          "irritable": "GOOD",
-          "timid": "",
-          "upbeat": "OK"
-        }
-      },
-      {
-        "text": "I suppose so...",
-        "grades": {
-          "gloomy": "OK",
-          "irritable": "",
-          "timid": "GOOD",
-          "upbeat": "GOOD"
-        }
-      },
-      {
-        "text": "Go ahead.",
-        "grades": {
-          "gloomy": "OK",
-          "irritable": "",
-          "timid": "",
-          "upbeat": "OK"
-        }
-      }
-    ]
-  },
-  {
-    "prompt": "So, how does it feel to live a life full of lies?",
-    "answers": [
-      {
-        "text": "It's not a lie.",
-        "grades": {
-          "gloomy": "",
-          "irritable": "",
-          "timid": "GOOD",
-          "upbeat": ""
-        }
-      },
-      {
-        "text": "It's my life.",
-        "grades": {
-          "gloomy": "",
-          "irritable": "GOOD",
-          "timid": "",
-          "upbeat": "OK"
-        }
-      },
-      {
-        "text": "How is my life a lie?",
-        "grades": {
-          "gloomy": "GOOD",
-          "irritable": "",
-          "timid": "",
-          "upbeat": ""
-        }
-      }
-    ]
-  },
-  {
-    "prompt": "So, how do I look, ho? Just as cool as always, right?",
-    "answers": [
-      {
-        "text": "You look good.",
-        "grades": {
-          "gloomy": "",
-          "irritable": "OK",
-          "timid": "GOOD",
-          "upbeat": "GOOD"
-        }
-      },
-      {
-        "text": "You're not cool at all.",
+        "text": "But we may never meet again.",
         "grades": {
           "gloomy": "GOOD",
           "irritable": "BAD",
-          "timid": "",
-          "upbeat": "BAD"
-        }
-      },
-      {
-        "text": "Who are you?",
-        "grades": {
-          "gloomy": "",
-          "irritable": "OK",
-          "timid": "",
-          "upbeat": "OK"
+          "timid": "OK",
+          "upbeat": "GOOD"
         }
       }
     ]
   },
   {
-    "prompt": "So, you're the one that's been making a fuss? C'mon now, don't get so upset...",
+    "prompt": "I've heard that love can bloom anywhere, even on a battlefield. Don't you think that's possible?",
     "answers": [
       {
-        "text": "That's right.",
+        "text": "Can it?",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "",
+          "timid": "GOOD",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "Definitely not.",
         "grades": {
           "gloomy": "OK",
           "irritable": "GOOD",
           "timid": "",
-          "upbeat": "BAD"
+          "upbeat": ""
+        },
+        "unconfirmed": {
+          "irritable": true
         }
       },
       {
-        "text": "I am calm.",
+        "text": "What are you saying?",
         "grades": {
           "gloomy": "GOOD",
-          "irritable": "OK",
-          "timid": "GOOD",
-          "upbeat": "GOOD"
-        }
-      },
-      {
-        "text": "You're the one making the fuss.",
-        "grades": {
-          "gloomy": "",
           "irritable": "",
-          "timid": "GOOD",
+          "timid": "",
           "upbeat": ""
         }
       }
     ]
   },
   {
-    "prompt": "Some people get happy when they're told they're cute, don't they?",
+    "prompt": "Just thinkin' about hierarchy, you should be showin' me a little more respect, shouldn't you?",
     "answers": [
       {
-        "text": "You're right.",
+        "text": "You're right, Senpai.",
         "grades": {
           "gloomy": "OK",
           "irritable": "",
           "timid": "GOOD",
-          "upbeat": "OK"
+          "upbeat": "BAD"
+        },
+        "unconfirmed": {
+          "upbeat": true
         }
       },
       {
-        "text": "No.",
+        "text": "I never thought about it.",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        },
+        "unconfirmed": {
+          "gloomy": true
+        }
+      },
+      {
+        "text": "I prefer mutual respect.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "GOOD",
+          "timid": "OK",
+          "upbeat": "GOOD"
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "Know how they say, \"Be kind ta yer elders\"? Has no one ever taught ya that?",
+    "answers": [
+      {
+        "text": "Someone did once.",
+        "grades": {
+          "gloomy": "BAD",
+          "irritable": "BAD",
+          "timid": "GOOD",
+          "upbeat": "OK"
+        },
+        "unconfirmed": {
+          "irritable": true
+        }
+      },
+      {
+        "text": "I don't care.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": "BAD"
+        },
+        "unconfirmed": {
+          "irritable": true
+        }
+      },
+      {
+        "text": "I don't want to grow old.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "",
+          "timid": "BAD",
+          "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "gloomy": true
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "Let me hear you utter words of repentance.",
+    "answers": [
+      {
+        "text": "Sorry.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "GOOD",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "\"Words of repentance.\"",
+        "grades": {
+          "gloomy": "",
+          "irritable": "BAD",
+          "timid": "",
+          "upbeat": "GOOD"
+        }
+      },
+      {
+        "text": "Not sorry.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": ""
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "Life's nothing but pain anyways. Just do whatever you want.",
+    "answers": [
+      {
+        "text": "You should have stayed home.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "You won't die easily.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "GOOD",
+          "upbeat": ""
+        },
+        "unconfirmed": {
+          "timid": true
+        }
+      },
+      {
+        "text": "Don't get desperate.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "Man, I'm about ta be a victim of that too. Hell, does this country even have a future?",
+    "answers": [
+      {
+        "text": "It does.",
+        "grades": {
+          "gloomy": "BAD",
+          "irritable": "OK",
+          "timid": "GOOD",
+          "upbeat": "OK"
+        },
+        "unconfirmed": {
+          "irritable": true,
+          "upbeat": true
+        }
+      },
+      {
+        "text": "Don't expect it.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "BAD",
+          "timid": "",
+          "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "upbeat": true
+        }
+      },
+      {
+        "text": "The elderly have bad manners.",
         "grades": {
           "gloomy": "BAD",
           "irritable": "GOOD",
           "timid": "",
-          "upbeat": "BAD"
+          "upbeat": ""
+        },
+        "unconfirmed": {
+          "gloomy": true,
+          "irritable": true
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "Maybe I should try something new! I don't want to fall into mediocrity, ho...",
+    "answers": [
+      {
+        "text": "You're fine as is.",
+        "grades": {
+          "gloomy": "BAD",
+          "irritable": "",
+          "timid": "GOOD",
+          "upbeat": ""
+        },
+        "unconfirmed": {
+          "gloomy": true,
+          "timid": true
         }
       },
       {
-        "text": "Only if they're a kid.",
+        "text": "Your act is a bit stale...",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "Time for a makeover.",
         "grades": {
           "gloomy": "GOOD",
           "irritable": "",
-          "timid": "OK",
+          "timid": "",
+          "upbeat": ""
+        },
+        "unconfirmed": {
+          "gloomy": true
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "...Maybe I'll call the police. Maybe I'll tell 'em that you were worse than you actually were!",
+    "answers": [
+      {
+        "text": "Call them. I dare you.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": "GOOD"
+        }
+      },
+      {
+        "text": "Forgive me.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "",
+          "timid": "",
+          "upbeat": "GOOD"
+        }
+      },
+      {
+        "text": "It was self-defense.",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "GOOD",
+          "timid": "BAD",
           "upbeat": ""
         }
       }
     ]
   },
   {
-    "prompt": "Someone's a little sad, huh?",
+    "prompt": "Maybe kids got spanked a long time ago, but people don't do that anymore, right?",
     "answers": [
       {
-        "text": "I'm not sad.",
+        "text": "I didn't know that.",
         "grades": {
           "gloomy": "",
-          "irritable": "OK",
+          "irritable": "BAD",
           "timid": "",
+          "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "irritable": true,
+          "upbeat": true
+        }
+      },
+      {
+        "text": "You need a good spanking.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "Some things are timeless.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "",
+          "upbeat": "BAD"
+        },
+        "unconfirmed": {
+          "upbeat": true
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "Me am really in soup, now. Do what you want. Me am ready if you want grill me, so...",
+    "answers": [
+      {
+        "text": "I'll make you into soup.",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "",
+          "timid": "BAD",
           "upbeat": "GOOD"
         }
       },
       {
-        "text": "I just want to be left alone.",
+        "text": "I don't want to eat you.",
         "grades": {
           "gloomy": "OK",
-          "irritable": "",
+          "irritable": "GOOD",
           "timid": "GOOD",
           "upbeat": "OK"
         }
       },
       {
-        "text": "Are you sad, too?",
+        "text": "I'll mince you.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "BAD",
+          "timid": "BAD",
+          "upbeat": "GOOD"
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "Me guessing you have power that me not have. But what is it...?",
+    "answers": [
+      {
+        "text": "Academics.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "OK",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "Empathy.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "",
+          "timid": "GOOD",
+          "upbeat": ""
+        },
+        "unconfirmed": {
+          "gloomy": true
+        }
+      },
+      {
+        "text": "Girl power.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "OK",
+          "upbeat": "GOOD"
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "Me not curse you, but me curse your commander! Me curse the one who order you...!",
+    "answers": [
+      {
+        "text": "This was my choice.",
+        "grades": {
+          "gloomy": "BAD",
+          "irritable": "OK",
+          "timid": "BAD",
+          "upbeat": "BAD"
+        },
+        "unconfirmed": {
+          "irritable": true
+        }
+      },
+      {
+        "text": "Fighting me is bad luck.",
+        "grades": {
+          "gloomy": "BAD",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "Just try to escape.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "GOOD",
+          "timid": "BAD",
+          "upbeat": ""
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "Me not understand in what way you superior to me...",
+    "answers": [
+      {
+        "text": "Youthfulness.",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "GOOD",
+          "timid": "GOOD",
+          "upbeat": "OK"
+        }
+      },
+      {
+        "text": "Cuteness.",
+        "grades": {
+          "gloomy": "BAD",
+          "irritable": "BAD",
+          "timid": "GOOD",
+          "upbeat": "GOOD"
+        }
+      },
+      {
+        "text": "Luckiness.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "BAD",
+          "timid": "BAD",
+          "upbeat": ""
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "Me really want to eat something.",
+    "answers": [
+      {
+        "text": "Do not mock me.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "GOOD",
+          "timid": "BAD",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "Same goes for me",
+        "grades": {
+          "gloomy": "",
+          "irritable": "BAD",
+          "timid": "GOOD",
+          "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "irritable": true
+        }
+      },
+      {
+        "text": "Want something delivered?",
+        "grades": {
+          "gloomy": "BAD",
+          "irritable": "OK",
+          "timid": "GOOD",
+          "upbeat": "GOOD"
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "Me want to ask some recommendations, so me can at least imagine.",
+    "answers": [
+      {
+        "text": "Bread soaked in coffee.",
+        "grades": {
+          "gloomy": "BAD",
+          "irritable": "",
+          "timid": "GOOD",
+          "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "timid": true
+        }
+      },
+      {
+        "text": "I don't have any.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": "BAD"
+        },
+        "unconfirmed": {
+          "irritable": true
+        }
+      },
+      {
+        "text": "Hunger is the best ingredient.",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "BAD",
+          "timid": "",
+          "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "irritable": true
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "Me want you to give me some nice \"words of compassion\"-as my rival- as me pass away...!",
+    "answers": [
+      {
+        "text": "Die in peace.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "OK",
+          "timid": "",
+          "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "irritable": true
+        }
+      },
+      {
+        "text": "Why show mercy to my enemy?",
+        "grades": {
+          "gloomy": "BAD",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "...I got nothing.",
         "grades": {
           "gloomy": "GOOD",
           "irritable": "",
@@ -4928,71 +5342,115 @@
     ]
   },
   {
-    "prompt": "Tell me, how did you get so strong? Are you using some kinda cheats?",
+    "prompt": "My chest is beating so fast. What is this feeling?",
     "answers": [
       {
-        "text": "That's a secret.",
+        "text": "Are you alright?",
         "grades": {
           "gloomy": "",
-          "irritable": "OK",
-          "timid": "GOOD",
-          "upbeat": "GOOD"
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
         }
       },
       {
-        "text": "Hard work and dedication.",
+        "text": "You're making it up.",
         "grades": {
-          "gloomy": "OK",
+          "gloomy": "GOOD",
           "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        },
+        "unconfirmed": {
+          "gloomy": true
+        }
+      },
+      {
+        "text": "It's love.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "My horoscope said I was going to have \"relationship difficulties\" today.",
+    "answers": [
+      {
+        "text": "Looks like it came true.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "BAD",
+          "timid": "OK",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "It's just a horoscope.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "GOOD",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "How is your luck in romance?",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "OK",
           "timid": "",
           "upbeat": "GOOD"
         }
-      },
+      }
+    ]
+  },
+  {
+    "prompt": "My only choice now... is to retire, ho.",
+    "answers": [
       {
-        "text": "It's my bloodline.",
+        "text": "That's too far.",
         "grades": {
           "gloomy": "",
           "irritable": "",
           "timid": "",
           "upbeat": "OK"
+        },
+        "unconfirmed": {
+          "upbeat": true
         }
-      }
-    ]
-  },
-  {
-    "prompt": "Tell me, what is something you're good at?",
-    "answers": [
+      },
       {
-        "text": "Nothing...",
+        "text": "What are your plans?",
         "grades": {
           "gloomy": "OK",
-          "irritable": "GOOD",
+          "irritable": "",
           "timid": "",
-          "upbeat": "BAD"
+          "upbeat": ""
+        },
+        "unconfirmed": {
+          "gloomy": true
         }
       },
       {
-        "text": "I'm good at everything.",
+        "text": "You had a good run...",
         "grades": {
-          "gloomy": "OK",
-          "irritable": "OK",
-          "timid": "GOOD",
-          "upbeat": "GOOD"
-        }
-      },
-      {
-        "text": "I'm good at sports.",
-        "grades": {
-          "gloomy": "OK",
-          "irritable": "GOOD",
-          "timid": "OK",
-          "upbeat": "GOOD"
+          "gloomy": "BAD",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        },
+        "unconfirmed": {
+          "gloomy": true
         }
       }
     ]
   },
   {
-    "prompt": "That's not very nice. I have feelings, you know!",
+    "prompt": "No matter the crime, humans treat it more lightly if the perpetrator is a minor, do they not? Ah, so I suppose you commit such extreme acts because you know you won't be punished harshly…",
     "answers": [
       {
         "text": "I'm sorry.",
@@ -5004,30 +5462,373 @@
         }
       },
       {
-        "text": "So do I.",
+        "text": "Age doesn't matter.",
         "grades": {
-          "gloomy": "OK",
+          "gloomy": "GOOD",
           "irritable": "GOOD",
           "timid": "OK",
-          "upbeat": "GOOD"
+          "upbeat": ""
         }
       },
       {
-        "text": "I'm fine with it.",
+        "text": "This isn't extreme.",
         "grades": {
-          "gloomy": "BAD",
-          "irritable": "BAD",
-          "timid": "",
-          "upbeat": "BAD"
+          "gloomy": "GOOD",
+          "irritable": "OK",
+          "timid": "OK",
+          "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "gloomy": true,
+          "timid": true
         }
       }
     ]
   },
   {
-    "prompt": "The things that happened in the past, the things that will happen in the future... Do you feel nothing towards any of it?",
+    "prompt": "Now, people don't even know who lives next door to them. Shouldn't we know our neighbors better?",
     "answers": [
       {
-        "text": "Of course I do.",
+        "text": "It's saddening.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "I don't really think about it.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "Privacy is important.",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "OK",
+          "timid": "",
+          "upbeat": ""
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "Oh, they're so self-assured that they'll be so successful in the future. Are you like that, child?",
+    "answers": [
+      {
+        "text": "That's right.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "GOOD",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "That's not true.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "What's wrong with that?",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "BAD",
+          "timid": "",
+          "upbeat": ""
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "Ooh, what if this leaves a scar and it's permanent?",
+    "answers": [
+      {
+        "text": "Sorry...",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "BAD",
+          "timid": "GOOD",
+          "upbeat": "GOOD"
+        }
+      },
+      {
+        "text": "Just get plastic surgery.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "OK",
+          "timid": "BAD",
+          "upbeat": "GOOD"
+        }
+      },
+      {
+        "text": "I'll take responsibility.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "GOOD",
+          "timid": "GOOD",
+          "upbeat": "GOOD"
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "Out of respect for our Father, let us take a moment's respite...",
+    "answers": [
+      {
+        "text": "If it's what you want.",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "",
+          "timid": "",
+          "upbeat": "OK"
+        }
+      },
+      {
+        "text": "What are you telling me?",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": "OK"
+        },
+        "unconfirmed": {
+          "irritable": true
+        }
+      },
+      {
+        "text": "I'm a minor.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "",
+          "upbeat": "GOOD"
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "Seriously, cosplaying in a place like this? Are you just bored outta your mind?",
+    "answers": [
+      {
+        "text": "I am.",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "OK",
+          "timid": "OK",
+          "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "timid": true
+        }
+      },
+      {
+        "text": "I'm actually very busy.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "GOOD",
+          "timid": "GOOD",
+          "upbeat": "BAD"
+        },
+        "unconfirmed": {
+          "irritable": true,
+          "upbeat": true
+        }
+      },
+      {
+        "text": "Shut up!",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "",
+          "timid": "",
+          "upbeat": "BAD"
+        },
+        "unconfirmed": {
+          "gloomy": true
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "She said, \"I'll buy it for you on the way home,\" but she didn't but it for me! Isn't that not fair?",
+    "answers": [
+      {
+        "text": "It's unfair.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "",
+          "upbeat": "OK"
+        },
+        "unconfirmed": {
+          "upbeat": true
+        }
+      },
+      {
+        "text": "It's your fault for being tricked.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "Be more persistent.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "She said, \"I'll buy it for you on the way home,\" but she didn't buy it for me! That's SO unfair, right?!",
+    "answers": [
+      {
+        "text": "That's not fair.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "BAD",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "It's your fault for being tricked.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": "BAD"
+        }
+      },
+      {
+        "text": "I'll buy it for you.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "BAD",
+          "timid": "",
+          "upbeat": ""
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "...So, I'm sorry, but can I go and fix my bangs first?",
+    "answers": [
+      {
+        "text": "Quit joking around.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "OK",
+          "timid": "",
+          "upbeat": ""
+        },
+        "unconfirmed": {
+          "irritable": true
+        }
+      },
+      {
+        "text": "You're fine as you are.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "That's pointless.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "So... I'm sorry, but can I go and fix my bangs first?",
+    "answers": [
+      {
+        "text": "Quit joking around.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "You're fine as you are.",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "That's pointless.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "So me am going to haunt you for the rest of your life. Me always right behind you...",
+    "answers": [
+      {
+        "text": "That would be troublesome.",
+        "grades": {
+          "gloomy": "BAD",
+          "irritable": "BAD",
+          "timid": "GOOD",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "I could carry that weight.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "BAD",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "I don't get it...",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "BAD",
+          "timid": "BAD",
+          "upbeat": ""
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "...So uh, instead of killin' me, you started chattin' with me... You tryin' to get somethin' from me?",
+    "answers": [
+      {
+        "text": "Yup.",
         "grades": {
           "gloomy": "",
           "irritable": "GOOD",
@@ -5036,16 +5837,410 @@
         }
       },
       {
-        "text": "I feel nothing.",
+        "text": "No... Nothing at all...",
         "grades": {
           "gloomy": "GOOD",
           "irritable": "GOOD",
+          "timid": "BAD",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "Dance for me!",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "OK",
           "timid": "",
+          "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "gloomy": true,
+          "irritable": true
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "...So? What's going to happen to me now?",
+    "answers": [
+      {
+        "text": "You'll be killed.",
+        "grades": {
+          "gloomy": "BAD",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "What do you want to happen?",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "",
+          "timid": "",
+          "upbeat": "GOOD"
+        }
+      },
+      {
+        "text": "It's a secret.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "",
+          "timid": "",
+          "upbeat": "GOOD"
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "So? What's gonna happen to me?",
+    "answers": [
+      {
+        "text": "I'll make mincemeat of you.",
+        "grades": {
+          "gloomy": "BAD",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "I'll play nice.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "BAD",
+          "timid": "GOOD",
+          "upbeat": ""
+        },
+        "unconfirmed": {
+          "gloomy": true
+        }
+      },
+      {
+        "text": "I'll be your dominatrix.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "",
+          "upbeat": "GOOD"
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "So who're you tryin' to impress with that mask?",
+    "answers": [
+      {
+        "text": "Nobody.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "GOOD",
+          "timid": "OK",
+          "upbeat": ""
+        },
+        "unconfirmed": {
+          "gloomy": true,
+          "irritable": true,
+          "timid": true
+        }
+      },
+      {
+        "text": "Shuddup...",
+        "grades": {
+          "gloomy": "",
+          "irritable": "BAD",
+          "timid": "BAD",
+          "upbeat": "OK"
+        },
+        "unconfirmed": {
+          "irritable": true,
+          "timid": true,
+          "upbeat": true
+        }
+      },
+      {
+        "text": "I'm actually still young...",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "irritable": true,
+          "upbeat": true
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "So why me in this situation right now? Why me at your mercy?",
+    "answers": [
+      {
+        "text": "Times have changed.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "GOOD",
+          "upbeat": "GOOD"
+        }
+      },
+      {
+        "text": "Humans are powerful.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "GOOD",
+          "upbeat": "GOOD"
+        }
+      },
+      {
+        "text": "This is a difficult topic...",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "OK",
+          "timid": "OK",
+          "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "irritable": true
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "So... You enjoy teasing older women like this?",
+    "answers": [
+      {
+        "text": "I had no intention.",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "",
+          "timid": "GOOD",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "It is fun, actually.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "",
+          "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "upbeat": true
+        }
+      },
+      {
+        "text": "I'm serious.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "Some old people refuse to make use of special seats reserved for the elderly. What do you think of that?",
+    "answers": [
+      {
+        "text": "No problem with it.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "They shouldn't push themselves.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "They must be young inside.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "",
+          "upbeat": "GOOD"
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "Somethin' bad happen in yer life or somethin', sonny?",
+    "answers": [
+      {
+        "text": "It's not like that.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "GOOD",
+          "timid": "GOOD",
           "upbeat": "OK"
         }
       },
       {
-        "text": "Why do you ask?",
+        "text": "I got bad luck.",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "BAD",
+          "timid": "OK",
+          "upbeat": "GOOD"
+        }
+      },
+      {
+        "text": "Shut up.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "OK",
+          "timid": "OK",
+          "upbeat": "BAD"
+        },
+        "unconfirmed": {
+          "upbeat": true
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "Something about people putting honey on cucumbers to feel like they're eating fancy cantaloupe?",
+    "answers": [
+      {
+        "text": "I follow those tips.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "It's depressing.",
+        "grades": {
+          "gloomy": "BAD",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        },
+        "unconfirmed": {
+          "gloomy": true
+        }
+      },
+      {
+        "text": "Never heard of that.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "Sorry, but I want you to go hee-home now. I'm already feeling so tired and weary, ho...",
+    "answers": [
+      {
+        "text": "Sorry.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "",
+          "timid": "",
+          "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "gloomy": true
+        }
+      },
+      {
+        "text": "No.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "You go home.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "Taking that into consideration, do you still want me?",
+    "answers": [
+      {
+        "text": "That's right.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "I didn't think that far.",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        },
+        "unconfirmed": {
+          "gloomy": true
+        }
+      },
+      {
+        "text": "The feelings will come.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "BAD",
+          "timid": "",
+          "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "irritable": true
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "Tell me, what does \"equal footing\" mean to you?",
+    "answers": [
+      {
+        "text": "Not talking down to people.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "GOOD",
+          "upbeat": "BAD"
+        }
+      },
+      {
+        "text": "Sharing household chores.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "OK",
+          "timid": "GOOD",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "Splitting all the costs.",
         "grades": {
           "gloomy": "GOOD",
           "irritable": "OK",
@@ -5056,8 +6251,61 @@
     ]
   },
   {
-    "prompt": "There must have been something that made you stronger... Just what was it?",
+    "prompt": "That is to say, we are brothers. There is no reason for us to fight.",
     "answers": [
+      {
+        "text": "Leave my parents out of this.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "",
+          "upbeat": "OK"
+        }
+      },
+      {
+        "text": "You may be right.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "OK",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "But you're a Shadow.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "That power, it originates from our Father. Thus, is it not reasonable to repay him for the favor?",
+    "answers": [
+      {
+        "text": "I never considered it.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "OK",
+          "timid": "",
+          "upbeat": "GOOD"
+        }
+      },
+      {
+        "text": "This power is all mine.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "OK",
+          "timid": "",
+          "upbeat": ""
+        },
+        "unconfirmed": {
+          "irritable": true
+        }
+      },
       {
         "text": "I don't know.",
         "grades": {
@@ -5066,117 +6314,78 @@
           "timid": "",
           "upbeat": ""
         }
-      },
+      }
+    ]
+  },
+  {
+    "prompt": "That's wack, man. Maybe you should get your head checked out.",
+    "answers": [
       {
-        "text": "I'm not that strong.",
+        "text": "I probably should.",
         "grades": {
-          "gloomy": "OK",
-          "irritable": "GOOD",
-          "timid": "OK",
-          "upbeat": "GOOD"
+          "gloomy": "GOOD",
+          "irritable": "BAD",
+          "timid": "GOOD",
+          "upbeat": "OK"
+        },
+        "unconfirmed": {
+          "irritable": true
         }
       },
       {
-        "text": "My past made me strong.",
+        "text": "Now way.",
+        "grades": {
+          "gloomy": "BAD",
+          "irritable": "GOOD",
+          "timid": "OK",
+          "upbeat": ""
+        },
+        "unconfirmed": {
+          "irritable": true,
+          "timid": true
+        }
+      },
+      {
+        "text": "I'm going feral!",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "GOOD",
+          "upbeat": "OK"
+        },
+        "unconfirmed": {
+          "timid": true,
+          "upbeat": true
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "...The least I can do is extend this small mercy. Name a calamity you can bear.",
+    "answers": [
+      {
+        "text": "Make it crowded where I shop.",
         "grades": {
           "gloomy": "",
           "irritable": "",
           "timid": "",
-          "upbeat": "OK"
-        }
-      }
-    ]
-  },
-  {
-    "prompt": "This is kind of... weird, isn't it? For us to be doing this...",
-    "answers": [
-      {
-        "text": "It sure is.",
-        "grades": {
-          "gloomy": "GOOD",
-          "irritable": "GOOD",
-          "timid": "GOOD",
-          "upbeat": "OK"
-        }
-      },
-      {
-        "text": "What are you talking about?",
-        "grades": {
-          "gloomy": "OK",
-          "irritable": "GOOD",
-          "timid": "GOOD",
-          "upbeat": "GOOD"
-        }
-      },
-      {
-        "text": "I don't think it's weird.",
-        "grades": {
-          "gloomy": "BAD",
-          "irritable": "",
-          "timid": "GOOD",
-          "upbeat": "GOOD"
-        }
-      }
-    ]
-  },
-  {
-    "prompt": "This isn't what I imagined. I thought my life would be better.",
-    "answers": [
-      {
-        "text": "Me, too.",
-        "grades": {
-          "gloomy": "GOOD",
-          "irritable": "",
-          "timid": "GOOD",
           "upbeat": ""
         }
       },
       {
-        "text": "What did you imagine?",
-        "grades": {
-          "gloomy": "OK",
-          "irritable": "",
-          "timid": "OK",
-          "upbeat": "GOOD"
-        }
-      },
-      {
-        "text": "You can still start over.",
-        "grades": {
-          "gloomy": "OK",
-          "irritable": "OK",
-          "timid": "OK",
-          "upbeat": "GOOD"
-        }
-      }
-    ]
-  },
-  {
-    "prompt": "This is supposed to be the final boss, but I'm just a kid... What's with this reality?",
-    "answers": [
-      {
-        "text": "The world is unfair.",
-        "grades": {
-          "gloomy": "GOOD",
-          "irritable": "GOOD",
-          "timid": "",
-          "upbeat": "OK"
-        }
-      },
-      {
-        "text": "There's no point in complaining.",
+        "text": "Give me violence.",
         "grades": {
           "gloomy": "",
-          "irritable": "",
-          "timid": "OK",
-          "upbeat": "GOOD"
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": ""
         }
       },
       {
-        "text": "Just go home.",
+        "text": "No calamities, please.",
         "grades": {
-          "gloomy": "OK",
-          "irritable": "GOOD",
+          "gloomy": "GOOD",
+          "irritable": "",
           "timid": "OK",
           "upbeat": "BAD"
         }
@@ -5184,287 +6393,168 @@
     ]
   },
   {
-    "prompt": "This just means that the two of us... The two of us have been bound by destiny, ho!",
+    "prompt": "The truth is... You're a good person, aren't you?",
     "answers": [
       {
-        "text": "You're exaggerating.",
+        "text": "I get that a lot.",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "GOOD",
+          "timid": "GOOD",
+          "upbeat": "GOOD"
+        }
+      },
+      {
+        "text": "Actually... I'm bad.",
         "grades": {
           "gloomy": "BAD",
           "irritable": "",
-          "timid": "OK",
-          "upbeat": "OK"
+          "timid": "",
+          "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "gloomy": true
         }
       },
       {
-        "text": "That's not it.",
+        "text": "Are you mocking me?",
         "grades": {
           "gloomy": "GOOD",
-          "irritable": "BAD",
-          "timid": "OK",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "The way you treat me, though, is giving me mixed messages. How to you really feel about me?",
+    "answers": [
+      {
+        "text": "You're beautiful.",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "",
+          "timid": "GOOD",
           "upbeat": "GOOD"
         }
       },
       {
-        "text": "Bound by destiny...",
+        "text": "You're scary.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "Nothing in particular.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "",
+          "timid": "",
+          "upbeat": "OK"
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "There something you want say to me, right?",
+    "answers": [
+      {
+        "text": "I want you.",
         "grades": {
           "gloomy": "OK",
+          "irritable": "GOOD",
+          "timid": "GOOD",
+          "upbeat": "GOOD"
+        }
+      },
+      {
+        "text": "Not really.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": "OK"
+        }
+      },
+      {
+        "text": "Let me touch your paw.",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "OK",
+          "timid": "",
+          "upbeat": "GOOD"
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "They always give the guy a katsudon! You got anything like that for me!?",
+    "answers": [
+      {
+        "text": "Katsudon, coming right up.",
+        "grades": {
+          "gloomy": "",
           "irritable": "OK",
           "timid": "GOOD",
           "upbeat": "GOOD"
         }
-      }
-    ]
-  },
-  {
-    "prompt": "Those who would defy me... Are you all as rude as you are?",
-    "answers": [
-      {
-        "text": "Yeah, we are.",
-        "grades": {
-          "gloomy": "GOOD",
-          "irritable": "BAD",
-          "timid": "GOOD",
-          "upbeat": ""
-        }
       },
       {
-        "text": "What are you going to do about it?",
-        "grades": {
-          "gloomy": "OK",
-          "irritable": "GOOD",
-          "timid": "BAD",
-          "upbeat": "OK"
-        }
-      },
-      {
-        "text": "That's just my personality.",
+        "text": "I'm the interrogator here.",
         "grades": {
           "gloomy": "GOOD",
           "irritable": "GOOD",
-          "timid": "GOOD",
-          "upbeat": "OK"
-        }
-      }
-    ]
-  },
-  {
-    "prompt": "Tsk, you're so stubborn. How about we just have a little fun instead?",
-    "answers": [
-      {
-        "text": "Okay, fine.",
-        "grades": {
-          "gloomy": "OK",
-          "irritable": "",
-          "timid": "GOOD",
+          "timid": "",
           "upbeat": "OK"
         }
       },
       {
-        "text": "No thanks.",
+        "text": "I have nothing for you.",
         "grades": {
           "gloomy": "GOOD",
           "irritable": "OK",
-          "timid": "OK",
-          "upbeat": ""
-        }
-      },
-      {
-        "text": "What do you have in mind?",
-        "grades": {
-          "gloomy": "",
-          "irritable": "GOOD",
-          "timid": "",
-          "upbeat": "GOOD"
-        }
-      }
-    ]
-  },
-  {
-    "prompt": "What do I do...? I can't think of anything! I'm drawing a blank here!",
-    "answers": [
-      {
-        "text": "Give up.",
-        "grades": {
-          "gloomy": "BAD",
-          "irritable": "GOOD",
-          "timid": "GOOD",
-          "upbeat": ""
-        }
-      },
-      {
-        "text": "That's your problem.",
-        "grades": {
-          "gloomy": "",
-          "irritable": "",
-          "timid": "OK",
-          "upbeat": "GOOD"
-        }
-      },
-      {
-        "text": "Just chill out.",
-        "grades": {
-          "gloomy": "",
-          "irritable": "",
-          "timid": "GOOD",
-          "upbeat": "OK"
-        }
-      }
-    ]
-  },
-  {
-    "prompt": "What do you do with your spare time?",
-    "answers": [
-      {
-        "text": "I work.",
-        "grades": {
-          "gloomy": "OK",
-          "irritable": "BAD",
-          "timid": "BAD",
-          "upbeat": "GOOD"
-        }
-      },
-      {
-        "text": "I watch movies.",
-        "grades": {
-          "gloomy": "",
-          "irritable": "",
-          "timid": "GOOD",
-          "upbeat": "GOOD"
-        }
-      },
-      {
-        "text": "I just stay home.",
-        "grades": {
-          "gloomy": "GOOD",
-          "irritable": "",
-          "timid": "OK",
-          "upbeat": "OK"
-        }
-      }
-    ]
-  },
-  {
-    "prompt": "What do you do when you don't feel like doing anything at all?",
-    "answers": [
-      {
-        "text": "I get it over with.",
-        "grades": {
-          "gloomy": "",
-          "irritable": "",
-          "timid": "GOOD",
-          "upbeat": "GOOD"
-        }
-      },
-      {
-        "text": "I don't do it.",
-        "grades": {
-          "gloomy": "GOOD",
-          "irritable": "GOOD",
           "timid": "",
           "upbeat": "OK"
-        }
-      },
-      {
-        "text": "I ask for help.",
-        "grades": {
-          "gloomy": "",
-          "irritable": "",
-          "timid": "OK",
-          "upbeat": ""
+        },
+        "unconfirmed": {
+          "irritable": true
         }
       }
     ]
   },
   {
-    "prompt": "What do you think is a good way to get through a long, boring lecture?",
+    "prompt": "They wear sleeveless shirts in the winter, right? What do you think about that, dearie?",
     "answers": [
       {
-        "text": "Listening closely.",
-        "grades": {
-          "gloomy": "GOOD",
-          "irritable": "OK",
-          "timid": "GOOD",
-          "upbeat": "OK"
-        }
-      },
-      {
-        "text": "Sleeping.",
-        "grades": {
-          "gloomy": "GOOD",
-          "irritable": "GOOD",
-          "timid": "",
-          "upbeat": "BAD"
-        }
-      },
-      {
-        "text": "Doodling.",
-        "grades": {
-          "gloomy": "",
-          "irritable": "GOOD",
-          "timid": "",
-          "upbeat": "GOOD"
-        }
-      }
-    ]
-  },
-  {
-    "prompt": "What do you think of me?",
-    "answers": [
-      {
-        "text": "You're a cool boss.",
-        "grades": {
-          "gloomy": "",
-          "irritable": "GOOD",
-          "timid": "GOOD",
-          "upbeat": "GOOD"
-        }
-      },
-      {
-        "text": "You're a liar.",
-        "grades": {
-          "gloomy": "GOOD",
-          "irritable": "BAD",
-          "timid": "",
-          "upbeat": "BAD"
-        }
-      },
-      {
-        "text": "You're just a kid.",
-        "grades": {
-          "gloomy": "",
-          "irritable": "",
-          "timid": "GOOD",
-          "upbeat": "OK"
-        }
-      }
-    ]
-  },
-  {
-    "prompt": "What do you think of people who take public transportation?",
-    "answers": [
-      {
-        "text": "They're mature.",
-        "grades": {
-          "gloomy": "OK",
-          "irritable": "GOOD",
-          "timid": "GOOD",
-          "upbeat": "OK"
-        }
-      },
-      {
-        "text": "They're selfish.",
+        "text": "It's what's in.",
         "grades": {
           "gloomy": "BAD",
           "irritable": "BAD",
           "timid": "",
-          "upbeat": "GOOD"
+          "upbeat": ""
         }
       },
       {
-        "text": "Why would I care?",
+        "text": "It's horrible.",
         "grades": {
           "gloomy": "",
-          "irritable": "OK",
+          "irritable": "GOOD",
+          "timid": "GOOD",
+          "upbeat": ""
+        },
+        "unconfirmed": {
+          "timid": true
+        }
+      },
+      {
+        "text": "I don't care.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
           "timid": "",
           "upbeat": ""
         }
@@ -5472,604 +6562,584 @@
     ]
   },
   {
-    "prompt": "What do you think you're doing? Why don't you have a good answer for me?",
+    "prompt": "Think carefully. I am not the one you should detest.",
     "answers": [
       {
-        "text": "I'm done with you.",
+        "text": "You're right.",
         "grades": {
-          "gloomy": "GOOD",
-          "irritable": "BAD",
-          "timid": "",
-          "upbeat": "OK"
-        }
-      },
-      {
-        "text": "I don't have to answer.",
-        "grades": {
-          "gloomy": "GOOD",
+          "gloomy": "",
           "irritable": "GOOD",
           "timid": "GOOD",
           "upbeat": ""
         }
       },
       {
-        "text": "I don't have an answer.",
+        "text": "That's absurd.",
         "grades": {
           "gloomy": "",
-          "irritable": "",
-          "timid": "GOOD",
-          "upbeat": "OK"
-        }
-      }
-    ]
-  },
-  {
-    "prompt": "What makes you so different from everyone else? Tell me. I'll even listen to your long, boring story.",
-    "answers": [
-      {
-        "text": "I'm a normal guy.",
-        "grades": {
-          "gloomy": "OK",
-          "irritable": "",
-          "timid": "",
-          "upbeat": "OK"
-        }
-      },
-      {
-        "text": "I don't have to tell you.",
-        "grades": {
-          "gloomy": "",
-          "irritable": "",
-          "timid": "GOOD",
-          "upbeat": "GOOD"
-        }
-      },
-      {
-        "text": "I'm not different.",
-        "grades": {
-          "gloomy": "",
-          "irritable": "",
-          "timid": "OK",
-          "upbeat": ""
-        }
-      }
-    ]
-  },
-  {
-    "prompt": "What will you do with me now?",
-    "answers": [
-      {
-        "text": "I'll keep you as a pet.",
-        "grades": {
-          "gloomy": "BAD",
-          "irritable": "",
-          "timid": "OK",
-          "upbeat": "BAD"
-        }
-      },
-      {
-        "text": "I'll let you go.",
-        "grades": {
-          "gloomy": "GOOD",
-          "irritable": "OK",
-          "timid": "GOOD",
-          "upbeat": "OK"
-        }
-      },
-      {
-        "text": "I'll lock you up.",
-        "grades": {
-          "gloomy": "OK",
-          "irritable": "BAD",
-          "timid": "BAD",
-          "upbeat": ""
-        }
-      }
-    ]
-  },
-  {
-    "prompt": "What're you gonna do after this is all over? You got a party planned or somethin'?",
-    "answers": [
-      {
-        "text": "I'll go home.",
-        "grades": {
-          "gloomy": "OK",
           "irritable": "GOOD",
-          "timid": "GOOD",
+          "timid": "",
           "upbeat": ""
         }
       },
       {
-        "text": "I'm not sure yet.",
-        "grades": {
-          "gloomy": "",
-          "irritable": "",
-          "timid": "GOOD",
-          "upbeat": "OK"
-        }
-      },
-      {
-        "text": "I have to go to work.",
-        "grades": {
-          "gloomy": "BAD",
-          "irritable": "OK",
-          "timid": "GOOD",
-          "upbeat": "OK"
-        }
-      }
-    ]
-  },
-  {
-    "prompt": "What's it like to live with so many people? All the noise and crowds... doesn't it bother you?",
-    "answers": [
-      {
-        "text": "I don't know any other way.",
-        "grades": {
-          "gloomy": "OK",
-          "irritable": "GOOD",
-          "timid": "OK",
-          "upbeat": "GOOD"
-        }
-      },
-      {
-        "text": "I hate it.",
-        "grades": {
-          "gloomy": "GOOD",
-          "irritable": "GOOD",
-          "timid": "",
-          "upbeat": "OK"
-        }
-      },
-      {
-        "text": "I'm not bothered.",
-        "grades": {
-          "gloomy": "OK",
-          "irritable": "GOOD",
-          "timid": "",
-          "upbeat": "GOOD"
-        }
-      }
-    ]
-  },
-  {
-    "prompt": "What's the right way to live your life, then? Tell me, since you're so enlightened.",
-    "answers": [
-      {
-        "text": "I don't know.",
-        "grades": {
-          "gloomy": "GOOD",
-          "irritable": "BAD",
-          "timid": "OK",
-          "upbeat": ""
-        }
-      },
-      {
-        "text": "Just live without regrets.",
-        "grades": {
-          "gloomy": "",
-          "irritable": "",
-          "timid": "GOOD",
-          "upbeat": "GOOD"
-        }
-      },
-      {
-        "text": "I'm not sure.",
-        "grades": {
-          "gloomy": "OK",
-          "irritable": "OK",
-          "timid": "",
-          "upbeat": "OK"
-        }
-      }
-    ]
-  },
-  {
-    "prompt": "What's with the scary face? It's not cute at all! Are you upset, mister?",
-    "answers": [
-      {
-        "text": "No, I'm fine.",
-        "grades": {
-          "gloomy": "GOOD",
-          "irritable": "GOOD",
-          "timid": "GOOD",
-          "upbeat": "GOOD"
-        }
-      },
-      {
-        "text": "\"Who are you calling \"\"mister\"\"?\"",
-        "grades": {
-          "gloomy": "",
-          "irritable": "OK",
-          "timid": "",
-          "upbeat": "GOOD"
-        }
-      },
-      {
-        "text": "I'm just a little mad.",
-        "grades": {
-          "gloomy": "",
-          "irritable": "OK",
-          "timid": "GOOD",
-          "upbeat": "BAD"
-        }
-      }
-    ]
-  },
-  {
-    "prompt": "What's with the way you're talkin'? Are you from out of town or somethin'?",
-    "answers": [
-      {
-        "text": "It's just the way I talk.",
-        "grades": {
-          "gloomy": "OK",
-          "irritable": "GOOD",
-          "timid": "",
-          "upbeat": "GOOD"
-        }
-      },
-      {
-        "text": "Yeah, I am.",
-        "grades": {
-          "gloomy": "",
-          "irritable": "",
-          "timid": "GOOD",
-          "upbeat": ""
-        }
-      },
-      {
-        "text": "I am from the city.",
-        "grades": {
-          "gloomy": "GOOD",
-          "irritable": "",
-          "timid": "",
-          "upbeat": "OK"
-        }
-      }
-    ]
-  },
-  {
-    "prompt": "When you look in the mirror, what do you see?",
-    "answers": [
-      {
-        "text": "A bad person.",
-        "grades": {
-          "gloomy": "OK",
-          "irritable": "OK",
-          "timid": "OK",
-          "upbeat": "BAD"
-        }
-      },
-      {
-        "text": "An average person.",
-        "grades": {
-          "gloomy": "",
-          "irritable": "",
-          "timid": "GOOD",
-          "upbeat": "OK"
-        }
-      },
-      {
-        "text": "A handsome man.",
-        "grades": {
-          "gloomy": "",
-          "irritable": "GOOD",
-          "timid": "GOOD",
-          "upbeat": ""
-        }
-      }
-    ]
-  },
-  {
-    "prompt": "Why do you look so lonely? Is it because you were cast out?",
-    "answers": [
-      {
-        "text": "I'm not lonely.",
-        "grades": {
-          "gloomy": "",
-          "irritable": "OK",
-          "timid": "",
-          "upbeat": "GOOD"
-        }
-      },
-      {
-        "text": "Maybe so.",
-        "grades": {
-          "gloomy": "OK",
-          "irritable": "",
-          "timid": "GOOD",
-          "upbeat": ""
-        }
-      },
-      {
-        "text": "My friends are waiting.",
-        "grades": {
-          "gloomy": "",
-          "irritable": "",
-          "timid": "OK",
-          "upbeat": "OK"
-        }
-      }
-    ]
-  },
-  {
-    "prompt": "Why do you look so lost? Is it because you are burdened by what you've done?",
-    "answers": [
-      {
-        "text": "I'm not lost.",
-        "grades": {
-          "gloomy": "OK",
-          "irritable": "GOOD",
-          "timid": "OK",
-          "upbeat": "GOOD"
-        }
-      },
-      {
-        "text": "I'm a little tired.",
-        "grades": {
-          "gloomy": "OK",
-          "irritable": "GOOD",
-          "timid": "",
-          "upbeat": "OK"
-        }
-      },
-      {
-        "text": "What are you getting at?",
-        "grades": {
-          "gloomy": "OK",
-          "irritable": "",
-          "timid": "GOOD",
-          "upbeat": "GOOD"
-        }
-      }
-    ]
-  },
-  {
-    "prompt": "Why don't you talk to me? Aren't you going to tell me a secret or two?",
-    "answers": [
-      {
-        "text": "I have no secrets.",
-        "grades": {
-          "gloomy": "OK",
-          "irritable": "GOOD",
-          "timid": "GOOD",
-          "upbeat": "OK"
-        }
-      },
-      {
-        "text": "I don't trust you.",
-        "grades": {
-          "gloomy": "GOOD",
-          "irritable": "GOOD",
-          "timid": "",
-          "upbeat": "OK"
-        }
-      },
-      {
-        "text": "I'll share later.",
-        "grades": {
-          "gloomy": "",
-          "irritable": "",
-          "timid": "OK",
-          "upbeat": ""
-        }
-      }
-    ]
-  },
-  {
-    "prompt": "Why is it that you can kill so easily? Are you that far from being human?",
-    "answers": [
-      {
-        "text": "I'm just good at it.",
-        "grades": {
-          "gloomy": "",
-          "irritable": "BAD",
-          "timid": "",
-          "upbeat": "GOOD"
-        }
-      },
-      {
-        "text": "I'm still human.",
+        "text": "I’ll be the judge of that.",
         "grades": {
           "gloomy": "GOOD",
           "irritable": "",
           "timid": "",
           "upbeat": ""
         }
-      },
-      {
-        "text": "I'm not human.",
-        "grades": {
-          "gloomy": "OK",
-          "irritable": "",
-          "timid": "GOOD",
-          "upbeat": "GOOD"
-        }
       }
     ]
   },
   {
-    "prompt": "You have a look about you... Did you come from a big family?",
+    "prompt": "Think carefully. I cannot be destroyed. Desist from this pointlessness.",
     "answers": [
-      {
-        "text": "Yes.",
-        "grades": {
-          "gloomy": "OK",
-          "irritable": "GOOD",
-          "timid": "OK",
-          "upbeat": ""
-        }
-      },
-      {
-        "text": "No, I'm an only child.",
-        "grades": {
-          "gloomy": "OK",
-          "irritable": "BAD",
-          "timid": "GOOD",
-          "upbeat": "GOOD"
-        }
-      },
-      {
-        "text": "What are you implying?",
-        "grades": {
-          "gloomy": "GOOD",
-          "irritable": "OK",
-          "timid": "",
-          "upbeat": "OK"
-        }
-      }
-    ]
-  },
-  {
-    "prompt": "You know... It's not a crime to be weak.",
-    "answers": [
-      {
-        "text": "It sure is.",
-        "grades": {
-          "gloomy": "",
-          "irritable": "",
-          "timid": "BAD",
-          "upbeat": "GOOD"
-        }
-      },
-      {
-        "text": "It is a crime.",
-        "grades": {
-          "gloomy": "",
-          "irritable": "BAD",
-          "timid": "",
-          "upbeat": "OK"
-        }
-      },
       {
         "text": "What are you talking about?",
         "grades": {
           "gloomy": "GOOD",
           "irritable": "",
-          "timid": "OK",
-          "upbeat": "OK"
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "That's absurd.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "Then I shall desist.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "OK",
+          "timid": "",
+          "upbeat": "GOOD"
         }
       }
     ]
   },
   {
-    "prompt": "You know... If you took it easy, you might just get some sleep.",
+    "prompt": "This is all some kind of TV thing, hee-ho! Where's the camera?",
     "answers": [
       {
-        "text": "Maybe you're right...",
+        "text": "Wow, you got me.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "OK",
+          "upbeat": "GOOD"
+        }
+      },
+      {
+        "text": "What's all this now?",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "",
+          "timid": "GOOD",
+          "upbeat": "OK"
+        }
+      },
+      {
+        "text": "This is real.",
+        "grades": {
+          "gloomy": "BAD",
+          "irritable": "",
+          "timid": "",
+          "upbeat": "BAD"
+        },
+        "unconfirmed": {
+          "upbeat": true
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "This is that \"domestic violins\" thing, right?",
+    "answers": [
+      {
+        "text": "That's \"domestic violence.\"",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "BAD",
+          "timid": "GOOD",
+          "upbeat": "GOOD"
+        }
+      },
+      {
+        "text": "What? No, you're wrong...",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "Um, are things okay at home?",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "BAD",
+          "timid": "OK",
+          "upbeat": "GOOD"
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "To tell you the hee-truth, this is all an act, ho. What do you think I'm really like, ho?",
+    "answers": [
+      {
+        "text": "I can't image it.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "Don't care.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "You're fine as is.",
         "grades": {
           "gloomy": "GOOD",
           "irritable": "",
           "timid": "GOOD",
           "upbeat": ""
         }
-      },
+      }
+    ]
+  },
+  {
+    "prompt": "To view me as an enemy is to incur our Father's wrath. Man's future rests in your hands.",
+    "answers": [
       {
-        "text": "I don't have time.",
+        "text": "Leave the future to me.",
         "grades": {
-          "gloomy": "",
-          "irritable": "GOOD",
+          "gloomy": "OK",
+          "irritable": "",
           "timid": "",
           "upbeat": "GOOD"
         }
       },
       {
-        "text": "I'm not tired.",
+        "text": "I need your guidance.",
         "grades": {
           "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "GOOD",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "I don't get it.",
+        "grades": {
+          "gloomy": "GOOD",
           "irritable": "",
-          "timid": "OK",
-          "upbeat": "OK"
+          "timid": "",
+          "upbeat": ""
         }
       }
     ]
   },
   {
-    "prompt": "You know what? I'm gonna ask you a simple question.",
+    "prompt": "Today I have what you humans call a girl's night out.",
     "answers": [
       {
-        "text": "Shoot.",
+        "text": "Quit messing with me.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": "BAD"
+        }
+      },
+      {
+        "text": "Should I go instead?",
+        "grades": {
+          "gloomy": "BAD",
+          "irritable": "",
+          "timid": "",
+          "upbeat": "GOOD"
+        }
+      },
+      {
+        "text": "Girls...?",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "",
+          "timid": "",
+          "upbeat": "GOOD"
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "...Um, this has been buggin' me for a while, but... Is it me, or does something stink?",
+    "answers": [
+      {
+        "text": "It's just you.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "OK",
+          "timid": "",
+          "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "irritable": true,
+          "upbeat": true
+        }
+      },
+      {
+        "text": "It's coming from you.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "BAD",
+          "timid": "",
+          "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "upbeat": true
+        }
+      },
+      {
+        "text": "I smell a lie.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "...Um, why're you going' for me? Ain't there worse people out there? What kind of guys piss you off?",
+    "answers": [
+      {
+        "text": "Slow walkers.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "OK",
+          "timid": "",
+          "upbeat": ""
+        },
+        "unconfirmed": {
+          "gloomy": true,
+          "irritable": true
+        }
+      },
+      {
+        "text": "Loud talkers...",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "GOOD",
+          "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "irritable": true,
+          "timid": true,
+          "upbeat": true
+        }
+      },
+      {
+        "text": "Nobody.",
         "grades": {
           "gloomy": "",
           "irritable": "",
           "timid": "GOOD",
-          "upbeat": "OK"
-        }
-      },
-      {
-        "text": "Are you sure it's simple?",
-        "grades": {
-          "gloomy": "",
-          "irritable": "GOOD",
-          "timid": "",
-          "upbeat": "GOOD"
-        }
-      },
-      {
-        "text": "I don't want to answer.",
-        "grades": {
-          "gloomy": "GOOD",
-          "irritable": "GOOD",
-          "timid": "",
-          "upbeat": "OK"
+          "upbeat": ""
+        },
+        "unconfirmed": {
+          "timid": true
         }
       }
     ]
   },
   {
-    "prompt": "You may not like it, but what are you?",
+    "prompt": "...Very well. In the place of our Father, I shall listen to your complaints.",
     "answers": [
       {
-        "text": "A kid.",
+        "text": "Why can't we end war?",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "GOOD",
+          "timid": "GOOD",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "No complaints here.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "OK",
+          "timid": "",
+          "upbeat": "BAD"
+        }
+      },
+      {
+        "text": "I can't get a girlfriend.",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "",
+          "timid": "",
+          "upbeat": "GOOD"
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "Vow that you will use that power in the name of our Father.",
+    "answers": [
+      {
+        "text": "I'll think about it.",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "OK",
+          "timid": "GOOD",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "No need to be so dramatic.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "",
+          "timid": "",
+          "upbeat": "GOOD"
+        }
+      },
+      {
+        "text": "I decline.",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": ""
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "Well, I need to see myself home soon...",
+    "answers": [
+      {
+        "text": "Go home then.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": ""
+        },
+        "unconfirmed": {
+          "irritable": true
+        }
+      },
+      {
+        "text": "What do you mean?",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "OK",
+          "upbeat": ""
+        },
+        "unconfirmed": {
+          "timid": true
+        }
+      },
+      {
+        "text": "Let's go home together.",
         "grades": {
           "gloomy": "GOOD",
           "irritable": "OK",
           "timid": "GOOD",
-          "upbeat": "OK"
-        }
-      },
-      {
-        "text": "An adult.",
-        "grades": {
-          "gloomy": "",
-          "irritable": "",
-          "timid": "GOOD",
           "upbeat": ""
-        }
-      },
-      {
-        "text": "I'm nothing.",
-        "grades": {
-          "gloomy": "GOOD",
-          "irritable": "GOOD",
-          "timid": "",
-          "upbeat": "BAD"
+        },
+        "unconfirmed": {
+          "irritable": true
         }
       }
     ]
   },
   {
-    "prompt": "You have no hobbies or anything? It's all just fighting?",
+    "prompt": "Well, I'm still here... That guy is really keeping me waiting.",
     "answers": [
       {
-        "text": "I have no hobbies.",
-        "grades": {
-          "gloomy": "GOOD",
-          "irritable": "GOOD",
-          "timid": "",
-          "upbeat": "BAD"
-        }
-      },
-      {
-        "text": "I have hobbies.",
+        "text": "Life isn't like fairy tales.",
         "grades": {
           "gloomy": "",
           "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "Just wait a little longer.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "",
+          "upbeat": "OK"
+        }
+      },
+      {
+        "text": "You'll never meet him.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "We'll just say you win. So can we stop this?",
+    "answers": [
+      {
+        "text": "I feel bad.",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "GOOD",
           "timid": "GOOD",
+          "upbeat": "OK"
+        },
+        "unconfirmed": {
+          "irritable": true
+        }
+      },
+      {
+        "text": "I don't agree with this.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "Everyone wins.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "",
+          "timid": "",
+          "upbeat": "GOOD"
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "Well, quite frankly... No one wants you here. You do understand that, right?",
+    "answers": [
+      {
+        "text": "I know.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "I didn't know that.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "OK",
+          "timid": "",
           "upbeat": "GOOD"
         }
       },
       {
-        "text": "I like fighting.",
+        "text": "Who cares?",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "What are we gonna do, huh?",
+    "answers": [
+      {
+        "text": "Tag.",
+        "grades": {
+          "gloomy": "BAD",
+          "irritable": "",
+          "timid": "GOOD",
+          "upbeat": "OK"
+        },
+        "unconfirmed": {
+          "gloomy": true,
+          "upbeat": true
+        },
+        "notes": {
+          "upbeat": "OK/BAD?"
+        }
+      },
+      {
+        "text": "I don't feel like playing.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "Cruise for chicks.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": "GOOD"
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "What did I do to deserve this?",
+    "answers": [
+      {
+        "text": "It's karma for your evil deeds.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": "GOOD"
+        }
+      },
+      {
+        "text": "Don't play the victim.",
+        "grades": {
+          "gloomy": "BAD",
+          "irritable": "",
+          "timid": "GOOD",
+          "upbeat": ""
+        },
+        "unconfirmed": {
+          "gloomy": true
+        }
+      },
+      {
+        "text": "Nothing in particular.",
         "grades": {
           "gloomy": "",
           "irritable": "",
@@ -6080,30 +7150,30 @@
     ]
   },
   {
-    "prompt": "You wanna come with me on my next big journey, ho?",
+    "prompt": "What did you want, coming all the way to a place like this?",
     "answers": [
       {
-        "text": "I would love to.",
+        "text": "A thrilling adventure.",
         "grades": {
-          "gloomy": "OK",
-          "irritable": "OK",
-          "timid": "GOOD",
-          "upbeat": "OK"
+          "gloomy": "",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
         }
       },
       {
-        "text": "I have other plans.",
+        "text": "A treasure hunt.",
         "grades": {
-          "gloomy": "GOOD",
-          "irritable": "GOOD",
-          "timid": "GOOD",
-          "upbeat": "OK"
+          "gloomy": "",
+          "irritable": "",
+          "timid": "",
+          "upbeat": "BAD"
         }
       },
       {
-        "text": "I'm not a hee-ho!",
+        "text": "Slaughter.",
         "grades": {
-          "gloomy": "OK",
+          "gloomy": "",
           "irritable": "",
           "timid": "",
           "upbeat": ""
@@ -6112,33 +7182,2322 @@
     ]
   },
   {
-    "prompt": "You're right... How could I not realize this?! This world is meaningless!",
+    "prompt": "What do ya usually eat?",
     "answers": [
       {
-        "text": "It's not meaningless.",
+        "text": "Curry.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "GOOD",
+          "upbeat": "OK"
+        },
+        "unconfirmed": {
+          "irritable": true
+        }
+      },
+      {
+        "text": "All sorts of things.",
         "grades": {
           "gloomy": "GOOD",
+          "irritable": "GOOD",
+          "timid": "OK",
+          "upbeat": "OK"
+        },
+        "unconfirmed": {
+          "timid": true
+        }
+      },
+      {
+        "text": "Protein.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "",
+          "upbeat": "GOOD"
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "What do you hope to accomplish by injuring me further...?",
+    "answers": [
+      {
+        "text": "More sleep.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "Popularity.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "OK",
+          "timid": "",
+          "upbeat": ""
+        },
+        "unconfirmed": {
+          "irritable": true
+        }
+      },
+      {
+        "text": "There's no end if I start.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "OK",
+          "timid": "",
+          "upbeat": ""
+        },
+        "unconfirmed": {
+          "irritable": true
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "What do you think about humans showing pictures of their baby to others?",
+    "answers": [
+      {
+        "text": "It's cute.",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "",
+          "timid": "GOOD",
+          "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "timid": true
+        }
+      },
+      {
+        "text": "I'm not interested.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "What are you talking about?",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "What do you think I should wear? I admit it, I wanna draw some attention to myself.",
+    "answers": [
+      {
+        "text": "High School uniform.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "irritable": true
+        }
+      },
+      {
+        "text": "A Kimono.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "GOOD",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "Don't wear anything.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "OK",
+          "timid": "",
+          "upbeat": "OK"
+        },
+        "unconfirmed": {
+          "irritable": true,
+          "upbeat": true
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "What has brought you to a place like this? What are you seeking?",
+    "answers": [
+      {
+        "text": "An adventure.",
+        "grades": {
+          "gloomy": "OK",
           "irritable": "GOOD",
           "timid": "GOOD",
           "upbeat": ""
         }
       },
       {
-        "text": "I've been trying to tell you that.",
+        "text": "Nothing, really.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "",
+          "timid": "OK",
+          "upbeat": "OK"
+        }
+      },
+      {
+        "text": "A killing spree.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "OK",
+          "timid": "",
+          "upbeat": "GOOD"
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "What if I was a human? Then, what you're doing... well, it'd be a criminal act!",
+    "answers": [
+      {
+        "text": "That's true...",
         "grades": {
           "gloomy": "OK",
           "irritable": "",
+          "timid": "GOOD",
+          "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "gloomy": true
+        }
+      },
+      {
+        "text": "That can't be true.",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "That's irrelevant.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": ""
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "What in the hell are ya tryin' ta tell me, anyway?",
+    "answers": [
+      {
+        "text": "You're going to die.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "GOOD",
+          "timid": "OK",
+          "upbeat": "OK"
+        }
+      },
+      {
+        "text": "Why do we fight?",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "OK",
+          "timid": "GOOD",
+          "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "irritable": true
+        }
+      },
+      {
+        "text": "I don't really know...",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "",
+          "timid": "OK",
+          "upbeat": "OK"
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "What is irritating you so much?",
+    "answers": [
+      {
+        "text": "Rotten adults.",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "Egotistical women.",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "BAD",
+          "timid": "",
+          "upbeat": "GOOD"
+        }
+      },
+      {
+        "text": "I'm not irritated.",
+        "grades": {
+          "gloomy": "BAD",
+          "irritable": "OK",
+          "timid": "GOOD",
+          "upbeat": ""
+        },
+        "unconfirmed": {
+          "gloomy": true,
+          "timid": true
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "What kinda \"fate\" do ya think there is in this meetin' between me and you?",
+    "answers": [
+      {
+        "text": "Fate brought us together.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": "OK"
+        }
+      },
+      {
+        "text": "There is no such thing.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "GOOD",
+          "timid": "GOOD",
+          "upbeat": "OK"
+        },
+        "unconfirmed": {
+          "timid": true
+        }
+      },
+      {
+        "text": "I want to end this fate.",
+        "grades": {
+          "gloomy": "BAD",
+          "irritable": "OK",
+          "timid": "",
+          "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "gloomy": true,
+          "irritable": true
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "What kinda \"hospitality\" will you show me at the end of my life?",
+    "answers": [
+      {
+        "text": "You won't suffer long.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "A coupon for a massage by me.",
+        "grades": {
+          "gloomy": "BAD",
+          "irritable": "BAD",
+          "timid": "",
+          "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "gloomy": true,
+          "irritable": true
+        }
+      },
+      {
+        "text": "I'll be at your side until the end.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "BAD",
+          "timid": "",
+          "upbeat": ""
+        },
+        "unconfirmed": {
+          "irritable": true
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "What kinda guys piss you off?",
+    "answers": [
+      {
+        "text": "Pissy guys.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": "OK"
+        }
+      },
+      {
+        "text": "Guys with no sense of humor.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "OK",
+          "upbeat": "GOOD"
+        }
+      },
+      {
+        "text": "I never get mad.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "GOOD",
+          "upbeat": "BAD"
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "What was that, anyway?",
+    "answers": [
+      {
+        "text": "A love letter.",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "",
+          "timid": "GOOD",
+          "upbeat": "GOOD"
+        }
+      },
+      {
+        "text": "A threat letter.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": "GOOD"
+        }
+      },
+      {
+        "text": "A coupon.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "GOOD",
+          "upbeat": "GOOD"
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "What was... the cause of my defeat?",
+    "answers": [
+      {
+        "text": "Your lack of resolve.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": "OK"
+        }
+      },
+      {
+        "text": "Just bad luck.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "GOOD",
+          "upbeat": "GOOD"
+        }
+      },
+      {
+        "text": "I'm not telling.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        },
+        "unconfirmed": {
+          "gloomy": true
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "What you thinking now?",
+    "answers": [
+      {
+        "text": "How to negotiate..",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "GOOD",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "Nothing.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "OK",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "How can I get popular?",
+        "grades": {
+          "gloomy": "",
+          "irritable": "BAD",
+          "timid": "OK",
+          "upbeat": "GOOD"
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "What're you gonna tell your kids about this shit?",
+    "answers": [
+      {
+        "text": "It was a hard-fought battle.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
           "timid": "OK",
           "upbeat": ""
+        },
+        "unconfirmed": {
+          "timid": true
+        }
+      },
+      {
+        "text": "It was an easy win.",
+        "grades": {
+          "gloomy": "BAD",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "I'll forget it happened.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "",
+          "timid": "OK",
+          "upbeat": "GOOD"
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "What's it like to be all kissy face with somebody?",
+    "answers": [
+      {
+        "text": "It's incredible...",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "BAD",
+          "timid": "",
+          "upbeat": "BAD"
+        }
+      },
+      {
+        "text": "I shouldn't tell you.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "Ask your parents.",
+        "grades": {
+          "gloomy": "BAD",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": "GOOD"
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "What's wrong with the way I look, huh?",
+    "answers": [
+      {
+        "text": "You tempt people.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "OK",
+          "timid": "GOOD",
+          "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "timid": true
+        }
+      },
+      {
+        "text": "You're ugly.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": "OK"
+        }
+      },
+      {
+        "text": "Nothing's wrong.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": "BAD"
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "When I was young, I could make anyone back off-if they were smart enough-with just my glare.",
+    "answers": [
+      {
+        "text": "That's so neat.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "GOOD",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "I'm just that good.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "",
+          "upbeat": "GOOD"
+        }
+      },
+      {
+        "text": "You've grown old.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "When it came right down to it, you couldn't do anything to me!",
+    "answers": [
+      {
+        "text": "I could.",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "GOOD",
+          "timid": "OK",
+          "upbeat": "OK"
+        }
+      },
+      {
+        "text": "How could you tell?",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "",
+          "timid": "OK",
+          "upbeat": "GOOD"
+        }
+      },
+      {
+        "text": "What do you want me to do?",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "",
+          "timid": "GOOD",
+          "upbeat": "GOOD"
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "When you eat curry, mister, what do you like to add?",
+    "answers": [
+      {
+        "text": "Soy sauce.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "GOOD",
+          "timid": "GOOD",
+          "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "gloomy": true
+        }
+      },
+      {
+        "text": "Worcestershire sauce.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "BAD",
+          "upbeat": ""
+        },
+        "unconfirmed": {
+          "timid": true
+        }
+      },
+      {
+        "text": "I don't add anything.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "BAD",
+          "upbeat": ""
+        },
+        "unconfirmed": {
+          "timid": true
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "When you were little, what did you wanna be when you grow up?",
+    "answers": [
+      {
+        "text": "A pro athlete.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "GOOD",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "I had no dream.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "BAD",
+          "timid": "",
+          "upbeat": "BAD"
+        },
+        "unconfirmed": {
+          "upbeat": true
+        }
+      },
+      {
+        "text": "A winner in society.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "GOOD",
+          "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "timid": true
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "Where do babies come from?",
+    "answers": [
+      {
+        "text": "Storks deliver them.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "Ask your parents.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "The love between two people.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "OK",
+          "timid": "GOOD",
+          "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "gloomy": true
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "Where should I go? I want something yummy, ho!",
+    "answers": [
+      {
+        "text": "A place with no wait.",
+        "grades": {
+          "gloomy": "BAD",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        },
+        "unconfirmed": {
+          "gloomy": true
+        }
+      },
+      {
+        "text": "A place with western toilets.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "",
+          "timid": "",
+          "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "gloomy": true
+        }
+      },
+      {
+        "text": "You won't survive.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "Who the blazes do you think you are?",
+    "answers": [
+      {
+        "text": "I feel bad about that.",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "BAD",
+          "timid": "GOOD",
+          "upbeat": "GOOD"
+        }
+      },
+      {
+        "text": "I'm ME!",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "BAD",
+          "timid": "",
+          "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "gloomy": true
+        }
+      },
+      {
+        "text": "I don't owe you an answer.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": "BAD"
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "Why are you so interested in me, anyway?",
+    "answers": [
+      {
+        "text": "If it pleases you.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "[…]",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "[…]",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "Why did you come to this dangerous place? Isn't it safer in the real world?",
+    "answers": [
+      {
+        "text": "I've got business here.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "GOOD",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "I'm here for the loot.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "OK",
+          "timid": "",
+          "upbeat": "GOOD"
+        }
+      },
+      {
+        "text": "Just 'cause.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "",
+          "timid": "OK",
+          "upbeat": ""
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "Why do they like \"making out\"?",
+    "answers": [
+      {
+        "text": "How should I know?",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        },
+        "unconfirmed": {
+          "gloomy": true
+        }
+      },
+      {
+        "text": "I can't tell you.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "",
+          "upbeat": "BAD"
+        },
+        "unconfirmed": {
+          "upbeat": true
+        }
+      },
+      {
+        "text": "Ask your parents.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "GOOD",
+          "upbeat": ""
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "Why have you decided to be more communicative with me?",
+    "answers": [
+      {
+        "text": "Your looks.",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "",
+          "timid": "GOOD",
+          "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "gloomy": true
+        }
+      },
+      {
+        "text": "You seemed useful.",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "GOOD",
+          "timid": "BAD",
+          "upbeat": "GOOD"
+        }
+      },
+      {
+        "text": "No particular reason.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "BAD",
+          "timid": "BAD",
+          "upbeat": ""
+        },
+        "unconfirmed": {
+          "irritable": true
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "Why you come all the way here?",
+    "answers": [
+      {
+        "text": "For a treasure hunt.",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "GOOD",
+          "timid": "GOOD",
+          "upbeat": "BAD"
+        }
+      },
+      {
+        "text": "For girls.",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "BAD",
+          "timid": "OK",
+          "upbeat": "GOOD"
+        }
+      },
+      {
+        "text": "I just felt like it.",
+        "grades": {
+          "gloomy": "BAD",
+          "irritable": "OK",
+          "timid": "BAD",
+          "upbeat": "OK"
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "Why you fight and put yourself in harm's way?",
+    "answers": [
+      {
+        "text": "I want to get stronger.",
+        "grades": {
+          "gloomy": "BAD",
+          "irritable": "GOOD",
+          "timid": "GOOD",
+          "upbeat": "GOOD"
+        }
+      },
+      {
+        "text": "Because I see an enemy.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "BAD",
+          "upbeat": "OK"
+        },
+        "unconfirmed": {
+          "timid": true
+        }
+      },
+      {
+        "text": "I don't actually know.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "",
+          "timid": "BAD",
+          "upbeat": "OK"
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "Why you keep trampling here? What you humans thinking?",
+    "answers": [
+      {
+        "text": "I'm sorry.",
+        "grades": {
+          "gloomy": "BAD",
+          "irritable": "BAD",
+          "timid": "GOOD",
+          "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "irritable": true
+        }
+      },
+      {
+        "text": "Should I take off my shoes?",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "BAD",
+          "timid": "OK",
+          "upbeat": "GOOD"
+        }
+      },
+      {
+        "text": "Shut up.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "GOOD",
+          "timid": "BAD",
+          "upbeat": "OK"
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "Why you not care for me like that? Why you treat me like this, then?",
+    "answers": [
+      {
+        "text": "You look scary.",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "GOOD",
+          "timid": "OK",
+          "upbeat": "OK"
+        }
+      },
+      {
+        "text": "I want to cherish you.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "GOOD",
+          "upbeat": "GOOD"
+        }
+      },
+      {
+        "text": "You're not a beast.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "",
+          "timid": "",
+          "upbeat": "OK"
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "Why you wear mask to fight, anyway?",
+    "answers": [
+      {
+        "text": "I care about my looks.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "OK",
+          "timid": "GOOD",
+          "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "irritable": true
+        }
+      },
+      {
+        "text": "It keeps my foes' blood off.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "OK",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "That's what I want to know.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": ""
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "Why're you so desperate?",
+    "answers": [
+      {
+        "text": "I don't want to die.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "OK",
+          "timid": "GOOD",
+          "upbeat": "GOOD"
+        }
+      },
+      {
+        "text": "There's something I must do.",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "GOOD",
+          "timid": "GOOD",
+          "upbeat": "BAD"
+        },
+        "unconfirmed": {
+          "gloomy": true
+        }
+      },
+      {
+        "text": "I want girls to like me.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "BAD",
+          "timid": "OK",
+          "upbeat": "GOOD"
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "Won't you just leave me be?",
+    "answers": [
+      {
+        "text": "Fine, I will.",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "GOOD",
+          "timid": "OK",
+          "upbeat": "BAD"
+        },
+        "unconfirmed": {
+          "gloomy": true,
+          "timid": true
+        }
+      },
+      {
+        "text": "I can't just leave you.",
+        "grades": {
+          "gloomy": "BAD",
+          "irritable": "OK",
+          "timid": "GOOD",
+          "upbeat": "OK"
+        },
+        "unconfirmed": {
+          "timid": true,
+          "upbeat": true
+        }
+      },
+      {
+        "text": "Is that reverse psychology?",
+        "grades": {
+          "gloomy": "BAD",
+          "irritable": "BAD",
+          "timid": "",
+          "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "gloomy": true
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "Would you be willing to spend time and money to see people you haven't contacted for years?",
+    "answers": [
+      {
+        "text": "I suppose so.",
+        "grades": {
+          "gloomy": "BAD",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "Sounds like a drag.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "No one invites me to reunions.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "BAD",
+          "timid": "",
+          "upbeat": ""
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "Would you do to anyone else what you're doing to me now?",
+    "answers": [
+      {
+        "text": "I sure would.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "No, I wouldn't.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "",
+          "timid": "GOOD",
+          "upbeat": "BAD"
+        },
+        "unconfirmed": {
+          "gloomy": true
+        }
+      },
+      {
+        "text": "This is a special exception.",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "",
+          "timid": "",
+          "upbeat": "GOOD"
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "Wouldn't your girlfriend get jealous if she could see us?",
+    "answers": [
+      {
+        "text": "No need to worry.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "GOOD",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "It's only bad if I get caught.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "",
+          "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "upbeat": true
+        }
+      },
+      {
+        "text": "I don't have a girlfriend.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "",
+          "upbeat": "BAD"
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "Y'know, if I'm gonna be killed, I'd rather be offed by a beautiful, classy lady.",
+    "answers": [
+      {
+        "text": "Sorry.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "GOOD",
+          "upbeat": "GOOD"
+        }
+      },
+      {
+        "text": "You don't get to be picky.",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "It's all the same.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": ""
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "...Y'know what I'm gettin' at, right? Ya think ya could let me go see my girl?",
+    "answers": [
+      {
+        "text": "Nope.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "I'll consider it.",
+        "grades": {
+          "gloomy": "BAD",
+          "irritable": "OK",
+          "timid": "GOOD",
+          "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "gloomy": true,
+          "irritable": true
+        }
+      },
+      {
+        "text": "What kind of girl is she?",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "OK",
+          "timid": "OK",
+          "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "irritable": true
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "You better enjoy and be drunk on victory while you can. It not last long.",
+    "answers": [
+      {
+        "text": "I'll just keep winning.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "You're just a sore loser.",
+        "grades": {
+          "gloomy": "BAD",
+          "irritable": "BAD",
+          "timid": "",
+          "upbeat": ""
+        },
+        "unconfirmed": {
+          "gloomy": true
+        }
+      },
+      {
+        "text": "I can't drink, I'm underage.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "BAD",
+          "timid": "BAD",
+          "upbeat": ""
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "You carry a gun because you think it'll make you more popular with the girls?",
+    "answers": [
+      {
+        "text": "That's right.",
+        "grades": {
+          "gloomy": "BAD",
+          "irritable": "GOOD",
+          "timid": "OK",
+          "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "gloomy": true
+        }
+      },
+      {
+        "text": "It won't?",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "",
+          "timid": "GOOD",
+          "upbeat": "GOOD"
+        }
+      },
+      {
+        "text": "It's for self-improvement.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "GOOD",
+          "timid": "GOOD",
+          "upbeat": "GOOD"
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "You didn't stray from the path or get lost?",
+    "answers": [
+      {
+        "text": "I downloaded an app.",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "GOOD",
+          "timid": "GOOD",
+          "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "upbeat": true
+        }
+      },
+      {
+        "text": "Well, I got a little lost.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "I don't remember.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "",
+          "timid": "BAD",
+          "upbeat": ""
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "You do realize it's useless to go waving that thing around aimlessly.",
+    "answers": [
+      {
+        "text": "I know.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "BAD",
+          "timid": "GOOD",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "Don't act so tough.",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "OK",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "Not as useless as you.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "BAD",
+          "timid": "",
+          "upbeat": ""
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "You do understand that we are here because of people like you, right?",
+    "answers": [
+      {
+        "text": "I never thought of that.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "GOOD",
+          "upbeat": "GOOD"
+        }
+      },
+      {
+        "text": "I understand.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "OK",
+          "timid": "BAD",
+          "upbeat": "BAD"
+        },
+        "unconfirmed": {
+          "upbeat": true
+        }
+      },
+      {
+        "text": "What do you mean?",
+        "grades": {
+          "gloomy": "",
+          "irritable": "OK",
+          "timid": "OK",
+          "upbeat": "BAD"
+        },
+        "unconfirmed": {
+          "upbeat": true
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "You given much thought, what if you go to place where you could die at any moment?",
+    "answers": [
+      {
+        "text": "I've thought about it.",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "",
+          "timid": "GOOD",
+          "upbeat": "GOOD"
+        }
+      },
+      {
+        "text": "I don't want kids.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "OK",
+          "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "irritable": true
+        }
+      },
+      {
+        "text": "I'm not comfortable with this.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "",
+          "timid": "OK",
+          "upbeat": "OK"
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "You go back to your mother's arms. You need take nap now.",
+    "answers": [
+      {
+        "text": "I'm not that young.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "I'm not sleepy.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "",
+          "timid": "",
+          "upbeat": "OK"
+        }
+      },
+      {
+        "text": "After I'm done with this.",
+        "grades": {
+          "gloomy": "BAD",
+          "irritable": "OK",
+          "timid": "GOOD",
+          "upbeat": "GOOD"
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "You had something you lost, and you not know how important it was until after it gone, right?",
+    "answers": [
+      {
+        "text": "My pal who switched schools.",
+        "grades": {
+          "gloomy": "BAD",
+          "irritable": "OK",
+          "timid": "GOOD",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "My ex-girlfriend...",
+        "grades": {
+          "gloomy": "BAD",
+          "irritable": "BAD",
+          "timid": "GOOD",
+          "upbeat": "GOOD"
+        }
+      },
+      {
+        "text": "Quiet, I'm killing you now.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "OK",
+          "timid": "BAD",
+          "upbeat": ""
+        },
+        "unconfirmed": {
+          "irritable": true
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "You have appeared to test my adoration of our Father. Yes, you are... the Tempter",
+    "answers": [
+      {
+        "text": "You got me.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "You're mistaken.",
+        "grades": {
+          "gloomy": "BAD",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "Are you okay?",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "You have wishes you not can let go of, even after you die?",
+    "answers": [
+      {
+        "text": "Everyone's happiness.",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "BAD",
+          "timid": "GOOD",
+          "upbeat": "OK"
+        },
+        "unconfirmed": {
+          "irritable": true
+        }
+      },
+      {
+        "text": "A grand funeral.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "BAD",
+          "upbeat": "GOOD"
+        }
+      },
+      {
+        "text": "I won't die.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "GOOD",
+          "timid": "BAD",
+          "upbeat": "OK"
+        },
+        "unconfirmed": {
+          "gloomy": true
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "You, however are talking to me right here. Are you the exception to this rule?",
+    "answers": [
+      {
+        "text": "I'm not special.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "",
+          "timid": "GOOD",
+          "upbeat": "OK"
+        },
+        "unconfirmed": {
+          "gloomy": true
         }
       },
       {
         "text": "That's right.",
         "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "BAD",
+          "upbeat": "OK"
+        },
+        "unconfirmed": {
+          "timid": true,
+          "upbeat": true
+        }
+      },
+      {
+        "text": "I have ulterior motives.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "OK",
+          "timid": "OK",
+          "upbeat": "GOOD"
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "You knocked me down, and now my goddamn watch is broken!",
+    "answers": [
+      {
+        "text": "My apologies.",
+        "grades": {
+          "gloomy": "BAD",
+          "irritable": "OK",
+          "timid": "GOOD",
+          "upbeat": "OK"
+        }
+      },
+      {
+        "text": "Like I care.",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "GOOD",
+          "timid": "BAD",
+          "upbeat": "OK"
+        }
+      },
+      {
+        "text": "You should \"watch\" your mouth.",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "OK",
+          "timid": "OK",
+          "upbeat": "GOOD"
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "You know, a mascot's life isn't hee-easy. Are you sure you could handle all the adversity, ho?",
+    "answers": [
+      {
+        "text": "I'm ready for it.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "OK",
+          "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "timid": true
+        }
+      },
+      {
+        "text": "What kind of adversity?",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        },
+        "unconfirmed": {
+          "gloomy": true
+        }
+      },
+      {
+        "text": "You're a mascot?",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "You know, if I were to whip something up for you, what would you want?",
+    "answers": [
+      {
+        "text": "Meat and potatoes.",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "BAD",
+          "timid": "GOOD",
+          "upbeat": "GOOD"
+        }
+      },
+      {
+        "text": "I don't need homemade food.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "Can you actually cook?",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "BAD",
+          "timid": "",
+          "upbeat": "BAD"
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "You know, if you're willin' to let this go... I'll make it worth your while.",
+    "answers": [
+      {
+        "text": "Worth my while?",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "",
+          "timid": "GOOD",
+          "upbeat": "GOOD"
+        }
+      },
+      {
+        "text": "No, thanks.",
+        "grades": {
           "gloomy": "OK",
           "irritable": "GOOD",
           "timid": "",
+          "upbeat": "BAD"
+        }
+      },
+      {
+        "text": "I already get enough, actually.",
+        "grades": {
+          "gloomy": "BAD",
+          "irritable": "GOOD",
+          "timid": "",
           "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "upbeat": true
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "You must be one of those delinquents I hear about. Do you have poor grades in school?",
+    "answers": [
+      {
+        "text": "I'm a straight-A student.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": "OK"
+        }
+      },
+      {
+        "text": "They're not great...",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "At least I'm popular.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "BAD",
+          "timid": "",
+          "upbeat": "GOOD"
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "You new? Did you get hee-hired, ho?",
+    "answers": [
+      {
+        "text": "Yeah! Nice you meetcha!",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "",
+          "timid": "",
+          "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "gloomy": true
+        }
+      },
+      {
+        "text": "I'm a transfer student.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "No.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        },
+        "unconfirmed": {
+          "gloomy": true
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "You not worry you get in trouble if those groups hear what you are doing to me?",
+    "answers": [
+      {
+        "text": "That's true.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "BAD",
+          "timid": "GOOD",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "I don't mind.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "GOOD",
+          "timid": "BAD",
+          "upbeat": "OK"
+        }
+      },
+      {
+        "text": "It's for love.",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "BAD",
+          "timid": "",
+          "upbeat": "GOOD"
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "You were so sure of yourself, so it's embarrassing now to admit you're struggling here. Right?",
+    "answers": [
+      {
+        "text": "That's right.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "GOOD",
+          "upbeat": "GOOD"
+        }
+      },
+      {
+        "text": "No.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "Don't make fun of me.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": ""
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "You, who reside in that world of the almighty, what is it that has beleaguered you so?",
+    "answers": [
+      {
+        "text": "Omnipotent?",
+        "grades": {
+          "gloomy": "",
+          "irritable": "BAD",
+          "timid": "",
+          "upbeat": "GOOD"
+        }
+      },
+      {
+        "text": "I'm not beleaguered.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "There's someone I want to save.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "GOOD",
+          "timid": "GOOD",
+          "upbeat": "GOOD"
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "You will receive punishment for treating me this way, mark my words.",
+    "answers": [
+      {
+        "text": "I'm sorry.",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "OK",
+          "timid": "GOOD",
+          "upbeat": "OK"
+        }
+      },
+      {
+        "text": "I'm prepared for the worst.",
+        "grades": {
+          "gloomy": "BAD",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": "GOOD"
+        }
+      },
+      {
+        "text": "How much do you want?",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "BAD",
+          "timid": "",
+          "upbeat": "GOOD"
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "You'd have no idea I was about to use my ultimate move.",
+    "answers": [
+      {
+        "text": "For real!?",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "OK",
+          "timid": "GOOD",
+          "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "irritable": true
+        }
+      },
+      {
+        "text": "That's worrying...",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
+        },
+        "unconfirmed": {
+          "gloomy": true
+        }
+      },
+      {
+        "text": "...Try me.",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "GOOD",
+          "timid": "BAD",
+          "upbeat": ""
+        },
+        "unconfirmed": {
+          "irritable": true
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "You'll have a bleak future if you spend too much time running around pretending to be a phantom thief.",
+    "answers": [
+      {
+        "text": "Thank you.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "OK",
+          "timid": "GOOD",
+          "upbeat": "BAD"
+        }
+      },
+      {
+        "text": "Don't worry about it.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "It's worth it.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "OK",
+          "timid": "",
+          "upbeat": "GOOD"
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "You'll probably break down in tears when you see my angry face. I'm a real monstrosity, ho!",
+    "answers": [
+      {
+        "text": "That's scary...",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "",
+          "timid": "",
+          "upbeat": "BAD"
+        },
+        "unconfirmed": {
+          "gloomy": true,
+          "upbeat": true
+        }
+      },
+      {
+        "text": "I would never cry.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "",
+          "upbeat": "BAD"
+        },
+        "unconfirmed": {
+          "upbeat": true
+        }
+      },
+      {
+        "text": "I want to see your fury.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "",
+          "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "upbeat": true
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "You're a big bully! don't you think that's \"immature\"?",
+    "answers": [
+      {
+        "text": "Now that you mention it...",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "",
+          "timid": "GOOD",
+          "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "gloomy": true,
+          "timid": true
+        }
+      },
+      {
+        "text": "No, I don't think so.",
+        "grades": {
+          "gloomy": "BAD",
+          "irritable": "GOOD",
+          "timid": "",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "I'm not mature anyway.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "BAD",
+          "timid": "",
+          "upbeat": "BAD"
+        },
+        "unconfirmed": {
+          "irritable": true,
+          "upbeat": true
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "You're hitting on me, right? Don't you think you're totally doing it wrong?",
+    "answers": [
+      {
+        "text": "Nothing wrong about it.",
+        "grades": {
+          "gloomy": "BAD",
+          "irritable": "",
+          "timid": "GOOD",
+          "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "gloomy": true
+        }
+      },
+      {
+        "text": "What's the right way, then?",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "",
+          "timid": "BAD",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "I'm not hitting on you.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "",
+          "upbeat": ""
         }
       }
     ]
@@ -6203,6 +9562,9 @@
           "irritable": "",
           "timid": "",
           "upbeat": ""
+        },
+        "unconfirmed": {
+          "gloomy": true
         }
       }
     ]
@@ -6217,6 +9579,9 @@
           "irritable": "GOOD",
           "timid": "GOOD",
           "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "gloomy": true
         }
       },
       {
@@ -6235,6 +9600,77 @@
           "irritable": "",
           "timid": "BAD",
           "upbeat": "OK"
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "You're violatin' the weapons code or whatever, man.",
+    "answers": [
+      {
+        "text": "I didn't know.",
+        "grades": {
+          "gloomy": "GOOD",
+          "irritable": "",
+          "timid": "GOOD",
+          "upbeat": "OK"
+        }
+      },
+      {
+        "text": "It's for self-defense.",
+        "grades": {
+          "gloomy": "BAD",
+          "irritable": "GOOD",
+          "timid": "OK",
+          "upbeat": "BAD"
+        }
+      },
+      {
+        "text": "Pretty cool, huh?",
+        "grades": {
+          "gloomy": "OK",
+          "irritable": "BAD",
+          "timid": "OK",
+          "upbeat": "GOOD"
+        },
+        "unconfirmed": {
+          "irritable": true
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "...You've come from some other company to scout me-hee out. There's no mistaking it, ho!",
+    "answers": [
+      {
+        "text": "You got me.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "GOOD",
+          "upbeat": "GOOD"
+        }
+      },
+      {
+        "text": "It's a misunderstanding.",
+        "grades": {
+          "gloomy": "",
+          "irritable": "",
+          "timid": "BAD",
+          "upbeat": ""
+        }
+      },
+      {
+        "text": "I've come to finish you off.",
+        "grades": {
+          "gloomy": "BAD",
+          "irritable": "",
+          "timid": "",
+          "upbeat": "BAD"
+        },
+        "unconfirmed": {
+          "gloomy": true,
+          "upbeat": true
         }
       }
     ]

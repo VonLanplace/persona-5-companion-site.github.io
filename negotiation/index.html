@@ -4,10 +4,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Negotiation Questions · Persona 5 Royal Companion</title>
-    <meta name="description" content="Search all Persona 5 Royal negotiation questions and see the Gloomy, Irritable, Timid and Upbeat effect of every response." />
+    <meta name="description" content="Search Persona 5 and Persona 5 Royal negotiation questions and responses. Compare the Gloomy, Irritable, Timid and Upbeat effects, with Royal results marked." />
     <link rel="icon" type="image/x-icon" href="../favicon.ico" />
     <meta property="og:title" content="Negotiation Questions · Persona 5 Royal Companion" />
-    <meta property="og:description" content="Search all Persona 5 Royal negotiation questions and see the Gloomy, Irritable, Timid and Upbeat effect of every response." />
+    <meta property="og:description" content="Search Persona 5 and Persona 5 Royal negotiation questions and responses. Compare the Gloomy, Irritable, Timid and Upbeat effects, with Royal results marked." />
     <meta property="og:type" content="website" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -38,13 +38,15 @@
       <main id="main">
         
         <h2>Negotiation Questions</h2>
-      <p class="page-intro">Search every negotiation prompt in Persona 5 Royal and see
-      how each response affects Gloomy, Irritable, Timid and Upbeat.</p>
+      <div class="version-switch" role="group" aria-label="Game version">
+        <button type="button" class="version-switch__btn" id="version-p5" data-version="p5" aria-pressed="false" aria-controls="results">P5</button>
+        <button type="button" class="version-switch__btn is-active" id="version-royal" data-version="royal" aria-pressed="true" aria-controls="results">Royal</button>
+      </div>
 
       <form class="search-form" id="search-form" role="search">
         <div class="form-row">
-          <label class="visually-hidden" for="question-ref">Search negotiation questions</label>
-          <input type="search" id="question-ref" name="q" placeholder="Search questions&hellip;" autocomplete="off" />
+          <label class="visually-hidden" for="question-ref">Search negotiation questions and responses</label>
+          <input type="search" id="question-ref" name="q" placeholder="Search questions or responses&hellip;" autocomplete="off" />
           <button type="submit">Search</button>
           <button type="button" id="clear-btn">Clear</button>
         </div>
@@ -55,6 +57,7 @@
       </main>
 
       <footer class="site-footer">
+        <p class="site-footer__source">Source: <a href="https://joyceychen.com/persona5-negotiation/" target="_blank" rel="noopener noreferrer">Persona 5 Negotiation Guide</a> by joyce-chen.</p>
         <p>
           Fan-made companion for <em>Persona 5 Royal</em>. Not affiliated with or endorsed by ATLUS.
           Game data &copy; ATLUS / SEGA.

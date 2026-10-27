@@ -304,6 +304,44 @@ tbody tr:nth-child(even) td {
 
 /* Forms ----------------------------------------------------------------- */
 
+.version-switch {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 0 auto 1rem;
+}
+
+.version-switch__btn {
+  padding: 8px 18px;
+  font-family: var(--font-title);
+  font-size: 1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  cursor: pointer;
+  transform: skew(var(--p5-skew));
+}
+
+.version-switch__btn:hover,
+.version-switch__btn:focus-visible {
+  color: var(--col2);
+  border-color: var(--col2);
+}
+
+.version-switch__btn.is-active {
+  color: var(--text);
+  background: var(--col1);
+  border-color: var(--col1);
+}
+
+.version-switch__btn.is-active:hover,
+.version-switch__btn.is-active:focus-visible {
+  color: var(--text);
+}
+
 .search-form {
   display: flex;
   flex-direction: column;
@@ -369,6 +407,13 @@ tbody tr:nth-child(even) td {
 
 /* Negotiation result table ---------------------------------------------- */
 
+.result-version {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0 0 0.75rem;
+}
+
 .result-meta {
   font-size: 0.85rem;
   color: var(--muted);
@@ -388,6 +433,11 @@ tbody tr:nth-child(even) td {
 .grade-good {
   color: #3ddc84;
   font-weight: 700;
+}
+
+table tbody td.grade-unconfirmed {
+  background-color: rgba(230, 0, 18, 0.18);
+  text-decoration: underline dotted var(--muted);
 }
 
 /* Long-form prose (rendered from Markdown) ------------------------------- */
