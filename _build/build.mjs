@@ -331,7 +331,10 @@ async function buildNegotiation() {
                 depth: 1,
                 current: "negotiation",
                 head: CSS,
-                scripts: [{ src: "assets/js/negotiation.js", defer: true }],
+                scripts: [
+                    { src: "assets/js/negotiation-data.js", defer: true },
+                    { src: "assets/js/negotiation.js", defer: true },
+                ],
                 body,
             }),
         ),

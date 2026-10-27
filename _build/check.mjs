@@ -138,6 +138,25 @@ for (const f of expected) {
     if (!existsSync(path.join(ROOT, f))) fail(f, "expected page was not generated");
 }
 
+const negotiationPage = path.join(ROOT, "negotiation/index.html");
+if (existsSync(negotiationPage)) {
+    const scripts = parse(await readFile(negotiationPage, "utf8"))
+        .querySelectorAll("script[src]")
+        .map((script) => script.getAttribute("src") || "");
+    const dataIndex = scripts.findIndex((src) =>
+        src.endsWith("assets/js/negotiation-data.js"),
+    );
+    const runtimeIndex = scripts.findIndex((src) =>
+        src.endsWith("assets/js/negotiation.js"),
+    );
+    if (dataIndex === -1 || runtimeIndex === -1 || dataIndex > runtimeIndex) {
+        fail(
+            "negotiation/index.html",
+            "negotiation-data.js must load before negotiation.js",
+        );
+    }
+}
+
 for (const d of GENERATED_DIRS) {
     void d;
 }
