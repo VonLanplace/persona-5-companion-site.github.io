@@ -132,14 +132,18 @@ cannot inject HTML.
 
 ## Negotiation questions
 
-`data/negotiation/questions.json` is `{prompt, answers: [{text, code}]}`. The
-build maps it to the `{q, a}` wire shape in `assets/js/negotiation-data.js`, so
-`_build/runtime/negotiation.js` is unaffected by data-shape changes.
+`data/negotiation/questions.json` is
+`{prompt, answers: [{text, grades}]}`, where `grades` is an object keyed
+`gloomy`, `irritable`, `timid`, `upbeat` — in that order. Each value is the
+translated effect (`"BAD"`, `"OK"`, `"GOOD"`), or `""` for no effect. The build
+maps it to the `{q, a}` wire shape in `assets/js/negotiation-data.js`, so
+`_build/runtime/negotiation.js` is unaffected by data-shape changes. The runtime
+renders the labels as-is; only the label-to-CSS-class mapping lives in JS.
 
-`code` is a string of 1–4 digits, one per personality (Gloomy, Irritable,
-Timid, Upbeat), **not** zero-padded in the data. `gradeCells` in the runtime
-left-pads to 4, so `"302"` means Gloomy 0, Irritable 3, Timid 0, Upbeat 2.
-`0` renders as a blank cell.
+When converting a legacy 1–4 digit code, left-pad it to four digits first
+(`"302"` → `"0302"`), then map `0` → `""`, `1` → `"BAD"`, `2` → `"OK"`,
+`3` → `"GOOD"` in Gloomy, Irritable, Timid, Upbeat order. Do not drop the padding
+or the personalities shift.
 
 ## Other build quirks
 

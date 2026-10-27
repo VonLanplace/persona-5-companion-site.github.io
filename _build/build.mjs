@@ -289,7 +289,7 @@ ${e.tables.map(table).join("\n")}
 function wireQuestions(questions) {
     return questions.map((question) => ({
         q: question.prompt,
-        a: question.answers.map((answer) => ({ text: answer.text, code: answer.code })),
+        a: question.answers.map((answer) => ({ text: answer.text, grades: answer.grades })),
     }));
 }
 

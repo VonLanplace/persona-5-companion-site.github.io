@@ -9,8 +9,7 @@
 
     var QUESTIONS = window.P5_QUESTIONS || [];
     var PERSONALITIES = ["Gloomy", "Irritable", "Timid", "Upbeat"];
-    var GRADES = { 1: "BAD", 2: "OK", 3: "GOOD" };
-    var GRADE_CLASS = { 1: "grade-bad", 2: "grade-ok", 3: "grade-good" };
+    var GRADE_CLASS = { BAD: "grade-bad", OK: "grade-ok", GOOD: "grade-good" };
 
     var form = document.getElementById("search-form");
     var input = document.getElementById("question-ref");
@@ -27,11 +26,11 @@
         return el;
     }
 
-    /** Expand a compact code like "23" into 4 slots, left-padded with zeroes. */
-    function gradeCells(code) {
-        var slots = String(code).padStart(4, "0").slice(0, 4).split("");
-        return slots.map(function (value) {
-            var td = cell("td", GRADES[value] || "");
+    /** Render the four translated grades in personality order. */
+    function gradeCells(grades) {
+        return PERSONALITIES.map(function (name) {
+            var value = grades[name.toLowerCase()] || "";
+            var td = cell("td", value);
             if (GRADE_CLASS[value]) {
                 td.className = GRADE_CLASS[value];
             }
@@ -59,7 +58,7 @@
         question.a.forEach(function (answer) {
             var tr = document.createElement("tr");
             tr.appendChild(cell("td", answer.text));
-            gradeCells(answer.code).forEach(function (td) {
+            gradeCells(answer.grades).forEach(function (td) {
                 tr.appendChild(td);
             });
             tbody.appendChild(tr);

@@ -35,7 +35,7 @@ data/                      <- you edit this; every file in here is JSON
   shadows/locations.json     palaces + mementos tables
   classroom/exams.json       every exam and its answer
   social-stats/*.json        the five stat guides, as a flat block list
-  negotiation/questions.json 195 prompts and their effect codes
+  negotiation/questions.json 195 prompts and their effect grades
 
 _build/                    <- the build itself
   build.mjs                  data/ -> HTML
@@ -78,13 +78,28 @@ shown as text, so the data can never inject HTML.
 Append an entry to `data/negotiation/questions.json`:
 
 ```json
-{ "prompt": "…", "answers": [ { "text": "…", "code": "2333" } ] }
+{
+  "prompt": "…",
+  "answers": [
+    {
+      "text": "…",
+      "grades": {
+        "gloomy": "OK",
+        "irritable": "GOOD",
+        "timid": "GOOD",
+        "upbeat": "GOOD"
+      }
+    }
+  ]
+}
 ```
 
-The code is one to four digits — one per personality (Gloomy, Irritable, Timid,
-Upbeat), **not** zero-padded in the data; the runtime left-pads it to four.
-`1` is bad, `2` neutral, `3` good, and `0` renders as a blank cell. So `2333`
-means "bad for Gloomy, good for the other three".
+`grades` is the translated effect for each personality: `"BAD"`, `"OK"`,
+`"GOOD"`, or `""` for no effect. The JSON is the source of truth — the runtime
+only renders these labels. When converting an old 1–4 digit effect code, left-pad
+it to four digits first (`"302"` → `"0302"`), then map `0` to `""`, `1` to
+`"BAD"`, `2` to `"OK"` and `3` to `"GOOD"` in Gloomy, Irritable, Timid, Upbeat
+order.
 
 ---
 
