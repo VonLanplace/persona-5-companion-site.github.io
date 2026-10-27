@@ -20,6 +20,15 @@ npm run serve        # preview at http://localhost:8080
 
 `npm run verify` runs clean + build + check in one go.
 
+For a one-command local preview, use the start scripts. They install missing
+dependencies, run `verify`, and serve the generated site:
+
+```bash
+./start.sh           # http://localhost:8080
+./start.sh 3000      # another port
+start.bat            # Windows
+```
+
 ---
 
 ## How it works
