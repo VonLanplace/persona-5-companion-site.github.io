@@ -117,6 +117,7 @@ export function page(opts) {
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#070708" />
     <title>${escapeHtml(fullTitle)}</title>
     <meta name="description" content="${escapeHtml(description)}" />
     <link rel="icon" type="image/x-icon" href="${escapeHtml(link(depth, "favicon.ico"))}" />${
@@ -137,14 +138,16 @@ export function page(opts) {
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
-    <div class="wrap">
-      <header class="site-header">
+    <header class="site-header">
+      <div class="wrap site-header__inner">
         <h1 class="site-title"><a class="site-title-link" href="${escapeHtml(link(depth, ""))}">${escapeHtml(SITE.name)}</a></h1>
         <nav class="site-nav" aria-label="Main">
           ${nav}
         </nav>
-      </header>
+      </div>
+    </header>
 
+    <div class="wrap">
       <main id="main">
         ${crumbs}
         ${body}

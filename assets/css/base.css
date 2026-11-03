@@ -16,16 +16,37 @@
 html {
   scroll-behavior: smooth;
   -webkit-text-size-adjust: 100%;
+  scrollbar-color: var(--col1) var(--col3);
+  scrollbar-width: thin;
 }
 
 body {
   background-color: var(--background);
+  background-image:
+    radial-gradient(1100px 700px at 12% -10%, rgba(230, 0, 18, 0.22), transparent 60%),
+    radial-gradient(900px 600px at 100% 0%, rgba(245, 196, 0, 0.1), transparent 55%),
+    radial-gradient(800px 600px at 50% 110%, rgba(230, 0, 18, 0.12), transparent 60%),
+    linear-gradient(rgba(255, 255, 255, 0.028) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.028) 1px, transparent 1px);
+  background-size:
+    auto,
+    auto,
+    auto,
+    44px 44px,
+    44px 44px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   color: var(--text);
   font-family: var(--font-text);
   font-size: 16px;
   line-height: 1.55;
   padding: 0 var(--gutter) 4rem;
   overflow-x: hidden;
+}
+
+::selection {
+  background: var(--col1);
+  color: #fff;
 }
 
 img,
@@ -40,15 +61,20 @@ a {
   color: var(--col2);
   text-decoration-thickness: 1px;
   text-underline-offset: 2px;
+  text-shadow: 0 0 12px rgba(245, 196, 0, 0.18);
+  transition:
+    color 0.15s ease,
+    text-shadow 0.15s ease;
 }
 
 a:hover {
   color: var(--col1);
+  text-shadow: 0 0 16px rgba(230, 0, 18, 0.35);
 }
 
 :focus-visible {
   outline: 3px solid var(--col2);
-  outline-offset: 2px;
+  outline-offset: 3px;
 }
 
 /* Headings -------------------------------------------------------------- */
@@ -60,13 +86,16 @@ h2 {
   letter-spacing: 1px;
   line-height: 1.15;
   background-color: var(--col1);
-  color: var(--background);
+  background-image: var(--gradient-accent);
+  color: #0a0a0a;
+  border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: var(--radius);
-  padding: 6px 14px;
+  padding: 8px 16px;
   margin: 1.5rem 0 1rem;
   text-align: center;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.18);
   transform: skew(var(--p5-skew));
-  box-shadow: var(--p5-shadow);
+  box-shadow: var(--p5-shadow), var(--glow-red);
   position: relative;
 }
 
@@ -76,7 +105,8 @@ h2::after {
   content: "";
   position: absolute;
   inset: 4px;
-  border: 2px solid #000;
+  border: 2px solid rgba(0, 0, 0, 0.55);
+  border-radius: calc(var(--radius) - 4px);
   pointer-events: none;
 }
 
@@ -94,6 +124,7 @@ h6 {
 h3 {
   font-size: 1.35rem;
   color: var(--col2);
+  text-shadow: 0 0 18px rgba(245, 196, 0, 0.2);
 }
 
 h4 {
@@ -134,15 +165,16 @@ em {
 
 code {
   font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
-  background: var(--surface-2);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid var(--glass-border);
   padding: 0.1em 0.35em;
-  border-radius: 4px;
+  border-radius: 6px;
   font-size: 0.9em;
 }
 
 hr {
   border: 0;
-  border-top: 1px solid var(--border);
+  border-top: 1px solid var(--glass-border);
   margin: 2rem 0;
 }
 
