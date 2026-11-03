@@ -12,7 +12,7 @@
       "items": [
         {
           "label": "All Social Stats Guide",
-          "href": "https://samurai-gamers.com/persona-5/human-parameters-maximize/"
+          "href": "../social-stats/"
         }
       ]
     },
@@ -114,7 +114,7 @@
         [
           {
             "label": "Play a video game",
-            "href": "https://samurai-gamers.com/persona-5/mini-game-tv-video-game/"
+            "href": "../activities/video-games.html"
           },
           "Purchase a retro game console from Yumenoshima, Yongen-Jaya, play Train of Life",
           [
@@ -193,7 +193,7 @@
         [
           {
             "label": "Finish reading books",
-            "href": "https://samurai-gamers.com/persona-5/book-locations-effects/"
+            "href": "../activities/books.html"
           },
           "Can be done in the library, on the passenger’s seat of the train, or on the stool in Leblanc",
           [
@@ -250,5 +250,10 @@
         }
       ]
     }
-  ]
+  ],
+  "source": {
+    "href": "https://samurai-gamers.com/persona-5/kindness-guide/",
+    "label": "Kindness Guide",
+    "credit": "Rin Tohsaka"
+  }
 }

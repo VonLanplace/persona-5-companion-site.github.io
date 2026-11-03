@@ -44,6 +44,8 @@ data/                      <- you edit this; every file in here is JSON
                              rank-up, gifts, bonus events)
   shadows/locations.json     palaces + mementos tables
   classroom/exams.json       every exam and its answer
+  classroom/*.json           daily questions, TV quiz, crossword, chalk dodge
+  activities/*.json          books, movies, jobs, fishing, billiards and more
   social-stats/*.json        the five stat guides, as a flat block list
   negotiation/p5.json        259 Persona 5 prompts + effect grades
   negotiation/royal.json     277 Persona 5 Royal prompts + effect grades
@@ -62,7 +64,7 @@ assets/                    <- static, hand-maintained
   js/                        GENERATED - do not edit
 
 index.html                 <- GENERATED
-confidants/  shadows/  classroom/  negotiation/  social-stats/   <- GENERATED
+confidants/  shadows/  classroom/  activities/  negotiation/  social-stats/   <- GENERATED
 ```
 
 **Never edit a generated file.** Change `data/`, run `npm run build`.
@@ -83,6 +85,15 @@ paragraph, a link list or a table. A table cell is a string, a link object
 an array of either — an array is a multi-line cell and is joined with `<br>` on
 render. Put no markup in the data: anything resembling a tag is escaped and
 shown as text, so the data can never inject HTML.
+
+### Adding an activity or classroom guide
+
+Create `data/activities/<slug>.json` (or `data/classroom/<slug>.json`, but not
+`exams.json`) with `slug`, `label`, `order`, `description`, `source` and
+`blocks`. `source` is `{href, label, credit}` and becomes the footer
+attribution; the external URL must not appear anywhere else. `npm run build`
+generates `activities/<slug>.html` or `classroom/<slug>.html` and adds it to the
+section index automatically.
 
 ### Adding a negotiation question
 

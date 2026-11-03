@@ -1,0 +1,113 @@
+{
+  "slug": "tv-quiz",
+  "label": "TV Quiz",
+  "order": 2,
+  "description": "All Persona 5 and Persona 5 Royal TV quiz show dates and answers, with the Knowledge reward for each correct response.",
+  "source": {
+    "href": "https://samurai-gamers.com/persona-5/answers-tv-quiz-show/",
+    "label": "TV Quiz Show Guide",
+    "credit": "Wolf Knight"
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The TV quiz show only appears on certain dates, and the questions are easy to miss if you are not watching television that evening. This table lists every broadcast and its correct answer."
+    },
+    {
+      "type": "paragraph",
+      "text": "While staying in Cafe LeBlanc, the Protagonist can approach the nearest television and participate in a TV quiz program. If the answer is correct, the Protagonist will receive an additional Knowledge +1 social stat boost."
+    },
+    {
+      "type": "paragraph",
+      "text": "The TV quiz show occurs at specific dates and so the player must watch out for it in the game. The Protagonist can also use the television he purchased from the Yongen-jaya Second-hand Shop to answer a TV quiz."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "List of TV Quiz Answers"
+    },
+    {
+      "type": "paragraph",
+      "text": "Below is a list of all answers for all TV show quizzes both in Persona 5 and Persona 5 Royal."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Date",
+        "Quiz Answer"
+      ],
+      "rows": [
+        [
+          "5/19",
+          "B. Using noise to cause distress."
+        ],
+        [
+          "5/26",
+          "A. Queen of evidence."
+        ],
+        [
+          "6/2",
+          "B. Probation officers are unpaid."
+        ],
+        [
+          "6/23",
+          "B. Ordering food without money."
+        ],
+        [
+          "8/4",
+          "B. Joyride, but return the car."
+        ],
+        [
+          "9/22",
+          "A. Ten years in prison."
+        ],
+        [
+          "9/29",
+          "A. Divulging someone’s crimes."
+        ],
+        [
+          "11/10",
+          "B. Me in front of my TV."
+        ],
+        [
+          "11/24",
+          "A. Speaker of the house decides."
+        ],
+        [
+          "12/8",
+          "A. Attempted murder."
+        ],
+        [
+          "12/15",
+          "A. Can’t be done by wanted men."
+        ],
+        [
+          "12/15 (P5R)",
+          "B."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Related guides"
+    },
+    {
+      "type": "links",
+      "items": [
+        {
+          "label": "Daily questions",
+          "ref": "daily-questions"
+        },
+        {
+          "label": "Crossword",
+          "ref": "crossword"
+        },
+        {
+          "label": "Chalk dodge",
+          "ref": "chalk-dodge"
+        }
+      ]
+    }
+  ]
+}

@@ -19,7 +19,7 @@ import { fileURLToPath } from "node:url";
 import { parse } from "node-html-parser";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const GENERATED_DIRS = ["", "confidants", "shadows", "classroom", "negotiation", "social-stats"];
+const GENERATED_DIRS = ["", "confidants", "shadows", "classroom", "activities", "negotiation", "social-stats"];
 const SKIP = new Set(["node_modules", ".git", "data", "_build", "assets", "package.json", "package-lock.json", "README.md", ".nojekyll", ".gitignore", ".vscode", "favicon.ico"]);
 
 const PERSONALITIES = ["gloomy", "irritable", "timid", "upbeat"];
@@ -135,6 +135,7 @@ const expected = [
     "confidants/index.html",
     "shadows/index.html",
     "classroom/index.html",
+    "activities/index.html",
     "negotiation/index.html",
     "social-stats/index.html",
 ];
@@ -177,6 +178,49 @@ const confidants = JSON.parse(
 for (const c of confidants) {
     const f = `confidants/${c.slug}.html`;
     if (!existsSync(path.join(ROOT, f))) fail(f, "confidant page missing");
+}
+
+// --- activity and classroom guide pages ------------------------------------
+
+function validateGuide(file, doc, dir) {
+    if (!doc.slug || doc.slug !== path.basename(file).replace(/\.json$/, "")) {
+        fail(file, "slug must match the filename");
+    }
+    if (!doc.label) fail(file, "missing label");
+    if (!doc.description) fail(file, "missing description");
+    if (!doc.source || !doc.source.href) fail(file, "missing source.href");
+    if (!doc.source?.label) fail(file, "missing source.label");
+    if (!Array.isArray(doc.blocks) || doc.blocks.length === 0) {
+        fail(file, "missing blocks");
+    }
+    const out = `${dir}/${doc.slug}.html`;
+    if (!existsSync(path.join(ROOT, out))) fail(out, "guide page was not generated");
+}
+
+for (const file of (await readdir(path.join(ROOT, "data/activities"))).filter((f) =>
+    f.endsWith(".json"),
+)) {
+    const doc = JSON.parse(await readFile(path.join(ROOT, "data/activities", file), "utf8"));
+    validateGuide(`data/activities/${file}`, doc, "activities");
+}
+
+for (const file of (await readdir(path.join(ROOT, "data/classroom"))).filter(
+    (f) => f.endsWith(".json") && f !== "exams.json",
+)) {
+    const doc = JSON.parse(await readFile(path.join(ROOT, "data/classroom", file), "utf8"));
+    validateGuide(`data/classroom/${file}`, doc, "classroom");
+}
+
+// --- social stat guides declare their source -------------------------------
+
+for (const file of (await readdir(path.join(ROOT, "data/social-stats"))).filter((f) =>
+    f.endsWith(".json"),
+)) {
+    const doc = JSON.parse(await readFile(path.join(ROOT, "data/social-stats", file), "utf8"));
+    if (!doc.source || !doc.source.href) fail(`data/social-stats/${file}`, "missing source.href");
+    if (!doc.source?.label) fail(`data/social-stats/${file}`, "missing source.label");
+    const out = `social-stats/${doc.slug}.html`;
+    if (!existsSync(path.join(ROOT, out))) fail(out, "social stat page was not generated");
 }
 
 // --- negotiation data shape ------------------------------------------------

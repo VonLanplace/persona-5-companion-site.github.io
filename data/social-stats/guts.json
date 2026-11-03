@@ -12,7 +12,7 @@
       "items": [
         {
           "label": "All Social Stats Guide",
-          "href": "https://samurai-gamers.com/persona-5/human-parameters-maximize/"
+          "href": "../social-stats/"
         }
       ]
     },
@@ -120,7 +120,7 @@
         [
           {
             "label": "Play a video game",
-            "href": "https://samurai-gamers.com/persona-5/mini-game-tv-video-game/"
+            "href": "../activities/video-games.html"
           },
           "Purchase a retro game console from Yumenoshima, Yongen-Jaya",
           [
@@ -148,7 +148,7 @@
         [
           {
             "label": "Spend time with Tae Takemi",
-            "href": "https://samurai-gamers.com/persona-5/death-confidant-takemi-tae/"
+            "href": "../confidants/death.html"
           },
           "You need to unlock the Death Confidant",
           "- +1 Guts"
@@ -182,7 +182,7 @@
         [
           {
             "label": "Finish reading books",
-            "href": "https://samurai-gamers.com/persona-5/book-locations-effects/"
+            "href": "../activities/books.html"
           },
           "Can be done in the library, on the passenger’s seat of the train, or on the stool in Leblanc",
           [
@@ -199,7 +199,7 @@
         [
           {
             "label": "Watch a movie",
-            "href": "https://samurai-gamers.com/persona-5/movie-theater-guide/"
+            "href": "../activities/movies.html"
           },
           [
             "- Like a Dragon – during July (Shinjuku w/ Makoto)",
@@ -213,7 +213,7 @@
         [
           {
             "label": "Do Part-time work at Crossroads bar and speak with the Scary-looking man",
-            "href": "https://samurai-gamers.com/persona-5/persona-5-part-time-job-list/"
+            "href": "../activities/part-time-jobs.html"
           },
           "Requires: Rank 4 Proficiency, Rank 3 Charm, and Rank 3 Guts",
           "- +2 Guts"
@@ -256,5 +256,10 @@
         }
       ]
     }
-  ]
+  ],
+  "source": {
+    "href": "https://samurai-gamers.com/persona-5/guts-guide/",
+    "label": "Guts Guide",
+    "credit": "Rin Tohsaka"
+  }
 }

@@ -247,8 +247,61 @@ ${data.groups.map(group).join("\n")}
 
 /* -------------------------------------------------------------- classroom */
 
+const GUIDE_ORDER = ["daily-questions", "tv-quiz", "crossword", "chalk-dodge"];
+
+async function readGuides(dir) {
+    const files = (await readdir(path.join(DATA, dir))).filter(
+        (f) => f.endsWith(".json") && f !== "exams.json",
+    );
+    const guides = await Promise.all(files.map((f) => readJson(`${dir}/${f}`)));
+    return guides.sort(
+        (a, b) =>
+            (GUIDE_ORDER.indexOf(a.slug) === -1 ? 99 : GUIDE_ORDER.indexOf(a.slug)) -
+                (GUIDE_ORDER.indexOf(b.slug) === -1 ? 99 : GUIDE_ORDER.indexOf(b.slug)) ||
+            (a.order ?? 99) - (b.order ?? 99) ||
+            a.label.localeCompare(b.label),
+    );
+}
+
+function guideCards(guides, dir) {
+    return `<ul class="card-grid card-grid--wide">
+${guides
+    .map(
+        (g) => `        <li><a class="card card--wide" href="${escapeHtml(
+            link(1, `${dir}/${g.slug}.html`),
+        )}">
+          <span class="card-body">${escapeHtml(g.label)}<small>${escapeHtml(
+              g.description.slice(0, 110) + (g.description.length > 110 ? "\u2026" : ""),
+          )}</small></span>
+        </a></li>`,
+    )
+    .join("\n")}
+      </ul>`;
+}
+
+function guidePage(dir, guide) {
+    return page({
+        title: guide.label,
+        description: guide.description,
+        depth: 1,
+        current: dir,
+        breadcrumbs: [
+            { href: "", label: "Home" },
+            { href: `${dir}/`, label: dir === "activities" ? "Activities" : "Classroom" },
+            { label: guide.label },
+        ],
+        head: CSS,
+        body: `<article class="prose">
+        <h2>${escapeHtml(guide.label)}</h2>
+        ${renderBlocks(guide.blocks)}
+      </article>`,
+        footerSource: guide.source,
+    });
+}
+
 async function buildClassroom() {
     const data = await readJson("classroom/exams.json");
+    const guides = await readGuides("classroom");
 
     const body = `<h2>Classroom Answers</h2>
       <p class="page-intro">Every classroom exam answer for Persona 5 Royal, with
@@ -260,16 +313,22 @@ ${data.exams
 ${e.tables.map(table).join("\n")}
       </details>`,
     )
-    .join("\n")}`;
+    .join("\n")}
 
-    return [
+      <h2>Daily questions and mini-games</h2>
+      <p class="page-intro">Class questions, TV quizzes, crosswords and the chalk
+      dodge each award Knowledge or Charm on specific dates.</p>
+      ${guideCards(guides, "classroom")}`;
+
+    const written = [
         await write(
             "classroom/index.html",
             page({
                 title: "Classroom Exam Answers",
                 description:
                     "Every Persona 5 Royal classroom exam answer, listed by exam with " +
-                    "the date it unlocks and the highest-scoring response.",
+                    "the date it unlocks and the highest-scoring response, plus daily " +
+                    "questions, TV quizzes, crosswords and chalk dodge dates.",
                 depth: 1,
                 current: "classroom",
                 head: CSS,
@@ -277,6 +336,57 @@ ${e.tables.map(table).join("\n")}
             }),
         ),
     ];
+
+    for (const guide of guides) {
+        written.push(
+            await write(
+                `classroom/${guide.slug}.html`,
+                guidePage("classroom", guide),
+            ),
+        );
+    }
+
+    return written;
+}
+
+/* -------------------------------------------------------------- activities */
+
+async function buildActivities() {
+    const guides = await readGuides("activities");
+
+    const body = `<h2>Activities</h2>
+      <p class="page-intro">Books, movies, part-time jobs, room activities,
+      fishing, billiards and every other way to spend free time in Persona 5
+      Royal, with the social stats each one raises.</p>
+      ${guideCards(guides, "activities")}`;
+
+    const written = [
+        await write(
+            "activities/index.html",
+            page({
+                title: "Activities",
+                description:
+                    "Persona 5 Royal activity and mini-game guides: books, movies, " +
+                    "part-time jobs, room activities, infiltration tools, video games, " +
+                    "fishing and billiards.",
+                depth: 1,
+                current: "activities",
+                head: CSS,
+                body,
+            }),
+        ),
+    ];
+
+    for (const guide of guides) {
+        written.push(
+            await write(
+                `activities/${guide.slug}.html`,
+                guidePage("activities", guide),
+            ),
+        );
+    }
+
+    return written;
 }
 
 /* ------------------------------------------------------------- negotiation */
@@ -401,6 +511,11 @@ ${meta
     )
     .join("\n")}
         </ul>`,
+                footerSource: {
+                    href: "https://samurai-gamers.com/persona-5/human-parameters-maximize/",
+                    label: "Social Stats Guide",
+                    credit: "拓房",
+                },
             }),
         ),
     );
@@ -424,6 +539,7 @@ ${meta
         <h2>${escapeHtml(m.label)}</h2>
         ${renderBlocks(m.blocks)}
       </article>`,
+                    footerSource: m.source,
                 }),
             ),
         );
@@ -435,7 +551,7 @@ ${meta
 /* -------------------------------------------------------------------- home */
 
 async function buildHome() {
-    const [confidants, shadows, classroom, p5Questions, royalQuestions, social] =
+    const [confidants, shadows, classroom, p5Questions, royalQuestions, social, activities] =
         await Promise.all([
             readJson("confidants/index.json"),
             readJson("shadows/locations.json"),
@@ -447,6 +563,7 @@ async function buildHome() {
                     .filter((f) => f.endsWith(".json"))
                     .map((f) => f.replace(/\.json$/, "")),
             ),
+            readGuides("activities"),
         ]);
 
     const shadowCount = shadows.groups.reduce((n, g) => n + g.locations.length, 0);
@@ -475,6 +592,12 @@ async function buildHome() {
             stat: `${classroom.exams.length} exams`,
         },
         {
+            href: "activities/",
+            title: "Activities",
+            blurb: `${activities.length} free-time and mini-game guides: books, movies, jobs, fishing, billiards and more.`,
+            stat: `${activities.length} guides`,
+        },
+        {
             href: "negotiation/",
             title: "Negotiation Questions",
             blurb: `Compare ${p5Questions.length} Persona 5 and ${royalQuestions.length} Royal prompts, with searchable responses and Royal results flagged.`,
@@ -490,7 +613,7 @@ async function buildHome() {
 
     const body = `<h2>Everything you need in one place</h2>
       <p class="page-intro">A companion for Persona 5 Royal: every confidant, every
-      Shadow, every exam answer and every negotiation prompt.</p>
+      Shadow, every exam answer, every activity and every negotiation prompt.</p>
 
       <ul class="card-grid card-grid--wide">
 ${sections
@@ -564,6 +687,7 @@ const written = [
     ...(await buildConfidants()),
     ...(await buildShadows()),
     ...(await buildClassroom()),
+    ...(await buildActivities()),
     ...(await buildNegotiation()),
     ...(await buildSocialStats()),
     ...(await copyRuntime()),

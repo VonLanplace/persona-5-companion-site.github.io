@@ -34,7 +34,7 @@ const KEEP_FILES = new Set([
 
 // Generated section directories (each holds a hand-written index.html only
 // after a build; before a build they are safe to remove wholesale).
-const GENERATED_DIRS = ["confidants", "shadows", "classroom", "negotiation", "social-stats"];
+const GENERATED_DIRS = ["confidants", "shadows", "classroom", "activities", "negotiation", "social-stats"];
 
 const removed = [];
 

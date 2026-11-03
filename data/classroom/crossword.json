@@ -1,0 +1,505 @@
+{
+  "slug": "crossword",
+  "label": "Crossword",
+  "order": 3,
+  "description": "Persona 5 Royal crossword puzzle answers by date, including every across and down clue for each puzzle.",
+  "source": {
+    "href": "https://samurai-gamers.com/persona-5/minigame-crossword-persona-5/",
+    "label": "Crossword Answer List and Guide",
+    "credit": "拓房"
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Crossword puzzles appear in Leblanc on selected evenings and award Knowledge when completed. The clues are short, but some answers are easy to mix up, so each puzzle below is listed by date with its across and down entries."
+    },
+    {
+      "type": "paragraph",
+      "text": "On certain evenings in Persona 5 Royal, the Protagonist will encounter a crossword puzzle in Café LeBlanc. The objective of the mini-game is to fill each of the squares highlighted by blue circles in order to form a word. Solving the puzzle will improve the Protagonist’s Knowledge social stat by +1 in Persona 5 Royal. Also solving puzzles in Persona 5 Royal does not consume time (unlike in Persona 5) and it repeats every set evening until the puzzle is solved."
+    },
+    {
+      "type": "paragraph",
+      "text": "Similar to classroom questions and exams, the crossword mini-game is a test of your knowledge of a wide range of subjects, though in crossword form."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "List of Crossword Puzzle Answers"
+    },
+    {
+      "type": "paragraph",
+      "text": "Here is a list of answers to the crossword puzzles in Persona 5 Royal organized by month and day:"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "April Crossword Puzzle Answers"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Date",
+        "Answer"
+      ],
+      "rows": [
+        [
+          "4/18",
+          [
+            "Down 1: Grade",
+            "Down 2: Exam",
+            "Down 3: Teach",
+            "Across: Semesters"
+          ]
+        ],
+        [
+          "4/27",
+          [
+            "Across 1: Bud",
+            "Across 2: Spring",
+            "Down 2: Picnic",
+            "Down: Blossom"
+          ]
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "May Crossword Puzzle Answers"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Date",
+        "Answer"
+      ],
+      "rows": [
+        [
+          "5/2",
+          [
+            "Down 1: Goose",
+            "Across 2: Hour",
+            "Across 3: Egg",
+            "Down 2: Gate",
+            "Across: Golden"
+          ]
+        ],
+        [
+          "5/10",
+          [
+            "Down 1: Gloom",
+            "Down 2: Blight",
+            "Down 3: Ache",
+            "Across: Malaise"
+          ]
+        ],
+        [
+          "5/18",
+          [
+            "Across 1: Dali",
+            "Across 2: Louvre",
+            "Across 3: Mural",
+            "Down: Gallery"
+          ]
+        ],
+        [
+          "5/26",
+          [
+            "Down 1: Sneeze",
+            "Across 2: Nose",
+            "Across: Pollenosis"
+          ]
+        ],
+        [
+          "5/31",
+          [
+            "Down 1: Nori",
+            "Down 2: Ikebana",
+            "Across 2: Obi",
+            "Across: Japanese"
+          ]
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "June Crossword Puzzle Answers"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Date",
+        "Answer"
+      ],
+      "rows": [
+        [
+          "6/3",
+          [
+            "Across 1: Rembrandt",
+            "Down 2: Sketch",
+            "Down: Master"
+          ]
+        ],
+        [
+          "6/7",
+          [
+            "Across 1: Badge",
+            "Across 2: Speak",
+            "Down: Conference"
+          ]
+        ],
+        [
+          "6/16",
+          [
+            "Down 1: Closet",
+            "Down 2: Design",
+            "Across: Wardrobe"
+          ]
+        ],
+        [
+          "6/22",
+          [
+            "Down 1: Euro",
+            "Down 2: Wallet",
+            "Across 2: ATM",
+            "Across: Currency"
+          ]
+        ],
+        [
+          "6/30",
+          [
+            "Across 1: Weather",
+            "Down 1: Iced",
+            "Across 2: Storm",
+            "Down: Front"
+          ]
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "July Crossword Puzzle Answers"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Date",
+        "Answer"
+      ],
+      "rows": [
+        [
+          "7/7",
+          [
+            "Down 1: Opium",
+            "Down 2: Smuggle",
+            "Across: Narcotics"
+          ]
+        ],
+        [
+          "7/12",
+          [
+            "Across 2: Summer",
+            "Down 1: Travel",
+            "Across: Vacation"
+          ]
+        ],
+        [
+          "7/19",
+          [
+            "Across 1: Cram",
+            "Across 2: Stress",
+            "Down 2: Notes",
+            "Down: Finals"
+          ]
+        ],
+        [
+          "7/27",
+          [
+            "Down 1: Boom",
+            "Down 2: Sparkler",
+            "Across: Fireworks"
+          ]
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "August Crossword Puzzle Answers"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Date",
+        "Answer"
+      ],
+      "rows": [
+        [
+          "8/3",
+          [
+            "Down 1: Vibes",
+            "Down 2: Lei",
+            "Down 3: Coconut",
+            "Across: Island"
+          ]
+        ],
+        [
+          "8/8",
+          [
+            "Across 1: Social",
+            "Across 2: Moral",
+            "Down 2: Lion",
+            "Down: Courage"
+          ]
+        ],
+        [
+          "8/17",
+          [
+            "Down 1: SPF",
+            "Down 2: Ouch",
+            "Down 3: Lotion",
+            "Across 2: Hot",
+            "Across: Sunburn"
+          ]
+        ],
+        [
+          "8/25",
+          [
+            "Down 1: Shade",
+            "Across 1: AC",
+            "Down 2: Ice",
+            "Down 3: Fan",
+            "Across: Sweltering"
+          ]
+        ],
+        [
+          "8/30",
+          [
+            "Across 1: Breach",
+            "Across 2: Virus",
+            "Down 2: Sin",
+            "Down: Hacking"
+          ]
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "September Crossword Puzzle Answers"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Date",
+        "Answer"
+      ],
+      "rows": [
+        [
+          "9/2",
+          [
+            "Down 1: Gap",
+            "Across 1: Gust",
+            "Down 2: Advisory",
+            "Across: Typhoon"
+          ]
+        ],
+        [
+          "9/19",
+          [
+            "Down 1: Fun",
+            "Down 2: Shrine",
+            "Down 3: Games",
+            "Across: Festival"
+          ]
+        ],
+        [
+          "9/28",
+          [
+            "Down 1: Academic",
+            "Across 2: Senior",
+            "Across: Ranking"
+          ]
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "October Crossword Puzzle Answers"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Date",
+        "Answer"
+      ],
+      "rows": [
+        [
+          "10/6",
+          [
+            "Down 1: Abyss",
+            "Across 2: Shadow",
+            "Down 2: Widow",
+            "Across: Black"
+          ]
+        ],
+        [
+          "10/10",
+          [
+            "Across 1: Treats",
+            "Across 2: Witch",
+            "Down: Halloween"
+          ]
+        ],
+        [
+          "10/31",
+          [
+            "Across 1: Yukata",
+            "Down 1: Yakitori",
+            "Across: Stalls"
+          ]
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "November Crossword Puzzle Answers"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Date",
+        "Answer"
+      ],
+      "rows": [
+        [
+          "11/4",
+          [
+            "Across 1: Offer",
+            "Down 1: Earned",
+            "Down 2: Cash",
+            "Across: Reward"
+          ]
+        ],
+        [
+          "11/14",
+          [
+            "Across 1: Verbal",
+            "Across 2: Physical",
+            "Down: Bashing"
+          ]
+        ],
+        [
+          "11/28",
+          [
+            "Down 1: Boring",
+            "Down 2: Swagger",
+            "Across: Charisma"
+          ]
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "December Crossword Puzzle Answers"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Date",
+        "Answer"
+      ],
+      "rows": [
+        [
+          "12/2",
+          [
+            "Down 1: Fatigue",
+            "Down 2: Achoo",
+            "Across: Influenza"
+          ]
+        ],
+        [
+          "12/7",
+          [
+            "Down 1: Candle",
+            "Down 2: Torch",
+            "Across: Illuminate"
+          ]
+        ],
+        [
+          "12/12",
+          [
+            "Across 1: Electoral",
+            "Across 2: Poll",
+            "Down: Approval"
+          ]
+        ],
+        [
+          "12/19",
+          [
+            "Down 1: Chimney",
+            "Down 2: Carol",
+            "Across: Christmas"
+          ]
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "January Crossword Puzzle Answers"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Date",
+        "Answer"
+      ],
+      "rows": [
+        [
+          "1/14",
+          "Resolution"
+        ],
+        [
+          "1/19",
+          "Dionysus"
+        ],
+        [
+          "1/23",
+          "Lachesis"
+        ],
+        [
+          "1/27",
+          "Orochi"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Related guides"
+    },
+    {
+      "type": "links",
+      "items": [
+        {
+          "label": "Daily questions",
+          "ref": "daily-questions"
+        },
+        {
+          "label": "TV quiz",
+          "ref": "tv-quiz"
+        },
+        {
+          "label": "Chalk dodge",
+          "ref": "chalk-dodge"
+        }
+      ]
+    }
+  ]
+}

@@ -28,7 +28,7 @@ regenerate and commit the output.
 | `data/` | source of truth — edit this |
 | `_build/runtime/*.js` | hand-written client JS, copied into `assets/js/` at build |
 | `assets/css/`, `assets/img/`, `favicon.ico`, `.nojekyll` | hand-maintained |
-| `index.html`, `confidants/`, `shadows/`, `classroom/`, `negotiation/`, `social-stats/` | **generated** |
+| `index.html`, `confidants/`, `shadows/`, `classroom/`, `activities/`, `negotiation/`, `social-stats/` | **generated** |
 | `assets/js/` (whole dir) | **generated**, deleted and rebuilt by `clean` |
 
 Never hand-edit a generated file — `npm run clean` will delete it.
@@ -85,8 +85,10 @@ debug afterwards:
   rejected (`check.mjs:120`). This includes `align` on table cells — the build
   emits `class="ta-center"` instead.
 - Each page needs a `<title>`, a meta description and `lang` on `<html>`.
-- The 6 section `index.html` files and one page per `data/confidants/index.json`
-  entry must exist.
+- The 7 section `index.html` files and one page per `data/confidants/index.json`
+  entry must exist. `data/activities/*.json` and `data/classroom/*.json` (except
+  `exams.json`) each generate a guide page and must declare `slug`, `label`,
+  `description`, `source` and `blocks`.
 
 ## Page depth
 
@@ -126,9 +128,42 @@ cannot inject HTML.
 - `description` is an explicit field and becomes the page's
   `<meta name="description">` (truncated to 200 chars by the build) and the card
   blurb on `social-stats/index.html`. Write it as a real description.
+- `source` is `{href, label, credit}` and is rendered in the page footer as
+  `Source: <link> by <credit>`. Keep the canonical Samurai Gamers URL there and
+  nowhere else; internal links in the tables point at the local pages.
 - The old Markdown renderer escaped `<br>` instead of emitting it, so the
   pre-2.1 pages displayed 106 literal `&lt;br&gt;` strings. The block renderer
   fixes that; do not reintroduce an escape-then-passthrough allowlist.
+
+## Activity and classroom guides
+
+`data/activities/*.json` and the guide files in `data/classroom/*.json` (all but
+`exams.json`) use the same block list as social stats, wrapped in a small page
+manifest:
+
+```json
+{
+  "slug": "books",
+  "label": "Books",
+  "order": 1,
+  "description": "...",
+  "source": {
+    "href": "https://samurai-gamers.com/persona-5/book-locations-effects/",
+    "label": "Book List and Guide",
+    "credit": "Rin Tohsaka"
+  },
+  "blocks": [ ... ]
+}
+```
+
+- `slug` must match the filename; `order` drives the index card order.
+- Classroom guides use the same schema and are rendered under `classroom/`.
+- `source.href` is the only place the external URL belongs. The footer
+  attribution is generated from it, and `check` rejects a guide without one.
+- Imported tables are factual data; introductory prose is written for this site
+  rather than copied from the source. Clean parser output before committing:
+  drop image paragraphs, link-label paragraphs, empty-head navigation tables and
+  trailing "Related articles"/"Other guides" sections.
 
 ## Negotiation questions
 
@@ -156,7 +191,7 @@ the `badge--royal` marker to the Royal results heading.
 
 ## Other build quirks
 
-- `clean.mjs` only removes the 5 section directories plus `index.html` and
+- `clean.mjs` only removes the 6 section directories plus `index.html` and
   `assets/js/`. A new generated top-level directory must be added to
   `GENERATED_DIRS` in `_build/clean.mjs`, and any new hand-kept root file must be
   added to `KEEP_FILES` there or `clean` will delete it.

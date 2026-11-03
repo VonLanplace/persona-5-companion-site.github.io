@@ -28,7 +28,7 @@
         [
           {
             "label": "Answer class questions correctly",
-            "href": "https://samurai-gamers.com/persona-5/answers-class-questions/"
+            "href": "../classroom/daily-questions.html"
           },
           "You can check the answers by pressing the touchpad on your controller. The correct answer should be the one with the highest number of votes.",
           "- +1 Knowledge"
@@ -40,7 +40,7 @@
       "items": [
         {
           "label": "All Class Question Answers",
-          "href": "https://samurai-gamers.com/persona-5/answers-class-questions/"
+          "href": "../classroom/daily-questions.html"
         }
       ]
     },
@@ -98,7 +98,7 @@
         [
           {
             "label": "Answering TV Quizzes",
-            "href": "https://samurai-gamers.com/persona-5/answers-tv-quiz-show/"
+            "href": "../classroom/tv-quiz.html"
           },
           "Appears on 5/19 and will become a weekly event (Thursdays)",
           "- +1 Knowledge"
@@ -106,7 +106,7 @@
         [
           {
             "label": "Solve crossword puzzles",
-            "href": "https://samurai-gamers.com/persona-5/minigame-crossword-persona-5/"
+            "href": "../classroom/crossword.html"
           },
           "Can be done if there is a magazine the leftmost table",
           "- +2 Knowledge"
@@ -159,7 +159,7 @@
         [
           {
             "label": "Finish Reading Books",
-            "href": "https://samurai-gamers.com/persona-5/book-locations-effects/"
+            "href": "../activities/books.html"
           },
           "Can be done in the library, on the passenger’s seat of the train, or on the stool in Leblanc",
           [
@@ -219,5 +219,10 @@
         }
       ]
     }
-  ]
+  ],
+  "source": {
+    "href": "https://samurai-gamers.com/persona-5/knowledge-guide/",
+    "label": "Knowledge Guide",
+    "credit": "Rin Tohsaka"
+  }
 }

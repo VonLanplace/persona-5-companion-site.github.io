@@ -141,6 +141,13 @@
   box-shadow: 3px 3px 0 #000, var(--glow-red);
 }
 
+@media (max-width: 760px) {
+  .site-nav {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
 /* Breadcrumbs ----------------------------------------------------------- */
 
 .breadcrumbs {

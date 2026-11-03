@@ -15,8 +15,8 @@ export const SITE = {
     short: "P5 Companion",
     description:
         "Companion guides for Persona 5 Royal: confidant ranks and gift guides, " +
-        "shadow locations, classroom exam answers, negotiation questions and " +
-        "social stat maximising.",
+        "shadow locations, classroom exam answers, activity and mini-game guides, " +
+        "negotiation questions and social stat maximising.",
 };
 
 const NAV = [
@@ -24,6 +24,7 @@ const NAV = [
     { href: "confidants/", label: "Confidants" },
     { href: "shadows/", label: "Shadows" },
     { href: "classroom/", label: "Classroom" },
+    { href: "activities/", label: "Activities" },
     { href: "negotiation/", label: "Negotiation" },
     { href: "social-stats/", label: "Social Stats" },
 ];

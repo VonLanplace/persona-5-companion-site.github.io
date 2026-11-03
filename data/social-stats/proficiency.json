@@ -12,7 +12,7 @@
       "items": [
         {
           "label": "All Social Stats Guide",
-          "href": "https://samurai-gamers.com/persona-5/human-parameters-maximize/"
+          "href": "../social-stats/"
         }
       ]
     },
@@ -37,7 +37,7 @@
         [
           {
             "label": "Craft infiltration tools",
-            "href": "https://samurai-gamers.com/persona-5/infiltration-tools/"
+            "href": "../activities/infiltration-tools.html"
           },
           "Can be done at your work station in Leblanc",
           "- +2 Proficiency (Sometimes gives +3)"
@@ -99,7 +99,7 @@
         [
           {
             "label": "Play a video game",
-            "href": "https://samurai-gamers.com/persona-5/mini-game-tv-video-game/"
+            "href": "../activities/video-games.html"
           },
           "Purchase a retro game console from Yumenoshima, Yongen-Jaya",
           "- +2 Proficiency (Golfer Sarutahiko)"
@@ -170,7 +170,7 @@
         [
           {
             "label": "Finish reading books",
-            "href": "https://samurai-gamers.com/persona-5/book-locations-effects/"
+            "href": "../activities/books.html"
           },
           "Can be done in the library, on the passenger’s seat of the train, or on the stool in Leblanc",
           [
@@ -206,7 +206,7 @@
         [
           {
             "label": "Watch a movie",
-            "href": "https://samurai-gamers.com/persona-5/movie-theater-guide/"
+            "href": "../activities/movies.html"
           },
           [
             "- Admission Possible – Premieres in October (Shibuya)",
@@ -222,7 +222,7 @@
         [
           {
             "label": "Go fishing",
-            "href": "https://samurai-gamers.com/persona-5/mini-game-fishing/"
+            "href": "../activities/fishing.html"
           },
           "–",
           "- +1 Proficiency"
@@ -230,7 +230,7 @@
         [
           {
             "label": "Play billiards",
-            "href": "https://samurai-gamers.com/persona-5/billiards-mini-game-guide/"
+            "href": "../activities/billiards.html"
           },
           "Can be accessed at the Kichijoji bar.",
           ""
@@ -263,5 +263,10 @@
         }
       ]
     }
-  ]
+  ],
+  "source": {
+    "href": "https://samurai-gamers.com/persona-5/proficiency-guide/",
+    "label": "Proficiency Guide",
+    "credit": "Rin Tohsaka"
+  }
 }

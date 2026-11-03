@@ -20,7 +20,7 @@
       "items": [
         {
           "label": "All Social Stats Guide",
-          "href": "https://samurai-gamers.com/persona-5/human-parameters-maximize/"
+          "href": "../social-stats/"
         }
       ]
     },
@@ -45,7 +45,7 @@
         [
           {
             "label": "Ace the exams",
-            "href": "https://samurai-gamers.com/persona-5/chalk-dodge/"
+            "href": "../classroom/chalk-dodge.html"
           },
           [
             "Requires rank 4 Knowledge",
@@ -140,7 +140,7 @@
         [
           {
             "label": "Watch a DVD in your room",
-            "href": "https://samurai-gamers.com/persona-5/things-do-room-guide/"
+            "href": "../activities/room-activities.html"
           },
           [
             "Buy the TV from Yumenoshima, Yongen-Jaya",
@@ -155,7 +155,7 @@
         [
           {
             "label": "Play a video game",
-            "href": "https://samurai-gamers.com/persona-5/mini-game-tv-video-game/"
+            "href": "../activities/video-games.html"
           },
           "Purchase a retro game console from Yumenoshima, Yongen-Jaya.",
           [
@@ -238,7 +238,7 @@
         [
           {
             "label": "Finish reading books",
-            "href": "https://samurai-gamers.com/persona-5/book-locations-effects/"
+            "href": "../activities/books.html"
           },
           "Can be done in the library, on the passenger’s seat of the train, or on the stool in Leblanc",
           [
@@ -319,5 +319,10 @@
         }
       ]
     }
-  ]
+  ],
+  "source": {
+    "href": "https://samurai-gamers.com/persona-5/charm-guide/",
+    "label": "Charm Guide",
+    "credit": "Rin Tohsaka"
+  }
 }

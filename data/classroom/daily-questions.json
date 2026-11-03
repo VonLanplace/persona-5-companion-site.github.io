@@ -1,0 +1,444 @@
+{
+  "slug": "daily-questions",
+  "label": "Daily Questions",
+  "order": 1,
+  "description": "Every Persona 5 Royal classroom question and answer, organised by month, with the response that earns Knowledge.",
+  "source": {
+    "href": "https://samurai-gamers.com/persona-5/answers-class-questions/",
+    "label": "Classroom Answer List and Guide",
+    "credit": "Wolf Knight"
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Class questions appear on set days and are one of the simplest sources of Knowledge. Answering correctly on the day is always better than missing the prompt, so keep this list handy by month."
+    },
+    {
+      "type": "paragraph",
+      "text": "While attending class at Shujin Academy in Persona 5 Royal, the Protagonist will be occasionally called to answer class questions asked by their teacher."
+    },
+    {
+      "type": "paragraph",
+      "text": "Class questions are usually tests of your knowledge on a wide variety of subjects, similar to taking exams or answering crossword puzzles at LeBlanc café."
+    },
+    {
+      "type": "paragraph",
+      "text": "If you answered correctly to a question, the Protagonist’s Knowledge social stat will rise by +2."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "List of All Classroom Answers"
+    },
+    {
+      "type": "paragraph",
+      "text": "Here is a list of classroom answers in Persona 5 Royal organized by month and day:"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "April Classroom Answers"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Date",
+        "Answer"
+      ],
+      "rows": [
+        [
+          "4/12",
+          "Option C: Villains."
+        ],
+        [
+          "4/19",
+          "Option C: They’re the same."
+        ],
+        [
+          "4/23",
+          "Option D: All of them."
+        ],
+        [
+          "4/25",
+          "Option A: You unquestioningly support it."
+        ],
+        [
+          "Option C: You have a duty to correct it.",
+          ""
+        ],
+        [
+          "4/27",
+          "Option B: Four color theorem."
+        ],
+        [
+          "4/30",
+          "Option B: Wonder."
+        ],
+        [
+          "Option B: Child.",
+          ""
+        ],
+        [
+          "Option C: A prodigy.",
+          ""
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "May Classroom Answers"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Date",
+        "Answer"
+      ],
+      "rows": [
+        [
+          "5/7",
+          "Option C: Fatal Woman."
+        ],
+        [
+          "5/10",
+          "Option C: Heian period."
+        ],
+        [
+          "5/16",
+          "Option C: The placebo effect."
+        ],
+        [
+          "5/19",
+          "Option B: Katsushika Hokusai."
+        ],
+        [
+          "5/21",
+          "Option B: 1:1 414."
+        ],
+        [
+          "5/23",
+          "Option C: Together."
+        ],
+        [
+          "Option B: Senses.",
+          ""
+        ],
+        [
+          "Option B: Senses coming together.",
+          ""
+        ],
+        [
+          "5/26",
+          "Option B: Arthur Conan Doyle."
+        ],
+        [
+          "5/31",
+          "Option D: John Silver."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "June Classroom Answers"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Date",
+        "Answer"
+      ],
+      "rows": [
+        [
+          "6/4",
+          "Option B: The halo effect."
+        ],
+        [
+          "6/7",
+          "Option C: The number of legs."
+        ],
+        [
+          "6/8",
+          "Option C: Controlling public thought."
+        ],
+        [
+          "6/13",
+          "Option B: Green."
+        ],
+        [
+          "6/15",
+          "Option B: Coins."
+        ],
+        [
+          "6/20",
+          "Option B: Smartphone."
+        ],
+        [
+          "6/23",
+          "Option C: A pope."
+        ],
+        [
+          "6/27",
+          "Option C: Dogs."
+        ],
+        [
+          "6/29",
+          "Option B: Gold."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "July Classroom Answers"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Date",
+        "Answer"
+      ],
+      "rows": [
+        [
+          "7/1",
+          "Option C: Barbarian’s Head."
+        ],
+        [
+          "7/4",
+          "Option B: Julius and Augustus."
+        ],
+        [
+          "7/7",
+          "Option B: The Milky Way."
+        ],
+        [
+          "Option A: Soumen’s noodles.",
+          ""
+        ],
+        [
+          "7/9",
+          "Option D: A triangle."
+        ],
+        [
+          "7/11",
+          "Option B: Memories that last a long time."
+        ],
+        [
+          "Option C: Infinite.",
+          ""
+        ],
+        [
+          "Option C: Forever.",
+          ""
+        ],
+        [
+          "7/12",
+          "Option D: Thievery."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "September Classroom Answers"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Date",
+        "Answer"
+      ],
+      "rows": [
+        [
+          "9/3",
+          "Option C: Prosperity."
+        ],
+        [
+          "9/6",
+          "Option B: Chronostasis."
+        ],
+        [
+          "9/14",
+          "Option A: Money loans for collateral."
+        ],
+        [
+          "9/17",
+          "Option B: Cats eating human tongues."
+        ],
+        [
+          "9/21",
+          "Option B: Central Europe."
+        ],
+        [
+          "9/24",
+          "Option B: 20 white, 12 black."
+        ],
+        [
+          "9/28",
+          "Phantom, Vibration, Syndrome."
+        ],
+        [
+          "9/29",
+          "Imperial Household Agency."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "October Classroom Answers"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Date",
+        "Answer"
+      ],
+      "rows": [
+        [
+          "10/3",
+          "Option B: Stars."
+        ],
+        [
+          "10/6",
+          "Option D: Joseph-Ignace Guillotin."
+        ],
+        [
+          "10/11",
+          "Option B: Bouba."
+        ],
+        [
+          "10/22",
+          "Option A: 15."
+        ],
+        [
+          "10/24",
+          "Option B: Memory bias."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "November Classroom Answers"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Date",
+        "Answer"
+      ],
+      "rows": [
+        [
+          "11/2",
+          "Option C: A share of stolen goods."
+        ],
+        [
+          "11/4",
+          "Option B: A sword."
+        ],
+        [
+          "11/8",
+          "Option A: Any age."
+        ],
+        [
+          "11/10",
+          "Option B: Crows eyes are hard to see."
+        ],
+        [
+          "11/12",
+          "Option B: Because the voice is synthetic."
+        ],
+        [
+          "11/14",
+          "Option C: Because of high altitude."
+        ],
+        [
+          "11/15",
+          "Option C: His head was put on display."
+        ],
+        [
+          "11/17",
+          "Option B: Cochleoid."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "January Classroom Answers"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Date",
+        "Answer"
+      ],
+      "rows": [
+        [
+          "1/11",
+          "Option C: How numerous they are."
+        ],
+        [
+          "The Eight Million Gods.",
+          ""
+        ],
+        [
+          "1/14",
+          "Iwate."
+        ],
+        [
+          "1/18",
+          "Option B: Impressive."
+        ],
+        [
+          "1/20",
+          "Option B: A snake."
+        ],
+        [
+          "1/24",
+          "Kind-hearted."
+        ],
+        [
+          "Negative.",
+          ""
+        ],
+        [
+          "Resentful.",
+          ""
+        ],
+        [
+          "1/27",
+          "Option B: To friends of friends of friends."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Related guides"
+    },
+    {
+      "type": "links",
+      "items": [
+        {
+          "label": "Exam answers",
+          "ref": "index"
+        },
+        {
+          "label": "TV quiz",
+          "ref": "tv-quiz"
+        },
+        {
+          "label": "Crossword",
+          "ref": "crossword"
+        },
+        {
+          "label": "Chalk dodge",
+          "ref": "chalk-dodge"
+        }
+      ]
+    }
+  ]
+}
