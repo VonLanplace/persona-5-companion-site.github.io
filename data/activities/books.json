@@ -1,0 +1,513 @@
+{
+  "slug": "books",
+  "label": "Books",
+  "order": 1,
+  "description": "Every book in Persona 5 Royal, with where to borrow or buy it, how many chapters it takes and the social stat or activity it unlocks.",
+  "source": {
+    "href": "https://samurai-gamers.com/persona-5/book-locations-effects/",
+    "label": "Book List and Guide",
+    "credit": "Rin Tohsaka"
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Reading is one of the cheapest ways to raise a social stat: most books take only one or two free time slots, and several unlock new activities. This list covers every book in Persona 5 Royal, split into the ones you find for free and the ones you buy, with the effect of each title."
+    },
+    {
+      "type": "paragraph",
+      "text": "Similar to in Persona 4, reading books in Persona 5 and Persona 5 Royal will also grant the Protagonist additional social stat boost in. Certain books may also provide a boost to specific activities."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Non-purchased Books"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Library"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Name",
+        "Chapters",
+        "Effect",
+        "How to Unlock"
+      ],
+      "rows": [
+        [
+          "The Great Thief",
+          "2",
+          "Knowledge +5",
+          "Available at the start."
+        ],
+        [
+          "Pirate Legend",
+          "2",
+          "Guts +5",
+          "Available at the start."
+        ],
+        [
+          "Zorro the Outlaw",
+          "2",
+          "Kindness +5",
+          "Available at the start."
+        ],
+        [
+          "The Alluring Dancer",
+          "2",
+          "Charm +5",
+          "Available at the start."
+        ],
+        [
+          "The Gallant Rogue",
+          "2",
+          "Guts +5",
+          "After Yusuke joins"
+        ],
+        [
+          "The Illusory Popess",
+          "2",
+          "Kindness +5",
+          "After Makoto joins"
+        ],
+        [
+          "Cry of Cthulu",
+          "2",
+          "Guts +5",
+          "After Futaba joins"
+        ],
+        [
+          "Woman in the Dark",
+          "2",
+          "Proficiency +5",
+          "After Haru joins"
+        ],
+        [
+          "Dressed in Ashes",
+          "2",
+          "Charm +5",
+          "After Kasumi joins"
+        ],
+        [
+          "The Hero with a Bow",
+          "2",
+          "Guts +5",
+          "After Akechi joins"
+        ],
+        [
+          "Speed Reader",
+          "1",
+          "Allows you to read two chapters of a book at a time.",
+          "7/1"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Bedroom (LeBlanc)"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Name",
+        "Chapters",
+        "Effect",
+        "How to Unlock"
+      ],
+      "rows": [
+        [
+          "Yoncha Wanderer 04",
+          "1",
+          [
+            "Unlocks shortcut to Batting Cage",
+            "Unlocks Bathhouse"
+          ],
+          "Clean your room."
+        ],
+        [
+          "Social Thought",
+          "2",
+          "Knowledge +5",
+          "Clean your room."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Missions"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Name",
+        "Chapters",
+        "Effect",
+        "How to Unlock"
+      ],
+      "rows": [
+        [
+          "Chinese Sweets",
+          "1",
+          "Unlocks “Chinatown”",
+          "Finish “Part-Time Job,” “Full-time Hell”"
+        ],
+        [
+          "Theme Park Escort",
+          "1",
+          "Unlocks “Destinyland”",
+          "Finish “We Aren’t Just your Slaves”"
+        ],
+        [
+          "Shita-machi Reborn",
+          "1",
+          "Unlocks “Asakusa”",
+          "Finish “Who’s Muscling in Yongen-Jaya”"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Mysterious Trader Sakai"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Name",
+        "Chapters",
+        "Effect",
+        "How to Unlock"
+      ],
+      "rows": [
+        [
+          "Factorization Guide",
+          "1",
+          "Increases Knowledge gained through reading.",
+          "Trade for Millimeter MRE (obtained from Untouchable vending machine) from 7/26 to 7/30."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Purchased Books"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Shibuya Bookstore"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Name",
+        "Price",
+        "Chapters",
+        "Effect",
+        "How to Unlock"
+      ],
+      "rows": [
+        [
+          "Playing the Game",
+          "700",
+          "2",
+          "Charm +5",
+          "Available at the start."
+        ],
+        [
+          "Wise Men’s Words",
+          "700",
+          "2",
+          "Knowledge +5",
+          "6/1"
+        ],
+        [
+          "Ghost Encounters",
+          "700",
+          "2",
+          "Guts +5",
+          "8/3"
+        ],
+        [
+          "The Art of Charm",
+          "700",
+          "2",
+          "Charm +5",
+          "Available at the start."
+        ],
+        [
+          "Buchiko’s Story",
+          "700",
+          "2",
+          "Charm +5",
+          "Available at the start."
+        ],
+        [
+          "Medjed Menace",
+          "1200",
+          "2",
+          "Knowledge +5",
+          "6/1"
+        ],
+        [
+          "Weekend Parks",
+          "1800",
+          "1",
+          "Unlocks “Inokashira Park”",
+          "7/17"
+        ],
+        [
+          "Fishpond Spotter",
+          "1800",
+          "1",
+          "Unlocks “Ichigaya”",
+          "8/3"
+        ],
+        [
+          "Aquarium-a-Day",
+          "700",
+          "1",
+          "Unlocks “Shinagawa Aquarium”",
+          "7/17"
+        ],
+        [
+          "Vague",
+          "1800",
+          "1",
+          "Unlocks “Harajuku”",
+          "5/18"
+        ],
+        [
+          "Nightlife Hotspots",
+          "1800",
+          "1",
+          "Unlocks “Odaiba Seaside Park”",
+          "6/1"
+        ],
+        [
+          "Musty Pages",
+          "1800",
+          "1",
+          "Unlocks “Jinbocho”",
+          "9/1"
+        ],
+        [
+          "Museum of Stars",
+          "1800",
+          "1",
+          "Unlocks “Ikebukuro”",
+          "9/1"
+        ],
+        [
+          "Tokyo Shrines",
+          "1800",
+          "1",
+          "Unlocks “Meiji Shrine”",
+          "9/1"
+        ],
+        [
+          "Nakano Walker",
+          "1800",
+          "1",
+          "Unlocks “Nakano Shopping Mall”",
+          "10/1"
+        ],
+        [
+          "Tidying the Heart",
+          "700",
+          "2",
+          "Proficiency +5",
+          "Available at the start."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Shinjuku Hinokokuya Bookstore"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Name",
+        "Price",
+        "Chapters",
+        "Effect",
+        "How to Unlock"
+      ],
+      "rows": [
+        [
+          "Flowerpedia",
+          "2800",
+          "1",
+          "Find a hint when crafting bouquet",
+          "Finish Flower Shop Part-Time"
+        ],
+        [
+          "Batting Science",
+          "2800",
+          "1",
+          "Unlocks “Third Eye” in Batting Cage",
+          "Finish Batting Center for the first time"
+        ],
+        [
+          "Essence of Fishing",
+          "2800",
+          "1",
+          "Unlocks “Third Eye” in Fishing",
+          "After fishing for the first time"
+        ],
+        [
+          "The Craft of Cinema",
+          "2800",
+          "1",
+          "Increase the effect of Watching Movies",
+          [
+            "After watching a movie for the first time",
+            "(P5R only)"
+          ]
+        ],
+        [
+          "Game Secrets",
+          "2800",
+          "1",
+          "Lowers difficulty in Video Games",
+          "After playing video games for the first time"
+        ],
+        [
+          "Learn PRO Darts",
+          "2800",
+          "1",
+          "Pointer movement slows down when using the “Third Eye” in Darts.",
+          "After playing Darts for the first time."
+        ],
+        [
+          "ABCs of Crafting",
+          "2,800",
+          "1",
+          "Doubles the number of infiltration tools created.",
+          "After crafting an infiltration tool for the first."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Shibuya Sports Shop"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Name",
+        "Price",
+        "Chapters",
+        "Effect",
+        "How to Unlock"
+      ],
+      "rows": [
+        [
+          "Expert Billiards",
+          "3500",
+          "1",
+          "Unlocks trick shots when playing Billiards.",
+          "After playing Billiards for the first time."
+        ],
+        [
+          "Expert Billiards",
+          "–",
+          "1",
+          "Unlocks more trick shots when playing Billiards.",
+          "Obtained automatically after raising technical rank to 3."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Jinbocho Nagiuri Bookstore"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Name",
+        "Price",
+        "Chapters",
+        "Effect",
+        "How to Unlock"
+      ],
+      "rows": [
+        [
+          "Master Swordsman",
+          "8000",
+          "3",
+          "Guts +10",
+          "Available in store."
+        ],
+        [
+          "Call Me Chief",
+          "8000",
+          "3",
+          "Kindness +10",
+          "After reading Master Swordsman"
+        ],
+        [
+          "Reckless Casanova",
+          "8000",
+          "3",
+          "Charm +10",
+          "After reading Call Me Chief"
+        ],
+        [
+          "Heroic Revelations",
+          "8000",
+          "3",
+          "Knowledge +10",
+          "After reading Master Swordsman"
+        ],
+        [
+          "The Art of Automata",
+          "12000",
+          "3",
+          "Proficiency +10",
+          "After reading Master Swordsman"
+        ],
+        [
+          "Knowing the Heart",
+          "12000",
+          "1",
+          "Unlocks additional Technical combos (Brainwash – Bless; Confusion – Gun, Wind; Fear – Ice; Forget – Elec; Rage – Fire)",
+          "After reading all previous books from this store."
+        ],
+        [
+          "Speed Reading",
+          "12000",
+          "1",
+          "You can read two chapters at a time",
+          "After reading all previous books from this store."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Related guides"
+    },
+    {
+      "type": "links",
+      "items": [
+        {
+          "label": "Room activities",
+          "ref": "room-activities"
+        },
+        {
+          "label": "Social stats",
+          "href": "../social-stats/"
+        }
+      ]
+    }
+  ]
+}

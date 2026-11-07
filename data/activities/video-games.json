@@ -1,0 +1,317 @@
+{
+  "slug": "video-games",
+  "label": "Video Games",
+  "order": 6,
+  "description": "Persona 5 Royal video game mini-games: how to unlock them, how many wins each needs, the social stat rewards and the accessories they unlock.",
+  "source": {
+    "href": "https://samurai-gamers.com/persona-5/mini-game-tv-video-game/",
+    "label": "TV Video Game Mini-Game Guide",
+    "credit": "Rin Tohsaka"
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The retro console in the protagonist's room is a small time sink with a useful return: each game raises a social stat and eventually trades its completion card for an accessory. This guide covers the games sold in Yongen-Jaya and Akihabara, plus the tricks that make them easier."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Overview"
+    },
+    {
+      "type": "paragraph",
+      "text": "In order to unlock the TV Video Game mini-game, you have to purchase a TV from the recycle shop in Yongen-Jaya Backstreets. After purchasing the TV, the player will eventually be able to purchase a games console from the shop. Its stock is random, so check back regularly."
+    },
+    {
+      "type": "paragraph",
+      "text": "During your free time, stay inside your room in the evening to play some video games. You can find games in the Akihabara Retro Game Shop and the Yongen-Jaya Recycle Shop. Finishing the game a number of times will reward you with Social Stats. The number of times you have to finish the game depends on the title played."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Unlock Tricks"
+    },
+    {
+      "type": "paragraph",
+      "text": "Visit the Hinokuniya bookstore and purchase the book “Game Secrets” to unlock special tricks. This lowers the difficulty for the title of the game you are currently playing."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Video Games"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Yongen-Jaya, Yumenoshima"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Star Forneus 1988"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Detail",
+        "Value"
+      ],
+      "rows": [
+        [
+          "Number of times to win",
+          "3"
+        ],
+        [
+          "Social Stat",
+          [
+            "Success: Guts +2",
+            "Fail: Guts +1"
+          ]
+        ],
+        [
+          "Reward (P5R)",
+          "Forneus Badge: Ice Amp (Strengthens Ice by 50%)"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Comes bundled with the Retro Game Set, Star Forneus 1988 is one of the first games with a simple mechanic."
+    },
+    {
+      "type": "paragraph",
+      "text": "The goal is to defeat the boss within the time limit. To play, rapidly press the X button. You have to press the button the required number of times (25) before time runs out to successfully complete the game."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Gambla Goemon"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Detail",
+        "Value"
+      ],
+      "rows": [
+        [
+          "Number of times to win",
+          "2"
+        ],
+        [
+          "Social Skill",
+          [
+            "Success: Charm +2",
+            "Fail: Charm +1"
+          ]
+        ],
+        [
+          "Reward (P5R)",
+          "Gambla Badge: Evade Elec"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "You have to pay 5,200 to purchase Gambla Goemon, the Legend of Goemon. To start, the dealer will ask you whether you want odd or even. After selecting the die, the dealer will shake it. You need to stop it with the x button. You need to guess correctly in order to win the game."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Akihabara Retro Game Shop"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Punch Ouch"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Detail",
+        "Value"
+      ],
+      "rows": [
+        [
+          "Number of times to win",
+          "3"
+        ],
+        [
+          "Social Stat",
+          "Charm+2"
+        ],
+        [
+          "Reward (P5R)",
+          "Punch Badge: Evade Fire"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "A boxing game that costs 5,300 yen. In order to clear this game, you have to input the specified buttons, which rotate between the directional buttons and x, before the time expires."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Train of Life"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Detail",
+        "Value"
+      ],
+      "rows": [
+        [
+          "Number of times to win",
+          "3"
+        ],
+        [
+          "Social Stat",
+          [
+            "Success: Kindness +2",
+            "Fail: Kindness +1"
+          ]
+        ],
+        [
+          "Reward (P5R)",
+          "Train Badge: Elec Amp (Strengthens Electric by 50%)"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The Retro board game costs 5,600 yen. To start the board game, you need to input x to roll the die. The player moves a number of spaces depending on their roll."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Power Intuition (3 Times)"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Detail",
+        "Value"
+      ],
+      "rows": [
+        [
+          "Number of times to win",
+          "3"
+        ],
+        [
+          "Social Stat",
+          [
+            "Success: Guts +2",
+            "Fail: Guts +1"
+          ]
+        ],
+        [
+          "Reward (P5R)",
+          "PI Badge: Nuke Amp (Strengthens Nuke by 50%)"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "A cartridge that can be bought on 10/1. Being a fighting game, it plays similar to Punch de Ouch. It costs 5,500 yen to purchase. The directional buttons are similar to those that you would normally find in fighting games which makes it quite tricky to pull off. One way to deal with this game is to treat the D-pad as though it was an analog stick."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Golfer Sarutahiko (3 Times)"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Detail",
+        "Value"
+      ],
+      "rows": [
+        [
+          "Number of times to win",
+          "3"
+        ],
+        [
+          "Social Stat",
+          "Proficiency +2"
+        ],
+        [
+          "Reward (P5R)",
+          ""
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Another game released on 10/1, it is the least expensive Akihabara Retro Game. Tap the x button to commence the game. Similar to the Fishing game, press the x button to stop the cursor. The goal is to stop it when it reaches close to the red marker."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Akihabara Retro Game Shop (P5R)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Featherman Seeker"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Detail",
+        "Value"
+      ],
+      "rows": [
+        [
+          "Number of times to win",
+          "?"
+        ],
+        [
+          "Social Stat",
+          "Knowledge +2"
+        ],
+        [
+          "Reward",
+          "Featherman Badge: Wind Amp (Strengthens Wind by 50%)"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Exchange your Cards"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cards can be exchanged for various accessories. After completing the video games and earning cards, take them to the retro game store in Akihabara to claim your prizes."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "How to Unlock the Trophy"
+    },
+    {
+      "type": "paragraph",
+      "text": "You may opt to save the game before starting these video games since they would tend to eat time off of your day. Most of the titles require that you employ specific buttons, however some games like “Power Intuition” have a strict timing. If you are struggling to complete the task at hand, you might want to read the book “Game Secrets,” and use the special tricks to unlock more time. After completing all the tasks, you will earn the Golden Finger trophy."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Related guides"
+    },
+    {
+      "type": "links",
+      "items": [
+        {
+          "label": "Room activities",
+          "ref": "room-activities"
+        },
+        {
+          "label": "Books",
+          "ref": "books"
+        }
+      ]
+    }
+  ]
+}

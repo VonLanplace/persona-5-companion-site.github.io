@@ -1,0 +1,651 @@
+{
+  "slug": "infiltration-tools",
+  "label": "Infiltration Tools",
+  "order": 5,
+  "description": "Where to find every infiltration tool material in Persona 5 Royal, including the Shadows that drop it and the shops that sell it.",
+  "source": {
+    "href": "https://samurai-gamers.com/persona-5/infiltration-tools/",
+    "label": "Infiltration Tool Materials",
+    "credit": "Wolf Knight"
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Crafting tools is the main repeatable source of Proficiency, and the materials come from two places: loot dropped by Shadows and stock sold in specific shops. The tables below list both sources for every material."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Infiltration Tool Materials"
+    },
+    {
+      "type": "paragraph",
+      "text": "Materials are important ingredients used to craft infiltration tools. You can obtain them by looting shadows in palaces and mementos. Some materials are easier to obtain than others. You can also visit shops to purchase some of the more common drops in limited quantities. More often than not, you’re better off defeating shadows to craft a large supply of tools."
+    },
+    {
+      "type": "paragraph",
+      "text": "Below is a list of the shadows that drop materials for crafting infiltration tools. Locations of shops can be found under each table."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Silk Yarn"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Shadow",
+        "Palace/Dungeon"
+      ],
+      "rows": [
+        [
+          [
+            "Jack-O’-Lantern",
+            "Silky"
+          ],
+          [
+            "Kamoshida",
+            "Qimranut",
+            "Aiyatsbus"
+          ]
+        ],
+        [
+          "Mokoi",
+          [
+            "Madarame",
+            "Chemdah"
+          ]
+        ],
+        [
+          "Oni",
+          [
+            "Kaneshiro",
+            "Kaitul"
+          ]
+        ],
+        [
+          "Belphegor",
+          [
+            "Okumura",
+            "Adyeshach"
+          ]
+        ],
+        [
+          "Skadi",
+          [
+            "Niijima",
+            "Sheriruth"
+          ]
+        ],
+        [
+          "Oberon",
+          "Shido"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "You can also purchase these at Yumenoshima in Yongen-Jaya."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Tin Clasp"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Shadow",
+        "Palace/Dungeon"
+      ],
+      "rows": [
+        [
+          [
+            "Incubus",
+            "Andras"
+          ],
+          [
+            "Kamoshida",
+            "Aiyatsbus"
+          ]
+        ],
+        [
+          [
+            "Slime",
+            "Obariyon"
+          ],
+          "Aiyatsbus"
+        ],
+        [
+          [
+            "Nue",
+            "Onmoraki"
+          ],
+          "Madarame"
+        ],
+        [
+          "Ippon-Datara",
+          "Chemdah"
+        ],
+        [
+          [
+            "Nekomata",
+            "Take-Minakata"
+          ],
+          [
+            "Kaneshiro",
+            "Kaitul"
+          ]
+        ],
+        [
+          "Mithras",
+          "Okumura"
+        ],
+        [
+          "Queen Mab",
+          [
+            "Niijima",
+            "Sheriruth"
+          ]
+        ],
+        [
+          "Dakini",
+          "Shido"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "You can also purchase these at Yumenoshima in Yongen-Jaya."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Plant Balm"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Shadow",
+        "Palace/Dungeon"
+      ],
+      "rows": [
+        [
+          [
+            "Pixie",
+            "Bicorn",
+            "Succubus"
+          ],
+          [
+            "Kamoshida",
+            "Aiyatsbus"
+          ]
+        ],
+        [
+          [
+            "Apsaras",
+            "Hua Po",
+            "Jack Frost"
+          ],
+          [
+            "Madarame",
+            "Chemdah"
+          ]
+        ],
+        [
+          [
+            "Angel",
+            "Orobas"
+          ],
+          [
+            "Kaneshiro",
+            "Kaitul"
+          ]
+        ],
+        [
+          "Kushinadahime",
+          [
+            "Niijima",
+            "Sheriruth"
+          ]
+        ],
+        [
+          "Parvati",
+          "Shido"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "They are sold at Rafflesia Flower Shop, Shibuya Underground Mall and Flower Shop Sukebe, Shinjuku (Evenings). In addition, you might loot it as a pick-up cube at Chemdah in Mementos."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Cork Bark"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Shadow",
+        "Palace/Dungeon"
+      ],
+      "rows": [
+        [
+          [
+            "Berith",
+            "Archangel"
+          ],
+          [
+            "Kamoshida",
+            "Aiyatsbus"
+          ]
+        ],
+        [
+          "Koppa Tengu",
+          "Madarame"
+        ],
+        [
+          "Kodama",
+          "Aiyatsbus"
+        ],
+        [
+          [
+            "Orthrus",
+            "Leanan Sidhe"
+          ],
+          [
+            "Kaneshiro",
+            "Kaitul (Orthrus)"
+          ]
+        ],
+        [
+          "Sui-Ki",
+          "Kaitul"
+        ],
+        [
+          "Kaiwan",
+          [
+            "Okumura",
+            "Adyeshach"
+          ]
+        ],
+        [
+          "Rangda",
+          [
+            "Niijima",
+            "Sheriruth"
+          ]
+        ],
+        [
+          [
+            "Narcissus",
+            "Hanuman"
+          ],
+          "Shido"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "It is also sold at Rafflesia Flower Shop in Shibuya Underground Mall and can be bought in the evenings at Flower Shop Sukebe in Shinjuku."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Thick Parchment"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Shadow",
+        "Palace/Dungeon"
+      ],
+      "rows": [
+        [
+          [
+            "Inugami",
+            "Makami",
+            "Shiki-Ouji"
+          ],
+          [
+            "Madarame",
+            "Chemdah"
+          ]
+        ],
+        [
+          "High Pixie",
+          [
+            "Kaneshiro",
+            "Kaitul"
+          ]
+        ],
+        [
+          "Fuu-Ki",
+          "Kaitul"
+        ],
+        [
+          "Thoth",
+          [
+            "Futaba",
+            "Akzeriyyuth"
+          ]
+        ],
+        [
+          "Legion",
+          "Adyeshach"
+        ],
+        [
+          "Power",
+          [
+            "Niijima",
+            "Sheriruth"
+          ]
+        ],
+        [
+          "Sarasvati",
+          "Shido"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "You might loot it from Aiyatsbus and Chemdah in Mementos."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Condenser Lens"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Shadow",
+        "Palace/Dungeon"
+      ],
+      "rows": [
+        [
+          "Rakshasa",
+          [
+            "Kaneshiro",
+            "Kaitul"
+          ]
+        ],
+        [
+          "Isis",
+          [
+            "Futaba",
+            "Akzeriyyuth"
+          ]
+        ],
+        [
+          "Arahabaki",
+          [
+            "Okumura",
+            "Adyeshach"
+          ]
+        ],
+        [
+          "Valkyrie",
+          [
+            "Niijima",
+            "Sheriruth"
+          ]
+        ],
+        [
+          [
+            "King Frost",
+            "Barong"
+          ],
+          "Shido"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "You can visit the Akiba Electronics shop in Akihabara during the day to purchase them."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Iron Sand"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Shadow",
+        "Palace/Dungeon"
+      ],
+      "rows": [
+        [
+          "Yaksini",
+          [
+            "Kaneshiro",
+            "Kaitul"
+          ]
+        ],
+        [
+          "Choronzon",
+          "Kaitul"
+        ],
+        [
+          "Sandman",
+          [
+            "Futaba",
+            "Akzeriyyuth"
+          ]
+        ],
+        [
+          "Pisaca",
+          "Akzeriyyuth"
+        ],
+        [
+          "Mothman",
+          "Okumura"
+        ],
+        [
+          "Unicorn",
+          "Niijima"
+        ],
+        [
+          "Cerberus",
+          "Shido"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "You can visit the Akiba Electronics shop in Akihabara during the day to purchase them."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Aluminum Sheet"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Shadow",
+        "Palace/Dungeon"
+      ],
+      "rows": [
+        [
+          "Anzu",
+          [
+            "Futaba",
+            "Akzeriyyuth"
+          ]
+        ],
+        [
+          "Girimekhala",
+          [
+            "Okumura",
+            "Adyeshach"
+          ]
+        ],
+        [
+          "Ose",
+          "Niijima"
+        ],
+        [
+          "Kurama Tengu",
+          "Shido"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Look for the shop at Yumenoshima in Yongen-Jaya after 11/20 to buy a limited amount. Aliminum sheet is also one of the possible random loots at Kaitul, Akzeriyyuth, Adyeshach, and Sheriruth in Mementos."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Tanned Leather"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Shadow",
+        "Palace/Dungeon"
+      ],
+      "rows": [
+        [
+          "Lamia",
+          [
+            "Futaba",
+            "Akzeriyyuth"
+          ]
+        ],
+        [
+          "Lilim",
+          [
+            "Okumura",
+            "Adyeshach"
+          ]
+        ],
+        [
+          "Kikuri-Hime",
+          [
+            "Niijima",
+            "Sheriruth"
+          ]
+        ],
+        [
+          "Titania",
+          "Shido"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Tanned Leather is also a random loot at Kaitul and Sheriruth in Mementos."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Red Phosphorus"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Shadow",
+        "Palace/Dungeon"
+      ],
+      "rows": [
+        [
+          "Naga",
+          [
+            "Futaba",
+            "Akzeriyyuth"
+          ]
+        ],
+        [
+          [
+            "Black Ooze",
+            "Scathach"
+          ],
+          [
+            "Okumura",
+            "Adyeshach"
+          ]
+        ],
+        [
+          "Kumbhanda",
+          "Niijima"
+        ],
+        [
+          [
+            "Forneus",
+            "Baphomet"
+          ],
+          "Shido"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "A valuable material that is more difficult to obtain. Red Phosphorus can be obtained as a random loot at Adyeshach in Mementos."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Liquid Mercury"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Shadow",
+        "Palace/Dungeon"
+      ],
+      "rows": [
+        [
+          "Anubis",
+          [
+            "Futaba",
+            "Akzeriyyuth"
+          ]
+        ],
+        [
+          "Decarabia",
+          [
+            "Okumura",
+            "Adyeshach"
+          ]
+        ],
+        [
+          "Ganesha",
+          [
+            "Niijima",
+            "Sheriruth"
+          ]
+        ],
+        [
+          "Garuda",
+          "Shido"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "One of the rare materials. Liquid Mercury can also be obtained as a random loot at Kaitul in Mementos."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Related guides"
+    },
+    {
+      "type": "links",
+      "items": [
+        {
+          "label": "Room activities",
+          "ref": "room-activities"
+        },
+        {
+          "label": "Proficiency",
+          "href": "../social-stats/proficiency.html"
+        }
+      ]
+    }
+  ]
+}

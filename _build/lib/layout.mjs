@@ -15,8 +15,8 @@ export const SITE = {
     short: "P5 Companion",
     description:
         "Companion guides for Persona 5 Royal: confidant ranks and gift guides, " +
-        "shadow locations, classroom exam answers, negotiation questions and " +
-        "social stat maximising.",
+        "shadow locations, classroom exam answers, activity and mini-game guides, " +
+        "negotiation questions and social stat maximising.",
 };
 
 const NAV = [
@@ -24,6 +24,7 @@ const NAV = [
     { href: "confidants/", label: "Confidants" },
     { href: "shadows/", label: "Shadows" },
     { href: "classroom/", label: "Classroom" },
+    { href: "activities/", label: "Activities" },
     { href: "negotiation/", label: "Negotiation" },
     { href: "social-stats/", label: "Social Stats" },
 ];
@@ -49,6 +50,7 @@ export function link(depth, href) {
  * @param {string} opts.body        Pre-rendered page content
  * @param {Array<{href:string,label:string,external?:boolean}>} [opts.head]
  * @param {Array<{src:string,type?:string}>} [opts.scripts]
+ * @param {{href:string,label:string,credit?:string}} [opts.footerSource]
  */
 export function page(opts) {
     const {
@@ -61,6 +63,7 @@ export function page(opts) {
         head = [],
         scripts = [],
         canonical,
+        footerSource,
     } = opts;
 
     const p = prefix(depth);
@@ -102,11 +105,20 @@ export function page(opts) {
         )
         .join("\n  ");
 
+    const footerSourceLine = footerSource
+        ? `        <p class="site-footer__source">Source: <a href="${escapeHtml(
+              footerSource.href,
+          )}" target="_blank" rel="noopener noreferrer">${escapeHtml(
+              footerSource.label,
+          )}</a>${footerSource.credit ? ` by ${escapeHtml(footerSource.credit)}` : ""}.</p>\n`
+        : "";
+
     return `<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0b0b0c" />
     <title>${escapeHtml(fullTitle)}</title>
     <meta name="description" content="${escapeHtml(description)}" />
     <link rel="icon" type="image/x-icon" href="${escapeHtml(link(depth, "favicon.ico"))}" />${
@@ -127,21 +139,23 @@ export function page(opts) {
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
-    <div class="wrap">
-      <header class="site-header">
+    <header class="site-header">
+      <div class="wrap site-header__inner">
         <h1 class="site-title"><a class="site-title-link" href="${escapeHtml(link(depth, ""))}">${escapeHtml(SITE.name)}</a></h1>
         <nav class="site-nav" aria-label="Main">
           ${nav}
         </nav>
-      </header>
+      </div>
+    </header>
 
+    <div class="wrap">
       <main id="main">
         ${crumbs}
         ${body}
       </main>
 
       <footer class="site-footer">
-        <p>
+${footerSourceLine}        <p>
           Fan-made companion for <em>Persona 5 Royal</em>. Not affiliated with or endorsed by ATLUS.
           Game data &copy; ATLUS / SEGA.
         </p>

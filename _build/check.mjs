@@ -9,6 +9,7 @@
  *   - the document declares a lang, a title and a meta description
  *   - tables have a header row and no rows with the wrong column count
  *   - no file is left orphaned in the output
+ *   - negotiation questions and their optional metadata match the JSON schema
  */
 
 import { readFile, readdir, stat } from "node:fs/promises";
@@ -18,8 +19,11 @@ import { fileURLToPath } from "node:url";
 import { parse } from "node-html-parser";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const GENERATED_DIRS = ["", "confidants", "shadows", "classroom", "negotiation", "social-stats"];
+const GENERATED_DIRS = ["", "confidants", "shadows", "classroom", "activities", "negotiation", "social-stats"];
 const SKIP = new Set(["node_modules", ".git", "data", "_build", "assets", "package.json", "package-lock.json", "README.md", ".nojekyll", ".gitignore", ".vscode", "favicon.ico"]);
+
+const PERSONALITIES = ["gloomy", "irritable", "timid", "upbeat"];
+const GRADES = new Set(["", "BAD", "OK", "GOOD"]);
 
 const problems = [];
 const fail = (file, msg) => problems.push(`${file}: ${msg}`);
@@ -131,11 +135,37 @@ const expected = [
     "confidants/index.html",
     "shadows/index.html",
     "classroom/index.html",
+    "activities/index.html",
     "negotiation/index.html",
     "social-stats/index.html",
 ];
 for (const f of expected) {
     if (!existsSync(path.join(ROOT, f))) fail(f, "expected page was not generated");
+}
+
+const negotiationPage = path.join(ROOT, "negotiation/index.html");
+if (existsSync(negotiationPage)) {
+    const negotiationDom = parse(await readFile(negotiationPage, "utf8"));
+    const scripts = negotiationDom
+        .querySelectorAll("script[src]")
+        .map((script) => script.getAttribute("src") || "");
+    const dataIndex = scripts.findIndex((src) =>
+        src.endsWith("assets/js/negotiation-data.js"),
+    );
+    const runtimeIndex = scripts.findIndex((src) =>
+        src.endsWith("assets/js/negotiation.js"),
+    );
+    if (dataIndex === -1 || runtimeIndex === -1 || dataIndex > runtimeIndex) {
+        fail(
+            "negotiation/index.html",
+            "negotiation-data.js must load before negotiation.js",
+        );
+    }
+    for (const version of ["p5", "royal"]) {
+        if (!negotiationDom.querySelector(`[data-version="${version}"]`)) {
+            fail("negotiation/index.html", `missing ${version} version control`);
+        }
+    }
 }
 
 for (const d of GENERATED_DIRS) {
@@ -148,6 +178,125 @@ const confidants = JSON.parse(
 for (const c of confidants) {
     const f = `confidants/${c.slug}.html`;
     if (!existsSync(path.join(ROOT, f))) fail(f, "confidant page missing");
+}
+
+// --- activity and classroom guide pages ------------------------------------
+
+function validateGuide(file, doc, dir) {
+    if (!doc.slug || doc.slug !== path.basename(file).replace(/\.json$/, "")) {
+        fail(file, "slug must match the filename");
+    }
+    if (!doc.label) fail(file, "missing label");
+    if (!doc.description) fail(file, "missing description");
+    if (!doc.source || !doc.source.href) fail(file, "missing source.href");
+    if (!doc.source?.label) fail(file, "missing source.label");
+    if (!Array.isArray(doc.blocks) || doc.blocks.length === 0) {
+        fail(file, "missing blocks");
+    }
+    const out = `${dir}/${doc.slug}.html`;
+    if (!existsSync(path.join(ROOT, out))) fail(out, "guide page was not generated");
+}
+
+for (const file of (await readdir(path.join(ROOT, "data/activities"))).filter((f) =>
+    f.endsWith(".json"),
+)) {
+    const doc = JSON.parse(await readFile(path.join(ROOT, "data/activities", file), "utf8"));
+    validateGuide(`data/activities/${file}`, doc, "activities");
+}
+
+for (const file of (await readdir(path.join(ROOT, "data/classroom"))).filter(
+    (f) => f.endsWith(".json") && f !== "exams.json",
+)) {
+    const doc = JSON.parse(await readFile(path.join(ROOT, "data/classroom", file), "utf8"));
+    validateGuide(`data/classroom/${file}`, doc, "classroom");
+}
+
+// --- social stat guides declare their source -------------------------------
+
+for (const file of (await readdir(path.join(ROOT, "data/social-stats"))).filter((f) =>
+    f.endsWith(".json"),
+)) {
+    const doc = JSON.parse(await readFile(path.join(ROOT, "data/social-stats", file), "utf8"));
+    if (!doc.source || !doc.source.href) fail(`data/social-stats/${file}`, "missing source.href");
+    if (!doc.source?.label) fail(`data/social-stats/${file}`, "missing source.label");
+    const out = `social-stats/${doc.slug}.html`;
+    if (!existsSync(path.join(ROOT, out))) fail(out, "social stat page was not generated");
+}
+
+// --- negotiation data shape ------------------------------------------------
+
+function validateNegotiation(file, data) {
+    if (!Array.isArray(data) || data.length === 0) {
+        fail(file, "expected a non-empty array");
+        return;
+    }
+
+    data.forEach((question, qi) => {
+        const where = `question ${qi + 1}`;
+        if (typeof question.prompt !== "string" || !question.prompt.trim()) {
+            fail(file, `${where} is missing a prompt`);
+        }
+        if (!Array.isArray(question.answers) || question.answers.length === 0) {
+            fail(file, `${where} has no answers`);
+            return;
+        }
+
+        question.answers.forEach((answer, ai) => {
+            const answerWhere = `${where} answer ${ai + 1}`;
+            if (typeof answer.text !== "string" || !answer.text.trim()) {
+                fail(file, `${answerWhere} is missing response text`);
+            }
+            if (!answer.grades || typeof answer.grades !== "object") {
+                fail(file, `${answerWhere} is missing grades`);
+                return;
+            }
+
+            const keys = Object.keys(answer.grades);
+            if (
+                keys.length !== PERSONALITIES.length ||
+                !PERSONALITIES.every((key) => keys.includes(key))
+            ) {
+                fail(
+                    file,
+                    `${answerWhere} grades must have exactly ${PERSONALITIES.join(", ")}`,
+                );
+            }
+            for (const key of PERSONALITIES) {
+                if (!GRADES.has(answer.grades[key])) {
+                    fail(
+                        file,
+                        `${answerWhere} has invalid ${key} grade: ${JSON.stringify(answer.grades[key])}`,
+                    );
+                }
+            }
+
+            for (const field of ["notes", "unconfirmed"]) {
+                if (answer[field] === undefined) continue;
+                if (
+                    !answer[field] ||
+                    typeof answer[field] !== "object" ||
+                    Array.isArray(answer[field])
+                ) {
+                    fail(file, `${answerWhere} ${field} must be an object`);
+                    continue;
+                }
+                for (const [key, value] of Object.entries(answer[field])) {
+                    if (!PERSONALITIES.includes(key)) {
+                        fail(file, `${answerWhere} ${field} has unknown key: ${key}`);
+                    } else if (field === "notes" && (typeof value !== "string" || !value.trim())) {
+                        fail(file, `${answerWhere} has an empty note for ${key}`);
+                    } else if (field === "unconfirmed" && value !== true) {
+                        fail(file, `${answerWhere} unconfirmed.${key} must be true`);
+                    }
+                }
+            }
+        });
+    });
+}
+
+for (const file of ["data/negotiation/p5.json", "data/negotiation/royal.json"]) {
+    const data = JSON.parse(await readFile(path.join(ROOT, file), "utf8"));
+    validateNegotiation(file, data);
 }
 
 /* ----------------------------------------------------------------- report */

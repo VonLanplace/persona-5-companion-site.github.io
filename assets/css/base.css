@@ -16,16 +16,26 @@
 html {
   scroll-behavior: smooth;
   -webkit-text-size-adjust: 100%;
+  scrollbar-color: var(--col1) var(--col3);
+  scrollbar-width: thin;
 }
 
 body {
   background-color: var(--background);
+  background-image: radial-gradient(var(--halftone) 1px, transparent 1px);
+  background-size: 18px 18px;
+  background-attachment: fixed;
   color: var(--text);
   font-family: var(--font-text);
   font-size: 16px;
   line-height: 1.55;
   padding: 0 var(--gutter) 4rem;
   overflow-x: hidden;
+}
+
+::selection {
+  background: var(--col1);
+  color: var(--text);
 }
 
 img,
@@ -40,15 +50,16 @@ a {
   color: var(--col2);
   text-decoration-thickness: 1px;
   text-underline-offset: 2px;
+  transition: color 0.15s ease;
 }
 
 a:hover {
-  color: var(--col1);
+  color: #ff6b6b;
 }
 
 :focus-visible {
   outline: 3px solid var(--col2);
-  outline-offset: 2px;
+  outline-offset: 3px;
 }
 
 /* Headings -------------------------------------------------------------- */
@@ -60,9 +71,10 @@ h2 {
   letter-spacing: 1px;
   line-height: 1.15;
   background-color: var(--col1);
-  color: var(--background);
+  color: var(--text);
+  border: 2px solid #000;
   border-radius: var(--radius);
-  padding: 6px 14px;
+  padding: 8px 16px;
   margin: 1.5rem 0 1rem;
   text-align: center;
   transform: skew(var(--p5-skew));
@@ -76,7 +88,8 @@ h2::after {
   content: "";
   position: absolute;
   inset: 4px;
-  border: 2px solid #000;
+  border: 2px solid rgba(0, 0, 0, 0.55);
+  border-radius: calc(var(--radius) - 4px);
   pointer-events: none;
 }
 
@@ -124,7 +137,7 @@ li {
 }
 
 strong {
-  color: #fff;
+  color: var(--text);
 }
 
 em {
@@ -134,15 +147,16 @@ em {
 
 code {
   font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
-  background: var(--surface-2);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid var(--glass-border);
   padding: 0.1em 0.35em;
-  border-radius: 4px;
+  border-radius: 6px;
   font-size: 0.9em;
 }
 
 hr {
   border: 0;
-  border-top: 1px solid var(--border);
+  border-top: 1px solid var(--glass-border);
   margin: 2rem 0;
 }
 

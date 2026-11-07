@@ -1,0 +1,259 @@
+{
+  "slug": "part-time-jobs",
+  "label": "Part-time Jobs",
+  "order": 3,
+  "description": "Persona 5 Royal part-time jobs: pay, availability, social stat gains, unlock requirements and the flower bouquet and Crossroads bar requests.",
+  "source": {
+    "href": "https://samurai-gamers.com/persona-5/persona-5-part-time-job-list/",
+    "label": "Part-time Job List and Guide",
+    "credit": "拓房"
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Part-time work is one of the few activities that pays money and raises a social stat at the same time. Shifts also open Mementos requests and confidant scenes, so the right job can pay off well beyond the paycheck."
+    },
+    {
+      "type": "paragraph",
+      "text": "By working part-time jobs, you can not only earn money but also raise your social stats, you can also receive better rewards and social stats for each Part-time job on special occasions. Below is a list of part-time jobs, including the time and conditions required for your character to be able to work at them."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Part-Time Job Name",
+        "Location",
+        "Salary",
+        "Availability",
+        "Social Stat Growth",
+        "Requirement"
+      ],
+      "rows": [
+        [
+          "Triple Seven Convenience Store",
+          "Central Street, Shibuya",
+          [
+            "3,500 yen",
+            "7,400 yen (Busy shift)"
+          ],
+          "Daytime",
+          [
+            "None",
+            "(*In P5R, you can obtain rewards and Charm on every 7th day of the month.)"
+          ],
+          [
+            "When the job is done three times, you will be able to unlock the mission “Calling for Justice for Cats”",
+            "*Unlocked on 4/18.",
+            "Read a job magazine in the Underground Passage in Shibuya"
+          ]
+        ],
+        [
+          "Flower Shop",
+          "Shibuya Station Underground Mall, Shibuya",
+          [
+            "3,200 yen",
+            "7,800 yen (Busy shift)"
+          ],
+          "Day and Night",
+          [
+            "+2 Kindness,",
+            "+3 Kindness (if the customer is pleased)",
+            "(*In P5R, you can obtain rewards and Kindness every Wed and Sat.)"
+          ],
+          [
+            "Rank 2 Charm or more",
+            "When job attend several times, the mission “Who’s Been Assaulting People?” becomes available.",
+            "*Unlocked on 4/18."
+          ]
+        ],
+        [
+          "Beef Bowl Shop (Ore no Beko)",
+          "Central Street, Shibuya",
+          [
+            "3,600 yen",
+            "8,800 yen (Busy shift)"
+          ],
+          "Night",
+          [
+            "+2 Proficiency,",
+            "+3 Proficiency (if orders a fulfilled completely)",
+            "(*In P5R, you can obtain rewards and Proficiency on every 29th day of the month.)"
+          ],
+          [
+            "Rank 2 Proficiency",
+            "*Unlocked on 5/6."
+          ]
+        ],
+        [
+          "Crossroads Bar",
+          "Shinjuku",
+          [
+            "7,200 yen",
+            "12,000 yen (Busy shift)"
+          ],
+          "Night",
+          [
+            "Varies depending on customer served.",
+            "(*In P5R, you can obtain rewards and gain social stats every Sundays.)"
+          ],
+          [
+            "Rank 3 Kindness",
+            "Rank 4 Proficiency",
+            "Rank 3 Guts",
+            "*Unlocked on 6/24"
+          ]
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Part-Time Jobs Overview"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Convenience Store"
+    },
+    {
+      "type": "paragraph",
+      "text": "Found in the Central Neighborhood in Shibuya Triple Seven. This job pays 3,500 yen and doesn’t raise any social stats. After doing the job three times, you will unlock a Mementos mission “Calling for Justice for Cats.”"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Flower Shop"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Flower Shop is located in Shibuya Station Underground Mall. It is a small flower shop. You’ll be working this part-time job quite often because of the Kindness social stat reward it offers. You can work here any day of the week and at any time."
+    },
+    {
+      "type": "paragraph",
+      "text": "Occasionally, you may receive a request to arrange a certain flower bouquet for customers. You will receive more pay and Kindness points for successfully fulfilling the request. After doing this job twice, the Mementos mission “Who’s Been Assaulting People?” will become available."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Flower Bouquet Guide"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Flower Bouquet Request",
+        "Required Flowers"
+      ],
+      "rows": [
+        [
+          "Flowers to Express Love",
+          "Scarlet Rose, Care-Nation, and Adoration Orchid"
+        ],
+        [
+          "Red Flowers",
+          "Scarlet Rose, Care-Nation, and Gecko Orchid"
+        ],
+        [
+          "Thank-You Flowers",
+          "The Sweetest of Peas, Rainbow Sage, and Gecko Orchid"
+        ],
+        [
+          "Celebration Bouquet",
+          "Scarlet Rose, Care-Nation, and Venerable Chrysanthemum"
+        ],
+        [
+          "Small Flowers with Soft Colors",
+          "Justice Jasmine, Enamored Orchid, and Fluorescent Freesia"
+        ],
+        [
+          "Big Flowers with Little Scent",
+          "Gold Gerbera, Venerable Chrysanthemum, and Fluorescent Freesia"
+        ],
+        [
+          "Bright, Pungent Flowers",
+          "Scarlet Rose, The Sweetest of Peas, and Stinking Olive"
+        ],
+        [
+          "Flashy and Exciting Flowers",
+          "Scarlet Rose, Gold Gerbera, Gecko Orchid, and Venerable Chrysanthemum"
+        ],
+        [
+          "Flowers for Friend’s Childbirth",
+          "Rainbow Sage, Delightful Lily, and Gold Gerbera"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Beef Bowl Shop"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Beef Bowl Shop is located on Shibuya Central Street, named “Ore no Beko.” Much like at the Flower Shop, you can work this part-time job any day and at any time. To unlock the Sun Confidant, you will have to work this job twice after speaking to him in front of the train station in Shibuya."
+    },
+    {
+      "type": "paragraph",
+      "text": "Occasionally, this job gets busy and there will be a flood of customers. You will have to remember their orders and repeat them after they are made. Get their orders right and you will get higher pay for the evening."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Crossroads Bar"
+    },
+    {
+      "type": "paragraph",
+      "text": "Found in Shibuya, this bar starts hiring in the second quarter of the year. You will have to start interacting with the Devil Confidant to begin this part-time job. The attributes that you will be gaining while working here are dependent on the customers you choose to speak with while on your shift."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Crossroads Bar Guide"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Customer",
+        "Attribute Gained"
+      ],
+      "rows": [
+        [
+          "Woman with the evening dress",
+          "Charm +2"
+        ],
+        [
+          "Scary-looking man",
+          "Guts +2"
+        ],
+        [
+          "Red-faced man",
+          "Knowledge +2"
+        ],
+        [
+          "Downcast woman",
+          "Kindness +2"
+        ],
+        [
+          "Female office worker",
+          "Proficiency +2"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Related guides"
+    },
+    {
+      "type": "links",
+      "items": [
+        {
+          "label": "Death confidant",
+          "href": "../confidants/death.html"
+        },
+        {
+          "label": "Social stats",
+          "href": "../social-stats/"
+        }
+      ]
+    }
+  ]
+}

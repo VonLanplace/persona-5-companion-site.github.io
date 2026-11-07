@@ -1,0 +1,124 @@
+{
+  "slug": "chalk-dodge",
+  "label": "Chalk Dodge",
+  "order": 4,
+  "description": "Persona 5 Royal chalk dodge guide: the dates Mr. Ushimaru throws chalk, the Charm reward and how Proficiency affects the outcome.",
+  "source": {
+    "href": "https://samurai-gamers.com/persona-5/chalk-dodge/",
+    "label": "Chalk Dodge Guide",
+    "credit": "Rin Tohsaka"
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Mr. Ushimaru throws chalk on specific class days, and the result depends on your Proficiency rather than on a dialogue choice. This page lists the dates and what each outcome gives you."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Avoid the chalk"
+    },
+    {
+      "type": "paragraph",
+      "text": "On set days in a class lecture, your teacher, Mr. Ushimaru, will throw a chalk to force you to listen. There are no options to choose from since it happens spontaneously, but there are two possible outcomes. You can either get hit painfully on the head or skillfully dodge it. The dodge feature relies on RNG. When you face the chalk throw, your chance of avoiding it depends on RNG and the level of your Proficiency social stat."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "How to raise Proficiency"
+    },
+    {
+      "type": "paragraph",
+      "text": "Proficiency is a social stat that deals with mechanical skills like crafting resources and fixing items to name a few. Since most of the activities that raise Proficiency don’t provide other social stat gains, you need to invest in this stat early on to unlock more efficient activities like part-time jobs"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Why you need to re-roll (Persona 5 Royal)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Re-roll is a way to force events to work in your favor. The method comes in handy in the early phase since you’re in the process of building your Proficiency. In Persona 5 Royal, you earn some social stats for skillfully dodging the chalk which makes it more of a necessity than a luxury compared to the original. You earn Charm +2 for evading the ballistic chalk."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "List of Chalk Dodging Events"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Date",
+        "Day",
+        "Social Stat",
+        "Details"
+      ],
+      "rows": [
+        [
+          "4/16",
+          "Saturday (Afternoon)",
+          "–",
+          "Get hit from the chalk thrown by the teacher (This is unavoidable for today)"
+        ],
+        [
+          "5/6",
+          "Friday (Afternoon)",
+          "Charm +2",
+          "Classroom chalk throw by Ushimaru"
+        ],
+        [
+          "6/6",
+          "Monday (Morning)",
+          "Charm +2",
+          "Classroom chalk throw by Ushimaru"
+        ],
+        [
+          "6/21",
+          "Tuesday (Daytime)",
+          "Charm +2",
+          "Classroom chalk throw by Ushimaru"
+        ],
+        [
+          "7/11",
+          "Monday (Afternoon)",
+          "Charm +2",
+          "Classroom chalk throw by Ushimaru"
+        ],
+        [
+          "9/2",
+          "Friday (Afternoon)",
+          "Charm +2",
+          "Classroom chalk throw by Ushimaru"
+        ],
+        [
+          "10/15",
+          "Saturday (Afternoon)",
+          "Charm +2",
+          "If you already maxed this social stat, feel free not to do this anymore."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Related guides"
+    },
+    {
+      "type": "links",
+      "items": [
+        {
+          "label": "Daily questions",
+          "ref": "daily-questions"
+        },
+        {
+          "label": "TV quiz",
+          "ref": "tv-quiz"
+        },
+        {
+          "label": "Crossword",
+          "ref": "crossword"
+        }
+      ]
+    }
+  ]
+}

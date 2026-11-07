@@ -28,21 +28,24 @@ regenerate and commit the output.
 | `data/` | source of truth — edit this |
 | `_build/runtime/*.js` | hand-written client JS, copied into `assets/js/` at build |
 | `assets/css/`, `assets/img/`, `favicon.ico`, `.nojekyll` | hand-maintained |
-| `index.html`, `confidants/`, `shadows/`, `classroom/`, `negotiation/`, `social-stats/` | **generated** |
+| `index.html`, `confidants/`, `shadows/`, `classroom/`, `activities/`, `negotiation/`, `social-stats/` | **generated** |
 | `assets/js/` (whole dir) | **generated**, deleted and rebuilt by `clean` |
 
 Never hand-edit a generated file — `npm run clean` will delete it.
 
 ## Branch flow
 
-- **Never commit to `dev` or `main` directly.** Cut a branch and work there.
-- The 2.0 restructure lives on `refactor` only. Local `dev` is kept pinned at
-  `origin/dev` (`cef2312`) as the untouched pre-2.0 baseline — do not
-  fast-forward it and do not push to it.
+- `dev` is the active branch and holds the current 2.0 site. It tracks
+  `origin/dev`; cut work branches from `dev`, never from `main`.
+- `old` is a local-only archive ref for the v1 single-page site (`2aa1368`).
+  Never commit to it; it exists so v1 stays easy to inspect without digging
+  through history.
 - `main` is the live GitHub Pages source and still holds the old single-page
-  site. `main` is a strict ancestor of `refactor`, so landing the 2.0 work is a
+  site. It is a strict ancestor of `dev`, so landing the 2.0 work is a
   conflict-free fast-forward, but it replaces the live site and is a deliberate
   PR decision — never something done from a local session.
+- The old `refactor` branch no longer exists locally; its 2.0 commits are in
+  `dev`, and `origin/refactor` may still exist remotely.
 - Anything not yet on `origin` exists in this clone only. A deleted repo, a
   fresh clone or a rebuilt machine loses it; say so when a branch holds
   unpushed work.
@@ -58,8 +61,11 @@ will hang or fail rather than fail fast.
 - Do not run `git push` from an agent session. Prepare the branch and the commit,
   then hand the user the exact command to run themselves.
 - `push.default` is unset (`simple`), so a new branch needs `--set-upstream`.
-- Fetch, build, check and local git operations need no auth. Only push and
-  anything touching a private remote does.
+- `git fetch` authenticates over SSH too, so it hits the same passphrase. To
+  learn the remote's state, read the local tracking refs instead
+  (`git branch -vv`, `git rev-list --left-right --count origin/<b>...<b>`) —
+  but they are only as fresh as the last fetch, so say so when it matters.
+- Build, check and purely local git operations need no auth at all.
 
 ## Hard constraints the checker enforces
 
@@ -82,8 +88,10 @@ debug afterwards:
   rejected (`check.mjs:120`). This includes `align` on table cells — the build
   emits `class="ta-center"` instead.
 - Each page needs a `<title>`, a meta description and `lang` on `<html>`.
-- The 6 section `index.html` files and one page per `data/confidants/index.json`
-  entry must exist.
+- The 7 section `index.html` files and one page per `data/confidants/index.json`
+  entry must exist. `data/activities/*.json` and `data/classroom/*.json` (except
+  `exams.json`) each generate a guide page and must declare `slug`, `label`,
+  `description`, `source` and `blocks`.
 
 ## Page depth
 
@@ -101,27 +109,96 @@ means editing that array, not the HTML.
 
 ## Social stat guides
 
-`data/social-stats/*.md` is rendered by `_build/lib/markdown.mjs`, which is a
-deliberately tiny subset, not CommonMark. Supported: ATX headings, paragraphs,
-pipe tables with an alignment row, inline links, `**bold**`, `*em*`,
-`` `code` ``, and inline `<br> <em> <strong> <i> <b> <code>`. **Lists, images,
-block quotes, fenced code and horizontal rules are not supported** — they render
-as literal paragraph text.
+`data/social-stats/*.json` is rendered by `_build/lib/blocks.mjs` from a flat
+block list. There is no markup in the data — a block is one of:
 
-Two consequences:
-- The **first paragraph** of each file becomes the page's `<meta name="description">`
-  (truncated to 200 chars) and the card blurb on `social-stats/index.html`.
-  Write it as a real description.
-- Sibling cross-links are authored as `./charm.md`; the build rewrites them to
-  `charm.html` automatically. Write the `.md` form.
+```json
+{ "type": "heading",   "level": 3, "text": "Class" }
+{ "type": "paragraph", "text": "..." }
+{ "type": "links",     "items": [ { "label": "Guts", "ref": "guts" } ] }
+{ "type": "table", "head": ["Activity", "Detail", "Gains"],
+  "rows": [ ["Ordering Frui-Tea", "Will appear in July", ["- +1 Charm", "- +3 Charm"]] ] }
+```
+
+A table cell is a `string`, a link object (`{label, href}` external or
+`{label, ref}` for a sibling guide), or an **array** of either. The array *is*
+the line break — it is joined with `<br>` on render, so never put `<br>` in the
+data. Any literal tag in a string is escaped and shown as text, so the data
+cannot inject HTML.
+
+- `ref` is a sibling slug; it renders as `<slug>.html`. All social stat pages
+  are depth 1 in the same directory, so no `link(depth, …)` prefix is needed.
+- `description` is an explicit field and becomes the page's
+  `<meta name="description">` (truncated to 200 chars by the build) and the card
+  blurb on `social-stats/index.html`. Write it as a real description.
+- `source` is `{href, label, credit}` and is rendered in the page footer as
+  `Source: <link> by <credit>`. Keep the canonical Samurai Gamers URL there and
+  nowhere else; internal links in the tables point at the local pages.
+- The old Markdown renderer escaped `<br>` instead of emitting it, so the
+  pre-2.1 pages displayed 106 literal `&lt;br&gt;` strings. The block renderer
+  fixes that; do not reintroduce an escape-then-passthrough allowlist.
+
+## Activity and classroom guides
+
+`data/activities/*.json` and the guide files in `data/classroom/*.json` (all but
+`exams.json`) use the same block list as social stats, wrapped in a small page
+manifest:
+
+```json
+{
+  "slug": "books",
+  "label": "Books",
+  "order": 1,
+  "description": "...",
+  "source": {
+    "href": "https://samurai-gamers.com/persona-5/book-locations-effects/",
+    "label": "Book List and Guide",
+    "credit": "Rin Tohsaka"
+  },
+  "blocks": [ ... ]
+}
+```
+
+- `slug` must match the filename; `order` drives the index card order.
+- Classroom guides use the same schema and are rendered under `classroom/`.
+- `source.href` is the only place the external URL belongs. The footer
+  attribution is generated from it, and `check` rejects a guide without one.
+- Imported tables are factual data; introductory prose is written for this site
+  rather than copied from the source. Clean parser output before committing:
+  drop image paragraphs, link-label paragraphs, empty-head navigation tables and
+  trailing "Related articles"/"Other guides" sections.
+
+## Negotiation questions
+
+`data/negotiation/p5.json` and `data/negotiation/royal.json` are arrays of
+`{prompt, answers: [{text, grades, notes?, unconfirmed?}]}`, where `grades` is an
+object keyed `gloomy`, `irritable`, `timid`, `upbeat` — in that order. Each value
+is the translated effect (`"BAD"`, `"OK"`, `"GOOD"`), or `""` for no effect.
+`notes` and `unconfirmed` are sparse objects keyed by the same personalities.
+
+The sources are the P5 Questions and Royal Questions pages of the
+[Persona 5 Negotiation Guide](https://joyceychen.com/persona5-negotiation/) by
+joyce-chen. They are a work in progress with explicit unconfirmed flags. Preserve
+each source's order and duplicate prompts. Map `-` to `""`; for a compound value
+(`"GOOD / OK?"`, `"OK/BAD?"`) use the first label in `grades` and keep the raw
+text in `notes`; keep explicit non-standard values such as `"None"` in `notes`
+with an empty grade; set the matching `unconfirmed` key when the guide marks a
+cell as unconfirmed. The runtime displays `notes[key]` when present, otherwise
+`grades[key]`, and adds `grade-unconfirmed` plus a visually hidden marker.
+
+The build maps both files to `window.P5_NEGOTIATION = {p5, royal}` in
+`assets/js/negotiation-data.js`; keep `_build/runtime/negotiation.js` working
+against that shape. The runtime defaults to Royal, switches between the two
+datasets with the P5/Royal control, searches prompt and response text, and adds
+the `badge--royal` marker to the Royal results heading.
 
 ## Other build quirks
 
-- `clean.mjs` only removes the 5 section directories plus `index.html` and
+- `clean.mjs` only removes the 6 section directories plus `index.html` and
   `assets/js/`. A new generated top-level directory must be added to
   `GENERATED_DIRS` in `_build/clean.mjs`, and any new hand-kept root file must be
   added to `KEEP_FILES` there or `clean` will delete it.
-- Negotiation data is emitted as `window.P5_QUESTIONS` in
+- Negotiation data is emitted as `window.P5_NEGOTIATION` in
   `assets/js/negotiation-data.js` (not `fetch`ed) so the page works offline and
   from `file://`. `check` would also reject the `fetch` version.
 - The prev/next links and the confidant grid follow the **array order** of
@@ -129,4 +206,8 @@ Two consequences:
 - Adding a confidant means: `data/confidants/<slug>.json`, an entry in
   `data/confidants/index.json`, and portraits at both
   `assets/img/confidants/{sm,md}/<slug>.png`.
-- The build is deterministic — running it twice produces no diff.
+- The build is deterministic — running it twice produces no diff. That is worth
+  exploiting: snapshot `sha256sum` of the generated HTML before a data-format
+  change and diff after, to prove the change altered only what you intended.
+- Every file under `data/` is JSON. There is deliberately no `.md` or `.csv`
+  left, and no hand-rolled parser in `_build/lib/`.

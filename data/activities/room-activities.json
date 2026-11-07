@@ -1,0 +1,169 @@
+{
+  "slug": "room-activities",
+  "label": "Room Activities",
+  "order": 4,
+  "description": "Everything the protagonist can do in the Leblanc bedroom in Persona 5 Royal, including DVDs, video games, training, crafting and plant nutrients.",
+  "source": {
+    "href": "https://samurai-gamers.com/persona-5/things-do-room-guide/",
+    "label": "Protagonist Room Activity List and Guide",
+    "credit": "Wolf Knight"
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The bedroom above Leblanc is easy to overlook, but it holds several repeatable ways to spend an evening. DVDs, video games, the training chair, the work desk and the houseplant each raise different stats, and a few of them need items bought elsewhere first."
+    },
+    {
+      "type": "paragraph",
+      "text": "The player can do a variety of activities at home that improve certain Social Stats. Some activities require the player to purchase certain items to engage in them. Below are the things that the player can do at the Protagonist room located above the Cafe Le Blanc:"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Bed"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Sleep"
+    },
+    {
+      "type": "paragraph",
+      "text": "You can go to bed at any time, even when you haven’t done anything. However, you’ll want to spend your time actually doing something productive like improving your social links or improving your social stats rather than just going straight to bed."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "TV"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Watching DVDs"
+    },
+    {
+      "type": "paragraph",
+      "text": "When you’ve bought a TV from the Yongen-Jaya Second-hand Shop, just across the street from Cafe Le Blanc, you’ll be able to rent DVDs at the Shibuya Central Rental Shop. Watching DVDs improves different social stats, depending on the movie."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Playing Video Games"
+    },
+    {
+      "type": "paragraph",
+      "text": "You can also spend time playing video games which increase your social stats. You’ll need to buy a game console from the Yongen-Jaya Second-Hand Shop to do this."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Training Chair"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Training"
+    },
+    {
+      "type": "paragraph",
+      "text": "You can improve your character’s HP by interacting with the chair at the foot of the bed. You can improve the efficiency of your training by purchasing some protein at the Rocinante Discount Store in Shibuya Central."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Work Desk"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Crafting Infiltration Tools"
+    },
+    {
+      "type": "paragraph",
+      "text": "You can create various Infiltration Tools to use when exploring Palaces and Mementos. Among these tools is the lockpick, which allows you to open locked treasure chests. Note that once you have cleared a Palace, you won’t be able to enter it again. Any missed treasure chests will be unobtainable afterward."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Large Shelf"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Viewing Decorative Items"
+    },
+    {
+      "type": "paragraph",
+      "text": "The large shelf lets the player view any decorative items obtained throughout the playthrough."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Houseplant"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Give plant nutrients"
+    },
+    {
+      "type": "paragraph",
+      "text": "You can also take care of a plant located inside the room after cleaning it. There are available Plant Nutrients for it and giving nutrients boosts your Kindness stats."
+    },
+    {
+      "type": "paragraph",
+      "text": "You can purchase the nutrients from different shops available in the game, here’s the list on where you can get them and the effects."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Name",
+        "Price",
+        "Effect",
+        "Where to Get"
+      ],
+      "rows": [
+        [
+          "Garden Energy",
+          "500",
+          "Kindness +1",
+          "Rocinante Discount Store – Shibuya Central Street"
+        ],
+        [
+          "Bio Nutrients",
+          "1,200",
+          "Kindness +2",
+          "Rafflesia Flower Shop – Underground Mall"
+        ],
+        [
+          "Mega Fertilizer",
+          "3,000",
+          "Kindness +3",
+          "Sukebe Flower Shop – Shinjuku"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Related guides"
+    },
+    {
+      "type": "links",
+      "items": [
+        {
+          "label": "Video games",
+          "ref": "video-games"
+        },
+        {
+          "label": "Crafting infiltration tools",
+          "ref": "infiltration-tools"
+        },
+        {
+          "label": "Books",
+          "ref": "books"
+        }
+      ]
+    }
+  ]
+}

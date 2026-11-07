@@ -1,0 +1,152 @@
+{
+  "slug": "billiards",
+  "label": "Billiards",
+  "order": 8,
+  "description": "Persona 5 Royal billiards guide: Technical Rank requirements, the books you need and the effects each rank unlocks.",
+  "source": {
+    "href": "https://samurai-gamers.com/persona-5/billiards-mini-game-guide/",
+    "label": "Billiards Mini-Game Guide",
+    "credit": "Wolf Knight"
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Penguin Sniper in Kichijoji runs a billiards table that costs 800 yen per session. The mini-game is automatic, but raising your Technical Rank requires Proficiency, specific books and repeated visits."
+    },
+    {
+      "type": "paragraph",
+      "text": "The billiards mini-game is a side activity in Persona 5 Royal that can be accessed at the Penguin Sniper bar in Kichijoji. One session costs 800 yen."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Billiards Basic Rules and Mechanics"
+    },
+    {
+      "type": "paragraph",
+      "text": "Shots are not made manually and each session plays out like an event only. Playing billiards increases your Technical Rank and successfully performing a trick shot will increase the power of Technical Attacks in battle. In addition, it increases a random social stat of the Protagonist except for Kindness. Saving your game before playing Billiards is essential if you want to boost a specific Social Stat."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How to unlock Billiard Tricks"
+    },
+    {
+      "type": "paragraph",
+      "text": "When you first start playing billiards, you don’t have access to tricks. Unlocking tricks requires playing billiards, building a Proficiency level, and brushing up on books. The first book can be bought but the other one requires performing some steps."
+    },
+    {
+      "type": "paragraph",
+      "text": "After playing for the first time, you will be able to purchase and read the “Billiard Techniques” book from the Next Ace sports shop at the Shibuya Underground Mall. This raises your Technical Rank to Level 1."
+    },
+    {
+      "type": "paragraph",
+      "text": "To raise your Technical Rank from Level 2 to Level 3, you must purchase and read “Sharp Cue” from the Next Ace sports shop again. After reaching Technical Rank 3, you will automatically acquire Billiard Magician. Read it and raise max out your Proficiency Social Stat to raise your Technical Rank to Level 4."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Technical Rank List and Requirements"
+    },
+    {
+      "type": "paragraph",
+      "text": "Below is a list of Technical Ranks and their unlocking conditions:"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Technical Rank",
+        "Proficiency Needed",
+        "How to Unlock"
+      ],
+      "rows": [
+        [
+          "Level 1",
+          "None",
+          "Default"
+        ],
+        [
+          "Level 2",
+          "None",
+          "Play billiards for the first time"
+        ],
+        [
+          "Level 3",
+          "Rank 2: Decent",
+          [
+            "Buy and read the “Billiard Techniques” book from Shibuya Sports Shop.",
+            "Perform the “Back Hand” technique."
+          ]
+        ],
+        [
+          "Level 4",
+          "Rank 3: Skilled",
+          [
+            "Buy and read the “Sharp Cue” book from Shibuya Sports Shop.",
+            "Perform the “Jump Shot” technique."
+          ]
+        ],
+        [
+          "Level 5",
+          "Rank 5: Transcendent",
+          [
+            "Read “Billiard Magician” book from a Penguin Sniper patron.",
+            "Perform the “Masse Shot” technique."
+          ]
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Technical Rank Effects"
+    },
+    {
+      "type": "paragraph",
+      "text": "Below is a breakdown of the effect per each Technical Rank unlocked in the mini-game:"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Technical Rank",
+        "Technical Rank Effects"
+      ],
+      "rows": [
+        [
+          "Level 1",
+          "Increased Technical Attack Power (Level 1)."
+        ],
+        [
+          "Level 2",
+          "Increased Technical Attack Power (Level 2)."
+        ],
+        [
+          "Level 3",
+          "Increased Technical Attack Power (Level 2) and medium increase to Down Rate."
+        ],
+        [
+          "Level 4",
+          "Increase Technical Attack Power (Level 3) and 100% Down Rate."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Related guides"
+    },
+    {
+      "type": "links",
+      "items": [
+        {
+          "label": "Books",
+          "ref": "books"
+        },
+        {
+          "label": "Proficiency",
+          "href": "../social-stats/proficiency.html"
+        }
+      ]
+    }
+  ]
+}

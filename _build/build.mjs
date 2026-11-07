@@ -13,7 +13,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 import { page, link, prefix, SITE } from "./lib/layout.mjs";
-import { renderMarkdown, firstParagraph } from "./lib/markdown.mjs";
+import { renderBlocks } from "./lib/blocks.mjs";
 import { escapeHtml, tidyCell } from "./lib/util.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -247,8 +247,61 @@ ${data.groups.map(group).join("\n")}
 
 /* -------------------------------------------------------------- classroom */
 
+const GUIDE_ORDER = ["daily-questions", "tv-quiz", "crossword", "chalk-dodge"];
+
+async function readGuides(dir) {
+    const files = (await readdir(path.join(DATA, dir))).filter(
+        (f) => f.endsWith(".json") && f !== "exams.json",
+    );
+    const guides = await Promise.all(files.map((f) => readJson(`${dir}/${f}`)));
+    return guides.sort(
+        (a, b) =>
+            (GUIDE_ORDER.indexOf(a.slug) === -1 ? 99 : GUIDE_ORDER.indexOf(a.slug)) -
+                (GUIDE_ORDER.indexOf(b.slug) === -1 ? 99 : GUIDE_ORDER.indexOf(b.slug)) ||
+            (a.order ?? 99) - (b.order ?? 99) ||
+            a.label.localeCompare(b.label),
+    );
+}
+
+function guideCards(guides, dir) {
+    return `<ul class="card-grid card-grid--wide">
+${guides
+    .map(
+        (g) => `        <li><a class="card card--wide" href="${escapeHtml(
+            link(1, `${dir}/${g.slug}.html`),
+        )}">
+          <span class="card-body">${escapeHtml(g.label)}<small>${escapeHtml(
+              g.description.slice(0, 110) + (g.description.length > 110 ? "\u2026" : ""),
+          )}</small></span>
+        </a></li>`,
+    )
+    .join("\n")}
+      </ul>`;
+}
+
+function guidePage(dir, guide) {
+    return page({
+        title: guide.label,
+        description: guide.description,
+        depth: 1,
+        current: dir,
+        breadcrumbs: [
+            { href: "", label: "Home" },
+            { href: `${dir}/`, label: dir === "activities" ? "Activities" : "Classroom" },
+            { label: guide.label },
+        ],
+        head: CSS,
+        body: `<article class="prose">
+        <h2>${escapeHtml(guide.label)}</h2>
+        ${renderBlocks(guide.blocks)}
+      </article>`,
+        footerSource: guide.source,
+    });
+}
+
 async function buildClassroom() {
     const data = await readJson("classroom/exams.json");
+    const guides = await readGuides("classroom");
 
     const body = `<h2>Classroom Answers</h2>
       <p class="page-intro">Every classroom exam answer for Persona 5 Royal, with
@@ -260,16 +313,22 @@ ${data.exams
 ${e.tables.map(table).join("\n")}
       </details>`,
     )
-    .join("\n")}`;
+    .join("\n")}
 
-    return [
+      <h2>Daily questions and mini-games</h2>
+      <p class="page-intro">Class questions, TV quizzes, crosswords and the chalk
+      dodge each award Knowledge or Charm on specific dates.</p>
+      ${guideCards(guides, "classroom")}`;
+
+    const written = [
         await write(
             "classroom/index.html",
             page({
                 title: "Classroom Exam Answers",
                 description:
                     "Every Persona 5 Royal classroom exam answer, listed by exam with " +
-                    "the date it unlocks and the highest-scoring response.",
+                    "the date it unlocks and the highest-scoring response, plus daily " +
+                    "questions, TV quizzes, crosswords and chalk dodge dates.",
                 depth: 1,
                 current: "classroom",
                 head: CSS,
@@ -277,45 +336,103 @@ ${e.tables.map(table).join("\n")}
             }),
         ),
     ];
+
+    for (const guide of guides) {
+        written.push(
+            await write(
+                `classroom/${guide.slug}.html`,
+                guidePage("classroom", guide),
+            ),
+        );
+    }
+
+    return written;
+}
+
+/* -------------------------------------------------------------- activities */
+
+async function buildActivities() {
+    const guides = await readGuides("activities");
+
+    const body = `<h2>Activities</h2>
+      <p class="page-intro">Books, movies, part-time jobs, room activities,
+      fishing, billiards and every other way to spend free time in Persona 5
+      Royal, with the social stats each one raises.</p>
+      ${guideCards(guides, "activities")}`;
+
+    const written = [
+        await write(
+            "activities/index.html",
+            page({
+                title: "Activities",
+                description:
+                    "Persona 5 Royal activity and mini-game guides: books, movies, " +
+                    "part-time jobs, room activities, infiltration tools, video games, " +
+                    "fishing and billiards.",
+                depth: 1,
+                current: "activities",
+                head: CSS,
+                body,
+            }),
+        ),
+    ];
+
+    for (const guide of guides) {
+        written.push(
+            await write(
+                `activities/${guide.slug}.html`,
+                guidePage("activities", guide),
+            ),
+        );
+    }
+
+    return written;
 }
 
 /* ------------------------------------------------------------- negotiation */
 
-function parseQuestions(csv) {
-    const out = [];
-    for (const line of csv.replace(/\r\n?/g, "\n").split("\n")) {
-        if (!line.trim()) continue;
-        const cols = line.split(";");
-        const answers = [];
-        for (let i = 1; i + 1 < cols.length; i += 2) {
-            if (!cols[i]) continue;
-            answers.push({ text: cols[i], code: String(cols[i + 1] ?? "").trim() });
-        }
-        out.push({ q: cols[0], a: answers });
-    }
-    return out;
+/**
+ * Source JSON is `{prompt, answers}`; the runtime reads `{q, a}`. The mapping
+ * is kept here so the hand-written client JS in _build/runtime/ never has to
+ * change when the data shape does.
+ */
+function wireQuestions(questions) {
+    return questions.map((question) => ({
+        q: question.prompt,
+        a: question.answers.map((answer) => ({
+            text: answer.text,
+            grades: answer.grades,
+            ...(answer.notes ? { notes: answer.notes } : {}),
+            ...(answer.unconfirmed ? { unconfirmed: answer.unconfirmed } : {}),
+        })),
+    }));
 }
 
 async function buildNegotiation() {
-    const csv = await readFile(path.join(DATA, "negotiation/questions.csv"), "utf8");
-    const questions = parseQuestions(csv);
+    const [p5, royal] = await Promise.all([
+        readJson("negotiation/p5.json"),
+        readJson("negotiation/royal.json"),
+    ]);
+    const data = { p5: wireQuestions(p5), royal: wireQuestions(royal) };
 
     // Emitted as a plain script (not a fetch) so the page also works from
     // file:// and never shows a blank result list on a cold cache.
     await write(
         "assets/js/negotiation-data.js",
-        "/* Generated by _build/build.mjs from data/negotiation/questions.csv - do not edit. */\n" +
-            `window.P5_QUESTIONS = ${JSON.stringify(questions)};\n`,
+        "/* Generated by _build/build.mjs from data/negotiation/{p5,royal}.json - do not edit. */\n" +
+            `window.P5_NEGOTIATION = ${JSON.stringify(data)};\n`,
     );
 
     const body = `<h2>Negotiation Questions</h2>
-      <p class="page-intro">Search every negotiation prompt in Persona 5 Royal and see
-      how each response affects Gloomy, Irritable, Timid and Upbeat.</p>
+      <div class="version-switch" role="group" aria-label="Game version">
+        <button type="button" class="version-switch__btn" id="version-p5" data-version="p5" aria-pressed="false" aria-controls="results">P5</button>
+        <button type="button" class="version-switch__btn is-active" id="version-royal" data-version="royal" aria-pressed="true" aria-controls="results">Royal</button>
+      </div>
 
       <form class="search-form" id="search-form" role="search">
         <div class="form-row">
-          <label class="visually-hidden" for="question-ref">Search negotiation questions</label>
-          <input type="search" id="question-ref" name="q" placeholder="Search questions&hellip;" autocomplete="off" />
+          <label class="visually-hidden" for="question-ref">Search negotiation questions and responses</label>
+          <input type="search" id="question-ref" name="q" placeholder="Search questions or responses&hellip;" autocomplete="off" />
           <button type="submit">Search</button>
           <button type="button" id="clear-btn">Clear</button>
         </div>
@@ -330,13 +447,22 @@ async function buildNegotiation() {
             page({
                 title: "Negotiation Questions",
                 description:
-                    "Search all Persona 5 Royal negotiation questions and see the " +
-                    "Gloomy, Irritable, Timid and Upbeat effect of every response.",
+                    "Search Persona 5 and Persona 5 Royal negotiation questions and " +
+                    "responses. Compare the Gloomy, Irritable, Timid and Upbeat effects, " +
+                    "with Royal results marked.",
                 depth: 1,
                 current: "negotiation",
                 head: CSS,
-                scripts: [{ src: "assets/js/negotiation.js", defer: true }],
+                scripts: [
+                    { src: "assets/js/negotiation-data.js", defer: true },
+                    { src: "assets/js/negotiation.js", defer: true },
+                ],
                 body,
+                footerSource: {
+                    href: "https://joyceychen.com/persona5-negotiation/",
+                    label: "Persona 5 Negotiation Guide",
+                    credit: "joyce-chen",
+                },
             }),
         ),
         "assets/js/negotiation-data.js",
@@ -347,17 +473,14 @@ async function buildNegotiation() {
 
 async function buildSocialStats() {
     const files = (await readdir(path.join(DATA, "social-stats"))).filter((f) =>
-        f.endsWith(".md"),
+        f.endsWith(".json"),
     );
     const written = [];
     const meta = [];
 
     for (const file of files) {
-        const slug = file.replace(/\.md$/, "");
-        const md = await readFile(path.join(DATA, "social-stats", file), "utf8");
-        const label = slug[0].toUpperCase() + slug.slice(1);
-        const description = firstParagraph(md).slice(0, 200);
-        meta.push({ slug, label, description });
+        const doc = await readJson(`social-stats/${file}`);
+        meta.push({ ...doc, description: doc.description.slice(0, 200) });
     }
     meta.sort((a, b) => a.label.localeCompare(b.label));
 
@@ -388,17 +511,16 @@ ${meta
     )
     .join("\n")}
         </ul>`,
+                footerSource: {
+                    href: "https://samurai-gamers.com/persona-5/human-parameters-maximize/",
+                    label: "Social Stats Guide",
+                    credit: "拓房",
+                },
             }),
         ),
     );
 
     for (const m of meta) {
-        const md = await readFile(path.join(DATA, "social-stats", `${m.slug}.md`), "utf8");
-        // The markdown cross-links siblings as .md; on the built site they
-        // are sibling .html pages.
-        const links = Object.fromEntries(
-            meta.map((o) => [`./${o.slug}.md`, `${o.slug}.html`]),
-        );
         written.push(
             await write(
                 `social-stats/${m.slug}.html`,
@@ -415,8 +537,9 @@ ${meta
                     head: CSS,
                     body: `<article class="prose">
         <h2>${escapeHtml(m.label)}</h2>
-        ${renderMarkdown(md, { links })}
+        ${renderBlocks(m.blocks)}
       </article>`,
+                    footerSource: m.source,
                 }),
             ),
         );
@@ -428,19 +551,20 @@ ${meta
 /* -------------------------------------------------------------------- home */
 
 async function buildHome() {
-    const [confidants, shadows, classroom, negotiation, social] = await Promise.all([
-        readJson("confidants/index.json"),
-        readJson("shadows/locations.json"),
-        readJson("classroom/exams.json"),
-        Promise.resolve(parseQuestions(
-            await readFile(path.join(DATA, "negotiation/questions.csv"), "utf8"),
-        )),
-        Promise.resolve(
-            (await readdir(path.join(DATA, "social-stats")))
-                .filter((f) => f.endsWith(".md"))
-                .map((f) => f.replace(/\.md$/, "")),
-        ),
-    ]);
+    const [confidants, shadows, classroom, p5Questions, royalQuestions, social, activities] =
+        await Promise.all([
+            readJson("confidants/index.json"),
+            readJson("shadows/locations.json"),
+            readJson("classroom/exams.json"),
+            readJson("negotiation/p5.json"),
+            readJson("negotiation/royal.json"),
+            Promise.resolve(
+                (await readdir(path.join(DATA, "social-stats")))
+                    .filter((f) => f.endsWith(".json"))
+                    .map((f) => f.replace(/\.json$/, "")),
+            ),
+            readGuides("activities"),
+        ]);
 
     const shadowCount = shadows.groups.reduce((n, g) => n + g.locations.length, 0);
     const shadowRows = shadows.groups.reduce(
@@ -468,10 +592,16 @@ async function buildHome() {
             stat: `${classroom.exams.length} exams`,
         },
         {
+            href: "activities/",
+            title: "Activities",
+            blurb: `${activities.length} free-time and mini-game guides: books, movies, jobs, fishing, billiards and more.`,
+            stat: `${activities.length} guides`,
+        },
+        {
             href: "negotiation/",
             title: "Negotiation Questions",
-            blurb: `Search all ${negotiation.length} prompts and see how each answer shifts the four personalities.`,
-            stat: `${negotiation.length} questions`,
+            blurb: `Compare ${p5Questions.length} Persona 5 and ${royalQuestions.length} Royal prompts, with searchable responses and Royal results flagged.`,
+            stat: "2 versions",
         },
         {
             href: "social-stats/",
@@ -483,7 +613,7 @@ async function buildHome() {
 
     const body = `<h2>Everything you need in one place</h2>
       <p class="page-intro">A companion for Persona 5 Royal: every confidant, every
-      Shadow, every exam answer and every negotiation prompt.</p>
+      Shadow, every exam answer, every activity and every negotiation prompt.</p>
 
       <ul class="card-grid card-grid--wide">
 ${sections
@@ -557,6 +687,7 @@ const written = [
     ...(await buildConfidants()),
     ...(await buildShadows()),
     ...(await buildClassroom()),
+    ...(await buildActivities()),
     ...(await buildNegotiation()),
     ...(await buildSocialStats()),
     ...(await copyRuntime()),

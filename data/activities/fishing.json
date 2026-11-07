@@ -1,0 +1,158 @@
+{
+  "slug": "fishing",
+  "label": "Fishing",
+  "order": 7,
+  "description": "How fishing works in Persona 5 Royal: unlock conditions, rods, bait, fish sizes and the Guardian of the Pond trophy.",
+  "source": {
+    "href": "https://samurai-gamers.com/persona-5/mini-game-fishing/",
+    "label": "Fishing Mini Game",
+    "credit": "Rin Tohsaka"
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Fishing at the Ichigaya pond is a low-cost way to raise Proficiency, and the evening discount makes it cheaper still. Bait choice determines the size and species of fish, so the right purchase matters more than the number of casts."
+    },
+    {
+      "type": "paragraph",
+      "text": "In comparison to Persona 4 Golden, there is no need to acquire a fishing rod to start fishing in Persona 5. To start the mini-game, head to the Ichigaya fishing pond near Shinjuku and pay ¥3000. By paying the fee, you will obtain 7 “Small Boilies.” When you reel in multiple fish, there is a chance to obtain prizes."
+    },
+    {
+      "type": "paragraph",
+      "text": "The best time to fish is in the evening because you can take advantage of a discount. You will earn some Proficiency after a fishing session."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "How to unlock fishing"
+    },
+    {
+      "type": "paragraph",
+      "text": "There are two ways to unlock fishing> You can either purchase the book “Fishpond Spotter” or have Ryuji invite you to the fishing spot."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "How to catch a Fish"
+    },
+    {
+      "type": "paragraph",
+      "text": "The first step to becoming a good angler is to use the appropriate bait. The next step is to determine which direction to throw the bait. Before throwing the bait, a power gauge will be displayed. The distance covered depends on the force applied. After some time, it is possible to get a “Hit.” Reel in with the ○ button. Keep everything aligned with L1. To successfully catch the fish, you have to drag it all the way to yourself."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Third Eye"
+    },
+    {
+      "type": "paragraph",
+      "text": "You need to visit the Hinokuniya bookstore in Shinjuku and buy the book “Essence of Fishing” for 2,800 yen. Read the book and you will obtain the third eye ability. To use the ability, press L1 to spot which fish sparkle. This helps you determine which yields better points. This is handy for reeling in the points needed to purchase the best bait."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Attendant’s Shop"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Fishing rods"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Name",
+        "Points (Pt)"
+      ],
+      "rows": [
+        [
+          "Casual rod",
+          "300"
+        ],
+        [
+          "Powerful rod",
+          "2,000"
+        ],
+        [
+          "Miracle rod",
+          "10,000"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Bait types"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Name",
+        "Points (Pt)",
+        "Fish Size",
+        "Fish caught"
+      ],
+      "rows": [
+        [
+          "Small Boilie",
+          "–",
+          "Small",
+          [
+            "Otakaramasu",
+            "Benikin",
+            "Miyabitanago",
+            "Sarabuna"
+          ]
+        ],
+        [
+          "Medium Boilie",
+          "60",
+          "Medium",
+          "–"
+        ],
+        [
+          "Large Boilie",
+          "250",
+          "Large",
+          [
+            "Musou Bee",
+            "Delish Bitterling"
+          ]
+        ],
+        [
+          "Top-class Boilie",
+          "400",
+          "Large",
+          "Ichigaya Guardian"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Earning the trophy"
+    },
+    {
+      "type": "paragraph",
+      "text": "You can earn the “Guardian of the Pond” achievement by luring the Ichigaya Guardian to you. You need to use the “Top-class Boilie,” which costs 400 points to unlock. Once you have the bait, you have to catch six fish in one sitting to summon the guardian. Use third eye to spot the guardian, a sparkling golden fish. Once you found its spot, isolate it from the rest of the group to minimize your chance of reeling an unwanted fish. Keep tossing the bait and retrieve it to make the guardian draw closer. When the guardian is close enough to the edge, let it bite the bait and reel it in. Catch it successfully to earn the trophy."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Related guides"
+    },
+    {
+      "type": "links",
+      "items": [
+        {
+          "label": "Books",
+          "ref": "books"
+        },
+        {
+          "label": "Proficiency",
+          "href": "../social-stats/proficiency.html"
+        }
+      ]
+    }
+  ]
+}

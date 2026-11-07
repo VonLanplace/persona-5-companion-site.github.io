@@ -1,0 +1,212 @@
+{
+  "slug": "movies",
+  "label": "Movies",
+  "order": 2,
+  "description": "Every Persona 5 Royal movie theater, its screening window, the social stat it raises and any special event it unlocks.",
+  "source": {
+    "href": "https://samurai-gamers.com/persona-5/movie-theater-guide/",
+    "label": "Movie Theater Guide",
+    "credit": "Wolf Knight"
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The movies are a reliable way to turn one afternoon or evening into social stat points, and a first viewing is worth more than a repeat. Each theater keeps its own schedule, so this guide lists what is showing where and when."
+    },
+    {
+      "type": "paragraph",
+      "text": "You can watch movies in theaters found in Shibuya, Shinjuki, and Yongen-Jaya to increase your social stats. The theaters are open during the day, after school, and in the evening."
+    },
+    {
+      "type": "paragraph",
+      "text": "Seeing a movie for the first time grants you +3 in a specific social stat. Meanwhile, watching a movie you have already seen only grants a +1 increase. An exception to this is when watching a movie during special events with one of your friends. Doing grants you the normal +3 increase in a social stat, regardless of having watched it before or not."
+    },
+    {
+      "type": "paragraph",
+      "text": "Similar to DVDs, after reading the book Cinema Treasures, the social stat increases gained is raised by one point."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Movie List"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Shibuya"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Name",
+        "Screening Time",
+        "Effect (1st Time)",
+        "Special Event"
+      ],
+      "rows": [
+        [
+          "Tanktop Millionaire",
+          "April",
+          "Guts +3",
+          ""
+        ],
+        [
+          "The Cake Knight Rises",
+          "May to June",
+          "Kindness +3",
+          "May 29 (Ryuji)"
+        ],
+        [
+          "Love Possibly",
+          "July",
+          "Charm +3",
+          "July 17 (Ann)"
+        ],
+        [
+          "Mes Miserables",
+          "August to September",
+          "Kindness +3",
+          "August 5 (Yusuke)"
+        ],
+        [
+          "Admission Possible",
+          "October to November",
+          "Proficiency +3",
+          ""
+        ],
+        [
+          "Clean Hard",
+          "December",
+          "Kindness +3",
+          ""
+        ],
+        [
+          "Fighting Friends",
+          "January",
+          "Charm +3",
+          ""
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Shinjuku"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Name",
+        "Screening Time",
+        "Effect (1st Time)",
+        "Special Event"
+      ],
+      "rows": [
+        [
+          "Like a Dragon",
+          "June to July",
+          "Guts +3",
+          "July 28 (Makoto)"
+        ],
+        [
+          "Soraemon",
+          "August to September",
+          "Knowledge +3",
+          ""
+        ],
+        [
+          "The Duhvengers",
+          "October",
+          "Kindness +3",
+          ""
+        ],
+        [
+          "Pach Saw",
+          "November to December",
+          "Guts +3",
+          "November 13 (Haru); 11; 12"
+        ],
+        [
+          "Fight Kebab",
+          "January",
+          "Guts +3",
+          ""
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Yongen-Jaya"
+    },
+    {
+      "type": "paragraph",
+      "text": "To watch movies at the Yongen-Jaya movie theater, you will need to complete the mementos mission Who’s Muscling in Yongen-Jaya?"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Name",
+        "Screening Time",
+        "Effect (1st Time)",
+        "Special Event"
+      ],
+      "rows": [
+        [
+          "Like a Showtime Tiger",
+          "September",
+          "Charm +3",
+          ""
+        ],
+        [
+          "Back to the Ninja",
+          "October",
+          "Knowledge +3",
+          "October 2 (Futaba)"
+        ],
+        [
+          "Popo’s Nest",
+          "November",
+          "Kindness +3",
+          ""
+        ],
+        [
+          "Merry Christmess",
+          "December",
+          "Guts +3",
+          ""
+        ],
+        [
+          "March of the Sheeple",
+          "January",
+          "Proficiency +3",
+          ""
+        ],
+        [
+          "The Good Father",
+          "February",
+          "Kindness +2",
+          ""
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Related guides"
+    },
+    {
+      "type": "links",
+      "items": [
+        {
+          "label": "Books",
+          "ref": "books"
+        },
+        {
+          "label": "Social stats",
+          "href": "../social-stats/"
+        }
+      ]
+    }
+  ]
+}

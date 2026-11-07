@@ -1,7 +1,8 @@
 # Persona 5 Royal Companion
 
 A fan companion for **Persona 5 Royal**: every confidant, every Shadow, every
-classroom exam answer, every negotiation prompt, and how to max every social stat.
+classroom exam answer, every Persona 5 and Royal negotiation prompt, and how to
+max every social stat.
 
 The site is static and hosted on GitHub Pages. There is no framework and no
 client-side router — every page is a real HTML document at its own URL, so
@@ -20,6 +21,15 @@ npm run serve        # preview at http://localhost:8080
 
 `npm run verify` runs clean + build + check in one go.
 
+For a one-command local preview, use the start scripts. They install missing
+dependencies, run `verify`, and serve the generated site:
+
+```bash
+./start.sh           # http://localhost:8080
+./start.sh 3000      # another port
+start.bat            # Windows
+```
+
 ---
 
 ## How it works
@@ -29,15 +39,16 @@ Everything the site serves is **generated**; everything you edit lives in
 straight from the branch.
 
 ```
-data/                      <- you edit this
+data/                      <- you edit this; every file in here is JSON
   confidants/*.json          23 confidants, structured (abilities, schedule,
                              rank-up, gifts, bonus events)
   shadows/locations.json     palaces + mementos tables
   classroom/exams.json       every exam and its answer
-  social-stats/*.md          the five stat guides, in Markdown
-  negotiation/questions.csv  195 prompts and their effect codes
-  shadows/shadow-locations-source.md
-                             the original hand-written notes, kept for reference
+  classroom/*.json           daily questions, TV quiz, crossword, chalk dodge
+  activities/*.json          books, movies, jobs, fishing, billiards and more
+  social-stats/*.json        the five stat guides, as a flat block list
+  negotiation/p5.json        259 Persona 5 prompts + effect grades
+  negotiation/royal.json     277 Persona 5 Royal prompts + effect grades
 
 _build/                    <- the build itself
   build.mjs                  data/ -> HTML
@@ -45,7 +56,7 @@ _build/                    <- the build itself
   clean.mjs                  removes generated output
   serve.mjs                  local static server
   runtime/negotiation.js     hand-written client JS, copied to assets/js/
-  lib/                       layout, markdown renderer, helpers
+  lib/                       layout, block renderer, helpers
 
 assets/                    <- static, hand-maintained
   css/                       tokens, base, layout, components
@@ -53,7 +64,7 @@ assets/                    <- static, hand-maintained
   js/                        GENERATED - do not edit
 
 index.html                 <- GENERATED
-confidants/  shadows/  classroom/  negotiation/  social-stats/   <- GENERATED
+confidants/  shadows/  classroom/  activities/  negotiation/  social-stats/   <- GENERATED
 ```
 
 **Never edit a generated file.** Change `data/`, run `npm run build`.
@@ -68,20 +79,78 @@ confidants/  shadows/  classroom/  negotiation/  social-stats/   <- GENERATED
 
 ### Editing a social stat guide
 
-Just edit the Markdown in `data/social-stats/`. Tables, links, headings and
-inline `<br>` are supported; anything else is escaped and shown as text.
+Edit the block list in `data/social-stats/<slug>.json`. A block is a heading, a
+paragraph, a link list or a table. A table cell is a string, a link object
+(`{label, href}` for an external link, `{label, ref}` for a sibling guide), or
+an array of either — an array is a multi-line cell and is joined with `<br>` on
+render. Put no markup in the data: anything resembling a tag is escaped and
+shown as text, so the data can never inject HTML.
+
+### Adding an activity or classroom guide
+
+Create `data/activities/<slug>.json` (or `data/classroom/<slug>.json`, but not
+`exams.json`) with `slug`, `label`, `order`, `description`, `source` and
+`blocks`. `source` is `{href, label, credit}` and becomes the footer
+attribution; the external URL must not appear anywhere else. `npm run build`
+generates `activities/<slug>.html` or `classroom/<slug>.html` and adds it to the
+section index automatically.
 
 ### Adding a negotiation question
 
-Append a row to `data/negotiation/questions.csv`:
+Append an entry to `data/negotiation/p5.json` or
+`data/negotiation/royal.json`:
 
-```
-prompt;response 1;code;response 2;code;response 3;code
+```json
+{
+  "prompt": "…",
+  "answers": [
+    {
+      "text": "…",
+      "grades": {
+        "gloomy": "OK",
+        "irritable": "GOOD",
+        "timid": "GOOD",
+        "upbeat": "GOOD"
+      },
+      "notes": {
+        "irritable": "GOOD / OK?"
+      },
+      "unconfirmed": {
+        "upbeat": true
+      }
+    }
+  ]
+}
 ```
 
-The code is up to four digits — one per personality (Gloomy, Irritable, Timid,
-Upbeat), left-padded with zeroes. `1` is bad, `2` neutral, `3` good. So `2333`
-means "bad for Gloomy, good for the other three".
+`grades` is the translated effect for each personality: `"BAD"`, `"OK"`,
+`"GOOD"`, or `""` for no effect. `notes` and `unconfirmed` are optional and only
+exist where the source reports an ambiguous or unconfirmed reaction. The runtime
+shows the note text instead of the bare grade, so `"GOOD / OK?"` is displayed
+exactly as written. Non-standard source values such as `"None"` are also kept in
+`notes` with an empty grade.
+
+The JSON follows the P5 Questions and Royal Questions pages in the
+[Persona 5 Negotiation Guide](https://joyceychen.com/persona5-negotiation/)
+by [joyce-chen](https://github.com/joyce-chen/persona5-negotiation). Keep each
+source's order and duplicate prompts. Map `-` to `""`; for a compound value use
+its first label in `grades` and keep the full text in `notes`; set the matching
+`unconfirmed` key when the guide marks a reaction as unconfirmed.
+
+The page defaults to Royal and has a P5/Royal selector. The search matches both
+prompt text and response text within the selected version.
+
+---
+
+## Data sources
+
+Negotiation questions and reactions come from the
+[Persona 5 Negotiation Guide](https://joyceychen.com/persona5-negotiation/) by
+[joyce-chen](https://github.com/joyce-chen/persona5-negotiation), specifically
+the [P5 Questions](https://joyceychen.com/persona5-negotiation/) and
+[Royal Questions](https://joyceychen.com/persona5-negotiation/royal) pages. The
+guide is a work in progress and marks some reactions as unconfirmed; those flags
+are preserved in both JSON files.
 
 ---
 
@@ -95,6 +164,8 @@ means "bad for Gloomy, good for the other three".
 - a page is missing a `<title>`, meta description, `lang`, or its single `<h1>`
 - an `<img>` is missing `width`/`height` (causes layout shift) or `alt`
 - a `<table>` has no `<thead>`, or a row's cell count disagrees with its header
+- negotiation data has missing prompts/answers or invalid grades/notes, or the
+  P5/Royal controls are missing
 - legacy artefacts reappear: `border="1"`, `onclick=`, `<details id>`
 
 ---
@@ -121,5 +192,7 @@ empty `<div>`s. That architecture caused a number of problems, all now fixed:
 | No `.gitignore`, no `.nojekyll`, `.vscode/` committed | Added |
 
 The migration from the old hand-written HTML to `data/*.json` was verified
-row-for-row: all 23 confidants, 18 shadow locations (221 rows), 9 exams and 195
-negotiation questions are accounted for, with no content dropped.
+row-for-row: all 23 confidants, 18 shadow locations (221 rows), 9 exams and the
+original 195 negotiation questions are accounted for. The negotiation data now
+includes the 259-question P5 set and the 277-question Royal set from the source
+guide, with a selector on the page.
