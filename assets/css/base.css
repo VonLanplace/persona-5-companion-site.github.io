@@ -22,20 +22,9 @@ html {
 
 body {
   background-color: var(--background);
-  background-image:
-    radial-gradient(1100px 700px at 12% -10%, rgba(230, 0, 18, 0.22), transparent 60%),
-    radial-gradient(900px 600px at 100% 0%, rgba(245, 196, 0, 0.1), transparent 55%),
-    radial-gradient(800px 600px at 50% 110%, rgba(230, 0, 18, 0.12), transparent 60%),
-    linear-gradient(rgba(255, 255, 255, 0.028) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.028) 1px, transparent 1px);
-  background-size:
-    auto,
-    auto,
-    auto,
-    44px 44px,
-    44px 44px;
+  background-image: radial-gradient(var(--halftone) 1px, transparent 1px);
+  background-size: 18px 18px;
   background-attachment: fixed;
-  background-repeat: no-repeat;
   color: var(--text);
   font-family: var(--font-text);
   font-size: 16px;
@@ -46,7 +35,7 @@ body {
 
 ::selection {
   background: var(--col1);
-  color: #fff;
+  color: var(--text);
 }
 
 img,
@@ -61,15 +50,11 @@ a {
   color: var(--col2);
   text-decoration-thickness: 1px;
   text-underline-offset: 2px;
-  text-shadow: 0 0 12px rgba(245, 196, 0, 0.18);
-  transition:
-    color 0.15s ease,
-    text-shadow 0.15s ease;
+  transition: color 0.15s ease;
 }
 
 a:hover {
-  color: var(--col1);
-  text-shadow: 0 0 16px rgba(230, 0, 18, 0.35);
+  color: #ff6b6b;
 }
 
 :focus-visible {
@@ -86,16 +71,14 @@ h2 {
   letter-spacing: 1px;
   line-height: 1.15;
   background-color: var(--col1);
-  background-image: var(--gradient-accent);
-  color: #0a0a0a;
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: var(--text);
+  border: 2px solid #000;
   border-radius: var(--radius);
   padding: 8px 16px;
   margin: 1.5rem 0 1rem;
   text-align: center;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.18);
   transform: skew(var(--p5-skew));
-  box-shadow: var(--p5-shadow), var(--glow-red);
+  box-shadow: var(--p5-shadow);
   position: relative;
 }
 
@@ -124,7 +107,6 @@ h6 {
 h3 {
   font-size: 1.35rem;
   color: var(--col2);
-  text-shadow: 0 0 18px rgba(245, 196, 0, 0.2);
 }
 
 h4 {
@@ -155,7 +137,7 @@ li {
 }
 
 strong {
-  color: #fff;
+  color: var(--text);
 }
 
 em {
