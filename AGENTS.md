@@ -35,14 +35,17 @@ Never hand-edit a generated file — `npm run clean` will delete it.
 
 ## Branch flow
 
-- **Never commit to `dev` or `main` directly.** Cut a branch and work there.
-- The 2.0 restructure lives on `refactor` only. Local `dev` is kept pinned at
-  `origin/dev` (`cef2312`) as the untouched pre-2.0 baseline — do not
-  fast-forward it and do not push to it.
+- `dev` is the active branch and holds the current 2.0 site. It tracks
+  `origin/dev`; cut work branches from `dev`, never from `main`.
+- `old` is a local-only archive ref for the v1 single-page site (`2aa1368`).
+  Never commit to it; it exists so v1 stays easy to inspect without digging
+  through history.
 - `main` is the live GitHub Pages source and still holds the old single-page
-  site. `main` is a strict ancestor of `refactor`, so landing the 2.0 work is a
+  site. It is a strict ancestor of `dev`, so landing the 2.0 work is a
   conflict-free fast-forward, but it replaces the live site and is a deliberate
   PR decision — never something done from a local session.
+- The old `refactor` branch no longer exists locally; its 2.0 commits are in
+  `dev`, and `origin/refactor` may still exist remotely.
 - Anything not yet on `origin` exists in this clone only. A deleted repo, a
   fresh clone or a rebuilt machine loses it; say so when a branch holds
   unpushed work.
